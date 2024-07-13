@@ -5,6 +5,7 @@ import "select2/dist/js/select2.js";
 import { App } from './parts/app.js'
 import { Plugins } from './parts/plugins.js'
 import { Parts } from './parts/parts.js'
+import { Header } from './parts/header.js';
 
 
 // export for others scripts to use
@@ -30,6 +31,9 @@ $(function () {
 
   window.parts = new Parts();
   window.parts.init();
+
+  window.header = new Header();
+  window.header.init();
 });
 
 // ===========================================================================
