@@ -45,9 +45,6 @@
             padding-left: 10px;
         }
 
-   
-
-
         .room-arrow-prev-border,
         .room-arrow-next-border {
             border: 1px solid $color-EFEFEF;
@@ -77,4 +74,9 @@
             }
         }
     }
+}
+.slider-banner-section {
+  .slider__counter {
+    position: absolute;
+  }
 }
