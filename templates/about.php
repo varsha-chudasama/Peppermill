@@ -107,13 +107,13 @@
             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/news-img.png" alt=""
                 class="w-100 h-100 object-cover">
             <div class="bg-gradient-layer position-absolute w-100 h-100 top-0 opacity29"></div>
-            <div class="position-absolute w-100 bottom-0 z-3">
+            <div class="position-absolute w-100 bottom-0 z-3 dpb-45">
                 <div class="container">
                     <div class="row">
                         <div class="mont-medium font16 leading24 text-white dmb-10">
                             Denver Velvet Sofa
                         </div>
-                        <a href="" class="mont-medium font13 leading24 text-white dmb-10">
+                        <a href="" class="mont-medium font13 leading24 text-white">
                             View Item
                         </a>
                     </div>
