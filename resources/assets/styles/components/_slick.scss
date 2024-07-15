@@ -80,3 +80,17 @@
     position: absolute;
   }
 }
+
+
+.footer{
+    .footer-slider{
+        .slick-list {
+            margin: 0 -6px;
+        }
+
+        .slick-slide {
+            padding-right: 6px;
+            padding-left: 6px;
+        }
+    }
+}

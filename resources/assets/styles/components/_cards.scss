@@ -20,8 +20,11 @@
     height: 426px;
 }
 
-.header-card-row {
-    .header-card-col {
+.header-card-row,
+.cards-row {
+
+    .header-card-col,
+    .cards-col {
 
         &:nth-child(1),
         &:nth-child(2),
@@ -46,10 +49,22 @@
 }
 
 
-.room-card-section{
+.room-card-section {
     .room-card-slider {
         .room-card-img {
             height: 518px;
         }
+    }
+}
+
+.project-card-section {
+    .project-card-img {
+        height: 514px;
+    }
+}
+
+.blog-card-section {
+    .blog-card-img {
+        height: 284px;
     }
 }

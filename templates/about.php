@@ -123,17 +123,5 @@
     </section>
 
 
-    <section class="project-card-section dpt-95">
-      <div class="container">
-        <div class="row">
-          <div class="col-3"></div>
-          <div class="col-6">
-               <div class="text-center">
-                <div class="bodoni font50 leading62 text-black text-capitalize dmb-10">Our Projects</div>
-                <a href="" class="montserrat-medium font13 leading20 text-black">Get in touch</a>
-               </div>
-          </div>
-        </div>
-      </div>
-  </section>
+
 </main>

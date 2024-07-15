@@ -31,7 +31,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-2">
-                                <ul class="list-none text-decoration-none header-menu">
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Home Seating</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Dining Chairs</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bar stools</a></li>
@@ -42,7 +42,7 @@
                                 </ul>
                             </div>
                             <div class="col-3">
-                                <ul class="list-none text-decoration-none header-menu">
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Commercial Seating</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bar and Restaurant Dining</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bar stools</a></li>
@@ -110,7 +110,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-2">
-                                <ul class="list-none text-decoration-none header-menu">
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Furniture Type</a></li> 
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Seating</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Tables</a></li>
@@ -122,7 +122,7 @@
                                 </ul>
                             </div>
                             <div class="col-3">     
-                                <ul class="list-none text-decoration-none header-menu">
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Shop By Business Type</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Pub and Restaurant</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Coffee Shop and Cafe</a></li>
@@ -193,7 +193,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-2">
-                                <ul class="list-none text-decoration-none header-menu">      
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">      
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Inspiration</a></li> 
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Best Sellers</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Trending</a></li>
@@ -205,7 +205,7 @@
                                 </ul>
                             </div>
                             <div class="col-3">           
-                                <ul class="list-none text-decoration-none header-menu">
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Shop by room</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Living room</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Dining room</a></li>
