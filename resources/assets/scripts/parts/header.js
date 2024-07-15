@@ -30,6 +30,14 @@ export class Header {
             });
         });
 
+        $(document).ready(function() {
+            // Disable click event for all <a> tags within the header menu inside the mega menu
+            $('.menu-item a').click(function(event) {
+                event.preventDefault();
+            });
+        });
+        
+
     }
 
 }

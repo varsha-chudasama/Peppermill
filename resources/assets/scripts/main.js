@@ -6,6 +6,7 @@ import { App } from './parts/app.js'
 import { Plugins } from './parts/plugins.js'
 import { Parts } from './parts/parts.js'
 import { Header } from './parts/header.js';
+import { Slick } from './parts/slick.js';
 
 
 // export for others scripts to use
@@ -34,6 +35,9 @@ $(function () {
 
   window.header = new Header();
   window.header.init();
+
+  window.slick = new Slick();
+  window.slick.init();
 });
 
 // ===========================================================================

@@ -25,18 +25,6 @@
            <nav class="nav d-flex align-items-center justify-content-center h-100">
             <ul class="navigation d-flex align-items-center mb-0 px-0 list-none">
                 <li class="menu-item  d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">New in</a>
-                <div
-                    class="mega-menu position-absolute top-100 start-0 w-100 bg-white dpt-35 dpb-45 transition">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-3">
-                                <ul>
-                                    <li>Home SeatingHome Seating</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
             </li>
                 <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Seating</a>
                 <div class="mega-menu position-absolute top-100 start-0 w-100 bg-white dpt-35 dpb-45 transition">
@@ -66,7 +54,7 @@
                             <div class="col-7">
                                 <div class="row row10 header-card-row">
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none d-inline-block card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
@@ -78,7 +66,7 @@
                                         </a>
                                     </div>
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none d-inline-block card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
@@ -90,7 +78,7 @@
                                         </a>
                                     </div>
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none d-inline-block card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
@@ -108,6 +96,10 @@
                 </div>
             </li>
                 <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Tables</a>
+            </li>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Vintage</a>
+            </li>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Commercial</a>
                 <div class="mega-menu position-absolute top-100 start-0 w-100 bg-white dpt-35 dpb-45 transition">
                     <div class="container">
                         <div class="row">
@@ -137,7 +129,7 @@
                             <div class="col-7">
                                 <div class="row row10 header-card-row">
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none d-inline-block card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
@@ -149,7 +141,7 @@
                                         </a>
                                     </div>
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none d-inline-block card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
@@ -161,7 +153,7 @@
                                         </a>
                                     </div>
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none d-inline-block card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
@@ -178,10 +170,6 @@
                     </div>
                 </div>
             </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Vintage</a>
-            </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Commercial</a>
-            </li>
                 <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Storage</a>
             </li>
                 <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Outdoor</a>
@@ -189,6 +177,76 @@
                 <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Clearance</a>
             </li>
                 <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Inspiration</a>
+                <div class="mega-menu position-absolute top-100 start-0 w-100 bg-white dpt-35 dpb-45 transition">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-2">
+                                <ul class="list-none text-decoration-none header-menu">      
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font11 leading20 text-7D7D7D">Inspiration</a></li> 
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Best Sellers</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Trending</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">This season</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Commercial Projects</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Customer gallery</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Customer Reviews</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3">           
+                                <ul class="list-none text-decoration-none header-menu">
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font11 leading20 text-7D7D7D">Shop by room</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Living room</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Dining room</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Kitchen</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Bedroom</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Garden</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Home Bar</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Bars & Restaurants</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-7">
+                                <div class="row row10 header-card-row">
+                                    <div class="col-4 dmt-20 header-card-col">
+                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                            <div class="header-cards overflow-hidden position-relative">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
+                                                <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
+                                            </div>
+                                            <div class="position-absolute top-center text-center">
+                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">This Season</div>
+                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Learn More</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-4 dmt-20 header-card-col">
+                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                            <div class="header-cards overflow-hidden position-relative">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
+                                                <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
+                                            </div>
+                                            <div class="position-absolute top-center text-center">
+                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Commercial Projects</div>
+                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-4 dmt-20 header-card-col">
+                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                            <div class="header-cards overflow-hidden position-relative">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
+                                                <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
+                                            </div>
+                                            <div class="position-absolute top-center text-center">
+                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Best Sellers</div>
+                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </li>
                 <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Showroom</a>
             </li>
