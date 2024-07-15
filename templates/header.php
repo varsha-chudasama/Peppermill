@@ -135,38 +135,44 @@
                             <div class="col-7">
                                 <div class="row row10 header-card-row">
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
                                             </div>
-                                            <div class="position-absolute top-center text-center">
+                                            <div class="position-absolute top-center text-center w-100">
+                                                <div class="col-8 mx-auto">
                                                 <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Contact Us</div>
                                                 <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Learn More</div>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
                                             </div>
-                                            <div class="position-absolute top-center text-center">
+                                            <div class="position-absolute top-center text-center w-100">
+                                                <div class="col-8 mx-auto">
                                                 <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Clearance</div>
                                                 <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
                                             </div>
-                                            <div class="position-absolute top-center text-center">
+                                            <div class="position-absolute top-center text-center w-100">
+                                                <div class="col-8 mx-auto">
                                                 <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Best Sellers</div>
                                                 <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
@@ -241,14 +247,16 @@
                                         </a>
                                     </div>
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
                                             </div>
-                                            <div class="position-absolute top-center text-center">
+                                            <div class="position-absolute top-center text-center w-100">
+                                            <div class="col-8 mx-auto">
                                                 <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Best Sellers</div>
                                                 <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                            </div>
                                             </div>
                                         </a>
                                     </div>
