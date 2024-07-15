@@ -1,15 +1,26 @@
 .btnA {
-    height: 47px;
-    padding: 0px 45px;
+  height: 47px;
+  padding: 0px 45px;
 
-    &.white-border-btn {
-        background-color: transparent;
-        border: 1px solid $white;
-        color: $white;
+  &.white-border-btn {
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
 
-        &:hover {
-            background-color: $white;
-            color: $black;
-        }
+    &:hover {
+      background-color: $white;
+      color: $black;
     }
+  }
+
+  &.bg-292929-btn {
+    background-color: $color-292929;
+    border: 1px solid $color-292929;
+    color: $white;
+
+    &:hover {
+      background-color: transparent;
+      color: $color-292929;
+    }
+  }
 }

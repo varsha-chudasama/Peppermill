@@ -1,0 +1,18 @@
+.center-content-section {
+  .content-prefix {
+    color: $color-918E8E;
+  }
+  .content-title,
+  .content-desc {
+    color: $color-191919;
+  }
+  &.content-color-292929 {
+    background-color: $color-292929;
+    padding-top: 110px;
+    padding-bottom: 40px;
+    .content-title,
+    .content-desc {
+      color: $white !important;
+    }
+  }
+}
