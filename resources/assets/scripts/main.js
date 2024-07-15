@@ -7,6 +7,7 @@ import { Plugins } from './parts/plugins.js'
 import { Parts } from './parts/parts.js'
 import { Header } from './parts/header.js';
 import { Slick } from './parts/slick.js';
+import { Privacy } from './parts/privacy.js';
 
 
 // export for others scripts to use
@@ -38,6 +39,9 @@ $(function () {
 
   window.slick = new Slick();
   window.slick.init();
+  
+  window.privacy = new Privacy();
+  window.privacy.init();
 });
 
 // ===========================================================================
