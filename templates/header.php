@@ -4,10 +4,10 @@
             <div class="container">
                 <div class="row">
                 <div class="col-3"></div>
-                <div class="col-6 montserrat-medium font9 leading11 space1_25 text-white text-center">
+                <div class="col-6 mont-medium font9 leading11 space1_25 text-white text-center">
                     95% OF ITEMS ARE IN STOCK AND AVAILABLE FOR IMMEDIATE DELIVERY OR COLLECTION
                 </div>
-                <div class="col-3 montserrat-medium font9 leading11 space1_25 text-white text-end">
+                <div class="col-3 mont-medium font9 leading11 space1_25 text-white text-end">
                   CALL US: 01543 375 872
                 </div>
                 </div>
@@ -24,31 +24,31 @@
         <div class="col-8">
            <nav class="nav d-flex align-items-center justify-content-center h-100">
             <ul class="navigation d-flex align-items-center mb-0 px-0 list-none">
-                <li class="menu-item  d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">New in</a>
+                <li class="menu-item  d-flex align-items-center me-4"><a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919" href="">New in</a>
             </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Seating</a>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919" href="">Seating</a>
                 <div class="mega-menu position-absolute top-100 start-0 w-100 bg-white dpt-35 dpb-45 transition">
                     <div class="container">
                         <div class="row">
                             <div class="col-2">
                                 <ul class="list-none text-decoration-none header-menu">
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font11 leading20 text-7D7D7D">Home Seating</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Dining Chairs</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Bar stools</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Sofas & Armchairs</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Benches</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Bespoke Seating</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Outdoor Seating</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Home Seating</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Dining Chairs</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bar stools</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Sofas & Armchairs</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Benches</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bespoke Seating</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Outdoor Seating</a></li>
                                 </ul>
                             </div>
                             <div class="col-3">
                                 <ul class="list-none text-decoration-none header-menu">
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font11 leading20 text-7D7D7D">Commercial Seating</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Bar and Restaurant Dining</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Bar stools</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Vintage Stacking Chairs</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Commercial Outdoors</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Bespoke Seating</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Commercial Seating</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bar and Restaurant Dining</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bar stools</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Vintage Stacking Chairs</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Outdoors</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bespoke Seating</a></li>
                                 </ul>
                             </div>
                             <div class="col-7">
@@ -61,8 +61,8 @@
                                             </div>
                                             <div class="position-absolute top-center text-center w-100">
                                                 <div class="col-8 mx-auto">
-                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Living Room</div>
-                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                                <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Living Room</div>
+                                                <div class="mont-medium font13 leading20 text-decoration-underline text-white">Shop Now</div>
                                                 </div>
                                             </div>
                                         </a>
@@ -75,8 +75,8 @@
                                             </div>
                                             <div class="position-absolute top-center text-center w-100">
                                                 <div class="col-8 mx-auto">
-                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Living Room</div>
-                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                                <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Living Room</div>
+                                                <div class="mont-medium font13 leading20 text-decoration-underline text-white">Shop Now</div>
                                                 </div>
                                             </div>
                                         </a>
@@ -89,8 +89,8 @@
                                             </div>
                                             <div class="position-absolute top-center text-center w-100">
                                                 <div class="col-8 mx-auto">
-                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Living Room</div>
-                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                                <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Living Room</div>
+                                                <div class="mont-medium font13 leading20 text-decoration-underline text-white">Shop Now</div>
                                                 </div>
                                             </div>
                                         </a>
@@ -101,35 +101,35 @@
                     </div>
                 </div>
             </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Tables</a>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919" href="">Tables</a>
             </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Vintage</a>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919" href="">Vintage</a>
             </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Commercial</a>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919" href="">Commercial</a>
                 <div class="mega-menu position-absolute top-100 start-0 w-100 bg-white dpt-35 dpb-45 transition">
                     <div class="container">
                         <div class="row">
                             <div class="col-2">
                                 <ul class="list-none text-decoration-none header-menu">
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font11 leading20 text-7D7D7D">Furniture Type</a></li> 
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Commercial Seating</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Commercial Tables</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Commercial Vintage</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Commercial Outdoor</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Commercial Bespoke</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Commercial Storage</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Commercial Décor</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Furniture Type</a></li> 
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Seating</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Tables</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Vintage</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Outdoor</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Bespoke</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Storage</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Décor</a></li>
                                 </ul>
                             </div>
                             <div class="col-3">     
                                 <ul class="list-none text-decoration-none header-menu">
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font11 leading20 text-7D7D7D">Shop By Business Type</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Pub and Restaurant</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Coffee Shop and Cafe</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Hotels and Accommodation</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Retail Display</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Office and Workplace Environment</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Universities</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Shop By Business Type</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Pub and Restaurant</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Coffee Shop and Cafe</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Hotels and Accommodation</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Retail Display</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Office and Workplace Environment</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Universities</a></li>
                                 </ul>
                             </div>
                             <div class="col-7">
@@ -142,8 +142,8 @@
                                             </div>
                                             <div class="position-absolute top-center text-center w-100">
                                                 <div class="col-8 mx-auto">
-                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Contact Us</div>
-                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Learn More</div>
+                                                <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Contact Us</div>
+                                                <div class="mont-medium font13 leading20 text-decoration-underline text-white">Learn More</div>
                                                 </div>
                                             </div>
                                         </a>
@@ -156,8 +156,8 @@
                                             </div>
                                             <div class="position-absolute top-center text-center w-100">
                                                 <div class="col-8 mx-auto">
-                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Clearance</div>
-                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                                <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Clearance</div>
+                                                <div class="mont-medium font13 leading20 text-decoration-underline text-white">Shop Now</div>
                                                 </div>
                                             </div>
                                         </a>
@@ -170,8 +170,8 @@
                                             </div>
                                             <div class="position-absolute top-center text-center w-100">
                                                 <div class="col-8 mx-auto">
-                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Best Sellers</div>
-                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                                <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Best Sellers</div>
+                                                <div class="mont-medium font13 leading20 text-decoration-underline text-white">Shop Now</div>
                                                 </div>
                                             </div>
                                         </a>
@@ -182,38 +182,38 @@
                     </div>
                 </div>
             </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Storage</a>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919" href="">Storage</a>
             </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Outdoor</a>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919" href="">Outdoor</a>
             </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Clearance</a>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919" href="">Clearance</a>
             </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Inspiration</a>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919" href="">Inspiration</a>
                 <div class="mega-menu position-absolute top-100 start-0 w-100 bg-white dpt-35 dpb-45 transition">
                     <div class="container">
                         <div class="row">
                             <div class="col-2">
                                 <ul class="list-none text-decoration-none header-menu">      
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font11 leading20 text-7D7D7D">Inspiration</a></li> 
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Best Sellers</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Trending</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">This season</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Commercial Projects</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Customer gallery</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Customer Reviews</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Blog</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Inspiration</a></li> 
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Best Sellers</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Trending</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">This season</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Projects</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Customer gallery</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Customer Reviews</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Blog</a></li>
                                 </ul>
                             </div>
                             <div class="col-3">           
                                 <ul class="list-none text-decoration-none header-menu">
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font11 leading20 text-7D7D7D">Shop by room</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Living room</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Dining room</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Kitchen</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Bedroom</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Garden</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Home Bar</a></li>
-                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block montserrat-medium font13 leading20 text-black">Bars & Restaurants</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Shop by room</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Living room</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Dining room</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Kitchen</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bedroom</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Garden</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Home Bar</a></li>
+                                    <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bars & Restaurants</a></li>
                                 </ul>
                             </div>
                             <div class="col-7">
@@ -226,8 +226,8 @@
                                             </div>
                                             <div class="position-absolute top-center text-center w-100">
                                                <div class="col-8 mx-auto">
-                                               <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">This Season</div>
-                                               <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Learn More</div>
+                                               <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">This Season</div>
+                                               <div class="mont-medium font13 leading20 text-decoration-underline text-white">Learn More</div>
                                                </div>
                                             </div>
                                         </a>
@@ -240,8 +240,8 @@
                                             </div>
                                             <div class="position-absolute top-center text-center w-100">
                                             <div class="col-8 mx-auto">
-                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Commercial Projects</div>
-                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                                <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Commercial Projects</div>
+                                                <div class="mont-medium font13 leading20 text-decoration-underline text-white">Shop Now</div>
                                             </div>
                                             </div>
                                         </a>
@@ -254,8 +254,8 @@
                                             </div>
                                             <div class="position-absolute top-center text-center w-100">
                                             <div class="col-8 mx-auto">
-                                                <div class="bodoni font30 leading31 text-capitalize text-white dpb-15">Best Sellers</div>
-                                                <div class="montserrat-medium font13 leading18 text-decoration-underline text-white">Shop Now</div>
+                                                <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Best Sellers</div>
+                                                <div class="mont-medium font13 leading20 text-decoration-underline text-white">Shop Now</div>
                                             </div>
                                             </div>
                                         </a>
@@ -266,7 +266,7 @@
                     </div>
                 </div>
             </li>
-                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative montserrat-medium font13 leading16 text-191919" href="">Showroom</a>
+                <li class="menu-item d-flex align-items-center me-4"><a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919" href="">Showroom</a>
             </li>
             </ul>
            </nav>

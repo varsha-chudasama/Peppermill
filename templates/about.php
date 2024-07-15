@@ -11,7 +11,7 @@
         <div class="container">
             <div class="col-7 px-5 mx-auto text-center">
                 <div class="content-title bodoni font40 leading48 text-191919 dmb-25">The ultimate homemaker.</div>
-                <div class="content-desc montserrat-regular font13 leading23 text-191919">Over 20 years
+                <div class="content-desc mont-normal font13 leading24 text-191919">Over 20 years
                     in the
                     business has given us great insight into what our customers want and need. With customer
                     satisfaction as our top priority, we source furniture, cutting out the middle man and therefore
@@ -26,14 +26,14 @@
                 <div class="col-6">
                     <div class="col-9 px-4 mx-auto">
                         <div
-                            class="left-right-prefix montserrat-regular font11 leading20 space1_65 text-uppercase dmb-35">
+                            class="left-right-prefix mont-normal font11 leading20 space1_65 text-uppercase dmb-35">
                             OUR HISTORY
                         </div>
-                        <div class="left-right-title bodoni font55 leading62 dmb-35">
+                        <div class="left-right-title bodoni font55 leading65 dmb-35">
                             Over 20 years in the business.
                         </div>
                         <div class="dmb-40">
-                            <div class="left-right-desc montserrat-regular font13 leading23 dmb-20">
+                            <div class="left-right-desc mont-normal font13 leading24 dmb-20">
                                 We are based in Burntwood, Staffordshire (around a 40 minute drive from Birmingham), and
                                 if
                                 you fancy a browse our showroom is open to the public Monday to Saturday. If you can’t
@@ -42,14 +42,14 @@
                                 ship
                                 all over the world.
                             </div>
-                            <div class="left-right-desc montserrat-regular font13 leading23 dmb-20">
+                            <div class="left-right-desc mont-normal font13 leading24 dmb-20">
                                 Over 20 years in the business has given us great insight into what our
                                 customers want and need. With customer satisfaction as our top priority, we source
                                 furniture, cutting out the middle man and therefore reducing the price for our clients.
                             </div>
                         </div>
                         <a href=""
-                            class="text-decoration-none btnA bg-292929-btn d-inline-block montserrat-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
+                            class="text-decoration-none btnA bg-292929-btn d-inline-block mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
                             SHOP NOW
                         </a>
                     </div>
@@ -78,14 +78,14 @@
                 <div class="col-6">
                     <div class="col-9 pe-4">
                         <div
-                            class="left-right-prefix montserrat-regular font11 leading20 space1_65 text-uppercase dmb-40">
+                            class="left-right-prefix mont-normal font11 leading20 space1_65 text-uppercase dmb-40">
                             OUR SHOWROOM
                         </div>
                         <div class="left-right-title bodoni font45 leading55 dmb-25">
                             We are based in Burntwood, Staffordshire
                         </div>
                         <div class="dmb-25">
-                            <div class="left-right-desc montserrat-regular font13 leading23 dmb-20 pe-4">
+                            <div class="left-right-desc mont-normal font13 leading24 dmb-20 pe-4">
                                 We are based in Burntwood, Staffordshire (around a 40 minute drive from Birmingham), and
                                 if you fancy a browse our showroom is open to the public Monday to Saturday. If you
                                 can’t make it into store, don’t worry, you can place your order online or over the phone
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <a href=""
-                            class="text-decoration-none btnA bg-292929-btn d-inline-block montserrat-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
+                            class="text-decoration-none btnA bg-292929-btn d-inline-block mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
                             GET DIRECTIONS
                         </a>
                     </div>
@@ -110,10 +110,10 @@
             <div class="position-absolute w-100 bottom-0 z-3">
                 <div class="container">
                     <div class="row">
-                        <div class="montserrat-medium font16 leading23 text-white dmb-10">
+                        <div class="mont-medium font16 leading24 text-white dmb-10">
                             Denver Velvet Sofa
                         </div>
-                        <a href="" class="montserrat-medium font13 leading23 text-white dmb-10">
+                        <a href="" class="mont-medium font13 leading24 text-white dmb-10">
                             View Item
                         </a>
                     </div>
