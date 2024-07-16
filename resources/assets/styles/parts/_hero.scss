@@ -1,3 +1,9 @@
 .hero-section {
     height: 100vh;
 }
+.inspiration-hero-section{
+    height: 630px;
+    .inspiration-hero-content{
+        height: calc(100% - 102px);
+    }
+}
