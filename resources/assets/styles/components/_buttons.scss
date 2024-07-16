@@ -24,3 +24,19 @@
     }
   }
 }
+
+.footer-btn {
+  height: 47px;
+  padding: 0px 24px;
+
+  &.white-border-btn {
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $black;
+    }
+  }
+}

@@ -31,7 +31,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-2">
-                                <ul class="list-none text-decoration-none header-menu">
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Home Seating</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Dining Chairs</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bar stools</a></li>
@@ -42,7 +42,7 @@
                                 </ul>
                             </div>
                             <div class="col-3">
-                                <ul class="list-none text-decoration-none header-menu">
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Commercial Seating</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bar and Restaurant Dining</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Bar stools</a></li>
@@ -110,7 +110,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-2">
-                                <ul class="list-none text-decoration-none header-menu">
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Furniture Type</a></li> 
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Seating</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Commercial Tables</a></li>
@@ -122,7 +122,7 @@
                                 </ul>
                             </div>
                             <div class="col-3">     
-                                <ul class="list-none text-decoration-none header-menu">
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Shop By Business Type</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Pub and Restaurant</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Coffee Shop and Cafe</a></li>
@@ -135,38 +135,44 @@
                             <div class="col-7">
                                 <div class="row row10 header-card-row">
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
                                             </div>
-                                            <div class="position-absolute top-center text-center">
+                                            <div class="position-absolute top-center text-center w-100">
+                                                <div class="col-8 mx-auto">
                                                 <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Contact Us</div>
                                                 <div class="mont-medium font13 leading20 text-decoration-underline text-white">Learn More</div>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
                                             </div>
-                                            <div class="position-absolute top-center text-center">
+                                            <div class="position-absolute top-center text-center w-100">
+                                                <div class="col-8 mx-auto">
                                                 <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Clearance</div>
                                                 <div class="mont-medium font13 leading20 text-decoration-underline text-white">Shop Now</div>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
                                             </div>
-                                            <div class="position-absolute top-center text-center">
+                                            <div class="position-absolute top-center text-center w-100">
+                                                <div class="col-8 mx-auto">
                                                 <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Best Sellers</div>
                                                 <div class="mont-medium font13 leading20 text-decoration-underline text-white">Shop Now</div>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
@@ -187,7 +193,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-2">
-                                <ul class="list-none text-decoration-none header-menu">      
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">      
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Inspiration</a></li> 
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Best Sellers</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Trending</a></li>
@@ -199,7 +205,7 @@
                                 </ul>
                             </div>
                             <div class="col-3">           
-                                <ul class="list-none text-decoration-none header-menu">
+                                <ul class="list-none text-decoration-none header-menu mb-0 px-0">
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font11 leading20 text-7D7D7D">Shop by room</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Living room</a></li>
                                     <li class="dmb-15"><a href="" class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black">Dining room</a></li>
@@ -241,14 +247,16 @@
                                         </a>
                                     </div>
                                     <div class="col-4 dmt-20 header-card-col">
-                                        <a href="" class="d-flex justify-content-center text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                        <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
                                                 <div class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
                                             </div>
-                                            <div class="position-absolute top-center text-center">
+                                            <div class="position-absolute top-center text-center w-100">
+                                            <div class="col-8 mx-auto">
                                                 <div class="bodoni font30 leading30 text-capitalize text-white dpb-15">Best Sellers</div>
                                                 <div class="mont-medium font13 leading20 text-decoration-underline text-white">Shop Now</div>
+                                            </div>
                                             </div>
                                         </a>
                                     </div>
