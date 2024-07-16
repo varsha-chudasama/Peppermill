@@ -1,0 +1,17 @@
+.input-field{
+    background-color: $color-F5F5F5;
+    border: 1px solid $color-D5D5D5;
+    height: 47px;
+}
+
+.form-section{
+    margin-left: -10px;
+    margin-right: -10px;
+    &>div{
+        padding-left: 10px;
+        padding-right: 10px;
+        &:last-child{
+            margin-bottom: 0 !important;
+        }
+    }
+}
