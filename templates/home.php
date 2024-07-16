@@ -36,8 +36,8 @@
     <section class="center-content-section">
         <div class="container">
             <div class="col-7 px-5 mx-auto text-center">
-                <div class="content-title bodoni font40 leading48 text-191919 dmb-25">The ultimate homemaker.</div>
-                <div class="content-desc mont-normal font13 leading24 text-191919">Over 20 years
+                <div class="content-title bodoni font40 leading48 dmb-25">The ultimate homemaker.</div>
+                <div class="content-desc mont-normal font13 leading24">Over 20 years
                     in the
                     business has given us great insight into what our customers want and need. With customer
                     satisfaction as our top priority, we source furniture, cutting out the middle man and therefore
@@ -52,7 +52,7 @@
     <section class="three-card-section">
         <div class="container">
             <div class="row row10 header-card-row">
-                <div class="col-4 header-card-col dmt-20">
+                <div class="col-4 header-card-col dmb-20">
                     <a href=""
                         class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                         <div class="the-ultimate-card overflow-hidden position-relative">
@@ -71,7 +71,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 header-card-col dmt-20">
+                <div class="col-4 header-card-col dmb-20">
                     <a href=""
                         class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                         <div class="the-ultimate-card overflow-hidden position-relative">
@@ -90,7 +90,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 header-card-col dmt-20">
+                <div class="col-4 header-card-col dmb-20">
                     <a href=""
                         class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                         <div class="the-ultimate-card overflow-hidden position-relative">
@@ -338,7 +338,7 @@
                 </div>
             </div>
             <div class="row row10">
-                <div class="col-4 cards-col dmt-20">
+                <div class="col-4 cards-col dmt-50">
                     <a href="" class="text-decoration-none d-inline-block position-relative card-hover">
                         <div class="project-card-img radius10 overflow-hidden">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
@@ -353,7 +353,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 cards-col dmt-20">
+                <div class="col-4 cards-col dmt-50">
                     <a href="" class="text-decoration-none d-inline-block position-relative card-hover">
                         <div class="project-card-img radius10 overflow-hidden">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
@@ -368,7 +368,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 cards-col dmt-20">
+                <div class="col-4 cards-col dmt-50">
                     <a href="" class="text-decoration-none d-inline-block position-relative card-hover">
                         <div class="project-card-img radius10 overflow-hidden">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"

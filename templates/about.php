@@ -38,8 +38,8 @@
     <section class="center-content-section content-color-292929">
         <div class="container">
             <div class="col-7 px-5 mx-auto text-center">
-                <div class="content-title bodoni font40 leading48 text-191919 dmb-25">A little insight…</div>
-                <div class="content-desc mont-normal font13 leading24 text-191919">Peppermill Interiors is a leading
+                <div class="content-title bodoni font40 leading48 dmb-25">A little insight…</div>
+                <div class="content-desc mont-normal font13 leading24">Peppermill Interiors is a leading
                     stockist of quality domestic, bar and restaurant furniture. As a family business, we understand the
                     importance of service and our dedicated team will help to advise you so that you can buy the best
                     furniture for your needs.</div>

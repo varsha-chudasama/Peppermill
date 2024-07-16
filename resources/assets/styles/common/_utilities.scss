@@ -333,8 +333,13 @@
 
 // border radius
 .border-EBEBEB {
-  border-color: $color-EBEBEB;
+  border-color: $color-EBEBEB !important;
 }
+
+.border-707070 {
+  border-color: $color-707070 !important;
+}
+
 .radius5 {
   border-radius: $radius5;
 }

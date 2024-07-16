@@ -6,3 +6,45 @@
 .joinus-banner-section {
   height: 403px;
 }
+
+.pagination-section {
+  .pagination {
+    .page-item {
+      &:last-child {
+        & > .page-link {
+          text-decoration: underline !important;
+        }
+      }
+
+      &.active {
+        & > .page-link {
+          background-color: $black;
+          color: $white;
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      &.disabled {
+        & > .page-link {
+          background-color: transparent !important;
+          color: $color-707070 !important;
+        }
+      }
+
+      .page-link {
+        color: $black;
+        border: none !important;
+
+        &:focus {
+          box-shadow: none !important;
+          background-color: transparent !important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.product-filter {
+  .project-dropdown {
+    .project-toggle {
+      height: 28px;
+      padding: 0px 40px !important;
+    }
+
+    .project-menu {
+      min-height: 160px;
+      height: 100%;
+      overflow: auto;
+      display: none;
+      transition: all 0.3s ease-in-out;
+      background-color: rgba($color: $color-292929, $alpha: 0.8);
+      backdrop-filter: blur(5px);
+      
+      .project-item {
+        padding-left: 18px;
+        &.active {
+          &::before {
+            content: "\2713";
+            position: absolute;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}

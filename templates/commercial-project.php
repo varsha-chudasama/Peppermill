@@ -39,14 +39,14 @@
     <section class="center-content-section">
         <div class="container">
             <div class="col-7 px-5 mx-auto text-center">
-                <div class="content-title bodoni font40 leading48 text-191919 dmb-25">We’d love to work with you!</div>
-                <div class="content-desc mont-normal font13 leading24 text-191919 dmb-25">
+                <div class="content-title bodoni font40 leading48 dmb-25">We’d love to work with you!</div>
+                <div class="content-desc mont-normal font13 leading24 dmb-25">
                     At Peppermill Interiors we sell a
                     vast range of vintage, antique, period and classic pieces of furniture. We specialise in industrial
                     pieces and large quantities of vintage chairs, including stacking chairs, school chairs, chapel and
                     church chairs, and lab stools.
                 </div>
-                <div class="content-desc mont-normal font13 leading24 text-191919 dmb-25">
+                <div class="content-desc mont-normal font13 leading24 dmb-25">
                     We are based in Burntwood in Staffordshire. If you are based further
                     away, we can arrange to have the items collected by a courier.
                 </div>
@@ -146,7 +146,7 @@
                 </div>
             </div>
             <div class="row row10">
-                <div class="col-4 cards-col dmt-20">
+                <div class="col-4 cards-col dmt-50">
                     <a href="" class="text-decoration-none d-inline-block position-relative card-hover">
                         <div class="project-card-img radius10 overflow-hidden">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
@@ -161,7 +161,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 cards-col dmt-20">
+                <div class="col-4 cards-col dmt-50">
                     <a href="" class="text-decoration-none d-inline-block position-relative card-hover">
                         <div class="project-card-img radius10 overflow-hidden">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
@@ -176,7 +176,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 cards-col dmt-20">
+                <div class="col-4 cards-col dmt-50">
                     <a href="" class="text-decoration-none d-inline-block position-relative card-hover">
                         <div class="project-card-img radius10 overflow-hidden">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"

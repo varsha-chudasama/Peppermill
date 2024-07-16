@@ -9,6 +9,8 @@ import { Header } from './parts/header.js';
 import { Slick } from './parts/slick.js';
 import { Privacy } from './parts/privacy.js';
 import { Closet } from './parts/closet.js';
+import { Dropdown } from './parts/dropdown.js';
+import { Filter } from './parts/filter.js';
 
 
 // export for others scripts to use
@@ -46,6 +48,12 @@ $(function () {
   
   window.closet = new Closet();
   window.closet.init();
+  
+  window.dropdown = new Dropdown();
+  window.dropdown.init();
+  
+  window.filter = new Filter();
+  window.filter.init();
 });
 
 // ===========================================================================
