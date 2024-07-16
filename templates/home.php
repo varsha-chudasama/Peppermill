@@ -318,13 +318,13 @@
     <div class="dmb-95 "></div>
 
     <!-- project-card-section -->
-    <section class="project-card-section ">
+    <section class="project-card-section">
         <div class="container">
             <div class="row dmb-55">
                 <div class="col-3"></div>
                 <div class="col-6">
                     <div class="text-center">
-                        <div class="bodoni font50 leading62 text-black text-capitalize dmb-10">Our Projects</div>
+                        <div class="bodoni font50 leading55 text-black text-capitalize dmb-10">Our Projects</div>
                         <a href="" class="montserrat-medium font13 leading20 text-black">Get in touch</a>
                     </div>
                 </div>
@@ -337,7 +337,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row row10 cards-row">
+            <div class="row row10">
                 <div class="col-4 cards-col dmt-20">
                     <a href="" class="text-decoration-none d-inline-block position-relative card-hover">
                         <div class="project-card-img radius10 overflow-hidden">
@@ -399,7 +399,7 @@
                     VIEW ALL
                 </a>
             </div>
-            <div class="row row15 cards-row">
+            <div class="row row15">
                 <div class="col-4 cards-col dmt-30">
                     <a href="" class="d-inline-block text-decoration-none card-hover">
                         <div class="blog-card-img radius10 overflow-hidden dmb-25">
@@ -453,6 +453,4 @@
     </section>
 
     <div class="dmb-100"></div>
-
-
 </main>

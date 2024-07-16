@@ -52,7 +52,7 @@
                                 </ul>
                             </div>
                             <div class="col-7">
-                                <div class="row row10 header-card-row">
+                                <div class="row row10">
                                     <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
@@ -133,7 +133,7 @@
                                 </ul>
                             </div>
                             <div class="col-7">
-                                <div class="row row10 header-card-row">
+                                <div class="row row10">
                                     <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
@@ -217,7 +217,7 @@
                                 </ul>
                             </div>
                             <div class="col-7">
-                                <div class="row row10 header-card-row">
+                                <div class="row row10">
                                     <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">

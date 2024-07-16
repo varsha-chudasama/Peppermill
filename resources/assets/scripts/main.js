@@ -8,6 +8,7 @@ import { Parts } from './parts/parts.js'
 import { Header } from './parts/header.js';
 import { Slick } from './parts/slick.js';
 import { Privacy } from './parts/privacy.js';
+import { Closet } from './parts/closet.js';
 
 
 // export for others scripts to use
@@ -42,6 +43,9 @@ $(function () {
   
   window.privacy = new Privacy();
   window.privacy.init();
+  
+  window.closet = new Closet();
+  window.closet.init();
 });
 
 // ===========================================================================

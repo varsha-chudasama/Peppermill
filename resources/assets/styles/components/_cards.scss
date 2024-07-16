@@ -1,70 +1,69 @@
 .card-hover {
-    img {
-        transform: scale(1);
-        transition: 0.3s all ease-in-out;
-    }
+  img {
+    transform: scale(1);
+    transition: 0.3s all ease-in-out;
+  }
 
-    &:hover {
-        img {
-            transform: scale(1.1);
-        }
+  &:hover {
+    img {
+      transform: scale(1.1);
     }
+  }
 }
 
-
 .header-cards {
-    height: 333px;
+  height: 333px;
 }
 
 .the-ultimate-card {
-    height: 426px;
+  height: 426px;
 }
 
-.header-card-row,
-.cards-row {
-
-    .header-card-col,
-    .cards-col {
-
-        &:nth-child(1),
-        &:nth-child(2),
-        &:nth-child(3) {
-            margin-top: 0px !important;
-        }
-    }
+.header-card-col,
+.cards-col {
+  &:nth-child(1),
+  &:nth-child(2),
+  &:nth-child(3) {
+    margin-top: 0px !important;
+  }
 }
-
-
 
 .product-section {
-    .product-slider {
-        .product-img {
-            height: 421px;
-        }
-
-        .like-img {
-            width: 15px;
-        }
+  .product-slider {
+    .product-img {
+      height: 421px;
     }
+
+    .like-img {
+      width: 15px;
+    }
+  }
 }
 
-
 .room-card-section {
-    .room-card-slider {
-        .room-card-img {
-            height: 518px;
-        }
+  .room-card-slider {
+    .room-card-img {
+      height: 518px;
     }
+  }
 }
 
 .project-card-section {
-    .project-card-img {
-        height: 514px;
-    }
+  .project-card-img {
+    height: 514px;
+  }
 }
 
 .blog-card-section {
-    .blog-card-img {
-        height: 284px;
+  .blog-card-img {
+    height: 284px;
+  }
+}
+
+.step-card-section {
+  .step-card {
+    .step-img {
+      height: 284px;
     }
+  }
 }

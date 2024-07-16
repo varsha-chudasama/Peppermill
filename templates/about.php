@@ -197,7 +197,7 @@
                     VIEW ALL
                 </a>
             </div>
-            <div class="row row15 cards-row">
+            <div class="row row15">
                 <div class="col-4 cards-col dmt-30">
                     <a href="" class="d-inline-block text-decoration-none card-hover">
                         <div class="blog-card-img radius10 overflow-hidden dmb-25">

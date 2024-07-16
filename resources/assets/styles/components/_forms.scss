@@ -1,17 +1,37 @@
-.input-field{
-    background-color: $color-F5F5F5;
-    border: 1px solid $color-D5D5D5;
-    height: 47px;
+.input-field,
+.input-textarea {
+  background-color: $white;
+  color: $black;
+  border: 1px solid $color-D5D5D5;
+  height: 50px;
+
+  &::placeholder {
+    color: $black;
+  }
 }
 
-.form-section{
-    margin-left: -10px;
-    margin-right: -10px;
-    &>div{
-        padding-left: 10px;
-        padding-right: 10px;
-        &:last-child{
-            margin-bottom: 0 !important;
-        }
+.form-section {
+  margin-left: -10px;
+  margin-right: -10px;
+  & > div {
+    padding-left: 10px;
+    padding-right: 10px;
+    &:last-child {
+      margin-bottom: 0 !important;
     }
+  }
+
+  .input-textarea{
+    height: 113px;
+  }
+
+  &.input-color-F5F5F5 {
+    .input-field {
+      background-color: $color-F5F5F5 !important;
+      color: $color-918E8E !important;
+      &::placeholder {
+        color: $color-918E8E !important;
+      }
+    }
+  }
 }

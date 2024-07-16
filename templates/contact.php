@@ -15,7 +15,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-8">
                     <div class="bodoni font65 leading85 text-white dmb-10">Visit Our Showroom</div>
-                    <div class="mont-medium font14 leading20 text-white dmb-20">
+                    <div class="mont-medium font14 leading20 text-white dmb-30">
                         The UK’s finest selection of domestic, bar and restaurant furniture
                     </div>
                     <div class="d-flex align-items-center">
@@ -52,7 +52,7 @@
 
 <div class="spacing dmb-105"></div>
 
-<!-- form-section -->
+<!-- contact-section -->
 <section class="contact-section">
     <div class="container">
         <div class="col-6 px-2 mx-auto">
@@ -64,7 +64,7 @@
                     Or call us on 01543 375 872
                 </div>
             </div>
-            <form action="" class="form-section d-flex flex-wrap">
+            <form action="" class="form-section input-color-F5F5F5 d-flex flex-wrap">
                 <div class="col-6 dmb-10">
                     <input type="text" placeholder="Your Name…"
                         class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
@@ -115,6 +115,7 @@
 
 <div class="spacing dmb-165"></div>
 
+<!-- location-card-section -->
 <section class="location-card-section">
     <div class="container">
         <div class="location-card">
