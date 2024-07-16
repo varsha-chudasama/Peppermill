@@ -1,16 +1,19 @@
 .privacy-section {
-
     .privacy-left-content {
         .privacy-links {
             top: 205px;
 
-            .active {
-                a {
-                    color: $white !important;
+            li {
+                &:last-child{
+                    margin-bottom: 0 !important;
                 }
+                &.active {
+                    opacity: 100% !important;
 
-                border-left: 1px solid #FF6801;
-                padding-left: 16px;
+                    a {
+                        text-decoration: underline !important;
+                    }
+                }
             }
         }
     }
@@ -19,16 +22,30 @@
         .single-content {
             padding-top: 60px;
             padding-bottom: 50px;
-            
-            &:first-child{
+            border-bottom: 1px solid $color-EBEBEB;
+
+            &:first-child {
                 padding-top: 180px;
+
+                @include media-breakpoint-down(lg) {
+                    padding-top: 90px;
+                }
             }
-            &:last-child{
+
+            &:last-child {
                 padding-bottom: 0 !important;
+                border-bottom: 0 !important;
             }
 
             @include media-breakpoint-down(lg) {
                 padding-top: 90px;
+            }
+            .privacy-btn-group{
+                .btnA{
+                    &:last-child{
+                        margin-right: 0 !important;
+                    }
+                }
             }
         }
     }
