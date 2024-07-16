@@ -1,78 +1,56 @@
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-slide {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .product-section {
-  .product-slider {
-    .slick-list {
-      margin: 0 -10px;
+  .next-arrow,
+  .prev-arrow {
+    top: -19%;
+
+    &.slick-disabled {
+      opacity: 25%;
     }
+  }
 
-    .slick-slide {
-      padding-right: 10px;
-      padding-left: 10px;
-    }
-
-    .next-arrow {
-      top: -19%;
-
-      &.slick-disabled {
-        opacity: 25%;
-      }
-    }
-
-    .prev-arrow {
-      top: -19%;
-      right: 35px;
-
-      &.slick-disabled {
-        opacity: 25%;
-      }
-    }
-
-    .next-arrow,
-    .prev-arrow {
-      height: 31px;
-    }
+  .prev-arrow {
+    right: 35px;
   }
 }
 
 .room-card-section {
   .room-card-slider {
-    .slick-list {
-      margin: 0 -10px;
-    }
-
-    .slick-slide {
-      padding-right: 10px;
-      padding-left: 10px;
-    }
-
     .room-next-arrow,
     .room-prev-arrow {
       height: 10px;
     }
+
+    .room-arrow-next-border,
+    .room-arrow-prev-border {
+      top: -19%;
+
+      &.slick-disabled {
+        border: 1px solid rgba($color: $color-EFEFEF, $alpha: 0.25);
+      }
+    }
+
+    .room-arrow-prev-border {
+      right: 35px;
+    }
   }
 }
 
+.next-arrow,
+.prev-arrow,
 .room-arrow-prev-border,
 .room-arrow-next-border {
   border: 1px solid $color-EFEFEF;
   height: 31px;
   width: 31px;
-}
-
-.room-arrow-next-border {
-  top: -19%;
-
-  &.slick-disabled {
-    border: 1px solid rgba($color: $color-EFEFEF, $alpha: 0.25);
-  }
-}
-
-.room-arrow-prev-border {
-  top: -19%;
-  right: 35px;
-
-  &.slick-disabled {
-    border: 1px solid rgba($color: $color-EFEFEF, $alpha: 0.25);
-  }
 }
 
 .slider-banner-section {
@@ -81,31 +59,25 @@
       height: 100%;
     }
   }
-}
-
-
-.footer{
-    .footer-slider{
-        .slick-list {
-            margin: 0 -6px;
-        }
-
-        .slick-slide {
-            padding-right: 6px;
-            padding-left: 6px;
-        }
+  .slick-arrows {
+    .prev-arrow,
+    .next-arrow {
+      border: 1px solid $color-EFEFEF !important;
+      height: 31px;
+      width: 31px;
     }
-}
-.testimonial-slider-section {
-  .room-arrow-prev-border {
-    right: auto !important;
   }
-  // .room-arrow-next-border {
-  //   right: 50px !important;
-  // }
+}
 
-  .room-arrow-prev-border,
-  .room-arrow-next-border {
-    top: 50% !important;
+.footer {
+  .footer-slider {
+    .slick-list {
+      margin: 0 -6px;
+    }
+
+    .slick-slide {
+      padding-right: 6px;
+      padding-left: 6px;
+    }
   }
 }

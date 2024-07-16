@@ -1,11 +1,12 @@
 <?php
 /*
-  * Template Name: Home
-*/
+ * Template Name: Home
+ */
 ?>
 
 
 <main>
+    <!-- hero-section -->
     <section class="hero-section position-relative w-100">
         <div class="home-hero-img h-100 position-relative">
             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/hero-img.png"
@@ -31,6 +32,7 @@
 
     <div class="spacing dmb-60"></div>
 
+    <!-- center-content-section -->
     <section class="center-content-section">
         <div class="container">
             <div class="col-7 px-5 mx-auto text-center">
@@ -46,6 +48,7 @@
 
     <div class="spacing dmb-60"></div>
 
+    <!-- three-card-section -->
     <section class="three-card-section">
         <div class="container">
             <div class="row row10 header-card-row">
@@ -112,8 +115,22 @@
 
     <div class="spacing dmb-95"></div>
 
+    <!-- product-section -->
     <section class="product-section">
         <div class="container">
+            <div
+                class="slick-arrows position-absolute w-100 h-100 top-0 d-flex align-items-center justify-content-between">
+                <div
+                    class="prev-arrow d-flex align-items-center justify-content-center bg-transparent z-3 rounded-pill transition">
+                    <img src="http://peppermill.local/wp-content/uploads/2024/07/room-prev-arrow.svg"
+                        class="room-prev-arrow" alt="">
+                </div>
+                <div
+                    class="next-arrow d-flex align-items-center justify-content-center bg-transparent z-3 rounded-pill transition">
+                    <img src="http://peppermill.local/wp-content/uploads/2024/07/room-prev-arrow.svg"
+                        class="room-next-arrow" alt="">
+                </div>
+            </div>
             <div class="bodoni font40 leading48 text-black text-center dmb-60">Trending products</div>
             <div class="product-slider">
                 <a href="" class="d-inline-block text-decoration-none card-hover">
@@ -207,6 +224,7 @@
 
     <div class="spacing dmb-80"></div>
 
+    <!-- room-card-section -->
     <section class="room-card-section bg-292929 dpt-80 dpb-70">
         <div class="container">
             <div class="bodoni font45 leading55 text-capitalize text-white text-center dpb-50">Shop By Room</div>
@@ -275,6 +293,7 @@
         </div>
     </section>
 
+    <!-- banner-section -->
     <section class="banner-section position-relative">
         <div class="banner-img">
             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/hero-img.png" alt=""
@@ -297,6 +316,7 @@
 
     <div class="dmb-95 "></div>
 
+    <!-- project-card-section -->
     <section class="project-card-section ">
         <div class="container">
             <div class="row dmb-55">
@@ -368,6 +388,7 @@
 
     <div class="dmb-165"></div>
 
+    <!-- blog-card-section -->
     <section class="blog-card-section">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center dmb-25">
@@ -390,7 +411,7 @@
                                 than you think, bespoke furniture has lots of unique advantages. Tailored to your space
                                 and style preferences, it does more than simply add a personal touch to your design
                                 scheme.</div>
-                            <a href="" class="mont-normal font13 leading20 text-black">Read more</a>
+                            <a href="" class="mont-medium font13 leading20 text-black">Read more</a>
                         </div>
                     </a>
                 </div>
@@ -406,7 +427,7 @@
                                 than you think, bespoke furniture has lots of unique advantages. Tailored to your space
                                 and style preferences, it does more than simply add a personal touch to your design
                                 scheme.</div>
-                            <a href="" class="mont-normal font13 leading20 text-black">Read more</a>
+                            <a href="" class="mont-medium font13 leading20 text-black">Read more</a>
                         </div>
                     </a>
                 </div>
@@ -422,7 +443,7 @@
                                 than you think, bespoke furniture has lots of unique advantages. Tailored to your space
                                 and style preferences, it does more than simply add a personal touch to your design
                                 scheme.</div>
-                            <a href="" class="mont-normal font13 leading20 text-black">Read more</a>
+                            <a href="" class="mont-medium font13 leading20 text-black">Read more</a>
                         </div>
                     </a>
                 </div>

@@ -14,8 +14,8 @@ export class Slick {
             speed: 300,
             slidesToShow: 4,
             slidesToScroll: 1,
-            prevArrow: '<button class="prev-arrow border-0 bg-transparent z-3 position-absolute transition"><img src="http://peppermill.local/wp-content/uploads/2024/07/prev-arrow-2.svg" class="h-100" alt=""></button>',
-            nextArrow: '<button class="next-arrow border-0 bg-transparent z-3 position-absolute end-0 transition"><img src="http://peppermill.local/wp-content/uploads/2024/07/next-arrow-2.svg" class="h-100" alt=""></button>',
+            prevArrow: '.product-section .prev-arrow',
+            prevArrow: '.product-section .next-arrow',
             responsive: [
                 {
                     breakpoint: 1024,
@@ -40,9 +40,6 @@ export class Slick {
                         slidesToScroll: 1
                     }
                 }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
             ]
         });
     }
@@ -86,6 +83,7 @@ export class Slick {
             ]
         });
     }
+    
     FooterSlider() {
         $('.footer-slider').slick({
             dots: false,
@@ -118,9 +116,6 @@ export class Slick {
                         slidesToScroll: 1
                     }
                 }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
             ]
         });
     }
@@ -133,9 +128,8 @@ export class Slick {
             speed: 300,
             slidesToShow: 1,
             slidesToScroll: 1,
-            prevArrow: '<button class="room-arrow-prev-border d-flex align-items-center justify-content-center bg-transparent z-3 position-absolute rounded-pill transition"><img src="http://peppermill.local/wp-content/uploads/2024/07/room-prev-arrow.svg" class="room-next-arrow" alt=""></button>',
-
-            nextArrow: '<button class="room-arrow-next-border d-flex align-items-center justify-content-center  bg-transparent z-3 position-absolute end-0 rounded-pill transition"><img src="http://peppermill.local/wp-content/uploads/2024/07/room-next-arrow-1.svg" class="room-prev-arrow" alt=""></button>',
+            prevArrow: '.slider-banner-section .prev-arrow',
+            nextArrow: '.slider-banner-section .next-arrow',
         })
 
         var $slider = $('.slider-banner');
