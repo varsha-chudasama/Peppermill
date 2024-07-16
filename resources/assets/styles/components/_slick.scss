@@ -96,3 +96,16 @@
         }
     }
 }
+.testimonial-slider-section {
+  .room-arrow-prev-border {
+    right: auto !important;
+  }
+  // .room-arrow-next-border {
+  //   right: 50px !important;
+  // }
+
+  .room-arrow-prev-border,
+  .room-arrow-next-border {
+    top: 50% !important;
+  }
+}

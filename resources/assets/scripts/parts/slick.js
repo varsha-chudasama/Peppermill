@@ -4,6 +4,7 @@ export class Slick {
         this.RoomCardSlider();
         this.FooterSlider();
         this.BannerSlider();
+        this.TestimonialSlider();
     }
 
     ProductSlider() {
@@ -163,5 +164,19 @@ export class Slick {
                 nextArrow: $('.slick-next')
             });
         }
+    }
+
+    TestimonialSlider() {
+        $('.testimonial-slider').slick({
+            dots: false,
+            infinite: false,
+            fade: true,
+            arrows: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: '.testimonial-slider-section .room-arrow-prev-border',
+            nextArrow: '.testimonial-slider-section .room-arrow-next-border',
+        })
     }
 }
