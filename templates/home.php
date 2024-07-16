@@ -116,22 +116,23 @@
     <div class="spacing dmb-95"></div>
 
     <!-- product-section -->
-    <section class="product-section">
+    <section class="product-section ">
         <div class="container">
-            <div
-                class="slick-arrows position-absolute w-100 h-100 top-0 d-flex align-items-center justify-content-between">
-                <div
-                    class="prev-arrow d-flex align-items-center justify-content-center bg-transparent z-3 rounded-pill transition">
-                    <img src="http://peppermill.local/wp-content/uploads/2024/07/room-prev-arrow.svg"
-                        class="room-prev-arrow" alt="">
-                </div>
-                <div
-                    class="next-arrow d-flex align-items-center justify-content-center bg-transparent z-3 rounded-pill transition">
-                    <img src="http://peppermill.local/wp-content/uploads/2024/07/room-prev-arrow.svg"
-                        class="room-next-arrow" alt="">
+            <div class="position-relative">
+            <div class="bodoni font40 leading48 text-black text-center dmb-60">Trending products</div>
+                <div class="slick-arrows position-absolute w-100 h-100 top-0 d-flex align-items-center justify-content-end z-3">
+                    <div
+                        class="prev-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
+                        <img src="http://peppermill.local/wp-content/uploads/2024/07/prev-arrow-2.svg"
+                            class="room-prev-arrow" alt="">
+                    </div>
+                    <div
+                        class="next-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
+                        <img src="http://peppermill.local/wp-content/uploads/2024/07/next-arrow-2.svg"
+                            class="room-next-arrow" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="bodoni font40 leading48 text-black text-center dmb-60">Trending products</div>
             <div class="product-slider">
                 <a href="" class="d-inline-block text-decoration-none card-hover">
                     <div class="product-img position-relative radius10 overflow-hidden dmb-25">

@@ -15,7 +15,7 @@ export class Slick {
             slidesToShow: 4,
             slidesToScroll: 1,
             prevArrow: '.product-section .prev-arrow',
-            prevArrow: '.product-section .next-arrow',
+            nextArrow: '.product-section .next-arrow',
             responsive: [
                 {
                     breakpoint: 1024,
@@ -51,8 +51,8 @@ export class Slick {
             speed: 300,
             slidesToShow: 3,
             slidesToScroll: 1,
-            prevArrow: '<button class="room-arrow-prev-border d-flex align-items-center justify-content-center bg-transparent z-3 position-absolute rounded-pill transition"><img src="http://peppermill.local/wp-content/uploads/2024/07/room-prev-arrow.svg" class="room-prev-arrow" alt=""></button>',
-            nextArrow: '<button class="room-arrow-next-border d-flex align-items-center justify-content-center  bg-transparent z-3 position-absolute end-0 rounded-pill transition"><img src="http://peppermill.local/wp-content/uploads/2024/07/room-next-arrow-1.svg" class="room-next-arrow" alt=""></button>',
+            prevArrow: '<button class="room-arrow-prev-border d-flex align-items-center justify-content-center bg-transparent z-3 ms-3 position-absolute rounded-pill transition"><img src="http://peppermill.local/wp-content/uploads/2024/07/room-prev-arrow.svg" class="room-prev-arrow" alt=""></button>',
+            nextArrow: '<button class="room-arrow-next-border d-flex align-items-center justify-content-center bg-transparent z-3 ms-3 position-absolute end-0 rounded-pill transition"><img src="http://peppermill.local/wp-content/uploads/2024/07/room-next-arrow-1.svg" class="room-next-arrow" alt=""></button>',
             responsive: [
                 {
                     breakpoint: 1024,

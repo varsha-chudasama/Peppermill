@@ -8,17 +8,15 @@
 }
 
 .product-section {
-  .next-arrow,
-  .prev-arrow {
-    top: -19%;
+  .slick-arrows {
+    .next-arrow,
+    .prev-arrow {
+      background-color: $color-292929 !important;
 
-    &.slick-disabled {
-      opacity: 25%;
+      &.slick-disabled {
+        opacity: 25%;
+      }
     }
-  }
-
-  .prev-arrow {
-    right: 35px;
   }
 }
 
@@ -39,7 +37,7 @@
     }
 
     .room-arrow-prev-border {
-      right: 35px;
+      right: 39px;
     }
   }
 }
@@ -65,6 +63,10 @@
       border: 1px solid $color-EFEFEF !important;
       height: 31px;
       width: 31px;
+      
+      &.slick-disabled {
+        border: 1px solid rgba($color: $color-EFEFEF, $alpha: 0.25);
+      }
     }
   }
 }
@@ -78,6 +80,15 @@
     .slick-slide {
       padding-right: 6px;
       padding-left: 6px;
+    }
+  }
+}
+
+.testimonial-slider-section {
+  .room-arrow-next-border,
+  .room-arrow-prev-border {
+    &.slick-disabled {
+      border: 1px solid rgba($color: $color-EFEFEF, $alpha: 0.25);
     }
   }
 }
