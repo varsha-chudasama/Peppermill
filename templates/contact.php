@@ -32,19 +32,23 @@
 
 <div class="spacing dmb-90"></div>
 
-<!-- center-content-section  -->
+<!-- center-content-section -->
 <section class="center-content-section">
     <div class="container">
         <div class="col-7 px-5 mx-auto text-center">
-            <div class="content-title bodoni font11 leading20 text-191919 dmb-35">Contact</div>
-            <div class="content-title bodoni font40 leading48 text-191919 dmb-35">We’d love to help you!</div>
-            <div class="content-desc mont-normal font13 leading24 text-191919">
-                We’d love to help you know more about our furniture collection… Why not give our team a call or fill out
-                the contact form below. If you have an enquiry, order or a customised product you would like to discuss
-                please give us as much detail as possible and we will get back to you as soon as we can. If you have an
-                item you wish to sell to us please email us at purchasing@peppermillinteriors.com with a photo of the
-                item/s you are selling, the price you are looking to sell each item for and the location of where you
-                are based.
+            <div class="content-prefix bodoni font11 leading16 space0_28 dmb-25">Contact</div>
+            <div class="content-title bodoni font40 leading48 dmb-25">We’d love to help you!</div>
+            <div class="content-desc mont-normal font13 leading24">We’d love to help you know more about our furniture
+                collection… Why not give our team a call or fill out the contact form below. If you have an enquiry,
+                order or a customised product you would like to discuss please give us as much detail as possible and we
+                will get back to you as soon as we can. If you have an item you wish to sell to us please email us at <a
+                    href="mailto:purchasing@peppermillinteriors.com"
+                    class="mont-medium d-inline-block text-black">purchasing@peppermillinteriors.com</a> with a photo of
+                the item/s you are selling, the price you are looking to sell each item for and the location of where
+                you are based.
+                <div class="dmt-60 mont-medium"><span class="content-prefix">Got a question?</span> Check our <a href=""
+                        class="d-inline-block text-black">FAQs</a> or call us on <a href="tel:01543375872"
+                        class="d-inline-block text-black">01543 375 872</a></div>
             </div>
         </div>
     </div>
@@ -60,8 +64,8 @@
                 <div class="bodoni font35 leading45 text-black dmb-15">
                     Fill out our contact form below
                 </div>
-                <div class="content-desc mont-normal font13 leading24 text-191919">
-                    Or call us on 01543 375 872
+                <div class="content-desc mont-medium font13 leading24 text-191919">
+                    Or call us on <a href="tel:01543375872" class="d-inline-block text-black">01543 375 872</a>
                 </div>
             </div>
             <form action="" class="form-section input-color-F5F5F5 d-flex flex-wrap">
@@ -118,21 +122,78 @@
 <!-- location-card-section -->
 <section class="location-card-section">
     <div class="container">
-        <div class="location-card">
-            <div class="location-img">
-                <img src="" alt="">
+        <div class="row row15">
+            <div class="col-6">
+                <div class="location-card">
+                    <div class="location-img radius10 overflow-hidden dmb-50">
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/news-img.png" alt=""
+                            class="h-100 w-100 object-cover">
+                    </div>
+                    <div class="location-content text-center px-5">
+                        <div class="bodoni font30 leading35 text-black dmb-30">Burntwood (Showroom)</div>
+                        <a href=""
+                            class="text-decoration-none d-inline-block mont-normal font13 leading24 text-black dmb-30">
+                            Peppermill Antiques Ltd, Unit 6, Ring Road, Zone 2, Burntwood Business Park Burntwood, WS7
+                            3JQ, (Sat
+                            Nav use WS7 3JG)
+                        </a>
+                        <a href=""
+                            class="text-decoration-none d-inline-block mont-normal font13 leading24 text-black dmb-30">
+                            What3words: work.trendy.exists
+                        </a>
+                        <a href="" class="d-inline-block mont-medium font13 leading24 text-black w-100">
+                            Tel: 01543 375 872
+                        </a>
+                        <a href="" class="d-inline-block mont-medium font13 leading24 text-black w-100">
+                            Int: 0044 1543 375 872
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="location-content">
-                <div>Burntwood (Showroom)</div>
-                <a href="text-decoration-none d-inline-block ">
-                    Peppermill Antiques Ltd, Unit 6, Ring Road, Zone 2, Burntwood Business Park Burntwood, WS7 3JQ, (Sat
-                    Nav use WS7 3JG)
-                </a>
-                <a href="">
-                    What3words: work.trendy.exists
-                </a>
-                <a href="">
-                    Tel: 01543 375 872 Int: 0044 1543 375 872
+            <div class="col-6">
+                <div class="location-card">
+                    <div class="location-img radius10 overflow-hidden dmb-50">
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/hero-img.png" alt=""
+                            class="h-100 w-100 object-cover">
+                    </div>
+                    <div class="location-content text-center px-5">
+                        <div class="bodoni font30 leading35 text-black dmb-30">Burntwood (Showroom)</div>
+                        <a href=""
+                            class="text-decoration-none d-inline-block mont-normal font13 leading24 text-black dmb-30">
+                            Peppermill Antiques Ltd, Unit 6, Ring Road, Zone 2, Burntwood Business Park Burntwood, WS7
+                            3JQ, (Sat
+                            Nav use WS7 3JG)
+                        </a>
+                        <a href=""
+                            class="text-decoration-none d-inline-block mont-normal font13 leading24 text-black dmb-30">
+                            What3words: work.trendy.exists
+                        </a>
+                        <a href="" class="d-inline-block mont-medium font13 leading24 text-black w-100">
+                            Tel: 01543 375 872
+                        </a>
+                        <a href="" class="d-inline-block mont-medium font13 leading24 text-black w-100">
+                            Int: 0044 1543 375 872
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="spacing dmb-165"></div>
+
+<section class="map-section position-relative">
+    <iframe class="h-100 w-100"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1209.4025920057006!2d-1.9443232399005546!3d52.681555703177324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870a046f03fd92d%3A0x2f275270fd74101e!2sPeppermill%20Interiors%20Furniture%20Suppliers!5e0!3m2!1sen!2sin!4v1721190964041!5m2!1sen!2sin"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="position-absolute top-center start-0 w-100">
+        <div class="container">
+            <div class="map-content bg-292929 dpt-55 dpb-55 d-inline-flex align-content-center radius5">
+                <div class="bodoni font30 leading35 text-white ">Planning a visit?</div>
+                <a href=""
+                    class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-inline-flex align-items-center justify-content-center transition">
+                    GET DIRECTIONS
                 </a>
             </div>
         </div>
