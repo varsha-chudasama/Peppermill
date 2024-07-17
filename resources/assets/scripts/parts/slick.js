@@ -173,4 +173,4 @@ export class Slick {
             nextArrow: '.testimonial-slider-section .room-arrow-next-border',
         })
     }
-}
+}  

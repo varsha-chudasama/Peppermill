@@ -52,7 +52,7 @@
     <section class="three-card-section">
         <div class="container">
             <div class="row row10 header-card-row">
-                <div class="col-4 header-card-col dmb-20">
+                <div class="col-4 header-card-col dmt-20">
                     <a href=""
                         class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                         <div class="the-ultimate-card overflow-hidden position-relative">
@@ -71,7 +71,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 header-card-col dmb-20">
+                <div class="col-4 header-card-col dmt-20">
                     <a href=""
                         class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                         <div class="the-ultimate-card overflow-hidden position-relative">
@@ -90,7 +90,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 header-card-col dmb-20">
+                <div class="col-4 header-card-col dmt-20">
                     <a href=""
                         class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                         <div class="the-ultimate-card overflow-hidden position-relative">

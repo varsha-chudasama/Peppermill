@@ -16,6 +16,46 @@
                 }
 
             }
+
+            .header-icon {
+                width: 15px;
+            }
+
+            .head-seach {
+                &.search-open {
+                    .seach-menu-slide {
+                        opacity: 1;
+                        visibility: visible;
+                        height: 100vh;
+                    }
+                }
+
+
+                .seach-menu-slide {
+                    border-top: 1px solid $color-EBEBEB;
+                    height: 100px;
+                    opacity: 0;
+                    visibility: hidden;
+
+                    .search-menu {
+                        border: 1px solid $color-D5D5D5;
+                        width: 472px;
+                        height: 49px;
+
+                        .search-img {
+                            mix-blend-mode: exclusion;
+                        }
+
+                        .search-close {
+                            width: 19px;
+                        }
+
+                        input.search-input {
+                            padding-left: 50px;
+                        }
+                    }
+                }
+            }
         }
 
         .nav {
