@@ -8,15 +8,15 @@
 
     <div class="spacing dmt-200"></div>
 
-    <!-- center-content-section -->
-    <section class="center-content-section">
+    <!-- center-title-section -->
+    <section class="center-title-section">
         <div class="container">
             <div class="col-7 px-5 mx-auto text-center">
-                <div class="content-title bodoni font40 leading48 dmb-25">Projects</div>
+                <div class="content-title bodoni font60 leading70 dmb-25">Projects</div>
                 <div class="content-desc mont-normal font13 leading24">
-                    Peppermill Interiors has extensive
-                    experience in supplying restaurant furniture, bar furniture and pub furniture to leading shops and
-                    eateries all over the world.
+                    Peppermill Interiors has extensive experience in supplying restaurant furniture, bar furniture and
+                    pub
+                    furniture to leading shops and eateries all over the world.
                 </div>
             </div>
         </div>
@@ -36,14 +36,14 @@
                     </div>
                     <div class="project-menu position-absolute radius10 flex-column z-3 p-3"
                         aria-labelledby="projectMenuButton">
-                        <a class="project-item text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10 active"
+                        <a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10 active"
                             data-filter="all">View All</a>
-                        <a class="project-item text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
+                        <a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
                             data-filter="kent">Kent
                             action</a>
-                        <a class="project-item text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
+                        <a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
                             data-filter="las-vegas">Las Vegas</a>
-                        <a class="project-item text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
+                        <a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
                             data-filter="spa">Leamington spa</a>
                     </div>
                 </div>

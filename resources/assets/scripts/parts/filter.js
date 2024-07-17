@@ -6,7 +6,7 @@ export class Filter {
 
     FilterData() {
         $(document).ready(function () {
-            $(".project-item").click(function () {
+            $(".activity-button").click(function () {
                 var value = $(this).attr('data-filter');
                 if (value == "all") {
                     $('.filter-activity').filter('.' + value).show('1000');
@@ -17,7 +17,7 @@ export class Filter {
                 }
                 $('.project-menu').removeClass('d-flex');
             });
-            $(".project-item").click(function () {
+            $(".activity-button").click(function () {
                 $(this).toggleClass("active").siblings().removeClass("active");
             });
         })
