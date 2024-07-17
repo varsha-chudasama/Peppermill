@@ -51,61 +51,49 @@
     <!-- three-card-section -->
     <section class="three-card-section">
         <div class="container">
-            <div class="row row10 header-card-row">
-                <div class="col-4 header-card-col dmt-20">
+            <div class="row row10">
+                <div class="col-4 cards-col dmt-20">
                     <a href=""
-                        class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
-                        <div class="the-ultimate-card overflow-hidden position-relative">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img.png"
-                                class="w-100 h-100 object-cover img" alt="">
-                            <div class="layer position-absolute top-0 start-0 h-100 w-100 opacity23 bg-black"></div>
-                        </div>
-                        <div class="position-absolute top-center text-center w-100">
-                            <div class="col-8 mx-auto">
-                                <div class="bodoni font35 leading35 text-capitalize text-white dmb-30">New In</div>
-                                <button
-                                    class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-inline-flex align-items-center justify-content-center transition">
-                                    SHOP NOW
-                                </button>
-                            </div>
+                        class="the-ultimate-card d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img.png"
+                            class="w-100 h-100 object-cover img" alt="">
+                        <div class="layer position-absolute top-0 start-0 h-100 w-100 opacity23 bg-black"></div>
+                        <div class="position-absolute top-center text-center w-100 px-5">
+                            <div class="bodoni font35 leading35 text-capitalize text-white dmb-30">New In</div>
+                            <button
+                                class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-inline-flex align-items-center justify-content-center transition">
+                                SHOP NOW
+                            </button>
                         </div>
                     </a>
                 </div>
-                <div class="col-4 header-card-col dmt-20">
+                <div class="col-4 cards-col dmt-20">
                     <a href=""
-                        class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
-                        <div class="the-ultimate-card overflow-hidden position-relative">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img.png"
-                                class="w-100 h-100 object-cover img" alt="">
-                            <div class="layer position-absolute top-0 start-0 h-100 w-100 opacity23 bg-black"></div>
-                        </div>
-                        <div class="position-absolute top-center text-center w-100">
-                            <div class="col-8 mx-auto">
-                                <div class="bodoni font35 leading35 text-capitalize text-white dmb-30">New In</div>
-                                <button
-                                    class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-inline-flex align-items-center justify-content-center transition">
-                                    SHOP NOW
-                                </button>
-                            </div>
+                        class="the-ultimate-card d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img.png"
+                            class="w-100 h-100 object-cover img" alt="">
+                        <div class="layer position-absolute top-0 start-0 h-100 w-100 opacity23 bg-black"></div>
+                        <div class="position-absolute top-center text-center w-100 px-5">
+                            <div class="bodoni font35 leading35 text-capitalize text-white dmb-30">New In</div>
+                            <button
+                                class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-inline-flex align-items-center justify-content-center transition">
+                                SHOP NOW
+                            </button>
                         </div>
                     </a>
                 </div>
-                <div class="col-4 header-card-col dmt-20">
+                <div class="col-4 cards-col dmt-20">
                     <a href=""
-                        class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
-                        <div class="the-ultimate-card overflow-hidden position-relative">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img.png"
-                                class="w-100 h-100 object-cover img" alt="">
-                            <div class="layer position-absolute top-0 start-0 h-100 w-100 opacity23 bg-black"></div>
-                        </div>
-                        <div class="position-absolute top-center text-center w-100">
-                            <div class="col-8 mx-auto">
-                                <div class="bodoni font35 leading35 text-capitalize text-white dmb-30">New In</div>
-                                <button
-                                    class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-inline-flex align-items-center justify-content-center transition">
-                                    SHOP NOW
-                                </button>
-                            </div>
+                        class="the-ultimate-card d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img.png"
+                            class="w-100 h-100 object-cover img" alt="">
+                        <div class="layer position-absolute top-0 start-0 h-100 w-100 opacity23 bg-black"></div>
+                        <div class="position-absolute top-center text-center w-100 px-5">
+                            <div class="bodoni font35 leading35 text-capitalize text-white dmb-30">New In</div>
+                            <button
+                                class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-inline-flex align-items-center justify-content-center transition">
+                                SHOP NOW
+                            </button>
                         </div>
                     </a>
                 </div>
@@ -116,32 +104,37 @@
     <div class="spacing dmb-95"></div>
 
     <!-- product-section -->
-    <section class="product-section ">
+    <section class="product-section">
         <div class="container">
-            <div class="position-relative">
-            <div class="bodoni font40 leading48 text-black text-center dmb-60">Trending products</div>
-                <div class="slick-arrows position-absolute w-100 h-100 top-0 d-flex align-items-center justify-content-end z-3">
-                    <div
-                        class="prev-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/prev-arrow-2.svg"
-                            class="room-prev-arrow" alt="">
-                    </div>
-                    <div
-                        class="next-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/next-arrow-2.svg"
-                            class="room-next-arrow" alt="">
+            <div class="row align-items-center  dmb-60">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <div class="bodoni font40 leading48 text-black text-center">Trending products</div>
+                </div>
+                <div class="col-3 d-inline-flex align-items-center justify-content-end">
+                    <div class="slick-arrows d-flex">
+                        <div
+                            class="prev-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
+                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/prev-arrow-2.svg"
+                                class="room-prev-arrow" alt="">
+                        </div>
+                        <div
+                            class="next-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
+                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/next-arrow-2.svg"
+                                class="room-next-arrow" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="product-slider">
-                <a href="" class="d-inline-block text-decoration-none card-hover">
-                    <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                <a href="" class="product-cards d-inline-block text-decoration-none">
+                    <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                 alt="">
                         </div>
@@ -151,14 +144,14 @@
                         <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
                     </div>
                 </a>
-                <a href="" class="d-inline-block text-decoration-none card-hover">
-                    <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                <a href="" class="product-cards d-inline-block text-decoration-none">
+                    <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                 alt="">
                         </div>
@@ -168,14 +161,14 @@
                         <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
                     </div>
                 </a>
-                <a href="" class="d-inline-block text-decoration-none card-hover">
-                    <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                <a href="" class="product-cards d-inline-block text-decoration-none">
+                    <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                 alt="">
                         </div>
@@ -185,14 +178,14 @@
                         <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
                     </div>
                 </a>
-                <a href="" class="d-inline-block text-decoration-none card-hover">
-                    <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                <a href="" class="product-cards d-inline-block text-decoration-none">
+                    <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                 alt="">
                         </div>
@@ -202,14 +195,14 @@
                         <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
                     </div>
                 </a>
-                <a href="" class="d-inline-block text-decoration-none card-hover">
-                    <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                <a href="" class="product-cards d-inline-block text-decoration-none">
+                    <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                 alt="">
                         </div>
@@ -230,64 +223,52 @@
         <div class="container">
             <div class="bodoni font45 leading55 text-capitalize text-white text-center dpb-50">Shop By Room</div>
             <div class="room-card-slider">
-                <a href="" class="d-inline-block text-decoration-none card-hover">
-                    <div class="room-card-img overflow-hidden radius10 position-relative">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img2.png"
-                            class="h-100 w-100 object-cover img" alt="">
-                        <div class="position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
-                        <div class="position-absolute bottom-0 ps-5">
-                            <div class="col-9">
-                                <div class="bodoni font40 leading48 text-white dpb-20">Bedroom</div>
-                                <div
-                                    class="mont-medium font13 leading20 text-white text-capitalize text-decoration-underline dpb-55">
-                                    Shop Collection</div>
-                            </div>
-                        </div>
+                <a href=""
+                    class="room-cards d-inline-block text-decoration-none card-hover overflow-hidden radius10 position-relative">
+                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img2.png"
+                        class="h-100 w-100 object-cover img" alt="">
+                    <div class="position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
+                    <div class="position-absolute w-100 bottom-0 px-5">
+                        <div class="bodoni font40 leading48 text-white dpb-20">Bedroom</div>
+                        <div
+                            class="mont-medium font13 leading20 text-white text-capitalize text-decoration-underline dpb-55">
+                            Shop Collection</div>
                     </div>
                 </a>
-                <a href="" class="d-inline-block text-decoration-none card-hover">
-                    <div class="room-card-img overflow-hidden radius10 position-relative">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img2.png"
-                            class="h-100 w-100 object-cover img" alt="">
-                        <div class="position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
-                        <div class="position-absolute bottom-0 ps-5">
-                            <div class="col-9">
-                                <div class="bodoni font40 leading48 text-white dpb-20">Bedroom</div>
-                                <div
-                                    class="mont-medium font13 leading20 text-white text-capitalize text-decoration-underline dpb-55">
-                                    Shop Collection</div>
-                            </div>
-                        </div>
+                <a href=""
+                    class="room-cards d-inline-block text-decoration-none card-hover overflow-hidden radius10 position-relative">
+                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img2.png"
+                        class="h-100 w-100 object-cover img" alt="">
+                    <div class="position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
+                    <div class="position-absolute w-100 bottom-0 px-5">
+                        <div class="bodoni font40 leading48 text-white dpb-20">Bedroom</div>
+                        <div
+                            class="mont-medium font13 leading20 text-white text-capitalize text-decoration-underline dpb-55">
+                            Shop Collection</div>
                     </div>
                 </a>
-                <a href="" class="d-inline-block text-decoration-none card-hover">
-                    <div class="room-card-img overflow-hidden radius10 position-relative">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img2.png"
-                            class="h-100 w-100 object-cover img" alt="">
-                        <div class="position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
-                        <div class="position-absolute bottom-0 ps-5">
-                            <div class="col-9">
-                                <div class="bodoni font40 leading48 text-white dpb-20">Bedroom</div>
-                                <div
-                                    class="mont-medium font13 leading20 text-white text-capitalize text-decoration-underline dpb-55">
-                                    Shop Collection</div>
-                            </div>
-                        </div>
+                <a href=""
+                    class="room-cards d-inline-block text-decoration-none card-hover overflow-hidden radius10 position-relative">
+                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img2.png"
+                        class="h-100 w-100 object-cover img" alt="">
+                    <div class="position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
+                    <div class="position-absolute w-100 bottom-0 px-5">
+                        <div class="bodoni font40 leading48 text-white dpb-20">Bedroom</div>
+                        <div
+                            class="mont-medium font13 leading20 text-white text-capitalize text-decoration-underline dpb-55">
+                            Shop Collection</div>
                     </div>
                 </a>
-                <a href="" class="d-inline-block text-decoration-none card-hover">
-                    <div class="room-card-img overflow-hidden radius10 position-relative">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img2.png"
-                            class="h-100 w-100 object-cover img" alt="">
-                        <div class="position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
-                        <div class="position-absolute bottom-0 ps-5">
-                            <div class="col-9">
-                                <div class="bodoni font40 leading48 text-white dpb-20">Bedroom</div>
-                                <div
-                                    class="mont-medium font13 leading20 text-white text-capitalize text-decoration-underline dpb-55">
-                                    Shop Collection</div>
-                            </div>
-                        </div>
+                <a href=""
+                    class="room-cards d-inline-block text-decoration-none card-hover overflow-hidden radius10 position-relative">
+                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img2.png"
+                        class="h-100 w-100 object-cover img" alt="">
+                    <div class="position-absolute top-0 start-0 h-100 w-100 bg-black opacity23"></div>
+                    <div class="position-absolute w-100 bottom-0 px-5">
+                        <div class="bodoni font40 leading48 text-white dpb-20">Bedroom</div>
+                        <div
+                            class="mont-medium font13 leading20 text-white text-capitalize text-decoration-underline dpb-55">
+                            Shop Collection</div>
                     </div>
                 </a>
             </div>
@@ -296,10 +277,9 @@
 
     <!-- banner-section -->
     <section class="banner-section position-relative">
-        <div class="banner-img">
-            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/hero-img.png" alt=""
-                class="h-100 w-100 object-cover">
-        </div>
+        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/hero-img.png" alt=""
+            class="h-100 w-100 object-cover">
+        <div class="bg-gradient-layer position-absolute w-100 h-100 top-0 opacity29"></div>
         <div class="position-absolute top-center start-0 w-100">
             <div class="container w-100">
                 <div class="col-8">
@@ -322,11 +302,9 @@
         <div class="container">
             <div class="row dmb-55">
                 <div class="col-3"></div>
-                <div class="col-6">
-                    <div class="text-center">
-                        <div class="bodoni font50 leading55 text-black text-capitalize dmb-10">Our Projects</div>
-                        <a href="" class="montserrat-medium font13 leading20 text-black">Get in touch</a>
-                    </div>
+                <div class="col-6 text-center">
+                    <div class="bodoni font50 leading55 text-black text-capitalize">Our Projects</div>
+                    <a href="" class="montserrat-medium font13 leading20 text-black dmt-10">Get in touch</a>
                 </div>
                 <div class="col-3">
                     <div class="d-flex justify-content-end align-items-center h-100">
@@ -339,47 +317,38 @@
             </div>
             <div class="row row10">
                 <div class="col-4 cards-col dmt-50">
-                    <a href="" class="text-decoration-none d-inline-block position-relative card-hover">
-                        <div class="project-card-img radius10 overflow-hidden">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
-                                class="w-100 h-100 object-cover img" alt="">
+                    <a href=""
+                        class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden">
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                            class="w-100 h-100 object-cover img" alt="">
+                        <div class="position-absolute bottom-0 text-center w-100 px-5">
+                            <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Whitemills Kitchen &
+                                Bar</div>
+                            <div class="mont-medium font11 leading16 text-white text-uppercase dpb-50">KENT</div>
                         </div>
-                        <div class="position-absolute bottom-0 text-center w-100">
-                            <div class="col-10 mx-auto">
-                                <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Whitemills Kitchen &
-                                    Bar</div>
-                                <div class="mont-medium font11 leading16 text-white text-uppercase dpb-50">KENT</div>
+                    </a>
+                </div>
+                <div class="col-4 cards-col dmt-50">
+                    <a href=""
+                        class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden">
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                            class="w-100 h-100 object-cover img" alt="">
+                        <div class="position-absolute bottom-0 text-center w-100 px-5">
+                            <div class="bodoni font40 leading48 space1_65 text-white dpb-20">BrewDog</div>
+                            <div class="mont-medium font11 leading16 text-white text-uppercase dpb-50">LAS VEGAS
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-4 cards-col dmt-50">
-                    <a href="" class="text-decoration-none d-inline-block position-relative card-hover">
-                        <div class="project-card-img radius10 overflow-hidden">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
-                                class="w-100 h-100 object-cover img" alt="">
-                        </div>
-                        <div class="position-absolute bottom-0 text-center w-100">
-                            <div class="col-10 mx-auto">
-                                <div class="bodoni font40 leading48 space1_65 text-white dpb-20">BrewDog</div>
-                                <div class="mont-medium font11 leading16 text-white text-uppercase dpb-50">LAS VEGAS
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-4 cards-col dmt-50">
-                    <a href="" class="text-decoration-none d-inline-block position-relative card-hover">
-                        <div class="project-card-img radius10 overflow-hidden">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
-                                class="w-100 h-100 object-cover img" alt="">
-                        </div>
-                        <div class="position-absolute bottom-0 text-center w-100">
-                            <div class="col-10 mx-auto">
-                                <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Libertine Burger</div>
-                                <div class="mont-medium font11 leading16 text-white text-uppercase dpb-50">LEAMINGTON
-                                    SPA</div>
-                            </div>
+                    <a href=""
+                        class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden">
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                            class="w-100 h-100 object-cover img" alt="">
+                        <div class="position-absolute bottom-0 text-center w-100 px-5">
+                            <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Libertine Burger</div>
+                            <div class="mont-medium font11 leading16 text-white text-uppercase dpb-50">LEAMINGTON
+                                SPA</div>
                         </div>
                     </a>
                 </div>
@@ -401,8 +370,8 @@
             </div>
             <div class="row row15">
                 <div class="col-4 cards-col dmt-30">
-                    <a href="" class="d-inline-block text-decoration-none card-hover">
-                        <div class="blog-card-img radius10 overflow-hidden dmb-25">
+                    <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
+                        <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
                                 class="w-100 h-100 object-cover img" alt="">
                         </div>
@@ -417,8 +386,8 @@
                     </a>
                 </div>
                 <div class="col-4 cards-col dmt-30">
-                    <a href="" class="d-inline-block text-decoration-none card-hover">
-                        <div class="blog-card-img radius10 overflow-hidden dmb-25">
+                    <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
+                        <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
                                 class="w-100 h-100 object-cover img" alt="">
                         </div>
@@ -433,8 +402,8 @@
                     </a>
                 </div>
                 <div class="col-4 cards-col dmt-30">
-                    <a href="" class="d-inline-block text-decoration-none card-hover">
-                        <div class="blog-card-img radius10 overflow-hidden dmb-25">
+                    <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
+                        <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
                             <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
                                 class="w-100 h-100 object-cover img" alt="">
                         </div>

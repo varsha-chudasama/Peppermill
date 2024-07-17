@@ -21,7 +21,6 @@
 
 .header-card-col,
 .cards-col {
-
   &:nth-child(1),
   &:nth-child(2),
   &:nth-child(3) {
@@ -29,25 +28,27 @@
   }
 }
 
-.product-img {
-  height: 421px;
+.product-cards {
+  .product-img {
+    height: 421px;
+  }
+  .like-img {
+    width: 15px;
+  }
 }
 
-.like-img {
-  width: 15px;
-}
-
-.room-card-img {
+.room-cards {
   height: 518px;
 }
 
-.project-card-img {
+.project-cards {
   height: 514px;
 }
 
-
-.blog-card-img {
-  height: 284px;
+.blog-cards {
+  .blog-card-img {
+    height: 284px;
+  }
 }
 
 .location-card {
@@ -56,6 +57,8 @@
   }
 }
 
-.step-img {
-  height: 284px;
+.step-card {
+  .step-img {
+    height: 284px;
+  }
 }
