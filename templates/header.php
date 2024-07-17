@@ -53,7 +53,7 @@
                             </div>
                             <div class="col-7">
                                 <div class="row row10">
-                                    <div class="col-4 dmb-20 header-card-col">
+                                    <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
@@ -67,7 +67,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-4 dmb-20 header-card-col">
+                                    <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
@@ -81,7 +81,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-4 dmb-20 header-card-col">
+                                    <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
@@ -134,7 +134,7 @@
                             </div>
                             <div class="col-7">
                                 <div class="row row10">
-                                    <div class="col-4 dmb-20 header-card-col">
+                                    <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
@@ -148,7 +148,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-4 dmb-20 header-card-col">
+                                    <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
@@ -162,7 +162,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-4 dmb-20 header-card-col">
+                                    <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
@@ -218,7 +218,7 @@
                             </div>
                             <div class="col-7">
                                 <div class="row row10">
-                                    <div class="col-4 dmb-20 header-card-col">
+                                    <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
@@ -232,7 +232,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-4 dmb-20 header-card-col">
+                                    <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
@@ -246,7 +246,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-4 dmb-20 header-card-col">
+                                    <div class="col-4 dmt-20 header-card-col">
                                         <a href="" class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
                                             <div class="header-cards overflow-hidden position-relative">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/ultimate-card-img3.png" class="w-100 h-100 object-cover img" alt="">
@@ -273,14 +273,198 @@
         </div>
         <div class="col-2">
             <ul class="d-flex align-items-center justify-content-center h-100 list-none logo-navigation mb-0 px-0">
-                <li class="me-2">
-                  <a href="" class="text-decoration-none d-inline-block">
+                <li class="me-2 head-seach">
+                  <div href="" class="text-decoration-none d-inline-block head-seach-img">
                   <div class="bg-292929 icon-bg position-relative rounded-pill">
                     <div class="header-icon position-absolute top-left-center">
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-icon.svg" class="w-100" alt="">
                     </div>
                     </div>
-                  </a>
+                  </div>
+                  <div
+                    class="seach-menu-slide position-absolute start-0 top-100 w-100 bg-white transition">
+                    <div class="container h-100 dpt-50 tpt-20">
+                        <div class="bodoni font60 leading70 text-black text-center dmb-30">
+                        Search
+                        </div>
+                        <div
+                            class="search-menu position-relative radius5 mx-auto">
+                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-icon.svg" alt=""
+                                class="search-img position-absolute top-center start-0 ms-3">
+                            <input type="text" placeholder="Search here..."
+                                class="w-100 bg-transparent border-0 d-flex align-items-center h-100 mont-medium font13 leading20 text-black search-input"
+                                id="search-input" onkeyup="myFunction()">
+                            <div
+                                class="cursor-pointer position-absolute top-center end-0 me-3 p-2">
+                                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-close-img.svg" alt=""
+                                    class="search-close">
+                            </div>
+                        </div>
+                        <div
+                            class="head-search-content d-flex align-items-center justify-content-center">
+                            <div class="seach-logo-img dpb-200 tpb-150">
+                                <img src="assets/images/logo/green-border-logo.svg" alt="">
+                            </div>
+                            <div id="search-suggestions"
+                                class="search-suggestions h-100 w-100 d-none overflow-y-auto">
+                                <div class="row row10">
+                                    <div class="col-3 product-card dmb-115">
+                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
+                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                                                    class="w-100 h-100 object-cover img" alt="">
+                                                <div
+                                                    class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
+                                                    New in</div>
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="mont-medium font16 leading20 text-black dpb-10 search-suggestion-title">Gardena Sheepskin Armchair</div>
+                                                <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-3 product-card dmb-115">
+                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
+                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                                                    class="w-100 h-100 object-cover img" alt="">
+                                                <div
+                                                    class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
+                                                    New in</div>
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="mont-medium font16 leading20 text-black dpb-10 search-suggestion-title">Gardena Sheepskin Armchair</div>
+                                                <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-3 product-card dmb-115">
+                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
+                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                                                    class="w-100 h-100 object-cover img" alt="">
+                                                <div
+                                                    class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
+                                                    New in</div>
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="mont-medium font16 leading20 text-black dpb-10 search-suggestion-title">Gardena Sheepskin Armchair</div>
+                                                <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-3 product-card dmb-115">
+                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
+                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                                                    class="w-100 h-100 object-cover img" alt="">
+                                                <div
+                                                    class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
+                                                    New in</div>
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="mont-medium font16 leading20 text-black dpb-10 search-suggestion-title">Gardena Sheepskin Armchair</div>
+                                                <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-3 product-card dmb-115">
+                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
+                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                                                    class="w-100 h-100 object-cover img" alt="">
+                                                <div
+                                                    class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
+                                                    New in</div>
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="mont-medium font16 leading20 text-black dpb-10 search-suggestion-title">Gardena Sheepskin Armchair</div>
+                                                <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-3 product-card dmb-115">
+                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
+                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                                                    class="w-100 h-100 object-cover img" alt="">
+                                                <div
+                                                    class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
+                                                    New in</div>
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="mont-medium font16 leading20 text-black dpb-10 search-suggestion-title">Gardena Sheepskin Armchair</div>
+                                                <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-3 product-card dmb-115">
+                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
+                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                                                    class="w-100 h-100 object-cover img" alt="">
+                                                <div
+                                                    class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
+                                                    New in</div>
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="mont-medium font16 leading20 text-black dpb-10 search-suggestion-title">Gardena Sheepskin Armchair</div>
+                                                <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-3 product-card dmb-115">
+                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
+                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                                                    class="w-100 h-100 object-cover img" alt="">
+                                                <div
+                                                    class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
+                                                    New in</div>
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="mont-medium font16 leading20 text-black dpb-10 search-suggestion-title">Gardena Sheepskin Armchair</div>
+                                                <div class="mont-medium font13 leading20 text-7D7D7D">£995.00</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
                 </li>
                 <li class="me-2">
                     <a href="" class="text-decoration-none d-inline-block">

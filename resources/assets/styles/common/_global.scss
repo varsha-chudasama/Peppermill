@@ -49,6 +49,10 @@ button:focus {
   list-style: none;
 }
 
+.overflow-y-auto {
+  overflow-y: auto !important;
+}
+
 // TRANSITION AND TRANSFORM GLOBAL CSS
 .transition {
   transition: all 0.3s ease-in-out;
