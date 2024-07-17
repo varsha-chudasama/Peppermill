@@ -261,7 +261,7 @@
                                     Do you ship internationally?
                                 </div>
                                 <div class="closet-closebtn">
-                                    <img src="assets/images/closet-plus-icon.svg" alt=""
+                                    <img src="<?php echo get_home_url(); ?>" alt=""
                                         class="w-100 h-100 object-cover">
                                 </div>
                             </div>
@@ -285,7 +285,7 @@
                                     Can I visit the showroom?
                                 </div>
                                 <div class="closet-closebtn">
-                                    <img src="assets/images/closet-plus-icon.svg" alt=""
+                                    <img src="<?php echo get_home_url(); ?>" alt=""
                                         class="w-100 h-100 object-cover">
                                 </div>
                             </div>
@@ -309,7 +309,7 @@
                                     How long is standard delivery?
                                 </div>
                                 <div class="closet-closebtn">
-                                    <img src="assets/images/closet-plus-icon.svg" alt=""
+                                    <img src="<?php echo get_home_url(); ?>" alt=""
                                         class="w-100 h-100 object-cover">
                                 </div>
                             </div>
@@ -350,12 +350,12 @@
                     class="slick-arrows position-absolute w-100 h-100 top-0 d-flex align-items-center justify-content-end z-3">
                     <div
                         class="prev-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
-                        <img src="http://peppermill.local/wp-content/uploads/2024/07/prev-arrow-2.svg"
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/prev-arrow-2.svg"
                             class="room-prev-arrow" alt="">
                     </div>
                     <div
                         class="next-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
-                        <img src="http://peppermill.local/wp-content/uploads/2024/07/next-arrow-2.svg"
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/next-arrow-2.svg"
                             class="room-next-arrow" alt="">
                     </div>
                 </div>

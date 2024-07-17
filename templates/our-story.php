@@ -197,12 +197,12 @@
                     class="slick-arrows position-absolute w-100 h-100 top-0 d-flex align-items-center justify-content-between">
                     <div
                         class="room-arrow-prev-border d-flex align-items-center justify-content-center bg-transparent z-3 rounded-pill transition">
-                        <img src="http://peppermill.local/wp-content/uploads/2024/07/room-prev-arrow.svg"
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/room-prev-arrow.svg"
                             class="room-prev-arrow" alt="">
                     </div>
                     <div
                         class="room-arrow-next-border d-flex align-items-center justify-content-center bg-transparent z-3 rounded-pill transition">
-                        <img src="http://peppermill.local/wp-content/uploads/2024/07/room-prev-arrow.svg"
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/room-prev-arrow.svg"
                             class="room-next-arrow" alt="">
                     </div>
                 </div>
