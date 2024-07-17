@@ -1,16 +1,20 @@
-.faq-accordion {
-  .closet-accordion {
-    .closet-cards {
-      border-bottom: 1px solid $color-EBEBEB;
-      padding: 27px 0px !important;
+.closet-accordion {
+  .closet-cards {
+    border-bottom: 1px solid $color-EBEBEB;
+    padding: 27px 0px !important;
 
-      &:first-child {
-        border-top: 1px solid $color-EBEBEB;
-      }
+    &:first-child {
+      border-top: 1px solid $color-EBEBEB;
+    }
+    .closet-closebtn{
+      width: 8px;
+    }
 
-      .closet-title {
-        &.active {
-          padding-bottom: 0px !important;
+    .closet-title {
+      &.active {
+        padding-bottom: 0px !important;
+        .closet-closebtn{
+          transform: rotate(45deg);
         }
       }
     }
