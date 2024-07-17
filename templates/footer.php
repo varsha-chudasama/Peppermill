@@ -8,27 +8,27 @@
             </div>
             <div class="footer-slider dpb-50">
             <div class="footer-img radius10 overflow-hidden">
-                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img4.png"
+                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-3.png"
                     class="w-100 h-100 object-cover" alt="">
             </div>
             <div class="footer-img radius10 overflow-hidden">
-                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img4.png"
+                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-4.png"
                     class="w-100 h-100 object-cover" alt="">
             </div>
             <div class="footer-img radius10 overflow-hidden">
-                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img4.png"
+                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-2.png"
                     class="w-100 h-100 object-cover" alt="">
             </div>
             <div class="footer-img radius10 overflow-hidden">
-                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img4.png"
+                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-1.png"
                     class="w-100 h-100 object-cover" alt="">
             </div>
             <div class="footer-img radius10 overflow-hidden">
-                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img4.png"
+                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-1.png"
                     class="w-100 h-100 object-cover" alt="">
             </div>
             <div class="footer-img radius10 overflow-hidden">
-                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img4.png"
+                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-4.png"
                     class="w-100 h-100 object-cover" alt="">
             </div>
             </div>
@@ -159,13 +159,13 @@
         </div>
         <div class="row">
             <div class="col-4">
-                <ul class="d-flex align-items-center h-100 list-none footer-ul mb-0 px-0">
-                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon.svg" class="w-100" alt=""></a></li>
-                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon2.svg" class="w-100" alt=""></a></li>
-                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon3.svg" class="w-100" alt=""></a></li>
-                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon4.svg" class="w-100" alt=""></a></li>
-                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon5.svg" class="w-100" alt=""></a></li>
-                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon.svg" class="w-100" alt=""></a></li>
+                <ul class="d-flex list-none footer-ul mb-0 px-0">
+                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-1.png" class="w-100" alt=""></a></li>
+                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-2.png" class="w-100" alt=""></a></li>
+                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-3.png" class="w-100" alt=""></a></li>
+                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-4.png" class="w-100" alt=""></a></li>
+                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-5.png" class="w-100" alt=""></a></li>
+                    <li class="me-4"><a href="" class="d-inline-block footer-icon"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-6.png" class="w-100" alt=""></a></li>
                 </ul>
             </div>
             <div class="col-5">
@@ -178,10 +178,10 @@
             </div>
             <div class="col-3">
                 <ul class="d-flex footer-ul list-none mb-0 px-0 justify-content-end">
-                     <li class="me-3"><a class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center" href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/Facebook-icon.svg" class="header-icon" alt=""></a></li>
-                     <li class="me-3"><a class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center" href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/Facebook-icon.svg" class="header-icon" alt=""></a></li>
-                     <li class="me-3"><a class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center" href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/Facebook-icon.svg" class="header-icon" alt=""></a></li>
-                     <li class="me-3"><a class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center" href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/Facebook-icon.svg" class="header-icon" alt=""></a></li>
+                     <li class="me-3"><a class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center" href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/facebook.svg" class="header-icon" alt=""></a></li>
+                     <li class="me-3"><a class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center" href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/instagram.svg" class="header-icon" alt=""></a></li>
+                     <li class="me-3"><a class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center" href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/pinterest.svg" class="header-icon" alt=""></a></li>
+                     <li class="me-3"><a class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center" href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/twitter.svg" class="header-icon" alt=""></a></li>
                 </ul>
             </div>
         </div>

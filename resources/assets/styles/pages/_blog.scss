@@ -1,0 +1,11 @@
+.blog-open-section {
+  .product-cards {
+    .product-img {
+      height: 403px !important;
+    }
+  }
+  .menu-links {
+    height: calc(100vh - 300px);
+    top: 185px;
+  }
+}
