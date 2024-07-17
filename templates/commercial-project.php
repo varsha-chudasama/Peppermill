@@ -9,7 +9,7 @@
     <!-- inspiration-hero-section -->
     <section class="inspiration-hero-section position-relative">
         <div class="inspiration-hero-img h-100 position-relative">
-            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/hero-img.png"
+            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/home-hero.png"
                 class="w-100 h-100 object-cover" alt="">
             <div class="layer position-absolute top-0 start-0 bg-black opacity29 h-100 w-100"></div>
         </div>
@@ -68,7 +68,7 @@
             <div class="row row20">
                 <div class="col-4 step-card dmb-25">
                     <div class="step-img radius10 position-relative overflow-hidden card-hover dmb-20">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/treding-img3.png" alt=""
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/three-card-3.png" alt=""
                             class="w-100 h-100 object-cover img">
                     </div>
                     <div class="px-3">
@@ -87,7 +87,7 @@
                 </div>
                 <div class="col-4 step-card dmb-25">
                     <div class="step-img radius10 position-relative overflow-hidden card-hover dmb-20">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/treding-img3.png" alt=""
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-1.png" alt=""
                             class="w-100 h-100 object-cover img">
                     </div>
                     <div class="px-3">
@@ -105,7 +105,7 @@
                 </div>
                 <div class="col-4 step-card dmb-25">
                     <div class="step-img radius10 position-relative overflow-hidden card-hover dmb-20">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/treding-img3.png" alt=""
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-1.png" alt=""
                             class="w-100 h-100 object-cover img">
                     </div>
                     <div class="px-3">
@@ -132,9 +132,8 @@
         <div class="container">
             <div class="row dmb-55">
                 <div class="col-3"></div>
-                <div class="col-6">
-                    <div class="bodoni font50 leading55 text-black text-center text-capitalize dmb-10">Latest Projects
-                    </div>
+                <div class="col-6 text-center">
+                    <div class="bodoni font50 leading55 text-black text-capitalize">Latest Projects</div>
                 </div>
                 <div class="col-3">
                     <div class="d-flex justify-content-end align-items-center h-100">
@@ -148,8 +147,8 @@
             <div class="row row10">
                 <div class="col-4 cards-col dmt-50">
                     <a href=""
-                        class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/project-1.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Whitemills Kitchen &
@@ -161,7 +160,7 @@
                 <div class="col-4 cards-col dmt-50">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/project-2.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">BrewDog</div>
@@ -173,7 +172,7 @@
                 <div class="col-4 cards-col dmt-50">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/project-3.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Libertine Burger</div>
@@ -185,6 +184,7 @@
             </div>
         </div>
     </section>
+
     <div class="spacing dmb-70"></div>
 
     <!-- contact-form-section -->
@@ -331,10 +331,10 @@
     <!-- product-section -->
     <section class="product-section">
         <div class="container">
-            <div class="row align-items-center dmb-60">
+            <div class="row align-items-center  dmb-60">
                 <div class="col-3"></div>
-                <div class="col-6 text-center">
-                    <div class="bodoni font40 leading48 text-black">Latest Commercial Furniture</div>
+                <div class="col-6">
+                    <div class="bodoni font40 leading48 text-black text-center">Latest Commercial Furniture</div>
                 </div>
                 <div class="col-3 d-inline-flex align-items-center justify-content-end">
                     <div class="slick-arrows d-flex">
@@ -354,7 +354,7 @@
             <div class="product-slider">
                 <a href="" class="product-cards d-inline-block text-decoration-none">
                     <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-1.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
@@ -371,7 +371,7 @@
                 </a>
                 <a href="" class="product-cards d-inline-block text-decoration-none">
                     <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-2.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
@@ -388,7 +388,7 @@
                 </a>
                 <a href="" class="product-cards d-inline-block text-decoration-none">
                     <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-3.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
@@ -405,7 +405,7 @@
                 </a>
                 <a href="" class="product-cards d-inline-block text-decoration-none">
                     <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-4.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
@@ -422,7 +422,7 @@
                 </a>
                 <a href="" class="product-cards d-inline-block text-decoration-none">
                     <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-5.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">

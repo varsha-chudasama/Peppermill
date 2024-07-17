@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-6 ps-3">
                     <div class="left-right-img radius10 position-relative overflow-hidden card-hover">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/about-us-img.png" alt=""
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-2.png" alt=""
                             class="w-100 h-100 object-cover img">
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                 <div class="col-6">
                     <div class="col-10 pe-3">
                         <div class="left-right-img radius10 position-relative overflow-hidden card-hover">
-                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/about-us-img.png" alt=""
+                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-right-1.png" alt=""
                                 class="w-100 h-100 object-cover img">
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-6 ps-3">
                     <div class="left-right-img radius10 position-relative overflow-hidden card-hover">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/about-us-img.png" alt=""
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-2.png" alt=""
                             class="w-100 h-100 object-cover img">
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                 <div class="col-6">
                     <div class="col-10 pe-3">
                         <div class="left-right-img radius10 position-relative overflow-hidden card-hover">
-                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/about-us-img.png" alt=""
+                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-right-1.png" alt=""
                                 class="w-100 h-100 object-cover img">
                         </div>
                     </div>

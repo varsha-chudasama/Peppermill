@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-6 ps-3">
                     <div class="left-right-img radius10 position-relative overflow-hidden card-hover">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/about-us-img.png" alt=""
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-right-1.png" alt=""
                             class="w-100 h-100 object-cover img">
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                 <div class="col-6">
                     <div class="col-10 pe-3">
                         <div class="left-right-img radius10 position-relative overflow-hidden card-hover">
-                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/about-us-img.png" alt=""
+                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-2.png" alt=""
                                 class="w-100 h-100 object-cover img">
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/prev-arrow-2.svg"
                                 class="h-100" alt=""></button>
                         <button class="next-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
-                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/next-arrow-2.svg"
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/right-slide-arrow.svg"
                                 class="h-100" alt=""></button>
                     </div>
                 </div>
@@ -187,12 +187,12 @@
 
     <div class="spacing dmb-140"></div>
 
-    <!-- blog-card-section -->
+     <!-- blog-card-section -->
     <section class="blog-card-section">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center dmb-25">
                 <div class="bodoni font40 leading48 text-black text-capitalize">The Latest From Our Team
-                </div>
+</div>
                 <a href=""
                     class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
                     VIEW ALL
@@ -202,7 +202,7 @@
                 <div class="col-4 cards-col dmt-30">
                     <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
                         <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-1.png"
                                 class="w-100 h-100 object-cover img" alt="">
                         </div>
                         <div class="blog-content">
@@ -218,7 +218,7 @@
                 <div class="col-4 cards-col dmt-30">
                     <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
                         <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-2.png"
                                 class="w-100 h-100 object-cover img" alt="">
                         </div>
                         <div class="blog-content">
@@ -234,7 +234,7 @@
                 <div class="col-4 cards-col dmt-30">
                     <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
                         <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-3.png"
                                 class="w-100 h-100 object-cover img" alt="">
                         </div>
                         <div class="blog-content">
