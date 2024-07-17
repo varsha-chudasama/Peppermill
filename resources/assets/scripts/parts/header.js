@@ -1,36 +1,31 @@
 export class Header {
     init() {
-        this.OnClickHeader();
+        this.HeaderHover();
         this.SearchMenu();
     }
 
-    OnClickHeader() {
+    HeaderHover() {
         $(document).ready(function () {
-            $('.menu-item').each(function () {
-                if ($(this).children(".mega-menu").length === 0) {
-                    return;
-                } else {
-                    $(this).on('click', function (event) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                        $('.head-seach').removeClass('search-open')
-                        $('html').removeClass('overflow-y-hidden')
-                        $('.header').removeClass('header-hover');
-                        $('.menu-item').removeClass('menu-active');
-                        $(this).toggleClass('menu-active');
-                        if ($(this).hasClass('menu-active')) {
-                            $('.header').addClass('header-hover');
+            function handleWindowResizeDeskSize() {
+                var windowWidth = $(window).width();
+                if (windowWidth >= 992) {
+                    $('.menu-item').each(function () {
+                        if ($(this).children(".mega-menu").length === 0) {
+                            return;
+                        } else {
+                            $(this).hover(function () {
+                                $('.header').addClass('header-hover');
+                                $(this).addClass('menu-active');
+                            }, function () {
+                                $('.header').removeClass('header-hover');
+                                $(this).removeClass('menu-active');
+                            });
                         }
                     });
                 }
-            });
-            $(document).on('click', function () {
-                $('.header').removeClass('header-hover');
-                $('.menu-item').removeClass('menu-active');
-            });
-            $('.mega-menu').on('click', function (event) {
-                event.stopPropagation();
-            });
+            }
+            handleWindowResizeDeskSize();
+            $(window).resize(handleWindowResizeDeskSize);
         });
     }
 

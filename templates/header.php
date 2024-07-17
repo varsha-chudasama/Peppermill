@@ -306,17 +306,17 @@
                                 <img src="assets/images/logo/green-border-logo.svg" alt="">
                             </div>
                             <div id="search-suggestions"
-                                class="search-suggestions h-100 w-100 d-none overflow-y-auto">
-                                <div class="row row10">
-                                    <div class="col-3 product-card dmb-115">
-                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
-                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                class="search-suggestions h-100 w-100 d-none overflow-y-auto dpt-40">
+                                <div class="row row10 search-suggestion-items">
+                                    <div class="col-3 dmb-115">
+                                        <a href="" class="product-cards search-suggestion-item d-inline-block text-decoration-none">
+                                            <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                                                     class="w-100 h-100 object-cover img" alt="">
                                                 <div
                                                     class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                                                     New in</div>
-                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                                                     <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                                         alt="">
                                                 </div>
@@ -327,15 +327,15 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-3 product-card dmb-115">
-                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
-                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                    <div class="col-3 dmb-115">
+                                        <a href="" class="product-cards search-suggestion-item d-inline-block text-decoration-none">
+                                            <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                                                     class="w-100 h-100 object-cover img" alt="">
                                                 <div
                                                     class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                                                     New in</div>
-                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                                                     <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                                         alt="">
                                                 </div>
@@ -346,15 +346,15 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-3 product-card dmb-115">
-                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
-                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                    <div class="col-3 dmb-115">
+                                        <a href="" class="product-cards search-suggestion-item d-inline-block text-decoration-none">
+                                            <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                                                     class="w-100 h-100 object-cover img" alt="">
                                                 <div
                                                     class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                                                     New in</div>
-                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                                                     <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                                         alt="">
                                                 </div>
@@ -365,15 +365,15 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-3 product-card dmb-115">
-                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
-                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                    <div class="col-3 dmb-115">
+                                        <a href="" class="product-cards search-suggestion-item d-inline-block text-decoration-none">
+                                            <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                                                     class="w-100 h-100 object-cover img" alt="">
                                                 <div
                                                     class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                                                     New in</div>
-                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                                                     <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                                         alt="">
                                                 </div>
@@ -384,15 +384,15 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-3 product-card dmb-115">
-                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
-                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                    <div class="col-3 dmb-115">
+                                        <a href="" class="product-cards search-suggestion-item d-inline-block text-decoration-none">
+                                            <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                                                     class="w-100 h-100 object-cover img" alt="">
                                                 <div
                                                     class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                                                     New in</div>
-                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                                                     <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                                         alt="">
                                                 </div>
@@ -403,15 +403,15 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-3 product-card dmb-115">
-                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
-                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                    <div class="col-3 dmb-115">
+                                        <a href="" class="product-cards search-suggestion-item d-inline-block text-decoration-none">
+                                            <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                                                     class="w-100 h-100 object-cover img" alt="">
                                                 <div
                                                     class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                                                     New in</div>
-                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                                                     <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                                         alt="">
                                                 </div>
@@ -422,15 +422,15 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-3 product-card dmb-115">
-                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
-                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                    <div class="col-3 dmb-115">
+                                        <a href="" class="product-cards search-suggestion-item d-inline-block text-decoration-none">
+                                            <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                                                     class="w-100 h-100 object-cover img" alt="">
                                                 <div
                                                     class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                                                     New in</div>
-                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                                                     <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                                         alt="">
                                                 </div>
@@ -441,15 +441,15 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-3 product-card dmb-115">
-                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
-                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
+                                    <div class="col-3 dmb-115">
+                                        <a href="" class="product-cards search-suggestion-item d-inline-block text-decoration-none">
+                                            <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
                                                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
                                                     class="w-100 h-100 object-cover img" alt="">
                                                 <div
                                                     class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                                                     New in</div>
-                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2">
+                                                <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
                                                     <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
                                                         alt="">
                                                 </div>

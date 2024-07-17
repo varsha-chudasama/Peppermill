@@ -106,7 +106,7 @@
     <!-- product-section -->
     <section class="product-section">
         <div class="container">
-            <div class="row align-items-center  dmb-60">
+            <div class="row align-items-center dmb-60">
                 <div class="col-3"></div>
                 <div class="col-6">
                     <div class="bodoni font40 leading48 text-black text-center">Trending products</div>
