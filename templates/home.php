@@ -308,7 +308,7 @@
                 </div>
                 <div class="col-3">
                     <div class="d-flex justify-content-end align-items-center h-100">
-                        <a href="#enquiryModalToggle" data-bs-toggle="modal"
+                        <a href=""
                             class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
                             VIEW ALL
                         </a>
@@ -351,63 +351,6 @@
                                 SPA</div>
                         </div>
                     </a>
-                </div>
-            </div>
-        </div>
-        <div class="modal enquiry-modal fade" data-bs-backdrop="static" id="enquiryModalToggle" aria-hidden="true"
-            aria-labelledby="enquiryModalToggleLabel" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content position-relative border-0 radius5">
-                    <div class="close-div position-absolute top-0 end-0">
-                        <button type="button" class="btn-close p-0 close-round" data-bs-dismiss="modal"
-                            aria-label="Close">
-                            <img src="" alt="">
-                        </button>
-                    </div>
-                    <div class="col-12 text-center">
-                        <div class="mont-medium font11 leading20 text-918E8E dmb-15">Enquire for</div>
-                        <div class="bodoni font40 leading48 text-black dmb-30 text-capitalize">Sales Manager</div>
-                        <form class="enquiry-form">
-                            <div class="dmb-20">
-                                <input type="text" class="w-100 bg-white enquiry-modal-input px-3 py-2 radius5 "
-                                    placeholder="Name…">
-                                <input type="email" class="w-100 bg-white enquiry-modal-input px-3 py-2 radius5 "
-                                    placeholder="Email…">
-                                <input type="number" class="w-100 bg-white enquiry-modal-input px-3 py-2 radius5 "
-                                    placeholder="Number…">
-                            </div>
-                            <div class="upload-cv bg-white text-center dmb-20 tmb-45 radius5">
-                                <label for="uploadFile"
-                                    class="w-100 d-flex align-items-center justify-content-center h-100 mont-medium font11 leading20 text-918E8E">
-                                    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="18"
-                                        height="18" class="me-2">
-                                        <title>New Project</title>
-                                        <defs>
-                                            <image width="36" height="36" id="img1"
-                                                href="data:image/
-                                             png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAAAXNSR0IB2cksfwAAALRQTFRFAAAAd3d3LCwsDAwMCAgIKCgoa
-                                             Ghoz8/
-                                             PfHx8BAQEAAAAZGRkVFRUPDw8Z2dnJCQks7Ozw8PDMzMz09PTc3Nzt7e3KysrGBgYGxsba2tro6OjNzc3i4uLg4ODy8vLXFxcEBAQk5OTdHR0b29v
-                                             FBQULy8vOzs7v7+/q6urf39/e3t7ICAgx8fHj4+PY2Nju7u7W1tbSEhIv7+/QEBAT09Pkr/0V1dXaZbLx8fHJycnra2t////9iiFigAAADx0Uk5TAP///////
-                                             wr//////////89A/wL/pP//////////F///////////Xf////8o//99//8X//8A/wAC/
-                                             wAATNPgPQAAAR9JREFUeJyN1HlXgzAMAPA4WrX1mBs68BzI5hyweeK17/+9TB7oGuxh/iEpv0dDyQPAFTuDSMjdPed9jH2l2zhwm0P9G0f/
-                                             MFofe8zwBGA0xkTFTiPbnNRpwMAZ5pOAAcAiCRlCad+cp9xcYHlp6Sm+MooE0bUFmSHRRHzpZprREefM6JyZ258zlqYpmDG+xcxv0rmgy53HyAV
-                                             mBfY68pg2LwLmXiz9PZNRWpVYLyrPXkNKokGiff3U0fYY3D3XVUfUkpmSz8aKZnG27o2s4rNhjaJnctvYTxA9bEs6n+rPAOGi4Kb3Xh3KQgZopuOAgU
-                                             dcfwoYeKY7LzV+t8RpAF7Nn4PDAMz9pmkaurx1RKxsz3hvEXysP0U2Lu0bfW0236i5Gyu4EJH/AAAAAElFTkSuQmCC" />
-                                        </defs>
-                                        <style>
-                                        </style>
-                                        <use id="Layer 1" href="#img1" x="0" y="0" />
-                                    </svg>
-                                    Click to upload or drag CV & Cover letter here
-                                </label>
-                            </div>
-                            <button type="submit"
-                                class="text-decoration-none d-inline-flex submit-btn border-0 radius5 bg-292929 text-white text-uppercase tracking-wide mont-semibold font11 leading20 space0_28 align-items-center">
-                                SUBMIT ENQUIRY
-                            </button>
-                        </form>
-                    </div>
                 </div>
             </div>
         </div>
