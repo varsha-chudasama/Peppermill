@@ -1,4 +1,4 @@
-<header class="header position-fixed top-0 w-100 z-1">
+<header class="header position-fixed top-0 w-100 z-1 transition">
     <div class="header-section">
         <div class="bg-292929 dpt-10 dpb-10">
             <div class="container">
@@ -13,9 +13,9 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white dpt-10 dpb-10">
+        <div class="bg-white">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-2">
                         <a href="" class="header-logo d-inline-block text-decoration-none">
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-logo.svg"
@@ -25,11 +25,11 @@
                     <div class="col-8">
                         <nav class="nav d-flex align-items-center justify-content-center h-100">
                             <ul class="navigation d-flex align-items-center mb-0 px-0 list-none">
-                                <li class="menu-item  d-flex align-items-center me-4"><a
+                                <li class="menu-item dmt-30 dpb-30  d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">New in</a>
                                 </li>
-                                <li class="menu-item d-flex align-items-center me-4"><a
+                                <li class="menu-item dmt-30 dpb-30 d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">Seating</a>
                                     <div
@@ -160,15 +160,15 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="menu-item d-flex align-items-center me-4"><a
+                                <li class="menu-item dmt-30 dpb-30 d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">Tables</a>
                                 </li>
-                                <li class="menu-item d-flex align-items-center me-4"><a
+                                <li class="menu-item dmt-30 dpb-30 d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">Vintage</a>
                                 </li>
-                                <li class="menu-item d-flex align-items-center me-4"><a
+                                <li class="menu-item dmt-30 dpb-30 d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">Commercial</a>
                                     <div
@@ -308,19 +308,19 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="menu-item d-flex align-items-center me-4"><a
+                                <li class="menu-item dmt-30 dpb-30 d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">Storage</a>
                                 </li>
-                                <li class="menu-item d-flex align-items-center me-4"><a
+                                <li class="menu-item dmt-30 dpb-30 d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">Outdoor</a>
                                 </li>
-                                <li class="menu-item d-flex align-items-center me-4"><a
+                                <li class="menu-item dmt-30 dpb-30 d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">Clearance</a>
                                 </li>
-                                <li class="menu-item d-flex align-items-center me-4"><a
+                                <li class="menu-item dmt-30 dpb-30 d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">Inspiration</a>
                                     <div
@@ -463,7 +463,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="menu-item d-flex align-items-center me-4"><a
+                                <li class="menu-item dmt-30 dpb-30 d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">Showroom</a>
                                 </li>
@@ -500,7 +500,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="head-search-content d-flex align-items-center justify-content-center">
+                                            class="head-search-content d-flex align-items-center justify-content-center dmt-40">
                                             <div class="seach-logo-img dpb-200 tpb-150">
                                                 <img src="assets/images/logo/green-border-logo.svg" alt="">
                                             </div>

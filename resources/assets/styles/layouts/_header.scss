@@ -65,7 +65,7 @@
                         &::after {
                             content: '';
                             position: absolute;
-                            bottom: -22px;
+                            bottom: -30px;
                             left: 50%;
                             width: 10px;
                             height: 2px;
@@ -89,6 +89,14 @@
                 }
             }
         }
+    }
+
+    &.header-fixed-os {
+        transform: translateY(0px);
+    }
+
+    &.hidden {
+        transform: translateY(-110px);
     }
 
     &.header-hover {
