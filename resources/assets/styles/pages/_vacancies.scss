@@ -1,0 +1,26 @@
+.vacancy-card-section {
+    .vacancies-menu {
+        height: 47px;
+
+        .vacancie-input {
+            width: 432px;
+            border: 1px solid $color-D5D5D5;
+
+            &::placeholder {
+                color: $black;
+            }
+        }
+
+        .search-btn {
+            padding: 0px 35px;
+            background-color: $color-292929;
+            color: $white;
+            border: 1px solid $color-292929;
+
+            &:hover {
+                color: $color-292929;
+                background-color: transparent;
+            }
+        }
+    }
+}

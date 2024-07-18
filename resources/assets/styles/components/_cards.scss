@@ -21,6 +21,7 @@
 
 .header-card-col,
 .cards-col {
+
   &:nth-child(1),
   &:nth-child(2),
   &:nth-child(3) {
@@ -32,6 +33,7 @@
   .product-img {
     height: 421px;
   }
+
   .like-img {
     width: 15px;
   }
@@ -67,12 +69,15 @@
   height: 400px;
 }
 
-.testimonial-card{
+.testimonial-card,
+.vacancy-cards {
   border-bottom: 1px solid $color-EBEBEB;
-  &:first-child{
+
+  &:first-child {
     border-top: 1px solid $color-EBEBEB;
   }
-  .review-star{
+
+  .review-star {
     width: 14px;
   }
 }

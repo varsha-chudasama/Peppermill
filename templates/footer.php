@@ -1,11 +1,12 @@
-<footer class="footer bg-292929 dpt-65 dpb-40">
-    <div class="container">
-        <div class="text-center dpb-45">
-            <div class="bodoni font40 leading48 text-white dmb-15">#peppermillhomes</div>
-            <div class="mont-normal font13 leading20 text-white">Share your creation on Instagram using the hashtag
+<footer class="footer">
+        <div class="top-footer dpt-40">
+            <div class="container">
+            <div class="text-center dpb-45">
+            <div class="bodoni font40 leading48 dmb-15 top-footer-text">#peppermillhomes</div>
+            <div class="mont-normal font13 leading20 top-footer-text">Share your creation on Instagram using the hashtag
                 #peppermillhomes</div>
-        </div>
-        <div class="footer-slider dpb-100">
+            </div>
+            <div class="footer-slider dpb-50">
             <div class="footer-img radius10 overflow-hidden">
                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-3.png"
                     class="w-100 h-100 object-cover" alt="">
@@ -30,8 +31,12 @@
                 <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-4.png"
                     class="w-100 h-100 object-cover" alt="">
             </div>
+            </div>
+            </div>
         </div>
-        <div class="row dpb-130">
+    <div class="container">
+       <div class="bottom-footer dpt-80 dpb-45">
+       <div class="row dpb-130">
             <div class="col-2">
                 <ul class="list-none footer-content mb-0 px-0">
                     <li class="dmb-30 font26 leading30 text-white">
@@ -180,6 +185,7 @@
                 </ul>
             </div>
         </div>
+       </div>
     </div>
 </footer>
 
