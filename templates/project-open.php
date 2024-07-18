@@ -163,6 +163,125 @@
         </div>
     </section>
 
+    <!-- testimonial-slider-section -->
+    <!-- <section class="testimonial-slider-section bg-292929 dpt-145 dpb-145">
+        <div class="container h-100">
+            <div class="position-relative">
+                <div
+                    class="slick-arrows position-absolute w-100 h-100 top-0 d-flex align-items-center justify-content-between">
+                    <div
+                        class="room-arrow-prev-border d-flex align-items-center justify-content-center bg-transparent z-3 rounded-pill transition">
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-slide-arrow.svg"
+                            class="room-prev-arrow" alt="">
+                    </div>
+                    <div
+                        class="room-arrow-next-border d-flex align-items-center justify-content-center bg-transparent z-3 rounded-pill transition">
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/right-slide-arrow.svg"
+                            class="room-next-arrow" alt="">
+                    </div>
+                </div>
+                <div class="mont-normal font11 leading20 space1_65 text-white text-center dmb-60">TESTIMONIALS</div>
+                <div class="col-10 mx-auto">
+                    <div class="testimonial-slider">
+                        <div>
+                            <div class="bodoni font45 leading55 text-white text-center dmb-50">
+                                “Many, many thanks for going the extra mile to help us.”
+                            </div>
+                            <div class="col-10 mx-auto px-4">
+                                <div class="mont-normal font13 leading24 text-center text-white dmb-35">
+                                    ‘Sssshhhhh! This place needs to remain a secret, I don’t want everyone knowing my
+                                    secret
+                                    place
+                                    to shop. New showroom is amazing, staff friendly & happy to help. They will even
+                                    lend a
+                                    tape
+                                    measure to make sure the furniture will fit. I’ve had a few pieces & can’t wait for
+                                    my
+                                    house
+                                    renovation to be over so I can take another trip & indulge in my guilty pleasure
+                                    again.’
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="" class="mont-medium font13 leading24 text-center text-white">Founder</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bodoni font45 leading55 text-white text-center dmb-50">
+                                “Many, many thanks for going the extra mile to help us. 1”
+                            </div>
+                            <div class="col-10 mx-auto px-4">
+                                <div class="mont-normal font13 leading24 text-center text-white dmb-35">
+                                    ‘Sssshhhhh! This place needs to remain a secret, I don’t want everyone knowing my
+                                    secret
+                                    place
+                                    to shop. New showroom is amazing, staff friendly & happy to help. They will even
+                                    lend a
+                                    tape
+                                    measure to make sure the furniture will fit. I’ve had a few pieces & can’t wait for
+                                    my
+                                    house
+                                    renovation to be over so I can take another trip & indulge in my guilty pleasure
+                                    again.’
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="" class="mont-medium font13 leading24 text-center text-white">Founder</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bodoni font45 leading55 text-white text-center dmb-50">
+                                “Many, many thanks for going the extra mile to help us. 2”
+                            </div>
+                            <div class="col-10 mx-auto px-4">
+                                <div class="mont-normal font13 leading24 text-center text-white dmb-35">
+                                    ‘Sssshhhhh! This place needs to remain a secret, I don’t want everyone knowing my
+                                    secret
+                                    place
+                                    to shop. New showroom is amazing, staff friendly & happy to help. They will even
+                                    lend a
+                                    tape
+                                    measure to make sure the furniture will fit. I’ve had a few pieces & can’t wait for
+                                    my
+                                    house
+                                    renovation to be over so I can take another trip & indulge in my guilty pleasure
+                                    again.’
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="" class="mont-medium font13 leading24 text-center text-white">Founder</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bodoni font45 leading55 text-white text-center dmb-50">
+                                “Many, many thanks for going the extra mile to help us. 3”
+                            </div>
+                            <div class="col-10 mx-auto px-4">
+                                <div class="mont-normal font13 leading24 text-center text-white dmb-35">
+                                    ‘Sssshhhhh! This place needs to remain a secret, I don’t want everyone knowing my
+                                    secret
+                                    place
+                                    to shop. New showroom is amazing, staff friendly & happy to help. They will even
+                                    lend a
+                                    tape
+                                    measure to make sure the furniture will fit. I’ve had a few pieces & can’t wait for
+                                    my
+                                    house
+                                    renovation to be over so I can take another trip & indulge in my guilty pleasure
+                                    again.’
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="" class="mont-medium font13 leading24 text-center text-white">Founder</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
     <div class="spacing dmb-100"></div>
 
     <!-- product-section -->

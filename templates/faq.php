@@ -28,7 +28,7 @@
                                     Do you ship internationally?
                                 </div>
                                 <div class="closet-closebtn d-flex-align-items-center">
-                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100">
+                                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/close-icon.svg" alt="" class="w-100">
                                 </div>
                             </div>
                             <div class="closet-content dmt-20 dmb-10 pe-3">
@@ -49,7 +49,7 @@
                                     Do you ship internationally?
                                 </div>
                                 <div class="closet-closebtn d-flex-align-items-center">
-                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100">
+                                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/close-icon.svg" alt="" class="w-100">
                                 </div>
                             </div>
                             <div class="closet-content dmt-20 dmb-10 pe-3">
@@ -70,7 +70,7 @@
                                     Do you ship internationally?
                                 </div>
                                 <div class="closet-closebtn d-flex-align-items-center">
-                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100">
+                                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/close-icon.svg" alt="" class="w-100">
                                 </div>
                             </div>
                             <div class="closet-content dmt-20 dmb-10 pe-3">
@@ -91,7 +91,7 @@
                                     Do you ship internationally?
                                 </div>
                                 <div class="closet-closebtn d-flex-align-items-center">
-                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100">
+                                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/close-icon.svg" alt="" class="w-100">
                                 </div>
                             </div>
                             <div class="closet-content dmt-20 dmb-10 pe-3">

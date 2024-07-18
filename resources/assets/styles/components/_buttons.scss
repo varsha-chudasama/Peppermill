@@ -3,6 +3,10 @@
   padding: 0px 26px;
   min-width: 160px;
 
+  &.footer-btn {
+    min-width: 100px !important;
+  }
+
   &.white-border-btn {
     background-color: transparent;
     border: 1px solid $white;
@@ -24,20 +28,15 @@
       color: $color-292929;
     }
   }
-}
 
-.footer-btn {
-  height: 47px;
-  padding: 0px 24px;
-
-  &.white-border-btn {
+  &.border-292929-btn {
     background-color: transparent;
-    border: 1px solid $white;
-    color: $white;
+    border: 1px solid $color-292929;
+    color: $color-292929;
 
     &:hover {
-      background-color: $white;
-      color: $black;
+      background-color: $color-292929;
+      color: $white;
     }
   }
 }

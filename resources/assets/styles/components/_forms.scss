@@ -17,7 +17,7 @@
     }
   }
 
-  .input-textarea{
+  .input-textarea {
     height: 113px;
   }
 
@@ -29,5 +29,18 @@
         color: $color-918E8E !important;
       }
     }
+  }
+}
+
+.enquiry-form {
+  .upload-cv {
+    border: 1px dashed $color-918E8E;
+    height: 46px;
+  }
+}
+
+.vacancies-menu{
+  .input-field{
+    min-width: 432px;
   }
 }

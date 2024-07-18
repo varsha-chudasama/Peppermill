@@ -53,7 +53,7 @@
                 <div class="d-flex justify-content-center">
                     <a href=""
                         class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
-                        SHOP NOW
+                        get in touch
                     </a>
                 </div>
             </div>
@@ -215,7 +215,7 @@
                         <textarea name="" id="" placeholder="Anything you’d like to add…"
                             class="input-textarea w-100 mont-medium font12 leading16 text-918E8E radius5 px-4 pt-3"></textarea>
                     </div>
-                    <div class="d-flex align-items-center justify-content-center dmt-30">
+                    <div class="w-100 d-flex align-items-center justify-content-center dmt-30">
                         <a href=""
                             class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-flex align-items-center justify-content-center transition">
                             SUBMIT ENQUIRY
@@ -249,7 +249,7 @@
                                     Do you ship internationally?
                                 </div>
                                 <div class="closet-closebtn d-flex-align-items-center">
-                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100">
+                                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/close-icon.svg" alt="" class="w-100">
                                 </div>
                             </div>
                             <div class="closet-content dmt-20 dmb-10 pe-3">
@@ -270,7 +270,7 @@
                                     Can I visit the showroom?
                                 </div>
                                 <div class="closet-closebtn d-flex-align-items-center">
-                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100">
+                                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/close-icon.svg" alt="" class="w-100">
                                 </div>
                             </div>
                             <div class="closet-content dmt-20 dmb-10 pe-3">
@@ -291,7 +291,7 @@
                                     How long is standard delivery?
                                 </div>
                                 <div class="closet-closebtn d-flex-align-items-center">
-                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100">
+                                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/close-icon.svg" alt="" class="w-100">
                                 </div>
                             </div>
                             <div class="closet-content dmt-20 dmb-10 pe-3">

@@ -120,12 +120,12 @@
                         promotions and discounts:</div>
                     <div class="d-flex input-row dmb-15">
                         <div class="pe-2 w-100">
-                            <input type="text" class="mont-normal font13 leading20 text-black px-4 radius5 w-100"
+                            <input type="text" class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4"
                                 placeholder="Email address…">
                         </div>
                         <div class="">
                             <a href=""
-                                class="text-decoration-none footer-btn white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
+                                class="footer-btn text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-flex align-items-center justify-content-center transition">
                                 Submit
                             </a>
                         </div>

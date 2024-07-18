@@ -21,7 +21,6 @@
 
 .header-card-col,
 .cards-col {
-
   &:nth-child(1),
   &:nth-child(2),
   &:nth-child(3) {
@@ -69,10 +68,9 @@
   height: 400px;
 }
 
+.closet-cards,
 .testimonial-card,
 .vacancy-cards {
-  border-bottom: 1px solid $color-EBEBEB;
-
   &:first-child {
     border-top: 1px solid $color-EBEBEB;
   }

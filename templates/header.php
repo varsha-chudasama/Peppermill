@@ -18,8 +18,8 @@
                 <div class="row">
                     <div class="col-2">
                         <a href="" class="header-logo d-inline-block text-decoration-none">
-                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-logo.svg"
-                                class="w-100" alt="">
+                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/logo.svg" class="w-100"
+                                alt="">
                         </a>
                     </div>
                     <div class="col-8">
@@ -29,8 +29,8 @@
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">New in</a>
                                 </li>
-                                <li class="menu-item d-flex align-items-center me-4"><a
-                                        class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
+                                <li class="menu-item d-flex align-items-center me-4">
+                                    <a class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
                                         href="">Seating</a>
                                     <div
                                         class="mega-menu position-absolute top-100 start-0 w-100 bg-white dpt-35 dpb-45 transition">
@@ -108,14 +108,11 @@
                                                         </div>
                                                         <div class="col-4 dmt-20 header-card-col">
                                                             <a href=""
-                                                                class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative w-100">
+                                                                class="header-cards d-inline-block text-decoration-none card-hover radius10 overflow-hidden w-100 position-relative">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-2.png"
+                                                                    class="w-100 h-100 object-cover img" alt="">
                                                                 <div
-                                                                    class="header-cards overflow-hidden position-relative">
-                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-2.png"
-                                                                        class="w-100 h-100 object-cover img" alt="">
-                                                                    <div
-                                                                        class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
-                                                                    </div>
+                                                                    class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
                                                                 </div>
                                                                 <div
                                                                     class="position-absolute top-center text-center w-100">
@@ -132,14 +129,11 @@
                                                         </div>
                                                         <div class="col-4 dmt-20 header-card-col">
                                                             <a href=""
-                                                                class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                                                class="header-cards d-inline-block text-decoration-none card-hover radius10 overflow-hidden w-100 position-relative">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-1.png"
+                                                                    class="w-100 h-100 object-cover img" alt="">
                                                                 <div
-                                                                    class="header-cards overflow-hidden position-relative">
-                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-1.png"
-                                                                        class="w-100 h-100 object-cover img" alt="">
-                                                                    <div
-                                                                        class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
-                                                                    </div>
+                                                                    class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
                                                                 </div>
                                                                 <div
                                                                     class="position-absolute top-center text-center w-100">
@@ -232,14 +226,11 @@
                                                     <div class="row row10">
                                                         <div class="col-4 dmt-20 header-card-col">
                                                             <a href=""
-                                                                class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                                                class="header-cards d-inline-block text-decoration-none card-hover radius10 overflow-hidden w-100 position-relative">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/header-1.png"
+                                                                    class="w-100 h-100 object-cover img" alt="">
                                                                 <div
-                                                                    class="header-cards overflow-hidden position-relative">
-                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/header-1.png"
-                                                                        class="w-100 h-100 object-cover img" alt="">
-                                                                    <div
-                                                                        class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
-                                                                    </div>
+                                                                    class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
                                                                 </div>
                                                                 <div
                                                                     class="position-absolute top-center text-center w-100">
@@ -256,14 +247,11 @@
                                                         </div>
                                                         <div class="col-4 dmt-20 header-card-col">
                                                             <a href=""
-                                                                class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                                                class="header-cards d-inline-block text-decoration-none card-hover radius10 overflow-hidden w-100 position-relative">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/header-2.png"
+                                                                    class="w-100 h-100 object-cover img" alt="">
                                                                 <div
-                                                                    class="header-cards overflow-hidden position-relative">
-                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/header-2.png"
-                                                                        class="w-100 h-100 object-cover img" alt="">
-                                                                    <div
-                                                                        class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
-                                                                    </div>
+                                                                    class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
                                                                 </div>
                                                                 <div
                                                                     class="position-absolute top-center text-center w-100">
@@ -280,14 +268,11 @@
                                                         </div>
                                                         <div class="col-4 dmt-20 header-card-col">
                                                             <a href=""
-                                                                class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                                                class="header-cards d-inline-block text-decoration-none card-hover radius10 overflow-hidden w-100 position-relative">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-2.png"
+                                                                    class="w-100 h-100 object-cover img" alt="">
                                                                 <div
-                                                                    class="header-cards overflow-hidden position-relative">
-                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-2.png"
-                                                                        class="w-100 h-100 object-cover img" alt="">
-                                                                    <div
-                                                                        class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
-                                                                    </div>
+                                                                    class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
                                                                 </div>
                                                                 <div
                                                                     class="position-absolute top-center text-center w-100">
@@ -387,14 +372,11 @@
                                                     <div class="row row10">
                                                         <div class="col-4 dmt-20 header-card-col">
                                                             <a href=""
-                                                                class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                                                class="header-cards d-inline-block text-decoration-none card-hover radius10 overflow-hidden w-100 position-relative">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-3.png"
+                                                                    class="w-100 h-100 object-cover img" alt="">
                                                                 <div
-                                                                    class="header-cards overflow-hidden position-relative">
-                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-3.png"
-                                                                        class="w-100 h-100 object-cover img" alt="">
-                                                                    <div
-                                                                        class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
-                                                                    </div>
+                                                                    class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
                                                                 </div>
                                                                 <div
                                                                     class="position-absolute top-center text-center w-100">
@@ -411,14 +393,11 @@
                                                         </div>
                                                         <div class="col-4 dmt-20 header-card-col">
                                                             <a href=""
-                                                                class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                                                class="header-cards d-inline-block text-decoration-none card-hover radius10 overflow-hidden w-100 position-relative">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-2.png"
+                                                                    class="w-100 h-100 object-cover img" alt="">
                                                                 <div
-                                                                    class="header-cards overflow-hidden position-relative">
-                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-2.png"
-                                                                        class="w-100 h-100 object-cover img" alt="">
-                                                                    <div
-                                                                        class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
-                                                                    </div>
+                                                                    class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
                                                                 </div>
                                                                 <div
                                                                     class="position-absolute top-center text-center w-100">
@@ -435,14 +414,11 @@
                                                         </div>
                                                         <div class="col-4 dmt-20 header-card-col">
                                                             <a href=""
-                                                                class="d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative">
+                                                                class="header-cards d-inline-block text-decoration-none card-hover radius10 overflow-hidden w-100 position-relative">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-3.png"
+                                                                    class="w-100 h-100 object-cover img" alt="">
                                                                 <div
-                                                                    class="header-cards overflow-hidden position-relative">
-                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/three-card-3.png"
-                                                                        class="w-100 h-100 object-cover img" alt="">
-                                                                    <div
-                                                                        class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
-                                                                    </div>
+                                                                    class="card-layer position-absolute top-0 start-0 h-100 w-100 bg-black opacity23">
                                                                 </div>
                                                                 <div
                                                                     class="position-absolute top-center text-center w-100">
@@ -475,11 +451,10 @@
                             class="d-flex align-items-center justify-content-center h-100 list-none logo-navigation mb-0 px-0">
                             <li class="me-2 head-seach">
                                 <div href="" class="text-decoration-none d-inline-block head-seach-img">
-                                    <div class="bg-292929 icon-bg position-relative rounded-pill">
-                                        <div class="header-icon position-absolute top-left-center">
-                                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/search-icon.svg"
-                                                class="w-100" alt="">
-                                        </div>
+                                    <div
+                                        class="bg-292929 icon-bg d-flex align-items-center justify-content-center position-relative rounded-pill">
+                                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/search-icon.svg"
+                                            class="w-100" alt="">
                                     </div>
                                 </div>
                                 <div
@@ -488,15 +463,17 @@
                                         <div class="bodoni font60 leading70 text-black text-center dmb-30">
                                             Search
                                         </div>
-                                        <div class="search-menu position-relative radius5 mx-auto">
-                                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-icon.svg"
-                                                alt="" class="search-img position-absolute top-center start-0 ms-3">
-                                            <input type="text" placeholder="Search here..."
-                                                class="w-100 bg-transparent border-0 d-flex align-items-center h-100 mont-medium font13 leading20 text-black search-input"
-                                                id="search-input" onkeyup="myFunction()">
-                                            <div class="cursor-pointer position-absolute top-center end-0 me-3 p-2">
-                                                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-close-img.svg"
-                                                    alt="" class="search-close">
+                                        <div class="col-5 px-5 mx-auto">
+                                            <div class="search-menu w-100 position-relative radius5 mx-auto">
+                                                <input type="text" placeholder="Search here..."
+                                                    class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-5"
+                                                    id="search-input" onkeyup="myFunction()">
+                                                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/search-black-icon-1.svg"
+                                                    alt="" class="search-img position-absolute top-center start-0 ms-3">
+                                                <div class="cursor-pointer position-absolute top-center end-0 me-3 p-1 bg-292929 rounded-pill d-inline-flex">
+                                                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/close-white-icon.svg"
+                                                        alt="" class="search-close">
+                                                </div>
                                             </div>
                                         </div>
                                         <div
@@ -715,41 +692,37 @@
                             </li>
                             <li class="me-2">
                                 <a href="" class="text-decoration-none d-inline-block">
-                                    <div class="bg-292929 icon-bg position-relative rounded-pill">
-                                        <div class="header-icon position-absolute top-left-center">
-                                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/location-icon.svg"
-                                                class="w-100" alt="">
-                                        </div>
+                                    <div
+                                        class="bg-292929 icon-bg d-flex align-items-center justify-content-center position-relative rounded-pill">
+                                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/location-icon.svg"
+                                            class="w-100" alt="">
                                     </div>
                                 </a>
                             </li>
                             <li class="me-2">
                                 <a href="" class="text-decoration-none d-inline-block">
-                                    <div class="bg-292929 icon-bg position-relative rounded-pill">
-                                        <div class="header-icon position-absolute top-left-center">
-                                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/user-icon.svg"
-                                                class="w-100" alt="">
-                                        </div>
+                                    <div
+                                        class="bg-292929 icon-bg d-flex align-items-center justify-content-center position-relative rounded-pill">
+                                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/user-icon.svg"
+                                            class="w-100" alt="">
                                     </div>
                                 </a>
                             </li>
                             <li class="me-2">
                                 <a href="" class="text-decoration-none d-inline-block">
-                                    <div class="bg-292929 icon-bg position-relative rounded-pill">
-                                        <div class="header-icon position-absolute top-left-center">
-                                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/like-icon.svg"
-                                                class="w-100" alt="">
-                                        </div>
+                                    <div
+                                        class="bg-292929 icon-bg d-flex align-items-center justify-content-center position-relative rounded-pill">
+                                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/like-icon.svg"
+                                            class="w-100" alt="">
                                     </div>
                                 </a>
                             </li>
                             <li class="me-2">
                                 <a href="" class="text-decoration-none d-inline-block">
-                                    <div class="bg-292929 icon-bg position-relative rounded-pill">
-                                        <div class="header-icon position-absolute top-left-center">
-                                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/cart-icon.svg"
-                                                class="w-100" alt="">
-                                        </div>
+                                    <div
+                                        class="bg-292929 icon-bg d-flex align-items-center justify-content-center position-relative rounded-pill">
+                                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/cart-icon.svg"
+                                            class="w-100" alt="">
                                     </div>
                                 </a>
                             </li>
@@ -758,8 +731,5 @@
                 </div>
             </div>
         </div>
-       </div>
-      </div>
-    </div>
     </div>
 </header>
