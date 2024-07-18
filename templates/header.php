@@ -762,8 +762,8 @@
             <ul class="d-flex align-items-center justify-content-center h-100 list-none logo-navigation mb-0 px-0">
                 <li class="me-2 head-seach">
                   <div href="" class="text-decoration-none d-inline-block head-seach-img">
-                  <div class="bg-292929 icon-bg position-relative rounded-pill">
-                    <div class="header-icon position-absolute top-left-center">
+                  <div class="bg-292929 icon-bg d-flex align-items-center justify-content-center rounded-pill">
+                    <div class="header-icon">
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-icon.svg" class="w-100" alt="">
                     </div>
                     </div>
@@ -955,8 +955,8 @@
                 </li>
                 <li class="me-2">
                     <a href="" class="text-decoration-none d-inline-block">
-                    <div class="bg-292929 icon-bg position-relative rounded-pill">
-                    <div class="header-icon position-absolute top-left-center">
+                    <div class="bg-292929 icon-bg d-flex align-items-center justify-content-center rounded-pill">
+                    <div class="header-icon">
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-icon2.svg" class="w-100" alt="">
                     </div>
                     </div>
@@ -964,8 +964,8 @@
                 </li>
                 <li class="me-2">
                 <a href="" class="text-decoration-none d-inline-block">
-                    <div class="bg-292929 icon-bg position-relative rounded-pill">
-                    <div class="header-icon position-absolute top-left-center">
+                    <div class="bg-292929 icon-bg d-flex align-items-center justify-content-center rounded-pill">
+                    <div class="header-icon">
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-icon3.svg" class="w-100" alt="">
                     </div>
                     </div>
@@ -973,8 +973,8 @@
                 </li>
                 <li class="me-2">
                 <a href="" class="text-decoration-none d-inline-block">
-                    <div class="bg-292929 icon-bg position-relative rounded-pill">
-                    <div class="header-icon position-absolute top-left-center">
+                    <div class="bg-292929 icon-bg d-flex align-items-center justify-content-center rounded-pill">
+                    <div class="header-icon">
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-icon4.svg" class="w-100" alt="">
                     </div>
                     </div>
@@ -982,8 +982,8 @@
                 </li>
                 <li class="me-2">
                 <a href="" class="text-decoration-none d-inline-block">
-                    <div class="bg-292929 icon-bg position-relative rounded-pill">
-                    <div class="header-icon position-absolute top-left-center">
+                    <div class="bg-292929 icon-bg d-flex align-items-center justify-content-center rounded-pill">
+                    <div class="header-icon">
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/header-icon5.svg" class="w-100" alt="">
                     </div>
                     </div>

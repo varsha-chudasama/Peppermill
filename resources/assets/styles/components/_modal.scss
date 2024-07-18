@@ -1,0 +1,62 @@
+.modal {
+    .modal-dialog {
+        @include media-breakpoint-down(lg) {
+            min-width: 100%;
+            margin: 0;
+        }
+
+        .modal-content {
+            @include media-breakpoint-down(lg) {
+                height: 100vh !important;
+                overflow-y: auto;
+            }
+        }
+    }
+}
+
+.modal {
+    &.enquiry-modal {
+        .modal-dialog {
+            min-width: 658px;
+
+            @include media-breakpoint-down(md) {
+                min-width: 100% !important;
+                margin: 0px !important;
+            }
+
+            .modal-content {
+                padding: 72px 113px 82px;
+                height: 574px;
+
+                @include media-breakpoint-down(md) {
+                    padding: 25px !important;
+                    height: 100vh;
+                    overflow-y: auto;
+                }
+
+                .close-div {
+                    top: 15px !important;
+                    right: 15px !important;
+                }
+
+                .enquiry-form {
+                    input.enquiry-modal-input {
+                        border: 1px solid $color-D5D5D5;
+                        height: 50px;
+                        margin-bottom: 10px;
+                    }
+
+                    .upload-cv {
+                        border: 1px dashed $color-918E8E;
+                        height: 46px;
+                    }
+
+                    .submit-btn {
+                        height: 47px;
+                        padding: 0px 40px;
+                    }
+                }
+            }
+        }
+    }
+}

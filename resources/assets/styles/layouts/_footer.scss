@@ -1,9 +1,11 @@
 .footer {
     background-color: $color-292929;
+
     .top-footer {
-        .top-footer-text{
+        .top-footer-text {
             color: $white;
         }
+
         .footer-slider {
             .footer-img {
                 height: 327px;
@@ -107,9 +109,10 @@
         border-top: 1px solid $color-EBEBEB;
 
         .top-footer {
-            .top-footer-text{
+            .top-footer-text {
                 color: $black;
             }
+
             background-color: $white;
         }
     }
