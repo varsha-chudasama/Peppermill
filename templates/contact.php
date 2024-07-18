@@ -6,7 +6,7 @@
 <!-- inspiration-hero-section -->
 <section class="inspiration-hero-section position-relative">
     <div class="inspiration-hero-img h-100 position-relative">
-        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/hero-img.png"
+        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/contact-hero.png"
             class="w-100 h-100 object-cover" alt="">
         <div class="layer position-absolute top-0 start-0 bg-black opacity29 h-100 w-100"></div>
     </div>
@@ -126,7 +126,7 @@
             <div class="col-6">
                 <div class="location-card">
                     <div class="location-img radius10 overflow-hidden dmb-50">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/news-img.png" alt=""
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-2.png" alt=""
                             class="h-100 w-100 object-cover">
                     </div>
                     <div class="location-content text-center px-5">
@@ -153,7 +153,7 @@
             <div class="col-6">
                 <div class="location-card">
                     <div class="location-img radius10 overflow-hidden dmb-50">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/hero-img.png" alt=""
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/three-card-2.png" alt=""
                             class="h-100 w-100 object-cover">
                     </div>
                     <div class="location-content text-center px-5">

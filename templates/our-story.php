@@ -8,7 +8,7 @@
 <main>
     <!-- main-hero-section -->
     <section class="main-hero-section position-relative overflow-hidden">
-        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/news-img.png" alt=""
+        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/story-hero.png" alt=""
             class="w-100 h-100 object-cover">
         <div class="bg-gradient-layer position-absolute w-100 h-100 top-0 opacity-50"></div>
         <div class="position-absolute top-0 w-100 h-100 d-flex align-items-center">
@@ -197,12 +197,12 @@
                     class="slick-arrows position-absolute w-100 h-100 top-0 d-flex align-items-center justify-content-between">
                     <div
                         class="room-arrow-prev-border d-flex align-items-center justify-content-center bg-transparent z-3 rounded-pill transition">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/room-prev-arrow.svg"
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-slide-arrow.svg"
                             class="room-prev-arrow" alt="">
                     </div>
                     <div
                         class="room-arrow-next-border d-flex align-items-center justify-content-center bg-transparent z-3 rounded-pill transition">
-                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/room-prev-arrow.svg"
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/right-slide-arrow.svg"
                             class="room-next-arrow" alt="">
                     </div>
                 </div>
@@ -309,7 +309,7 @@
 
     <!-- joinus-banner-section -->
     <section class="joinus-banner-section position-relative">
-        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/about-us-img.png" alt=""
+        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/about-hero.png" alt=""
             class="w-100 h-100 object-cover">
         <div class="bg-gradient-layer position-absolute w-100 h-100 top-0 opacity62"></div>
         <div class="position-absolute w-100 h-100 top-0 d-flex align-items-center">

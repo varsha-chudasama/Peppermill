@@ -7,7 +7,7 @@
 <main>
     <!-- project-open-hero -->
     <section class="project-open-hero position-relative">
-        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/our-img3.png" alt=""
+        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/project-open-hero.png" alt=""
             class="w-100 h-100 object-cover">
         <div class="position-absolute w-100 h-100 top-0 bg-black opacity38"></div>
         <div class="dpt-165 position-absolute w-100 top-0 z-3">
@@ -116,10 +116,10 @@
                         1/0</div>
                     <div class="slick-arrows ms-4">
                         <button class="prev-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
-                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/prev-arrow-2.svg"
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-slide-arrow.svg"
                                 class="h-100" alt=""></button>
                         <button class="next-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
-                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/next-arrow-2.svg"
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/right-slide-arrow.svg"
                                 class="h-100" alt=""></button>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
         </div>
         <div class="slider-banner position-relative">
             <div class="slider-img position-relative">
-                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/news-img.png" alt=""
+                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/project-open-hero.png" alt=""
                     class="w-100 h-100 object-cover">
                 <div class="bg-gradient-layer position-absolute w-100 h-100 top-0 opacity29"></div>
                 <div class="position-absolute w-100 bottom-0 z-3 dpb-45 h-auto">
@@ -144,7 +144,7 @@
                 </div>
             </div>
             <div class="slider-img position-relative">
-                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/news-img.png" alt=""
+                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/project-open-hero.png" alt=""
                     class="w-100 h-100 object-cover">
                 <div class="bg-gradient-layer position-absolute w-100 h-100 top-0 opacity29"></div>
                 <div class="position-absolute w-100 bottom-0 z-3 dpb-45 h-auto">
@@ -168,30 +168,26 @@
     <!-- product-section -->
     <section class="product-section">
         <div class="container">
-            <div class="row align-items-center dmb-60">
+            <div class="row align-items-center  dmb-60">
                 <div class="col-3"></div>
-                <div class="col-6 text-center">
-                    <div class="bodoni font40 leading48 text-black">Featured Products</div>
+                <div class="col-6">
+                    <div class="bodoni font40 leading48 text-black text-center">Featured products</div>
                 </div>
                 <div class="col-3 d-inline-flex align-items-center justify-content-end">
                     <div class="slick-arrows d-flex">
-                        <div
-                            class="prev-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
-                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/prev-arrow-2.svg"
-                                class="room-prev-arrow" alt="">
-                        </div>
-                        <div
-                            class="next-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
-                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/next-arrow-2.svg"
-                                class="room-next-arrow" alt="">
-                        </div>
+                        <button class="prev-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-slide-arrow.svg"
+                                class="h-100" alt=""></button>
+                        <button class="next-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/right-slide-arrow.svg"
+                                class="h-100" alt=""></button>
                     </div>
                 </div>
             </div>
             <div class="product-slider">
                 <a href="" class="product-cards d-inline-block text-decoration-none">
                     <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-1.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
@@ -208,7 +204,7 @@
                 </a>
                 <a href="" class="product-cards d-inline-block text-decoration-none">
                     <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-2.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
@@ -225,7 +221,7 @@
                 </a>
                 <a href="" class="product-cards d-inline-block text-decoration-none">
                     <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-3.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
@@ -242,7 +238,7 @@
                 </a>
                 <a href="" class="product-cards d-inline-block text-decoration-none">
                     <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-4.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
@@ -259,7 +255,7 @@
                 </a>
                 <a href="" class="product-cards d-inline-block text-decoration-none">
                     <div class="product-img position-relative radius10 overflow-hidden card-hover dmb-25">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/treding-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-5.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
@@ -285,8 +281,8 @@
         <div class="container">
             <div class="row dmb-55">
                 <div class="col-3"></div>
-                <div class="col-6">
-                    <div class="bodoni font50 leading55 text-black text-center text-capitalize">Related Projects</div>
+                <div class="col-6 text-center">
+                    <div class="bodoni font50 leading55 text-black text-capitalize">Related Projects</div>
                 </div>
                 <div class="col-3">
                     <div class="d-flex justify-content-end align-items-center h-100">
@@ -300,8 +296,8 @@
             <div class="row row10">
                 <div class="col-4 cards-col dmt-50">
                     <a href=""
-                        class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/project-1.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Whitemills Kitchen &
@@ -313,18 +309,19 @@
                 <div class="col-4 cards-col dmt-50">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/project-2.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">BrewDog</div>
-                            <div class="mont-medium font11 leading16 text-white text-uppercase dpb-50">LAS VEGAS</div>
+                            <div class="mont-medium font11 leading16 text-white text-uppercase dpb-50">LAS VEGAS
+                            </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-4 cards-col dmt-50">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/project-3.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Libertine Burger</div>

@@ -60,7 +60,7 @@
                 <div class="col-4 project-col dmb-50 filter-activity all kent">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-1.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Whitemills Kitchen &
@@ -72,7 +72,7 @@
                 <div class="col-4 project-col dmb-50 filter-activity all las-vegas">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-4.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">BrewDog</div>
@@ -83,7 +83,7 @@
                 <div class="col-4 project-col dmb-50 filter-activity all spa">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-3.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Libertine Burger</div>
@@ -95,7 +95,7 @@
                 <div class="col-4 project-col dmb-50 filter-activity all kent">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-5.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Whitemills Kitchen &
@@ -104,10 +104,10 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 project-col dmb-50 filter-activity all las-vegas">
+                <div class="col-4 project-col dmb-50 filter-activity all las-vegas">    
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-2.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">BrewDog</div>
@@ -118,7 +118,7 @@
                 <div class="col-4 project-col dmb-50 filter-activity all spa">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-3.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Libertine Burger</div>
@@ -130,7 +130,7 @@
                 <div class="col-4 project-col dmb-50 filter-activity all kent">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-4.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Whitemills Kitchen &
@@ -142,7 +142,7 @@
                 <div class="col-4 project-col dmb-50 filter-activity all las-vegas">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-1.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">BrewDog</div>
@@ -153,7 +153,7 @@
                 <div class="col-4 project-col dmb-50 filter-activity all spa">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
-                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/our-img.png"
+                        <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-5.png"
                             class="w-100 h-100 object-cover img" alt="">
                         <div class="position-absolute bottom-0 text-center w-100 px-5">
                             <div class="bodoni font40 leading48 space1_65 text-white dpb-20">Libertine Burger</div>

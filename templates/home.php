@@ -113,16 +113,12 @@
                 </div>
                 <div class="col-3 d-inline-flex align-items-center justify-content-end">
                     <div class="slick-arrows d-flex">
-                        <div
-                            class="prev-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
-                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/prev-arrow-2.svg"
-                                class="room-prev-arrow" alt="">
-                        </div>
-                        <div
-                            class="next-arrow ms-2 d-flex align-items-center justify-content-center bg-transparent rounded-pill transition">
-                            <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/next-arrow-2.svg"
-                                class="room-next-arrow" alt="">
-                        </div>
+                        <button class="prev-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-slide-arrow.svg"
+                                class="h-100" alt=""></button>
+                        <button class="next-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/right-slide-arrow.svg"
+                                class="h-100" alt=""></button>
                     </div>
                 </div>
             </div>

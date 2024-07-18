@@ -53,7 +53,7 @@
         <div class="col-4 cards-col dmb-115 filter-activity all filter-1">
           <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
             <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-1.png"
                 class="w-100 h-100 object-cover img" alt="">
             </div>
             <div class="blog-content">
@@ -69,7 +69,7 @@
         <div class="col-4 cards-col dmb-115 filter-activity all filter-2">
           <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
             <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-2.png"
                 class="w-100 h-100 object-cover img" alt="">
             </div>
             <div class="blog-content">
@@ -84,7 +84,7 @@
         <div class="col-4 cards-col dmb-115 filter-activity all filter-3">
           <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
             <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-3.png"
                 class="w-100 h-100 object-cover img" alt="">
             </div>
             <div class="blog-content">
@@ -99,7 +99,7 @@
         <div class="col-4 cards-col dmb-115 filter-activity all filter-1">
           <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
             <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-1.png"
                 class="w-100 h-100 object-cover img" alt="">
             </div>
             <div class="blog-content">
@@ -115,7 +115,7 @@
         <div class="col-4 cards-col dmb-115 filter-activity all filter-2">
           <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
             <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-2.png"
                 class="w-100 h-100 object-cover img" alt="">
             </div>
             <div class="blog-content">
@@ -130,7 +130,7 @@
         <div class="col-4 cards-col dmb-115 filter-activity all filter-3">
           <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
             <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-3.png"
                 class="w-100 h-100 object-cover img" alt="">
             </div>
             <div class="blog-content">
@@ -145,7 +145,7 @@
         <div class="col-4 cards-col dmb-115 filter-activity all filter-1">
           <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
             <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-1.png"
                 class="w-100 h-100 object-cover img" alt="">
             </div>
             <div class="blog-content">
@@ -161,7 +161,7 @@
         <div class="col-4 cards-col dmb-115 filter-activity all filter-2">
           <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
             <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-2.png"
                 class="w-100 h-100 object-cover img" alt="">
             </div>
             <div class="blog-content">
@@ -176,7 +176,7 @@
         <div class="col-4 cards-col dmb-115 filter-activity all filter-3">
           <a href="" class="blog-cards w-100 d-inline-block text-decoration-none">
             <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
-              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-card-img.png"
+              <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/blog-3.png"
                 class="w-100 h-100 object-cover img" alt="">
             </div>
             <div class="blog-content">
