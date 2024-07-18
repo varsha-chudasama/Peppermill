@@ -22,6 +22,7 @@ export class Header {
                             }, function () {
                                 $('.header').removeClass('header-hover');
                                 $(this).removeClass('menu-active');
+                                $('html').removeClass('overflow-hidden')
                             });
                         }
                     });
