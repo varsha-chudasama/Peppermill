@@ -194,34 +194,32 @@
                 <div class="bodoni font60 leading70 text-white text-center dmb-30">
                     Get in touch today
                 </div>
-                <form action="" class="form-section d-flex flex-wrap">
-                    <div class="row row6">
-                        <div class="col-6 dmb-10">
-                            <input type="text" placeholder="Your Name…"
-                                class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
-                        </div>
-                        <div class="col-6 dmb-10">
-                            <input type="email" placeholder="Email…"
-                                class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
-                        </div>
-                        <div class="col-6 dmb-10">
-                            <input type="number" placeholder="Phone Number…"
-                                class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
-                        </div>
-                        <div class="col-6 dmb-10">
-                            <input type="text" placeholder="Company Name (If Applicable)…"
-                                class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
-                        </div>
-                        <div class="col-12 dmb-10">
-                            <textarea name="" id="" placeholder="Anything you’d like to add…"
-                                class="input-textarea w-100 mont-medium font12 leading16 text-918E8E radius5 px-4 pt-3"></textarea>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center dmt-30">
-                            <a href=""
-                                class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-flex align-items-center justify-content-center transition">
-                                SUBMIT ENQUIRY
-                            </a>
-                        </div>
+                <form action="" class="form-section row6 d-flex flex-wrap">
+                    <div class="col-6 dmb-10">
+                        <input type="text" placeholder="Your Name…"
+                            class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
+                    </div>
+                    <div class="col-6 dmb-10">
+                        <input type="email" placeholder="Email…"
+                            class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
+                    </div>
+                    <div class="col-6 dmb-10">
+                        <input type="number" placeholder="Phone Number…"
+                            class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
+                    </div>
+                    <div class="col-6 dmb-10">
+                        <input type="text" placeholder="Company Name (If Applicable)…"
+                            class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
+                    </div>
+                    <div class="col-12 dmb-10">
+                        <textarea name="" id="" placeholder="Anything you’d like to add…"
+                            class="input-textarea w-100 mont-medium font12 leading16 text-918E8E radius5 px-4 pt-3"></textarea>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center dmt-30">
+                        <a href=""
+                            class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-flex align-items-center justify-content-center transition">
+                            SUBMIT ENQUIRY
+                        </a>
                     </div>
                 </form>
             </div>
@@ -250,21 +248,19 @@
                                 <div class="bodoni font25 leading30 text-black">
                                     Do you ship internationally?
                                 </div>
-                                <div class="closet-closebtn">
-                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100 h-100 object-cover">
+                                <div class="closet-closebtn d-flex-align-items-center">
+                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100">
                                 </div>
                             </div>
-                            <div class="closet-content dmt-20 dmb-10">
-                                <div class="col-11 pe-5">
-                                    <div class="mont-normal font13 leading24 text-black">
-                                        We are based in Burntwood, Staffordshire (around a 40 minute drive from
-                                        Birmingham),
-                                        and if you fancy a browse our showroom is open to the public Monday to Saturday.
-                                        If
-                                        you can’t make it into store, don’t worry, you can place your order online or
-                                        over
-                                        the phone and we ship all over the world.
-                                    </div>
+                            <div class="closet-content dmt-20 dmb-10 pe-3">
+                                <div class="col-11 pe-4 mont-normal font13 leading24 text-black">
+                                    We are based in Burntwood, Staffordshire (around a 40 minute drive from
+                                    Birmingham),
+                                    and if you fancy a browse our showroom is open to the public Monday to Saturday.
+                                    If
+                                    you can’t make it into store, don’t worry, you can place your order online or
+                                    over
+                                    the phone and we ship all over the world.
                                 </div>
                             </div>
                         </div>
@@ -273,21 +269,19 @@
                                 <div class="bodoni font25 leading30 text-black">
                                     Can I visit the showroom?
                                 </div>
-                                <div class="closet-closebtn">
-                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100 h-100 object-cover">
+                                <div class="closet-closebtn d-flex-align-items-center">
+                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100">
                                 </div>
                             </div>
-                            <div class="closet-content dmt-20 dmb-10">
-                                <div class="col-11 pe-5">
-                                    <div class="mont-normal font13 leading24 text-black">
-                                        We are based in Burntwood, Staffordshire (around a 40 minute drive from
-                                        Birmingham),
-                                        and if you fancy a browse our showroom is open to the public Monday to Saturday.
-                                        If
-                                        you can’t make it into store, don’t worry, you can place your order online or
-                                        over
-                                        the phone and we ship all over the world.
-                                    </div>
+                            <div class="closet-content dmt-20 dmb-10 pe-3">
+                                <div class="col-11 pe-4 mont-normal font13 leading24 text-black">
+                                    We are based in Burntwood, Staffordshire (around a 40 minute drive from
+                                    Birmingham),
+                                    and if you fancy a browse our showroom is open to the public Monday to Saturday.
+                                    If
+                                    you can’t make it into store, don’t worry, you can place your order online or
+                                    over
+                                    the phone and we ship all over the world.
                                 </div>
                             </div>
                         </div>
@@ -296,21 +290,19 @@
                                 <div class="bodoni font25 leading30 text-black">
                                     How long is standard delivery?
                                 </div>
-                                <div class="closet-closebtn">
-                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100 h-100 object-cover">
+                                <div class="closet-closebtn d-flex-align-items-center">
+                                    <img src="<?php echo get_home_url(); ?>" alt="" class="w-100">
                                 </div>
                             </div>
-                            <div class="closet-content dmt-20 dmb-10">
-                                <div class="col-11 pe-5">
-                                    <div class="mont-normal font13 leading24 text-black">
-                                        We are based in Burntwood, Staffordshire (around a 40 minute drive from
-                                        Birmingham),
-                                        and if you fancy a browse our showroom is open to the public Monday to Saturday.
-                                        If
-                                        you can’t make it into store, don’t worry, you can place your order online or
-                                        over
-                                        the phone and we ship all over the world.
-                                    </div>
+                            <div class="closet-content dmt-20 dmb-10 pe-3">
+                                <div class="col-11 pe-4 mont-normal font13 leading24 text-black">
+                                    We are based in Burntwood, Staffordshire (around a 40 minute drive from
+                                    Birmingham),
+                                    and if you fancy a browse our showroom is open to the public Monday to Saturday.
+                                    If
+                                    you can’t make it into store, don’t worry, you can place your order online or
+                                    over
+                                    the phone and we ship all over the world.
                                 </div>
                             </div>
                         </div>

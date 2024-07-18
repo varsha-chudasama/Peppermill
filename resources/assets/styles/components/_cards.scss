@@ -66,3 +66,13 @@
 .collection-cards {
   height: 400px;
 }
+
+.testimonial-card{
+  border-bottom: 1px solid $color-EBEBEB;
+  &:first-child{
+    border-top: 1px solid $color-EBEBEB;
+  }
+  .review-star{
+    width: 14px;
+  }
+}
