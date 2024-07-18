@@ -291,7 +291,52 @@
         </div>
     </section>
 
+      <!-- right-img-section -->
+      <section class="right-img-section left-right-292929">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <div class="col-9 px-4 mx-auto">
+                        <div class="left-right-prefix mont-normal font11 leading20 space1_65 text-uppercase dmb-35">
+                            OUR HISTORY
+                        </div>
+                        <div class="left-right-title bodoni font55 leading65 dmb-35">
+                            Over 20 years in the business.
+                        </div>
+                        <div class="dmb-40">
+                            <div class="left-right-desc mont-normal font13 leading24 dmb-20">
+                                We are based in Burntwood, Staffordshire (around a 40 minute drive from Birmingham), and
+                                if
+                                you fancy a browse our showroom is open to the public Monday to Saturday. If you can’t
+                                make
+                                it into store, don’t worry, you can place your order online or over the phone and we
+                                ship
+                                all over the world.
+                            </div>
+                            <div class="left-right-desc mont-normal font13 leading24 dmb-20">
+                                Over 20 years in the business has given us great insight into what our
+                                customers want and need. With customer satisfaction as our top priority, we source
+                                furniture, cutting out the middle man and therefore reducing the price for our clients.
+                            </div>
+                        </div>
+                        <a href=""
+                            class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
+                            SHOP NOW
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 ps-3">
+                    <div class="left-right-img radius10 position-relative overflow-hidden card-hover">
+                        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-right-1.png" alt=""
+                            class="w-100 h-100 object-cover img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div class="dmb-95 "></div>
+
 
     <!-- project-card-section -->
     <section class="project-card-section">

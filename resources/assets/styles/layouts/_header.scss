@@ -1,9 +1,9 @@
 .header {
+  z-index: 999;
   .header-section {
     .header-logo {
       width: 154px;
     }
-
     .icon-bg {
       height: 31px;
       width: 31px;
@@ -19,11 +19,9 @@
           margin-right: 0px !important;
         }
       }
-
       .header-icon {
         width: 15px;
       }
-
       .head-seach {
         &.search-open {
           .seach-menu-slide {
@@ -32,7 +30,6 @@
             height: 100vh;
           }
         }
-
         .seach-menu-slide {
           border-top: 1px solid $color-EBEBEB;
           height: 100px;
@@ -41,7 +38,6 @@
         }
       }
     }
-
     .nav {
       .navigation {
         .menu-item {
@@ -49,7 +45,7 @@
             &::after {
               content: "";
               position: absolute;
-              bottom: -22px;
+              bottom: -30px;
               left: 50%;
               width: 10px;
               height: 2px;
@@ -60,11 +56,9 @@
               transition: all 0.3s ease-in-out;
             }
           }
-
           &:last-child {
             margin-right: 0px !important;
           }
-
           .mega-menu {
             opacity: 0;
             visibility: hidden;
@@ -74,7 +68,12 @@
       }
     }
   }
-
+  &.header-fixed-os {
+    transform: translateY(0px);
+  }
+  &.hidden {
+    transform: translateY(-110px);
+  }
   &.header-hover {
     .header-section {
       .nav {
@@ -88,14 +87,12 @@
                   width: 100%;
                 }
               }
-
               .mega-menu {
                 border-top: 1px solid $color-EBEBEB;
                 opacity: 1;
                 visibility: visible;
                 transform: translateY(0px);
               }
-
               .header-menu {
                 li {
                   &:last-child {
