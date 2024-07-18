@@ -18,6 +18,7 @@ export class Header {
                                 $('.header').addClass('header-hover');
                                 $(this).addClass('menu-active');
                                 $('.head-seach').removeClass('search-open')
+                                $('html').addClass('overflow-hidden')
                             }, function () {
                                 $('.header').removeClass('header-hover');
                                 $(this).removeClass('menu-active');
