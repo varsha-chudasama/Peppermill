@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-10 mx-auto">
-                    <div class="col-12 vacancy-cards d-flex dpt-70 dpb-70 transition">
+                    <div class="col-12 vacancy-cards d-flex dpt-70 dpb-70 transition border-bottom border-EBEBEB">
                         <div class="col-3">
                             <div class="mont-medium font13 leading20 text-918E8E dmb-15">Full-time</div>
                             <div class="bodoni font30 leading35 text-black dmb-20">Sales Manager</div>
@@ -85,7 +85,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 vacancy-cards d-flex dpt-70 dpb-70 transition">
+                    <div class="col-12 vacancy-cards d-flex dpt-70 dpb-70 transition border-bottom border-EBEBEB">
                         <div class="col-3">
                             <div class="mont-medium font13 leading20 text-918E8E dmb-15">Full-time</div>
                             <div class="bodoni font30 leading35 text-black dmb-20">Marketing Admin</div>
@@ -134,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 vacancy-cards d-flex dpt-70 dpb-70 transition">
+                    <div class="col-12 vacancy-cards d-flex dpt-70 dpb-70 transition border-bottom border-EBEBEB">
                         <div class="col-3">
                             <div class="mont-medium font13 leading20 text-918E8E dmb-15">Full-time</div>
                             <div class="bodoni font30 leading35 text-black dmb-20">E-Commerce Executive</div>
