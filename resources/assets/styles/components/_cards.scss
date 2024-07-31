@@ -25,7 +25,6 @@
 
 .header-card-col,
 .cards-col {
-
   &:nth-child(1),
   &:nth-child(2),
   &:nth-child(3) {
@@ -70,11 +69,24 @@
 .step-card {
   .step-img {
     height: 284px;
+
+    @include media-breakpoint-down(lg) {
+      height: 240px;
+    }
+  }
+  &:last-child {
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 0px !important;
+    }
   }
 }
 
 .collection-cards {
   height: 400px;
+
+  @include media-breakpoint-down(md) {
+    height: 200px;
+  }
 }
 
 .closet-cards,

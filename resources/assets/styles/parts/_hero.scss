@@ -15,6 +15,10 @@
 .slider-banner-section {
   .slider-banner {
     height: 708px;
+
+    @include media-breakpoint-down(lg){
+      height: 475px;
+    }
   }
 }
 

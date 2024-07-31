@@ -5,49 +5,39 @@
 ?>
 
 <main>
-  <div class="spacing dmt-200"></div>
+  <div class="spacing tmt-145 dmt-200"></div>
 
   <!-- center-title-section -->
-  <section class="center-title-section">
-    <div class="container">
-      <div class="col-7 px-5 mx-auto text-center">
-        <div class="content-title bodoni font60 leading70 dmb-25">Blog</div>
-        <div class="content-desc mont-normal font13 leading24">
-          Peppermill Interiors has extensive experience in supplying restaurant furniture, bar furniture and pub
-          furniture to leading shops and eateries all over the world.
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <div class="spacing dmt-85"></div>
+
+  <div class="spacing tmt-45 dmt-85"></div>
 
   <!-- blog-filter -->
   <section class="blog-filter">
-    <div class="container">
+    <div class="container pe-p-0">
       <div class="row">
         <div class="activity-category d-flex">
           <div data-filter="all"
-            class="mx-2 activity-button border border-707070 rounded-pill mont-medium font13 leading20 text-black active d-flex align-items-center justify-content-center">
+            class="mx-2 activity-button border border-707070 rounded-pill mont-medium font13 leading20 text-black text-nowrap active d-flex align-items-center justify-content-center">
             View All</div>
           <div data-filter="filter-1"
-            class="mx-2 activity-button border border-707070 rounded-pill mont-medium font13 leading20 text-black d-flex align-items-center justify-content-center">
+            class="mx-2 activity-button border border-707070 rounded-pill mont-medium font13 leading20 text-black text-nowrap d-flex align-items-center justify-content-center">
             Filter 1</div>
           <div data-filter="filter-2"
-            class="mx-2 activity-button border border-707070 rounded-pill mont-medium font13 leading20 text-black d-flex align-items-center justify-content-center">
+            class="mx-2 activity-button border border-707070 rounded-pill mont-medium font13 leading20 text-black text-nowrap d-flex align-items-center justify-content-center">
             Filter 2</div>
           <div data-filter="filter-3"
-            class="mx-2 activity-button border border-707070 rounded-pill mont-medium font13 leading20 text-black d-flex align-items-center justify-content-center">
+            class="mx-2 activity-button border border-707070 rounded-pill mont-medium font13 leading20 text-black text-nowrap d-flex align-items-center justify-content-center">
             Filter 3</div>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="spacing dmt-60"></div>
+  <div class="spacing tmt-65 dmt-60"></div>
 
   <!-- blog-card-section -->
-  <section class="blog-card-section">
+  <!-- <section class="blog-card-section">
     <div class="container">
       <div class="row row15">
         <div class="col-4 cards-col dmb-115 filter-activity all filter-1">
@@ -190,9 +180,9 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <div class="spacing dmt-35"></div>
+  <div class="spacing tmt-50 dmt-35"></div>
 
   <!-- pagination-section -->
   <section class="pagination-section">
@@ -211,5 +201,5 @@
     </nav>
   </section>
 
-  <div class="spacing dmt-150"></div>
+  <div class="spacing tmt-75 dmt-150"></div>
 </main>

@@ -27,14 +27,6 @@
     }
   }
 }
-// .product-filter-section {
-//   .project-dropdown {
-//     .project-menu {
-//       min-height: 319px !important;
-//       height: 100%;
-//     }
-//   }
-// }
 
 .project-toggle,
 .activity-button {
@@ -48,5 +40,13 @@
   &.active {
     background-color: $black;
     color: $white !important;
+  }
+}
+
+.blog-filter {
+  .activity-category {
+    @include media-breakpoint-down(lg) {
+      overflow-x: auto !important;
+    }
   }
 }

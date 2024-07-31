@@ -11,6 +11,7 @@ import { Privacy } from './parts/privacy.js';
 import { Closet } from './parts/closet.js';
 import { Dropdown } from './parts/dropdown.js';
 import { Filter } from './parts/filter.js';
+import { Select } from './parts/select.js';
 
 
 // export for others scripts to use
@@ -54,6 +55,9 @@ $(function () {
 
   window.filter = new Filter();
   window.filter.init();
+
+  window.select = new Select();
+  window.select.init();
 });
 
 // ===========================================================================

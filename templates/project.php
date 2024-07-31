@@ -6,13 +6,13 @@
 
 <main>
 
-    <div class="spacing dmt-200"></div>
+    <div class="spacing tmt-145 dmt-200"></div>
 
     <!-- center-title-section -->
     <section class="center-title-section">
         <div class="container">
-            <div class="col-7 px-5 mx-auto text-center">
-                <div class="content-title bodoni font60 leading70 dmb-25">Projects</div>
+            <div class="col-12 col-md-9 col-xl-7 px-lg-5 mx-auto text-center">
+                <div class="content-title bodoni font60 leading70 res-font35 res-leading45 dmb-25">Projects</div>
                 <div class="content-desc mont-normal font13 leading24">
                     Peppermill Interiors has extensive experience in supplying restaurant furniture, bar furniture and
                     pub
@@ -22,7 +22,7 @@
         </div>
     </section>
 
-    <div class="spacing dmt-55"></div>
+    <div class="spacing tmt-45 dmt-55"></div>
 
     <!-- product-filter -->
     <section class="product-filter">
@@ -51,13 +51,13 @@
         </div>
     </section>
 
-    <div class="spacing dmt-55"></div>
+    <div class="spacing tmt-40 dmt-55"></div>
 
     <!-- project-card-section -->
-    <section class="project-card-section">
+    <!-- <section class="project-card-section">
         <div class="container">
             <div class="row row10">
-                <div class="col-4 project-col dmb-50 filter-activity all kent">
+                <div class="col-lg-4 project-col dmb-50 filter-activity all kent">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-1.png"
@@ -69,7 +69,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 project-col dmb-50 filter-activity all las-vegas">
+                <div class="col-lg-4 project-col dmb-50 filter-activity all las-vegas">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-4.png"
@@ -80,7 +80,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 project-col dmb-50 filter-activity all spa">
+                <div class="col-lg-4 project-col dmb-50 filter-activity all spa">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-3.png"
@@ -92,7 +92,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 project-col dmb-50 filter-activity all kent">
+                <div class="col-lg-4 project-col dmb-50 filter-activity all kent">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-5.png"
@@ -104,7 +104,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 project-col dmb-50 filter-activity all las-vegas">    
+                <div class="col-lg-4 project-col dmb-50 filter-activity all las-vegas">    
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-2.png"
@@ -115,7 +115,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 project-col dmb-50 filter-activity all spa">
+                <div class="col-lg-4 project-col dmb-50 filter-activity all spa">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-3.png"
@@ -127,7 +127,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 project-col dmb-50 filter-activity all kent">
+                <div class="col-lg-4 project-col dmb-50 filter-activity all kent">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-4.png"
@@ -139,7 +139,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 project-col dmb-50 filter-activity all las-vegas">
+                <div class="col-lg-4 project-col dmb-50 filter-activity all las-vegas">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-1.png"
@@ -150,7 +150,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 project-col dmb-50 filter-activity all spa">
+                <div class="col-lg-4 project-col dmb-50 filter-activity all spa">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 overflow-hidden w-100">
                         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/project-5.png"
@@ -164,9 +164,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <div class="spacing dmb-130"></div>
+    <div class="spacing tmb-65 dmb-130"></div>
 
     <!-- pagination-section -->
     <section class="pagination-section">

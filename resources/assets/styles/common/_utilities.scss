@@ -235,7 +235,6 @@
   font-size: $font103;
 }
 
-
 // line height
 
 .leading11 {
@@ -312,6 +311,10 @@
   letter-spacing: $space0_45;
 }
 
+.space0_55 {
+  letter-spacing: $space0_55;
+}
+
 .space0_68 {
   letter-spacing: $space0_68;
 }
@@ -375,9 +378,7 @@
   opacity: $opacity62;
 }
 
-
 @include media-breakpoint-down(lg) {
-
   // res-font ======================
 
   .res-font9 {
@@ -508,10 +509,7 @@
     font-size: $res-font32;
   }
 
-
-  // line-height ====================== 
-
-
+  // line-height ======================
 
   .res-leading11 {
     line-height: $leading11;
@@ -573,6 +571,9 @@
     line-height: $leading123;
   }
 
+  .res-space0 {
+    letter-spacing: 0px;
+  }
 
   // letter-spacing ==========================
   .res-space0_23 {
@@ -585,6 +586,10 @@
 
   .res-space0_45 {
     letter-spacing: $space0_45;
+  }
+
+  .res-space0_55 {
+    letter-spacing: $space0_55;
   }
 
   .res-space0_68 {
@@ -608,6 +613,6 @@
   }
 
   .res-space1_35 {
-    letter-spacing: $res-space1_35 ;
+    letter-spacing: $res-space1_35;
   }
 }
