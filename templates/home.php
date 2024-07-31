@@ -18,7 +18,7 @@
                 <div class="col-8 mx-auto">
                     <div class="mont-semibold font11 leading20 space1_65 text-uppercase text-white dmb-30">WELCOME TO
                         PEPPERMILL</div>
-                    <div class="bodoni font75 leading90 text-white dmb-35">Spice up the ordinary.</div>
+                    <div class="bodoni font75 res-font55 leading90 text-white dmb-35">Spice up the ordinary.</div>
                     <div class="mont-medium font14 leading20 text-white dmb-25">The UK’s finest selection of domestic,
                         bar and restaurant furniture</div>
                     <a href=""
@@ -33,7 +33,7 @@
     <div class="spacing dmb-60"></div>
 
     <!-- center-content-section -->
-    <section class="center-content-section">
+    <!-- <section class="center-content-section">
         <div class="container">
             <div class="col-7 px-5 mx-auto text-center">
                 <div class="content-title bodoni font40 leading48 dmb-25">The ultimate homemaker.</div>
@@ -44,12 +44,12 @@
                     reducing the price for our clients.</div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <div class="spacing dmb-60"></div>
 
     <!-- three-card-section -->
-    <section class="three-card-section">
+    <!-- <section class="three-card-section">
         <div class="container">
             <div class="row row10">
                 <div class="col-4 cards-col dmt-20">
@@ -99,12 +99,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <div class="spacing dmb-95"></div>
 
     <!-- product-section -->
-    <section class="product-section">
+    <!-- <section class="product-section">
         <div class="container">
             <div class="row align-items-center dmb-60">
                 <div class="col-3"></div>
@@ -210,12 +210,12 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <div class="spacing dmb-80"></div>
 
     <!-- room-card-section -->
-    <section class="room-card-section bg-292929 dpt-80 dpb-70">
+    <!-- <section class="room-card-section bg-292929 dpt-80 dpb-70">
         <div class="container">
             <div class="bodoni font45 leading55 text-capitalize text-white text-center dpb-50">Shop By Room</div>
             <div class="room-card-slider">
@@ -269,10 +269,10 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- banner-section -->
-    <section class="banner-section position-relative">
+    <!-- <section class="banner-section position-relative">
         <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/home-hero.png" alt=""
             class="h-100 w-100 object-cover">
         <div class="bg-gradient-layer position-absolute w-100 h-100 top-0 opacity29"></div>
@@ -289,10 +289,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
       <!-- right-img-section -->
-      <section class="right-img-section left-right-292929">
+      <!-- <section class="right-img-section left-right-292929">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">
@@ -333,13 +333,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <div class="dmb-95 "></div>
 
 
     <!-- project-card-section -->
-    <section class="project-card-section">
+    <!-- <section class="project-card-section">
         <div class="container">
             <div class="row dmb-55">
                 <div class="col-3"></div>
@@ -395,12 +395,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <div class="dmb-165"></div>
 
     <!-- blog-card-section -->
-    <section class="blog-card-section">
+    <!-- <section class="blog-card-section">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center dmb-25">
                 <div class="bodoni font40 leading48 text-black text-capitalize">Latest News</div>
@@ -460,7 +460,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <div class="dmb-100"></div>
 </main>

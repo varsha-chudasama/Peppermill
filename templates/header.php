@@ -1,4 +1,4 @@
-<header class="header position-fixed top-0 w-100 transition">
+<!-- <header class="header position-fixed top-0 w-100 transition">
     <div class="header-section">
         <div class="bg-292929 dpt-10 dpb-10">
             <div class="container">
@@ -733,4 +733,4 @@
             </div>
         </div>
     </div>
-</header>
+</header> -->

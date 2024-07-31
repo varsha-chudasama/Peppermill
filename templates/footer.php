@@ -1,6 +1,6 @@
-<footer class="footer">
-    <div class="top-footer dpt-40">
-        <div class="container">
+<!-- <footer class="footer">
+        <div class="top-footer dpt-40">
+            <div class="container">
             <div class="text-center dpb-45">
                 <div class="bodoni font40 leading48 dmb-15 top-footer-text">#peppermillhomes</div>
                 <div class="mont-normal font13 leading20 top-footer-text">Share your creation on Instagram using the
@@ -225,7 +225,7 @@
             </div>
         </div>
     </div>
-</footer>
+</footer> -->
 
 <script>
     function myFunction() {
