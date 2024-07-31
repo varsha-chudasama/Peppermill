@@ -37,25 +37,13 @@ button:focus {
   object-position: center;
 }
 
-.rotate-full {
-  transform: rotate(180deg);
-}
-
-.z-index-one {
-  z-index: 1;
-}
-
 .list-none {
   list-style: none;
 }
 
-.overflow-y-auto {
-  overflow-y: auto !important;
-}
-
 // TRANSITION AND TRANSFORM GLOBAL CSS
 .transition {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .rotate-circle {
@@ -68,15 +56,19 @@ button:focus {
   }
 }
 
-.rotate-circle-nagative {
+.rotate-circle-negative {
   transform: rotate(-90deg);
 }
 
-.rotate-circle-positive {
-  transform: rotate(90deg);
+.rotate-circle-negative-full {
+  transform: rotate(-180deg);
 }
 
-.rotate-full {
+.rotate-circle-reverse {
+  transform: rotate(-180deg) !important;
+}
+
+.rotate-circle-active {
   transform: rotate(180deg);
 }
 
@@ -96,18 +88,8 @@ textarea {
 }
 
 // POSITION GLOBAL CSS
-.p-initial {
-  @include media-breakpoint-down(lg) {
-    position: initial !important;
-    transform: translate(0) !important;
-  }
-}
-
-.p-initial-xl {
-  @include media-breakpoint-down(xl) {
-    position: initial !important;
-    transform: translate(0) !important;
-  }
+.position-initial {
+  position: initial !important;
 }
 
 .top-left-center {
@@ -121,45 +103,38 @@ textarea {
   transform: translateY(-50%);
 }
 
-.trasform-none {
-  @include media-breakpoint-down(lg) {
-    transform: initial !important;
-  }
-}
-
 .left-center {
   left: 50%;
   transform: translateX(-50%);
 }
 
-.res-w-100 {
-  @include media-breakpoint-down(lg) {
-    width: 100% !important;
+@include media-breakpoint-down(xl) {
+  .p-initial-xl {
+    position: initial !important;
+    transform: translate(0) !important;
   }
 }
 
-.res-h-auto {
-  @include media-breakpoint-down(lg) {
-    height: auto !important;
-  }
-}
 
-.res-w-50 {
-  @include media-breakpoint-down(lg) {
-    width: 50% !important;
+@include media-breakpoint-down(lg) {
+  .p-initial {
+    position: initial !important;
+    transform: initial !important;
   }
-}
 
-.res-radius-0 {
-  @include media-breakpoint-down(lg) {
-    border-radius: 0 !important;
+  .p-relative {
+    position: relative !important;
+  }
+
+  .p-absolute {
+    position: absolute !important;
   }
 }
 
 // SCROLLBAR AND SELECTION GLOBAL CSS
 ::-webkit-scrollbar {
-  width: 5px;
-  display: none !important;
+  width: 0;
+  height: 0;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -169,32 +144,6 @@ textarea {
 ::selection {
   color: $white;
   background: $black;
-}
-
-.px-p-0 {
-  @include media-breakpoint-down(lg) {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-}
-
-.px-p-p {
-  @include media-breakpoint-down(lg) {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
-}
-
-.pe-p-5 {
-  @include media-breakpoint-down(lg) {
-    padding-right: 5px !important;
-  }
-}
-
-.ps-p-5 {
-  @include media-breakpoint-down(lg) {
-    padding-left: 5px !important;
-  }
 }
 
 @for $i from 1 through 70 {
@@ -280,11 +229,5 @@ textarea {
     .mpb-#{$i*5} {
       padding-bottom: #{5*$i}px !important;
     }
-  }
-}
-
-.border-lg-end-0 {
-  @include media-breakpoint-up(lg) {
-    border-right: 0 !important;
   }
 }

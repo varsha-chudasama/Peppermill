@@ -3,6 +3,7 @@ export class Header {
         this.HeaderHover();
         this.SearchMenu();
         this.HeaderFixed();
+        this.ResHeaderMenu();
     }
 
     HeaderHover() {
@@ -17,7 +18,7 @@ export class Header {
                             $(this).hover(function () {
                                 $('.header').addClass('header-hover');
                                 $(this).addClass('menu-active');
-                                $('.head-seach').removeClass('search-open')
+                                $('.head-search').removeClass('search-open')
                                 $('html').addClass('overflow-hidden')
                             }, function () {
                                 $('.header').removeClass('header-hover');
@@ -36,8 +37,8 @@ export class Header {
 
     SearchMenu() {
         // ===== search js
-        $(".head-seach-img").click(function (e) {
-            $('.head-seach').addClass('search-open')
+        $(".head-search-img").click(function (e) {
+            $('.head-search').addClass('search-open')
             $('html').addClass('overflow-y-hidden')
             $('.burgar-menu').removeClass('activate')
             $('header').removeClass('header-active')
@@ -53,7 +54,7 @@ export class Header {
         });
         $(".search-close").click(function (e) {
             e.stopPropagation();
-            $('.head-seach').removeClass('search-open')
+            $('.head-search').removeClass('search-open')
             $('html').removeClass('overflow-y-hidden')
             $('.seach-logo-img').removeClass('d-none')
             $('.search-suggestions').addClass('d-none')
@@ -87,6 +88,23 @@ export class Header {
                 $(".header").addClass("hidden");
             }
             prevScrollPos = currentScrollPos;
+        });
+    }
+
+    ResHeaderMenu() {
+        $(document).ready(function () {
+            function handleWindowResizeMegaMenu() {
+                var windowWidth = $(window).width();
+                if (windowWidth >= 0 && windowWidth <= 992) {
+                    const $headSearch = $('.head-search');
+                    const $headCart = $('.head-cart');
+                    const $resLogoNav = $('.res-logo-nav');
+
+                    $resLogoNav.append($headSearch).append($headCart);
+                }
+            }
+            handleWindowResizeMegaMenu();
+            $(window).resize(handleWindowResizeMegaMenu);
         });
     }
 }
