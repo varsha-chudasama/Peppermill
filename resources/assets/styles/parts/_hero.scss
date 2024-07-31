@@ -6,6 +6,7 @@
 
 .inspiration-hero-section {
   height: 630px;
+
   .inspiration-hero-content {
     height: calc(100% - 102px);
   }
@@ -19,4 +20,10 @@
 
 .banner-section {
   height: 638px;
+}
+
+@include media-breakpoint-down(lg) {
+  .hero-section {
+    height: 725px;
+  }
 }

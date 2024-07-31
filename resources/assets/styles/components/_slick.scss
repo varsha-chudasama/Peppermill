@@ -8,7 +8,29 @@
 }
 
 .product-section {
+  .product-slider {
+    @include media-breakpoint-down(lg) {
+      padding: 0px 6px;
+
+      .slick-list {
+        overflow: visible !important;
+      }
+    }
+  }
+
+  .slider-banner-section {
+
+    .next-arrow,
+    .prev-arrow {
+      @include media-breakpoint-down(lg) {
+        height: 31px;
+        width: 31px;
+      }
+    }
+  }
+
   .slick-arrows {
+
     .next-arrow,
     .prev-arrow {
       background-color: $color-292929 !important;
@@ -73,6 +95,7 @@
 }
 
 .room-card-section {
+
   .next-arrow,
   .prev-arrow {
     &.slick-disabled {

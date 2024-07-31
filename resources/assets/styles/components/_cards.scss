@@ -17,10 +17,15 @@
 
 .the-ultimate-card {
   height: 426px;
+
+  @include media-breakpoint-down(lg) {
+    height: 200px;
+  }
 }
 
 .header-card-col,
 .cards-col {
+
   &:nth-child(1),
   &:nth-child(2),
   &:nth-child(3) {
@@ -31,6 +36,10 @@
 .product-cards {
   .product-img {
     height: 421px;
+
+    @include media-breakpoint-down(lg) {
+      height: 295px;
+    }
   }
 
   .like-img {
