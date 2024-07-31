@@ -265,7 +265,7 @@
                         <ul class="d-xl-flex d-none align-items-center justify-content-center h-100 list-none logo-navigation mb-0 px-0">
                             <li class="me-2 head-search">
                                 <div href="" class="text-decoration-none d-inline-block head-search-img">
-                                    <div class="bg-292929 icon-bg d-flex align-items-center justify-content-center position-relative rounded-pill">
+                                    <div class="bg-292929 icon-bg d-flex align-items-center justify-content-center position-relative rounded-pill cursor-pointer">
                                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/search-icon.svg" class="w-100" alt="">
                                     </div>
                                 </div>
@@ -289,21 +289,83 @@
                                             </div>
                                             <div id="search-suggestions" class="search-suggestions h-100 w-100 d-none overflow-y-auto">
                                                 <div class="row row10">
-                                                    <div class="col-lg-3 col-6 product-card dmb-115">
-                                                        <a href="" class="search-suggestion-item d-inline-block text-decoration-none card-hover">
-                                                            <div class="product-img position-relative radius10 overflow-hidden dmb-25">
-                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-2.png" class="w-100 h-100 object-cover img" alt="">
-                                                                <div class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
+                                                    <div class="col-lg-3 col-6 dmb-115 tmb-35 search-suggestion-item">
+                                                        <a href="" class="product-cards d-inline-block text-decoration-none">
+                                                            <div class="product-img position-relative radius10 res-radius5 overflow-hidden card-hover dmb-25 tmb-20">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-1.png" class="w-100 h-100 object-cover img" alt="">
+                                                                <div class="mont-medium font13 res-font11 leading20 res-leading16 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 dmt-10 ms-2">
                                                                     New in</div>
                                                                 <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
                                                                     <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg" class="w-100" alt="">
                                                                 </div>
                                                             </div>
                                                             <div class="product-content">
-                                                                <div class="mont-medium font16 leading20 text-black dpb-10 search-suggestion-title">
-                                                                    Gardena Sheepskin Armchair</div>
-                                                                <div class="mont-medium font13 leading20 text-7D7D7D">
-                                                                    £995.00</div>
+                                                                <div class="search-suggestion-title mont-medium font16 res-font14 leading20 text-black dpb-10">Gardena Sheepskin Armchair</div>
+                                                                <div class="mont-medium font13 res-font11 leading20 text-7D7D7D">£995.00</div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 dmb-115 tmb-35 search-suggestion-item">
+                                                        <a href="" class="product-cards d-inline-block text-decoration-none">
+                                                            <div class="product-img position-relative radius10 res-radius5 overflow-hidden card-hover dmb-25 tmb-20">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-1.png" class="w-100 h-100 object-cover img" alt="">
+                                                                <div class="mont-medium font13 res-font11 leading20 res-leading16 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 dmt-10 ms-2">
+                                                                    New in</div>
+                                                                <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg" class="w-100" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <div class="search-suggestion-title mont-medium font16 res-font14 leading20 text-black dpb-10">Medway Side Table</div>
+                                                                <div class="mont-medium font13 res-font11 leading20 text-7D7D7D">£995.00</div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 dmb-115 tmb-35 search-suggestion-item">
+                                                        <a href="" class="product-cards d-inline-block text-decoration-none">
+                                                            <div class="product-img position-relative radius10 res-radius5 overflow-hidden card-hover dmb-25 tmb-20">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-1.png" class="w-100 h-100 object-cover img" alt="">
+                                                                <div class="mont-medium font13 res-font11 leading20 res-leading16 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 dmt-10 ms-2">
+                                                                    New in</div>
+                                                                <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg" class="w-100" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <div class="search-suggestion-title mont-medium font16 res-font14 leading20 text-black dpb-10">Denver Velvet Sofa</div>
+                                                                <div class="mont-medium font13 res-font11 leading20 text-7D7D7D">£995.00</div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 dmb-115 tmb-35 search-suggestion-item">
+                                                        <a href="" class="product-cards d-inline-block text-decoration-none">
+                                                            <div class="product-img position-relative radius10 res-radius5 overflow-hidden card-hover dmb-25 tmb-20">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-1.png" class="w-100 h-100 object-cover img" alt="">
+                                                                <div class="mont-medium font13 res-font11 leading20 res-leading16 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 dmt-10 ms-2">
+                                                                    New in</div>
+                                                                <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg" class="w-100" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <div class="search-suggestion-title mont-medium font16 res-font14 leading20 text-black dpb-10">Monaco Cocktail Bar</div>
+                                                                <div class="mont-medium font13 res-font11 leading20 text-7D7D7D">£995.00</div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 dmb-115 tmb-35 search-suggestion-item">
+                                                        <a href="" class="product-cards d-inline-block text-decoration-none">
+                                                            <div class="product-img position-relative radius10 res-radius5 overflow-hidden card-hover dmb-25 tmb-20">
+                                                                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/product-1.png" class="w-100 h-100 object-cover img" alt="">
+                                                                <div class="mont-medium font13 res-font11 leading20 res-leading16 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 dmt-10 ms-2">
+                                                                    New in</div>
+                                                                <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                                                                    <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg" class="w-100" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="product-content">
+                                                                <div class="search-suggestion-title mont-medium font16 res-font14 leading20 text-black dpb-10">Gardena Sheepskin Armchair</div>
+                                                                <div class="mont-medium font13 res-font11 leading20 text-7D7D7D">£995.00</div>
                                                             </div>
                                                         </a>
                                                     </div>

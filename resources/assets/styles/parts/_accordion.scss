@@ -2,10 +2,17 @@
   .closet-cards {
     border-bottom: 1px solid $color-EBEBEB;
     padding: 27px 0px !important;
+    @include media-breakpoint-down(md){
+      padding: 30px 0px !important;
+    }
   
     .closet-closebtn {
       width: 8px;
       transform: rotate(45deg);
+    }
+
+    .closet-content{
+      display: none;
     }
 
     .closet-title {
