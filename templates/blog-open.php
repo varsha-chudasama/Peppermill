@@ -45,7 +45,7 @@
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-open-img.png" alt=""
                             class="w-100 h-100 object-cover img">
                     </div>
-                    <div class="col-lg-9 px-lg-1 mx-auto px-p-p">
+                    <div class="col-12 col-lg-9 px-lg-1 mx-auto px-p-p">
                         <div class="mont-normal font13 leading24 text-black tmb-55 dmb-70 pe-4 pe-lg-0">
                             Finding the perfect cosy armchair for your fireplace this winter does not have to be
                             complicated. There is an abundance of styles you can choose from that will seamlessly blend

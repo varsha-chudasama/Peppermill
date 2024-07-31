@@ -22,7 +22,7 @@
     <!-- contact-section -->
     <section class="contact-sell-section bg-F5F5F5 tpt-75 tpb-110 dpt-105 dpb-195">
         <div class="container">
-            <div class="col-lg-7 px-xl-4 mx-auto">
+            <div class="col-12 col-lg-7 px-xl-4 mx-auto">
                 <div class="text-center dmb-50">
                     <div class="bodoni font35 leading45 res-font30 res-leading35 text-black dmb-15">
                         Get In Touch Today

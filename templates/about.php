@@ -52,7 +52,7 @@
 
     <!-- blog-card-section -->
   
-  
+
     <div class="spacing tmb-55 dmb-155"></div>
 
     <!-- joinus-banner-section -->
@@ -63,7 +63,7 @@
         <div class="position-absolute w-100 h-100 top-0 d-flex align-items-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 pe-4">
+                    <div class="col-12 col-lg-6 pe-4">
                         <div class="bodoni font48 leading55 res-font40 res-leading45 res-space0 space1_2 text-white tmb-10 dmb-5">
                             Interested in joining us?
                         </div>

@@ -38,13 +38,13 @@
     <section class="project-open-content">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 pe-lg-5 tmb-60 dmb-115">
+                <div class="col-12 col-lg-7 pe-lg-5 tmb-60 dmb-115">
                     <div class="bodoni font34 leading45 res-font27 res-leading35 text-black">
                         In the heart of the world-famous Las Vegas Strip, BrewDog have recently opened their latest
                         rooftop bar and restaurant
                     </div>
                 </div>
-                <div class="col-lg-6 tmb-50">
+                <div class="col-12 col-lg-6 tmb-50">
                     <div class="tmb-20 dmb-30">
                         <div class="mont-medium font13 leading20 text-918E8E dmb-10">Project Name</div>
                         <a class="mont-medium font14 leading20 text-black">Brewdog, Las Vegas</a>
@@ -58,7 +58,7 @@
                         <a class="mont-medium font14 leading20 text-black">8 Weeks</a>
                     </div>
                 </div>
-                <div class="col-lg-6 pe-4 ps-lg-3">
+                <div class="col-12 col-lg-6 pe-4 ps-lg-3">
                     <div class="tmb-40 dmb-70">
                         <div class="bodoni font22 leading30 space0_45 res-space0_55 text-black dmb-30">
                             First floor Taproom & Brewery
