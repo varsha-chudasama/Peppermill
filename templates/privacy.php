@@ -3,11 +3,11 @@
  * Template Name: privacy
  */
 ?>
-
+<div class="spacing tpt-145"></div>
 <section class="privacy-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 col-12 pe-4 privacy-left-content tpt-100 bg-EBEBEB">
+            <div class="col-lg-5 col-12 pe-4 privacy-left-content res-bg-EBEBEB res-radius5 tpt-35 tpb-45 ps-3">
                 <ul class="list-none ps-0 mb-0 privacy-links position-sticky p-initial" id="privacy-links">
                     <li class="dmb-20 d-flex align-items-center transition opacity-50 active">
                         <a href="#privacy"
@@ -47,9 +47,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-7 col-12 ps-lg-2 privacy-right-content dpb-160 tpb-130">
+            <div class="col-lg-7 col-12 ps-lg-2 privacy-right-content dpb-160 tpb-75">
                 <div class="single-content" id="privacy">
-                    <div class="bodoni font30 leading35 text-black text-capitalize dmb-30">
+                    <div class="bodoni font30 res-font24 leading35 res-leading30 text-black text-capitalize dmb-30 tmb-25">
                         Privacy Policy
                     </div>
                     <div class="mont-normal font13 leading24 text-black">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="single-content" id="terms">
-                    <div class="bodoni font30 leading35 text-black text-capitalize dmb-30">
+                    <div class="bodoni font30 res-font24 leading35 res-leading30 text-black text-capitalize dmb-30 tmb-25">
                         T&Cs
                     </div>
                     <div class="mont-normal font13 leading24 text-black">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
                 <div class="single-content" id="delivery">
-                    <div class="bodoni font30 leading35 text-black text-capitalize dmb-30">
+                    <div class="bodoni font30 res-font24 leading35 res-leading30 text-black text-capitalize dmb-30 tmb-25">
                         Delivery Information
                     </div>
                     <div class="mont-normal font13 leading24 text-black">
@@ -105,7 +105,7 @@
                     </div>
                 </div>
                 <div class="single-content" id="order">
-                    <div class="bodoni font30 leading35 text-black text-capitalize dmb-30">
+                    <div class="bodoni font30 res-font24 leading35 res-leading30 text-black text-capitalize dmb-30 tmb-25">
                         Track your order
                     </div>
                     <div class="mont-normal font13 leading24 text-black">
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <div class="single-content" id="returns">
-                    <div class="bodoni font30 leading35 text-black text-capitalize dmb-30">
+                    <div class="bodoni font30 res-font24 leading35 res-leading30 text-black text-capitalize dmb-30 tmb-25">
                         Returns & Refunds
                     </div>
                     <div class="mont-normal font13 leading24 text-black">
@@ -138,15 +138,15 @@
                     </div>
                     <div class="dmt-50 d-flex flex-wrap align-items-center privacy-btn-group">
                         <a href=""
-                            class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
+                            class="text-decoration-none tmb-15 btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
                             ITEM NOT REQUIRED,
                         </a>
                         <a href=""
-                            class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
+                            class="text-decoration-none tmb-15 btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
                             FAULTY ITEM
                         </a>
                         <a href=""
-                            class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
+                            class="text-decoration-none tmb-15 btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
                             EXCHANGE AN ITEM
                         </a>
                     </div>

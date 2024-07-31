@@ -4,9 +4,10 @@
             top: 205px;
 
             li {
-                &:last-child{
+                &:last-child {
                     margin-bottom: 0 !important;
                 }
+
                 &.active {
                     opacity: 100% !important;
 
@@ -28,7 +29,7 @@
                 padding-top: 180px;
 
                 @include media-breakpoint-down(lg) {
-                    padding-top: 90px;
+                    padding-top: 60px;
                 }
             }
 
@@ -38,12 +39,18 @@
             }
 
             @include media-breakpoint-down(lg) {
-                padding-top: 90px;
+                padding-top: 55px;
+                padding-bottom: 55px;
             }
-            .privacy-btn-group{
-                .btnA{
-                    &:last-child{
+
+            .privacy-btn-group {
+                .btnA {
+                    &:last-child {
                         margin-right: 0 !important;
+
+                        @include media-breakpoint-down(lg) {
+                            margin-bottom: 0 !important;
+                        }
                     }
                 }
             }
