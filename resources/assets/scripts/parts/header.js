@@ -101,15 +101,18 @@ export class Header {
                 const $headSearch = $('.head-search');
                 const $headCart = $('.head-cart');
                 const $resLogoNav = $('.res-logo-nav');
+                const $resLogoNav2 = $('.res-logo-nav2');
+                const $headIcon = $('.head-icon');
 
                 $resLogoNav.append($headSearch).append($headCart);
+                $resLogoNav2.append($headIcon);
 
                 $('.menu-toggle').click(function () {
                     $('.burgar-menu').toggleClass('activate');
                     $('.header').toggleClass('header-active');
                     $('html').toggleClass('overflow-hidden');
-                    // $('.header').removeClass('header-megamenu-active');
-                    // $('.menu-item').removeClass('res-menu-active');
+                    $('.menu-item').removeClass('res-menu-active');
+                    $('.header').removeClass('header-megamenu-active');
                 });
                 $('.menu-item').each(function () {
                     var $this = $(this);
@@ -120,8 +123,12 @@ export class Header {
                             event.preventDefault();
                             $('.menu-item').removeClass('res-menu-active'); 
                             $this.addClass('res-menu-active'); 
+                            $('.header').addClass('header-megamenu-active');
                         });
                     }
+                });
+                $(".mega-menu").click(function (e) {
+                    e.stopPropagation();
                 });
             }
         }
