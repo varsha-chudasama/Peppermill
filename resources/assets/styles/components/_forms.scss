@@ -40,8 +40,56 @@
   }
 }
 
-.vacancies-menu{
-  .input-field{
+.vacancies-menu {
+  .input-field {
     min-width: 432px;
+  }
+}
+
+.woocommerce-ordering {
+  .select-sort-by {
+    height: 28px !important;
+    .select-custom-dropdown {
+    }
+  }
+}
+
+.account-wrapper {
+  height: 100vh !important;
+
+  .woocommerce {
+    .login {
+      padding: 0px !important;
+      border: 0px !important;
+      margin: 0px !important;
+      border-radius: 0px !important;
+    }
+  }
+}
+.form-row {
+  padding: 0px !important;
+  margin-bottom: 0px !important;
+  .button {
+    background-color: $color-292929 !important;
+    border: 1px solid $color-292929 !important;
+    color: $white !important;
+    height: 47px;
+    padding: 0px 60px !important;
+    transition: all 0.3s ease-in-out;
+    border-radius: $radius5 !important;
+    font-family: "Montserrat-Semibold" !important;
+    font-size: $font11 !important;
+    line-height: $leading16 !important;
+    letter-spacing: $space0_28 !important;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px !important;
+
+    &:hover {
+      background-color: transparent !important;
+      color: $color-292929 !important;
+    }
   }
 }

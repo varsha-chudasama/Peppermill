@@ -311,9 +311,9 @@
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
-                                alt="">
+                        <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -328,9 +328,9 @@
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
-                                alt="">
+                        <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -345,9 +345,9 @@
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
-                                alt="">
+                        <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -362,9 +362,9 @@
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
-                                alt="">
+                        <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -379,9 +379,9 @@
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
-                                alt="">
+                        <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">

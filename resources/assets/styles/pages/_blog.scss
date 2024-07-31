@@ -7,5 +7,15 @@
   .menu-links {
     height: calc(100vh - 300px);
     top: 185px;
+
+    .social-icon {
+      width: 31px;
+      height: 31px;
+
+      img {
+        width: 15px;
+        height: 15px;
+      }
+    }
   }
 }

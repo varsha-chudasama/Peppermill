@@ -3,6 +3,7 @@ export class Plugins {
 
   init() {
     this.ReadMoreAndLess();
+    this.SingleProduct();
   }
 
   ReadMoreAndLess() {
@@ -38,6 +39,27 @@ export class Plugins {
         $content.css({ "max-height": defaultHeight });
       });
     });
+  }
+
+  SingleProduct() {
+    $('.woocommerce-product-small_image').slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      arrows: false,
+      vertical: true,
+      verticalSwiping: true,
+      fade: true,
+      asNavFor: '.woocommerce-product-gallery__wrapper'
+    });
+    $('.woocommerce-product-gallery__wrapper').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      asNavFor: '.woocommerce-product-small_image',
+      dots: false,
+      arrows: false,
+      focusOnSelect: true
+    });
+
   }
 
 }

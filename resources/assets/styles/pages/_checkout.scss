@@ -1,0 +1,138 @@
+.checkout-section {
+  .woocommerce-form-coupon-toggle,
+  .checkout_coupon {
+    .woocommerce-info {
+      display: none !important;
+    }
+  }
+
+  .woocommerce-checkout {
+    .container-checkbox-password {
+      width: fit-content !important;
+      padding-right: 28px;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      input {
+        cursor: pointer;
+        height: 0px;
+        width: 0px;
+
+        &:checked ~ .checkmark {
+          background-color: $black !important;
+          border: 1px solid $black !important;
+          &::after {
+            display: block !important;
+          }
+        }
+
+        &:checked ~ label {
+          color: $black !important;
+        }
+      }
+
+      .checkmark {
+        height: 17px !important;
+        width: 17px !important;
+
+        &::after {
+          content: "";
+          position: absolute;
+          display: none;
+          left: 5px;
+          top: 2px;
+          width: 4px;
+          height: 8px;
+          border: solid $white;
+          border-width: 0 1px 1px 0;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+      }
+    }
+
+    .order-review-section {
+      padding: 45px 45px 54px 45px !important;
+
+      .cart_item {
+        .product-detail {
+          .product-thumbnail {
+            min-width: 82px;
+            height: 108px;
+            img {
+              width: 100% !important;
+              height: 100% !important;
+              object-fit: cover !important;
+              border-radius: $radius5 !important;
+            }
+          }
+          .woocommerce-Price-amount {
+            display: inline-flex !important;
+            font-family: "Montserrat-Medium", sans-serif;
+            font-size: $font13 !important;
+            line-height: $leading24 !important;
+            color: $color-918E8E !important;
+          }
+        }
+
+        .product-name,
+        .product-quantity,
+        .woocommerce-Price-amount {
+          font-size: $font13 !important;
+          line-height: $leading20 !important;
+          color: $black !important;
+        }
+
+        .product-quantity {
+          text-align: center;
+        }
+
+        .product-price {
+          text-align: end !important;
+          .woocommerce-Price-amount {
+            display: block !important;
+          }
+        }
+      }
+    }
+
+    .cart-delivery,
+    .cart-subtotal {
+      font-family: "Montserrat-Medium" !important;
+      font-size: $font13 !important;
+      line-height: $leading20 !important;
+      color: $color-918E8E !important;
+
+      .woocommerce-Price-amount {
+        display: block !important;
+      }
+    }
+    .order-total {
+      font-family: "Montserrat-Medium" !important;
+      font-size: $font18 !important;
+      line-height: $leading30 !important;
+      color: $black !important;
+      .woocommerce-Price-amount {
+        display: block !important;
+      }
+    }
+
+    .woocommerce-checkout-payment {
+      display: none !important;
+    }
+  }
+}
+.product-data {
+  .product-price {
+    .woocommerce-Price-amount {
+      display: block !important;
+      font-size: $font13 !important;
+      line-height: $leading20 !important;
+      color: $black !important;
+    }
+  }
+}

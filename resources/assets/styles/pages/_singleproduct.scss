@@ -1,0 +1,140 @@
+.single-product-section {
+  .woocommerce-product-small {
+    width: 6% !important;
+    margin-right: 32px !important;
+
+    .slick-track {
+      overflow: auto;
+    }
+
+    .slick-slide {
+      height: 97px !important;
+      & > div {
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+
+    .slick-list {
+      height: 570px !important;
+      .slick-track {
+        height: 100% !important;
+      }
+    }
+    
+    .slick-slide {
+      margin-top: 5px !important;
+      margin-bottom: 5px !important;
+      left: 0px !important;
+      opacity: 1 !important;
+    }
+  }
+
+  .woocommerce-product-gallery {
+    width: 52.2% !important;
+
+    .woocommerce-product-gallery__wrapper {
+      height: 570px !important;
+
+      .slick-list,
+      .slick-track,
+      .slick-slide {
+        height: 100% !important;
+      }
+
+      .slick-slide {
+        padding-right: 11px !important;
+        padding-left: 11px !important;
+        & > div {
+          height: 100% !important;
+        }
+      }
+
+      .woocommerce-product-gallery__image {
+        height: 100%;
+        a {
+          height: 100%;
+          .wp-post-image {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            border-radius: $radius10 !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.woocommerce,
+.woocommerce-page {
+  div {
+    &.product {
+      div {
+        &.summary {
+          width: 34% !important;
+          margin-left: auto !important;
+
+          .product_title {
+            font-family: "Montserrat-Medium", sans-serif;
+            font-size: $font20;
+            line-height: $leading30;
+            color: $black !important;
+          }
+
+          .woocommerce-Price-amount {
+            display: block !important;
+            font-family: "Montserrat-Medium", sans-serif;
+            font-size: $font15;
+            line-height: $leading20;
+            color: $black !important;
+            margin-bottom: 24px !important;
+          }
+          .cart {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .quantity {
+              width: 22% !important;
+              height: 47px !important;
+              input {
+                width: 100% !important;
+                height: 100% !important;
+                border: 1px solid $color-D5D5D5 !important;
+                border-radius: $radius5 !important;
+                font-family: "Montserrat-Medium", sans-serif;
+                font-size: $font13;
+                line-height: $leading20;
+                color: $black !important;
+              }
+            }
+            .single_add_to_cart_button {
+              background-color: $color-292929 !important;
+              border: 1px solid $color-292929 !important;
+              color: $white !important;
+              height: 47px;
+              padding: 0px 26px !important;
+              transition: all 0.3s ease-in-out;
+              border-radius: $radius5 !important;
+              font-family: "Montserrat-Semibold" !important;
+              font-size: $font11 !important;
+              line-height: $leading16 !important;
+              letter-spacing: $space0_28 !important;
+              text-transform: uppercase;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: 0px !important;
+              width: 75% !important;
+
+              &:hover {
+                background-color: transparent !important;
+                color: $color-292929 !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

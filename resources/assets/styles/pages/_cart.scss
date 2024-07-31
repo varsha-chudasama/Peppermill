@@ -1,0 +1,212 @@
+.cart-section {
+  .woocommerce {
+    display: flex;
+    align-items: flex-start;
+    .woocommerce-cart-form {
+      .shop_table {
+        border-top: 1px solid $color-EBEBEB !important;
+
+        .product-remove {
+          .screen-reader-text {
+            clip-path: inset(0%) !important;
+            position: relative !important;
+          }
+        }
+        .woocommerce-cart-form__cart-item {
+          border-bottom: 1px solid $color-EBEBEB !important;
+          .product-thumbnail {
+            width: 82px !important;
+            height: 108px !important;
+
+            img {
+              border-radius: $radius5 !important;
+              width: 100% !important;
+              height: 100% !important;
+              object-fit: cover !important;
+            }
+          }
+          .product-name {
+            a {
+              font-family: "Montserrat-Medium" !important;
+              font-size: $font16;
+              line-height: $leading30;
+              color: $black;
+              text-decoration: none !important;
+            }
+          }
+          .product-quantity {
+            font-family: "Montserrat-Medium" !important;
+            font-size: $font13;
+            line-height: $leading30;
+            color: $black;
+            .input-text {
+              border: none !important;
+            }
+          }
+          .product-remove {
+            width: 20px;
+            height: 20px;
+            position: relative;
+
+            &::before {
+              content: "" !important;
+              position: absolute;
+              top: 0;
+              left: 0;
+              background-image: url("http://localhost/peppermill/wp-content/uploads/2024/07/close-icon.svg");
+              width: 8px;
+              height: 8px;
+              background-size: 8px 8px;
+              margin: 6px;
+            }
+            .remove {
+              display: none !important;
+            }
+          }
+        }
+        .actions {
+          .coupon {
+            .input-field {
+              min-width: 329px !important;
+              color: $color-918E8E !important;
+
+              &::placeholder {
+                color: $color-918E8E !important;
+              }
+            }
+            .button {
+              background-color: $color-292929 !important;
+              border: 1px solid $color-292929 !important;
+              color: $white !important;
+              height: 47px;
+              padding: 0px 26px !important;
+              transition: all 0.3s ease-in-out;
+              border-radius: $radius5 !important;
+              font-family: "Montserrat-Semibold" !important;
+              font-size: $font11 !important;
+              line-height: $leading16 !important;
+              text-transform: uppercase;
+
+              &:hover {
+                background-color: transparent !important;
+                color: $color-292929 !important;
+              }
+            }
+          }
+
+          button {
+            &.button {
+              font-family: "Montserrat-Semibold" !important;
+              font-size: $font11 !important;
+              line-height: $leading20 !important;
+              letter-spacing: $space0_28 !important;
+              opacity: 1 !important;
+              padding: 0px !important;
+              color: $color-918E8E !important;
+            }
+          }
+        }
+        .cart-banner-section {
+          height: 106px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .cart-collaterals {
+      border-top: 1px solid $color-EBEBEB !important;
+      .cart_totals {
+        h2 {
+          display: none !important;
+        }
+
+        .shop_table {
+          .cart-delivery,
+          .cart-subtotal {
+            font-family: "Montserrat-Medium" !important;
+            font-size: $font13 !important;
+            line-height: $leading20 !important;
+            color: $color-918E8E !important;
+            .woocommerce-Price-amount {
+              display: block !important;
+            }
+          }
+          .order-total {
+            font-family: "Montserrat-Medium" !important;
+            font-size: $font18 !important;
+            line-height: $leading30 !important;
+            color: $black !important;
+            .woocommerce-Price-amount {
+              display: block !important;
+            }
+          }
+        }
+
+        .wc-proceed-to-checkout {
+          padding: 0px !important;
+          .checkout-button {
+            background-color: $color-292929 !important;
+            border: 1px solid $color-292929 !important;
+            color: $white !important;
+            height: 47px;
+            padding: 0px 26px !important;
+            transition: all 0.3s ease-in-out;
+            border-radius: $radius5 !important;
+            font-family: "Montserrat-Semibold" !important;
+            font-size: $font11 !important;
+            line-height: $leading16 !important;
+            letter-spacing: $space0_28 !important;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0px !important;
+
+            &:hover {
+              background-color: transparent !important;
+              color: $color-292929 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.product-quantity,
+.product-price,
+.product-remove {
+  text-align: center;
+}
+.product-name,
+.product-quantity,
+.product-price,
+.product-remove {
+  font-family: "Montserrat-SemiBold";
+  font-size: $font9;
+  line-height: $leading11;
+  letter-spacing: $space0_23;
+  text-transform: uppercase;
+  color: $color-918E8E;
+}
+
+.woocommerce-product-gallery__image {
+  display: flex;
+}
+
+.woocommerce-product-gallery__image img {
+  cursor: zoom-in;
+}
+
+.zoom-preview {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #000;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+}

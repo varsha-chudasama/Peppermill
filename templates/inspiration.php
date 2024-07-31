@@ -51,7 +51,7 @@
                     <a href="" class="w-100 text-decoration-none">
                         <div class="collection-cards w-100 radius10 position-relative overflow-hidden  card-hover">
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/inspiration-1.png" alt=""
-                                class="w-100 h-100 object-cover">
+                                class="w-100 h-100 object-cover img">
                             <div class="position-absolute w-100 h-100 top-0 bg-black opacity-25"></div>
                             <div
                                 class="position-absolute w-100 h-100 top-0 d-flex flex-column justify-content-end px-5 dpb-60">
@@ -74,7 +74,7 @@
                     <a href="" class="w-100 text-decoration-none">
                         <div class="collection-cards w-100 radius10 position-relative overflow-hidden  card-hover">
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/inspiration-2.png" alt=""
-                                class="w-100 h-100 object-cover">
+                                class="w-100 h-100 object-cover img">
                             <div class="position-absolute w-100 h-100 top-0 bg-black opacity-25"></div>
                             <div
                                 class="position-absolute w-100 h-100 top-0 d-flex flex-column justify-content-end px-5 dpb-60">
@@ -97,7 +97,7 @@
                     <a href="" class="w-100 text-decoration-none">
                         <div class="collection-cards w-100 radius10 position-relative overflow-hidden  card-hover">
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/home-hero.png" alt=""
-                                class="w-100 h-100 object-cover">
+                                class="w-100 h-100 object-cover img">
                             <div class="position-absolute w-100 h-100 top-0 bg-black opacity-25"></div>
                             <div
                                 class="position-absolute w-100 h-100 top-0 d-flex flex-column justify-content-end px-5 dpb-60">
@@ -120,7 +120,7 @@
                     <a href="" class="w-100 text-decoration-none">
                         <div class="collection-cards w-100 radius10 position-relative overflow-hidden  card-hover">
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-1.png" alt=""
-                                class="w-100 h-100 object-cover">
+                                class="w-100 h-100 object-cover img">
                             <div class="position-absolute w-100 h-100 top-0 bg-black opacity-25"></div>
                             <div
                                 class="position-absolute w-100 h-100 top-0 d-flex flex-column justify-content-end px-5 dpb-60">
@@ -172,9 +172,9 @@
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
-                                alt="">
+                        <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -189,9 +189,9 @@
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
-                                alt="">
+                        <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -206,9 +206,9 @@
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
-                                alt="">
+                        <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -223,9 +223,9 @@
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
-                                alt="">
+                        <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -240,9 +240,9 @@
                         <div
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
-                        <div class="like-img position-absolute bottom-0 end-0 me-3 mb-2 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/like.svg" class="w-100"
-                                alt="">
+                        <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">

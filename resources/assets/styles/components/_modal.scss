@@ -1,44 +1,212 @@
 .modal {
-    .modal-dialog {
-        @include media-breakpoint-down(lg) {
-            min-width: 100%;
-            margin: 0;
-        }
-
-        .modal-content {
-            @include media-breakpoint-down(lg) {
-                height: 100vh !important;
-                overflow-y: auto;
-            }
-        }
+  .modal-dialog {
+    @include media-breakpoint-down(lg) {
+      min-width: 100%;
+      margin: 0;
     }
+
+    .modal-content {
+      @include media-breakpoint-down(lg) {
+        height: 100vh !important;
+        overflow-y: auto;
+      }
+    }
+  }
 }
 
 .modal {
-    &.enquiry-modal {
-        .modal-dialog {
-            min-width: 658px;
+  &.enquiry-modal {
+    .modal-dialog {
+      min-width: 658px;
 
-            @include media-breakpoint-down(md) {
-                min-width: 100% !important;
-                margin: 0px !important;
-            }
+      @include media-breakpoint-down(md) {
+        min-width: 100% !important;
+        margin: 0px !important;
+      }
 
-            .modal-content {
-                padding: 72px 113px 82px;
-                height: 574px;
+      .modal-content {
+        padding: 72px 113px 82px;
+        height: 574px;
 
-                @include media-breakpoint-down(md) {
-                    padding: 25px !important;
-                    height: 100vh;
-                    overflow-y: auto;
-                }
-
-                .close-div {
-                    top: 12px !important;
-                    right: 18px !important;
-                }
-            }
+        @include media-breakpoint-down(md) {
+          padding: 25px !important;
+          height: 100vh;
+          overflow-y: auto;
         }
+
+        .close-div {
+          top: 12px !important;
+          right: 18px !important;
+        }
+      }
     }
+  }
+}
+
+.xoo-wsc-markup {
+  .xoo-wsc-modal {
+    &.xoo-wsc-cart-active {
+      .xoo-wsc-container {
+        right: 0px !important;
+      }
+
+      .xoo-wsc-opac {
+        opacity: 0.29;
+      }
+    }
+    .xoo-wsc-container {
+      max-width: 451px !important;
+      right: -451px !important;
+      padding: 42px 52px 74px 62px !important;
+    }
+
+    .xoo-wsc-header {
+      padding: 0px !important;
+      border-bottom: 0px !important;
+      position: relative !important;
+      .xoo-wsch-top {
+        justify-content: flex-start !important;
+        .xoo-wsch-text {
+          margin: 50px 0px 40px 0px !important;
+          text-align: left;
+          margin-left: 0px !important;
+        }
+        .xoo-wsch-close {
+          right: 0px !important;
+          top: 0px !important;
+        }
+      }
+    }
+
+    .xoo-wsc-body {
+      background-color: transparent !important;
+      .xoo-wsc-products {
+        .xoo-wsc-product {
+          margin: 0px !important;
+          padding: 26px 0px 30px 0px !important;
+          box-shadow: none !important;
+          border-radius: 0px !important;
+          background-color: transparent !important;
+          border-bottom: 0px !important;
+          position: relative !important;
+          border-bottom: 1px solid $color-EBEBEB !important;
+
+          &:first-child {
+            border-top: 1px solid $color-EBEBEB !important;
+          }
+
+          .xoo-wsc-img-col {
+            width: 82px !important;
+            height: 108px !important;
+            img {
+              border-radius: $radius5 !important;
+              width: 100% !important;
+              height: 100% !important;
+            }
+          }
+          .xoo-wsc-sum-col {
+            padding-left: 25px !important;
+            .xoo-wsc-sm-info {
+              align-items: flex-start !important;
+              position: relative !important;
+              .xoo-wsc-sm-left {
+                .xoo-wsc-pname {
+                  a {
+                    font-family: "Montserrat-Medium" !important;
+                    font-size: $font14 !important;
+                    line-height: $leading20 !important;
+                    color: $black !important;
+                    margin-bottom: 6px !important;
+                  }
+                }
+                .xoo-wsc-qty-price {
+                  .woocommerce-Price-amount {
+                    display: inline-flex !important;
+                    font-family: "Montserrat-Medium" !important;
+                    font-size: $font13 !important;
+                    line-height: $leading24 !important;
+                    color: $color-7D7D7D !important;
+                  }
+                }
+              }
+              .xoo-wsc-sm-right {
+                .xoo-wsc-smr-del {
+                  &::before {
+                    margin: 5px;
+                    opacity: 0.5;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .xoo-wsc-footer {
+      box-shadow: none !important;
+      padding: 0px !important;
+
+      .xoo-wsc-ft-totals {
+        padding: 0px !important;
+        .xoo-wsc-ft-amt {
+          display: flex !important;
+
+          .xoo-wsc-ft-amt-label,
+          .woocommerce-Price-amount {
+            display: inline-flex !important;
+            font-family: "Montserrat-Regular" !important;
+            font-size: $font13 !important;
+            line-height: $leading24 !important;
+            color: $color-918E8E !important;
+          }
+        }
+      }
+      .xoo-wsc-ft-buttons-cont {
+        margin-top: 25px !important;
+        .xoo-wsc-btn {
+          background-color: $color-292929 !important;
+          border: 1px solid $color-292929 !important;
+          color: $white !important;
+          height: 47px;
+          padding: 0px 26px !important;
+          transition: all 0.3s ease-in-out;
+          border-radius: $radius5 !important;
+          font-family: "Montserrat-Semibold" !important;
+          font-size: $font11 !important;
+          line-height: $leading16 !important;
+          text-transform: uppercase;
+
+          &:hover {
+            background-color: transparent !important;
+            color: $color-292929 !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.xoo-wsch-basket,
+.xoo-wsc-footer-txt,
+.xoo-wsc-ft-btn-cart,
+.xoo-wsc-ft-btn-continue,
+.woocommerce-Price-amount {
+  display: none !important;
+}
+
+.xoo-wsch-close,
+.xoo-wsc-smr-del {
+  width: 20px;
+  height: 20px;
+  &::before {
+    content: "" !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("http://localhost/peppermill/wp-content/uploads/2024/07/close-icon.svg");
+    width: 8px;
+    height: 8px;
+    background-size: 8px 8px;
+  }
 }
