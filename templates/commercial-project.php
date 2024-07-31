@@ -147,7 +147,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 px-lg-1 mx-auto">
+                <div class="col-12 col-lg-8 px-lg-1 mx-auto">
                     <div class="closet-accordion">
                         <div class="closet-cards cursor-pointer border-bottom border-EBEBEB">
                             <div class="closet-title d-flex align-items-center justify-content-between active">

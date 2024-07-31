@@ -40,7 +40,7 @@
     <!-- collection-card-section -->
     <section class="collection-card-section">
         <div class="container">
-            <div class="col-lg-7 px-2 px-md-0 mx-auto tmb-35 dmb-50">
+            <div class="col-12 col-lg-7 px-2 px-md-0 mx-auto tmb-35 dmb-50">
                 <div class="bodoni font40 leading45 res-font30 res-leading35 text-center text-black dmb-25">
                     Explore collections
                 </div>
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="row row10">
-                <div class="col-lg-6 dmb-20 cards-col">
+                <div class="col-12 col-lg-6 dmb-20 cards-col">
                     <a href="" class="w-100 text-decoration-none">
                         <div class="collection-cards w-100 radius10 position-relative overflow-hidden  card-hover">
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/inspiration-1.png" alt=""
@@ -74,7 +74,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 dmb-20 cards-col">
+                <div class="col-12 col-lg-6 dmb-20 cards-col">
                     <a href="" class="w-100 text-decoration-none">
                         <div class="collection-cards w-100 radius10 position-relative overflow-hidden  card-hover">
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/inspiration-2.png" alt=""
@@ -99,7 +99,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 dmb-20 cards-col">
+                <div class="col-12 col-lg-6 dmb-20 cards-col">
                     <a href="" class="w-100 text-decoration-none">
                         <div class="collection-cards w-100 radius10 position-relative overflow-hidden  card-hover">
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/home-hero.png" alt=""
@@ -124,7 +124,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 dmb-20 cards-col">
+                <div class="col-12 col-lg-6 dmb-20 cards-col">
                     <a href="" class="w-100 text-decoration-none">
                         <div class="collection-cards w-100 radius10 position-relative overflow-hidden  card-hover">
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-1.png" alt=""
