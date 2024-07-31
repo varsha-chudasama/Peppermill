@@ -1,10 +1,23 @@
-.map-section{
+.map-section {
     height: 555px;
-    .map-content{
+
+    @include media-breakpoint-down(lg) {
+        height: 433px;
+    }
+
+    .map-content {
         padding-left: 80px;
         padding-right: 65px;
-        .btnA{
-            margin-left: 55px;
+
+        @include media-breakpoint-down(lg) {
+            padding-left: 55px;
+            padding-right: 55px;
+        }
+
+        .btnA {
+            @include media-breakpoint-up(lg) {
+                margin-left: 55px;
+            }
         }
     }
 }
