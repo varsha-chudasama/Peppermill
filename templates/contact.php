@@ -4,7 +4,7 @@
  */
 ?>
 <!-- inspiration-hero-section -->
-<section class="inspiration-hero-section position-relative">
+<!-- <section class="inspiration-hero-section position-relative">
     <div class="inspiration-hero-img h-100 position-relative">
         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/contact-hero.png"
             class="w-100 h-100 object-cover" alt="">
@@ -28,12 +28,12 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <div class="spacing dmb-90"></div>
 
 <!-- center-content-section -->
-<section class="center-content-section">
+<!-- <section class="center-content-section">
     <div class="container">
         <div class="col-7 px-5 mx-auto text-center">
             <div class="content-prefix bodoni font11 leading16 space0_28 dmb-25">Contact</div>
@@ -52,16 +52,16 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <div class="spacing dmb-105"></div>
 
 <!-- contact-section -->
 <section class="contact-section">
     <div class="container">
-        <div class="col-6 px-2 mx-auto">
-            <div class="text-center dmb-50">
-                <div class="bodoni font35 leading45 text-black dmb-15">
+        <div class="col-lg-6 col-12 px-lg-2 mx-auto">
+            <div class="text-center dmb-50 tmb-40">
+                <div class="bodoni font35 res-font24 leading45 res-leading30 text-black dmb-15">
                     Fill out our contact form below
                 </div>
                 <div class="content-desc mont-medium font13 leading24 text-191919">
@@ -69,45 +69,45 @@
                 </div>
             </div>
             <form action="" class="form-section row10 input-color-F5F5F5 d-flex flex-wrap">
-                <div class="col-6 dmb-10">
+                <div class="col-lg-6 col-12 dmb-10">
                     <input type="text" placeholder="Your Name…"
                         class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
                 </div>
-                <div class="col-6 dmb-10">
+                <div class="col-lg-6 col-12 dmb-10">
                     <input type="email" placeholder="Email…"
                         class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
                 </div>
-                <div class="col-6 dmb-10">
+                <div class="col-lg-6 col-12 dmb-10">
                     <input type="number" placeholder="Phone Number…"
                         class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
                 </div>
-                <div class="col-6 dmb-10">
+                <div class="col-lg-6 col-12 dmb-10">
                     <input type="text" placeholder="Company Name (If Applicable)…"
                         class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
                 </div>
                 <div class="col-12 dmb-10">
-                    <div class="mont-medium font12 leading16 text-black dmb-15 dmt-10">Are you looking for products for
+                    <div class="mont-medium font12 leading16 text-black dmb-15 dmt-10 tmt-20">Are you looking for products for
                         your
                         home or business?</div>
                     <input type="text" placeholder="Please Select…"
                         class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
                 </div>
                 <div class="col-12 dmb-10">
-                    <div class="mont-medium font12 leading16 text-black dmb-15 dmt-10">Are you looking for products for
+                    <div class="mont-medium font12 leading16 text-black dmb-15 dmt-10 dmt-10 tmt-10">Are you looking for products for
                         your
                         home or business?</div>
                     <input type="text" placeholder="Start Typing…"
                         class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
                 </div>
                 <div class="col-12 dmb-10">
-                    <div class="mont-medium font12 leading16 text-black dmb-15 dmt-10">Are you looking for products for
+                    <div class="mont-medium font12 leading16 text-black dmb-15 dmt-10 dmt-10 tmt-10">Are you looking for products for
                         your
                         home or business?</div>
                     <input type="text" placeholder="Please select…"
                         class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
                 </div>
             </form>
-            <div class="dmt-45 d-flex align-items-center justify-content-center">
+            <div class="dmt-45 tmt-50 d-flex align-items-center justify-content-center">
                 <a href=""
                     class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
                     SUBMIT ENQUIRY
@@ -117,22 +117,22 @@
     </div>
 </section>
 
-<div class="spacing dmb-165"></div>
+<div class="spacing dmb-165 tmb-85"></div>
 
 <!-- location-card-section -->
 <section class="location-card-section">
-    <div class="container">
-        <div class="row row15">
-            <div class="col-6">
+    <div class="container px-p-0">
+        <div class="row row15 mx-m-0">
+            <div class="col-lg-6 col-12 px-p-0">
                 <div class="location-card">
-                    <div class="location-img radius10 overflow-hidden dmb-50">
+                    <div class="location-img radius10 res-radius-0 overflow-hidden dmb-50 tmb-45">
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-2.png" alt=""
                             class="h-100 w-100 object-cover">
                     </div>
-                    <div class="location-content text-center px-5">
-                        <div class="bodoni font30 leading35 text-black dmb-30">Burntwood (Showroom)</div>
+                    <div class="location-content text-center px-lg-5 px-p-p">
+                        <div class="bodoni font30 res-font24 leading35 res-leading30 text-black dmb-30 tmb-25">Burntwood (Showroom)</div>
                         <a href=""
-                            class="text-decoration-none d-inline-block mont-normal font13 leading24 text-black dmb-30">
+                            class="text-decoration-none d-inline-block mont-normal font13 leading24 text-black dmb-30 px-2 px-lg-0">
                             Peppermill Antiques Ltd, Unit 6, Ring Road, Zone 2, Burntwood Business Park Burntwood, WS7
                             3JQ, (Sat
                             Nav use WS7 3JG)
@@ -150,16 +150,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-12 px-p-0">
                 <div class="location-card">
-                    <div class="location-img radius10 overflow-hidden dmb-50">
+                    <div class="location-img radius10 res-radius-0 overflow-hidden dmb-50 tmb-45">
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/three-card-2.png" alt=""
                             class="h-100 w-100 object-cover">
                     </div>
-                    <div class="location-content text-center px-5">
-                        <div class="bodoni font30 leading35 text-black dmb-30">Burntwood (Showroom)</div>
+                    <div class="location-content text-center px-lg-5 px-p-p">
+                        <div class="bodoni font30 res-font24 leading35 res-leading30 text-black dmb-30 tmb-25">Burntwood (Showroom)</div>
                         <a href=""
-                            class="text-decoration-none d-inline-block mont-normal font13 leading24 text-black dmb-30">
+                            class="text-decoration-none d-inline-block mont-normal font13 leading24 text-black dmb-30 px-2 px-lg-0">
                             Peppermill Antiques Ltd, Unit 6, Ring Road, Zone 2, Burntwood Business Park Burntwood, WS7
                             3JQ, (Sat
                             Nav use WS7 3JG)
@@ -181,7 +181,7 @@
     </div>
 </section>
 
-<div class="spacing dmb-165"></div>
+<div class="spacing dmb-165 tmb-75"></div>
 
 <!-- map-section -->
 <section class="map-section position-relative">
@@ -190,8 +190,8 @@
         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="position-absolute top-center start-0 w-100">
         <div class="container">
-            <div class="map-content bg-292929 dpt-55 dpb-55 d-inline-flex align-content-center radius5">
-                <div class="bodoni font30 leading35 text-white ">Planning a visit?</div>
+            <div class="map-content bg-292929 dpt-55 tpt-30 dpb-55 tpb-30 d-inline-flex flex-column flex-lg-row align-content-center radius5">
+                <div class="bodoni font30 leading35 text-white tmb-15">Planning a visit?</div>
                 <a href=""
                     class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-inline-flex align-items-center justify-content-center transition">
                     GET DIRECTIONS

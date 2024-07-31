@@ -25,6 +25,7 @@
 
 .header-card-col,
 .cards-col {
+
   &:nth-child(1),
   &:nth-child(2),
   &:nth-child(3) {
@@ -75,6 +76,10 @@
 .location-card {
   .location-img {
     height: 413px;
+
+    @include media-breakpoint-down(lg) {
+      height: 400px;
+    }
   }
 }
 
@@ -86,6 +91,7 @@
       height: 240px;
     }
   }
+
   &:last-child {
     @include media-breakpoint-down(lg) {
       margin-bottom: 0px !important;
