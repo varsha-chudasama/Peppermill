@@ -7,7 +7,7 @@
 <section class="privacy-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 pe-4 privacy-left-content tpt-100">
+            <div class="col-lg-5 col-12 pe-4 privacy-left-content tpt-100 bg-EBEBEB">
                 <ul class="list-none ps-0 mb-0 privacy-links position-sticky p-initial" id="privacy-links">
                     <li class="dmb-20 d-flex align-items-center transition opacity-50 active">
                         <a href="#privacy"
@@ -47,7 +47,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-7 ps-lg-2 privacy-right-content dpb-160 tpb-130">
+            <div class="col-lg-7 col-12 ps-lg-2 privacy-right-content dpb-160 tpb-130">
                 <div class="single-content" id="privacy">
                     <div class="bodoni font30 leading35 text-black text-capitalize dmb-30">
                         Privacy Policy

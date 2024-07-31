@@ -49,7 +49,7 @@
     <!-- three-card-section -->
     <section class="three-card-section">
         <div class="container">
-            <div class="row flex-column flex-lg-row row10">
+            <div class="row row10">
                 <div class="col-lg-4 col-12 cards-col dmt-20">
                     <a href=""
                         class="the-ultimate-card d-inline-block text-decoration-none card-hover radius10 overflow-hidden position-relative w-100">
@@ -309,7 +309,7 @@
     <!-- right-img-section -->
     <section class="right-img-section left-right-292929">
         <div class="container px-p-0">
-            <div class="row flex-column flex-lg-row align-items-center">
+            <div class="row align-items-center">
                 <div class="col-lg-6 px-p-p">
                     <div class="col-lg-9 col-12 px-lg-4 mx-auto">
                         <div class="left-right-prefix mont-normal font11 leading20 space1_65 text-uppercase dmb-35 tmb-15">
@@ -371,7 +371,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row flex-column flex-lg-row row10 mx-m-0">
+            <div class="row row10 mx-m-0">
                 <div class="col-lg-4 col-12 cards-col dmt-50 px-p-0">
                     <a href=""
                         class="project-cards text-decoration-none d-inline-block position-relative card-hover radius10 res-radius-0 overflow-hidden w-100">
