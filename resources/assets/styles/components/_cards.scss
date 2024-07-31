@@ -49,15 +49,27 @@
 
 .room-cards {
   height: 518px;
+
+  @include media-breakpoint-down(lg) {
+    height: 300px;
+  }
 }
 
 .project-cards {
   height: 514px;
+
+  @include media-breakpoint-down(lg) {
+    height: 288px;
+  }
 }
 
 .blog-cards {
   .blog-card-img {
     height: 284px;
+
+    @include media-breakpoint-down(lg) {
+      height: 200px;
+    }
   }
 }
 

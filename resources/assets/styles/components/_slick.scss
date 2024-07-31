@@ -7,8 +7,13 @@
   padding-left: 10px;
 }
 
-.product-section {
-  .product-slider {
+.product-section,
+.room-card-section,
+.blog-card-section {
+
+  .product-slider,
+  .room-card-slider,
+  .blog-card-slider {
     @include media-breakpoint-down(lg) {
       padding: 0px 6px;
 

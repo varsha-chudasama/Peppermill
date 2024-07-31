@@ -20,6 +20,10 @@
 
 .banner-section {
   height: 638px;
+
+  @include media-breakpoint-down(lg) {
+    height: 375px;
+  }
 }
 
 @include media-breakpoint-down(lg) {

@@ -1,6 +1,10 @@
 .right-img-section {
   .left-right-img {
     height: 660px;
+
+    @include media-breakpoint-down(lg) {
+      height: 300px;
+    }
   }
 }
 
@@ -14,7 +18,12 @@
 .left-img-section {
   padding-top: 80px;
   padding-bottom: 80px;
-  
+
+  @include media-breakpoint-down(lg) {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+
   .left-right-prefix,
   .left-right-title,
   .left-right-desc {
@@ -23,6 +32,7 @@
 
   &.left-right-EBEBEB {
     background-color: $color-EBEBEB !important;
+
     .left-right-prefix,
     .left-right-title,
     .left-right-desc {
@@ -32,9 +42,11 @@
 
   &.left-right-292929 {
     background-color: $color-292929 !important;
+
     .left-right-prefix {
       color: $white !important;
     }
+
     .left-right-title,
     .left-right-desc {
       color: $color-FAF8F7 !important;
