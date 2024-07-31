@@ -1,5 +1,8 @@
 .product-filter {
   .project-dropdown {
+    .project-menus {
+      min-height: 319px !important;
+    }
     .project-menu {
       min-height: 160px;
       height: 100%;
@@ -24,6 +27,14 @@
     }
   }
 }
+// .product-filter-section {
+//   .project-dropdown {
+//     .project-menu {
+//       min-height: 319px !important;
+//       height: 100%;
+//     }
+//   }
+// }
 
 .project-toggle,
 .activity-button {

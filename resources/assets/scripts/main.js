@@ -42,18 +42,42 @@ $(function () {
 
   window.slick = new Slick();
   window.slick.init();
-  
+
   window.privacy = new Privacy();
   window.privacy.init();
-  
+
   window.closet = new Closet();
   window.closet.init();
-  
+
   window.dropdown = new Dropdown();
   window.dropdown.init();
-  
+
   window.filter = new Filter();
   window.filter.init();
 });
 
 // ===========================================================================
+$(document).ready(function () {
+  let $img = $("#gfg-img");
+  let $preview = $(".zoom-preview");
+
+  let x = $preview.width() / 100;
+  let y = $preview.height() / 100;
+
+  $img.on("mousemove", function (e) {
+    $preview.css({
+      "display": "block",
+      "background-image": "url(https://media.geeksforgeeks.org/wp-content/uploads/20220316223348/gfg-300x300.jpg)",
+      "background-size": $img.width() * x + "px " + $img.height() * y + "px"
+    });
+
+    let posX = e.offsetX;
+    let posY = e.offsetY;
+
+    $preview.css("background-position", "-" + posX * x + "px -" + posY * y + "px");
+  });
+
+  $img.on("mouseout", function () {
+    $preview.css("display", "none");
+  });
+});

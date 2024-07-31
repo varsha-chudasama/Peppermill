@@ -18,24 +18,29 @@
 defined( 'ABSPATH' ) || exit;
 
 ?>
-<div class="cart_totals <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
+<div class="cart_totals w-100 <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
 
 	<?php do_action( 'woocommerce_before_cart_totals' ); ?>
 
 	<h2><?php esc_html_e( 'Cart totals', 'woocommerce' ); ?></h2>
 
-	<table cellspacing="0" class="shop_table shop_table_responsive">
+	<div cellspacing="0" class="shop_table shop_table_responsive">
 
-		<tr class="cart-subtotal">
-			<th><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></th>
-			<td data-title="<?php esc_attr_e( 'Subtotal', 'woocommerce' ); ?>"><?php wc_cart_totals_subtotal_html(); ?></td>
-		</tr>
+		<div class="cart-delivery dmb-25 d-flex align-items-center justify-content-between dpt-20">
+			<div><?php esc_html_e( 'Delivery', 'woocommerce' ); ?></div>
+			<div data-title="<?php esc_attr_e( 'Delivery', 'woocommerce' ); ?>"><?php wc_cart_totals_subtotal_html(); ?></div>
+		</div>
+
+		<div class="cart-subtotal dmb-25 d-flex align-items-center justify-content-between">
+			<div><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></div>
+			<div data-title="<?php esc_attr_e( 'Subtotal', 'woocommerce' ); ?>"><?php wc_cart_totals_subtotal_html(); ?></div>
+		</div>
 
 		<?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
-			<tr class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
-				<th><?php wc_cart_totals_coupon_label( $coupon ); ?></th>
-				<td data-title="<?php echo esc_attr( wc_cart_totals_coupon_label( $coupon, false ) ); ?>"><?php wc_cart_totals_coupon_html( $coupon ); ?></td>
-			</tr>
+			<div class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
+				<div><?php wc_cart_totals_coupon_label( $coupon ); ?></div>
+				<div data-title="<?php echo esc_attr( wc_cart_totals_coupon_label( $coupon, false ) ); ?>"><?php wc_cart_totals_coupon_html( $coupon ); ?></div>
+			</div>
 		<?php endforeach; ?>
 
 		<?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
@@ -48,18 +53,18 @@ defined( 'ABSPATH' ) || exit;
 
 		<?php elseif ( WC()->cart->needs_shipping() && 'yes' === get_option( 'woocommerce_enable_shipping_calc' ) ) : ?>
 
-			<tr class="shipping">
-				<th><?php esc_html_e( 'Shipping', 'woocommerce' ); ?></th>
-				<td data-title="<?php esc_attr_e( 'Shipping', 'woocommerce' ); ?>"><?php woocommerce_shipping_calculator(); ?></td>
-			</tr>
+			<div class="shipping">
+				<div><?php esc_html_e( 'Shipping', 'woocommerce' ); ?></div>
+				<div data-title="<?php esc_attr_e( 'Shipping', 'woocommerce' ); ?>"><?php woocommerce_shipping_calculator(); ?></div>
+			</div>
 
 		<?php endif; ?>
 
 		<?php foreach ( WC()->cart->get_fees() as $fee ) : ?>
-			<tr class="fee">
-				<th><?php echo esc_html( $fee->name ); ?></th>
-				<td data-title="<?php echo esc_attr( $fee->name ); ?>"><?php wc_cart_totals_fee_html( $fee ); ?></td>
-			</tr>
+			<div class="fee">
+				<div><?php echo esc_html( $fee->name ); ?></div>
+				<div data-title="<?php echo esc_attr( $fee->name ); ?>"><?php wc_cart_totals_fee_html( $fee ); ?></div>
+			</div>
 		<?php endforeach; ?>
 
 		<?php
@@ -75,18 +80,18 @@ defined( 'ABSPATH' ) || exit;
 			if ( 'itemized' === get_option( 'woocommerce_tax_total_display' ) ) {
 				foreach ( WC()->cart->get_tax_totals() as $code => $tax ) { // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
 					?>
-					<tr class="tax-rate tax-rate-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
-						<th><?php echo esc_html( $tax->label ) . $estimated_text; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></th>
-						<td data-title="<?php echo esc_attr( $tax->label ); ?>"><?php echo wp_kses_post( $tax->formatted_amount ); ?></td>
-					</tr>
+					<div class="tax-rate tax-rate-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
+						<div><?php echo esc_html( $tax->label ) . $estimated_text; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+						<div data-title="<?php echo esc_attr( $tax->label ); ?>"><?php echo wp_kses_post( $tax->formatted_amount ); ?></div>
+					</div>
 					<?php
 				}
 			} else {
 				?>
-				<tr class="tax-total">
-					<th><?php echo esc_html( WC()->countries->tax_or_vat() ) . $estimated_text; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></th>
-					<td data-title="<?php echo esc_attr( WC()->countries->tax_or_vat() ); ?>"><?php wc_cart_totals_taxes_total_html(); ?></td>
-				</tr>
+				<div class="tax-total">
+					<div><?php echo esc_html( WC()->countries->tax_or_vat() ) . $estimated_text; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+					<div data-title="<?php echo esc_attr( WC()->countries->tax_or_vat() ); ?>"><?php wc_cart_totals_taxes_total_html(); ?></div>
+				</div>
 				<?php
 			}
 		}
@@ -94,16 +99,16 @@ defined( 'ABSPATH' ) || exit;
 
 		<?php do_action( 'woocommerce_cart_totals_before_order_total' ); ?>
 
-		<tr class="order-total">
-			<th><?php esc_html_e( 'Total', 'woocommerce' ); ?></th>
-			<td data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>"><?php wc_cart_totals_order_total_html(); ?></td>
-		</tr>
+		<div class="order-total dmb-25 d-flex align-items-center justify-content-between">
+			<div><?php esc_html_e( 'Total', 'woocommerce' ); ?></div>
+			<div data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>"><?php wc_cart_totals_order_total_html(); ?></div>
+		</div>
 
 		<?php do_action( 'woocommerce_cart_totals_after_order_total' ); ?>
 
-	</table>
+	</div>
 
-	<div class="wc-proceed-to-checkout">
+	<div class="wc-proceed-to-checkout dmt-35 dmb-35">
 		<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 	</div>
 

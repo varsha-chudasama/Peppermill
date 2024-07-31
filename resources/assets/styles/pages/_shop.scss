@@ -1,0 +1,11 @@
+.product-section-main {
+  .woocommerce-ordering {
+    display: none !important;
+  }
+}
+.woocommerce-tabs,
+.woocommerce-breadcrumb,
+.woocommerce-products-header,
+.woocommerce-result-count {
+  display: none !important;
+}

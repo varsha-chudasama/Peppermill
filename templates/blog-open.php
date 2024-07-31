@@ -16,14 +16,14 @@
                             Share this post:
                         </div>
                         <div class="d-flex align-items-center">
-                            <div>
-                                <img src="<?php echo get_home_url(); ?>" alt="">
+                            <div class="social-icon bg-191919 rounded-pill d-flex align-items-center justify-content-center me-2">
+                                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/facebook-white.svg" alt="">
                             </div>
-                            <div>
-                                <img src="<?php echo get_home_url(); ?>" alt="">
+                            <div class="social-icon bg-191919 rounded-pill d-flex align-items-center justify-content-center me-2">
+                                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/twitter-white.svg" alt="">
                             </div>
-                            <div>
-                                <img src="<?php echo get_home_url(); ?>" alt="">
+                            <div class="social-icon bg-191919 rounded-pill d-flex align-items-center justify-content-center me-2">
+                                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/linkedin-white.svg" alt="">
                             </div>
                         </div>
                     </div>
