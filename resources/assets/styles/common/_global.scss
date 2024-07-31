@@ -146,88 +146,136 @@ textarea {
   background: $black;
 }
 
+// SPACING CSS
+// SPACING CSS
+.dmt-0 {
+  margin-top: 0px !important;
+}
+
+.dmb-0 {
+  margin-bottom: 0px !important;
+}
+
+.dpt-0 {
+  padding-top: 0px !important;
+}
+
+.dpb-0 {
+  padding-bottom: 0px !important;
+}
+
+@include media-breakpoint-down(lg) {
+  .tmt-0 {
+    margin-top: 0px !important;
+  }
+
+  .tmb-0 {
+    margin-bottom: 0px !important;
+  }
+
+  .tpt-0 {
+    padding-top: 0px !important;
+  }
+
+  .tpb-0 {
+    padding-bottom: 0px !important;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .mmt-0 {
+    margin-top: 0px !important;
+  }
+
+  .mmb-0 {
+    margin-bottom: 0px !important;
+  }
+
+  .mpt-0 {
+    padding-top: 0px !important;
+  }
+
+  .mpb-0 {
+    padding-bottom: 0px !important;
+  }
+}
+
 @for $i from 1 through 70 {
   .dmt-#{$i*5} {
-    margin-top: #{5*$i}px !important;
+    margin-top: #{5 * $i}px;
   }
 }
 
 @for $i from 1 through 70 {
   .dmb-#{$i*5} {
-    margin-bottom: #{5*$i}px !important;
+    margin-bottom: #{5 * $i}px;
   }
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   @for $i from 1 through 70 {
     .tmt-#{$i*5} {
-      margin-top: #{5*$i}px !important;
+      margin-top: #{5 * $i}px !important;
     }
   }
 
   @for $i from 1 through 70 {
     .tmb-#{$i*5} {
-      margin-bottom: #{5*$i}px !important;
+      margin-bottom: #{5 * $i}px !important;
     }
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   @for $i from 1 through 70 {
     .mmt-#{$i*5} {
-      margin-top: #{5*$i}px !important;
+      margin-top: #{5 * $i}px !important;
     }
   }
 
   @for $i from 1 through 70 {
     .mmb-#{$i*5} {
-      margin-bottom: #{5*$i}px !important;
+      margin-bottom: #{5 * $i}px !important;
     }
-  }
-}
-
-.tmb-0 {
-  @include media-breakpoint-down(lg) {
-    margin-bottom: 0 !important;
   }
 }
 
 @for $i from 1 through 70 {
   .dpt-#{$i*5} {
-    padding-top: #{5*$i}px !important;
+    padding-top: #{5 * $i}px;
   }
 }
 
 @for $i from 1 through 70 {
   .dpb-#{$i*5} {
-    padding-bottom: #{5*$i}px !important;
+    padding-bottom: #{5 * $i}px;
   }
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   @for $i from 1 through 70 {
     .tpt-#{$i*5} {
-      padding-top: #{5*$i}px !important;
+      padding-top: #{5 * $i}px !important;
     }
   }
 
   @for $i from 1 through 70 {
     .tpb-#{$i*5} {
-      padding-bottom: #{5*$i}px !important;
+      padding-bottom: #{5 * $i}px !important;
     }
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   @for $i from 1 through 70 {
     .mpt-#{$i*5} {
-      padding-top: #{5*$i}px !important;
+      padding-top: #{5 * $i}px !important;
     }
   }
 
   @for $i from 1 through 70 {
     .mpb-#{$i*5} {
-      padding-bottom: #{5*$i}px !important;
+      padding-bottom: #{5 * $i}px !important;
     }
   }
 }
