@@ -38,9 +38,9 @@
         <div class="bottom-footer dpt-80 tpt-0 dpb-45 tpb-0">
             <div class="row flex-column flex-lg-row dpb-130 tpb-40">
                 <div class="col-lg-2 col-12 top-border tpt-30 tpb-30">
+                    <div class="dmb-30 tmb-20 font26 res-font22 leading30 text-white px-p-p">
+                        How we can help </div>
                     <ul class="list-none footer-content mb-0 px-0 px-p-p">
-                        <li class="dmb-30 tmb-20 font26 res-font22 leading30 text-white">
-                            How we can help </li>
                         <li class="dmb-5"><a href=""
                                 class="text-decoration-none mont-normal font13 leading20 text-white ">Delivery
                                 Information</a></li>
@@ -66,9 +66,9 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 col-12 top-border tpt-30 tpb-30">
+                    <div class="dmb-30 tmb-20 font26 res-font22 leading30 text-white px-p-p">
+                        About us </div>
                     <ul class="list-none footer-content mb-0 px-0 px-p-p">
-                        <li class="dmb-30 tmb-20 font26 res-font22 leading30 text-white">
-                            About us </li>
                         <li class="dmb-5"><a href=""
                                 class="text-decoration-none mont-normal font13 leading20 text-white ">About
                                 Peppermill</a>
@@ -91,9 +91,9 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 col-12 top-border tpt-30 tpb-30">
+                    <div class="dmb-30 tmb-20 font26 res-font22 leading30 text-white px-p-p">
+                        Inspiration</div>
                     <ul class="list-none footer-content mb-0 px-0 px-p-p">
-                        <li class="dmb-30 tmb-20 font26 res-font22 leading30 text-white">
-                            Inspiration</li>
                         <li class="dmb-5"><a href=""
                                 class="text-decoration-none mont-normal font13 leading20 text-white ">Blog</a>
                         </li>

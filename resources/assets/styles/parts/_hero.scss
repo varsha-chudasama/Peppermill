@@ -2,6 +2,10 @@
 .main-hero-section,
 .project-open-hero {
   height: 100vh;
+
+  @include media-breakpoint-down(lg) {
+    height: 725px;
+  }
 }
 
 .inspiration-hero-section {
@@ -23,11 +27,5 @@
 
   @include media-breakpoint-down(lg) {
     height: 375px;
-  }
-}
-
-@include media-breakpoint-down(lg) {
-  .hero-section {
-    height: 725px;
   }
 }

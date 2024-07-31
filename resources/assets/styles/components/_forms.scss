@@ -11,7 +11,7 @@
 }
 
 .form-section {
-  & > div {
+  &>div {
     &:last-child {
       margin-bottom: 0 !important;
     }
@@ -43,14 +43,18 @@
 .vacancies-menu {
   .input-field {
     min-width: 432px;
+
+    @include media-breakpoint-down(lg) {
+      min-width: 214px;
+    }
   }
 }
 
 .woocommerce-ordering {
   .select-sort-by {
     height: 28px !important;
-    .select-custom-dropdown {
-    }
+
+    .select-custom-dropdown {}
   }
 }
 
@@ -66,9 +70,11 @@
     }
   }
 }
+
 .form-row {
   padding: 0px !important;
   margin-bottom: 0px !important;
+
   .button {
     background-color: $color-292929 !important;
     border: 1px solid $color-292929 !important;
