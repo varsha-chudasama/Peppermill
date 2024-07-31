@@ -5,6 +5,10 @@
 
 .joinus-banner-section {
   height: 403px;
+
+  @include media-breakpoint-down(lg){
+    height: 340px;
+  }
 }
 
 .pagination-section {

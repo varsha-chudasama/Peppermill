@@ -189,8 +189,8 @@ export class Slick {
             speed: 300,
             slidesToShow: 1,
             slidesToScroll: 1,
-            prevArrow: '.testimonial-slider-section .room-arrow-prev-border',
-            nextArrow: '.testimonial-slider-section .room-arrow-next-border',
+            prevArrow: '.testimonial-slider-section .prev-arrow',
+            nextArrow: '.testimonial-slider-section .next-arrow',
         })
     }
 }  

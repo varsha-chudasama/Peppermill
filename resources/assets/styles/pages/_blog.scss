@@ -1,12 +1,29 @@
 .blog-open-section {
+  .blog-img {
+    height: 548px;
+
+    @include media-breakpoint-down(lg) {
+      height: 450px;
+    }
+  }
+
   .product-cards {
     .product-img {
       height: 403px !important;
+
+      @include media-breakpoint-down(lg) {
+        height: 221px !important;
+      }
     }
   }
+
   .menu-links {
     height: calc(100vh - 300px);
     top: 185px;
+
+    @include media-breakpoint-down(lg) {
+      height: auto !important;
+    }
 
     .social-icon {
       width: 31px;

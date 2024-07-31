@@ -24,7 +24,6 @@
   }
 
   .slider-banner-section {
-
     .next-arrow,
     .prev-arrow {
       @include media-breakpoint-down(lg) {
@@ -35,7 +34,6 @@
   }
 
   .slick-arrows {
-
     .next-arrow,
     .prev-arrow {
       background-color: $color-292929 !important;
@@ -43,6 +41,17 @@
       &.slick-disabled {
         opacity: 25%;
       }
+    }
+  }
+}
+
+.testimonial-slider-section {
+  .slick-arrows {
+    top: 50%;
+    @include media-breakpoint-down(lg){
+      top: auto !important;
+      bottom: 0;
+      height: fit-content;
     }
   }
 }
@@ -100,7 +109,6 @@
 }
 
 .room-card-section {
-
   .next-arrow,
   .prev-arrow {
     &.slick-disabled {
