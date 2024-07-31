@@ -117,13 +117,13 @@
     </div>
 </section>
 
-<div class="spacing dmb-165 tmb-85"></div>
+<div class="spacing dmb-165 tmb-40"></div>
 
 <!-- location-card-section -->
 <section class="location-card-section">
     <div class="container px-p-0">
         <div class="row row15 mx-m-0">
-            <div class="col-lg-6 col-12 px-p-0">
+            <div class="col-lg-6 col-12 px-p-0 tpt-45">
                 <div class="location-card">
                     <div class="location-img radius10 res-radius-0 overflow-hidden dmb-50 tmb-45">
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/blog-2.png" alt=""
@@ -150,7 +150,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12 px-p-0">
+            <div class="col-lg-6 col-12 px-p-0 tpt-45">
                 <div class="location-card">
                     <div class="location-img radius10 res-radius-0 overflow-hidden dmb-50 tmb-45">
                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/three-card-2.png" alt=""
