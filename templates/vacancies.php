@@ -26,13 +26,13 @@
         </div>
     </section>
 
-    <div class="spacing dmb-55"></div>
+    <div class="spacing dmb-55 tmb-40"></div>
 
     <!-- vacancy-card-section -->
     <section class="vacancy-card-section">
         <div class="container">
             <div class="row">
-                <div class="vacancies-menu col-10 mx-auto dmb-70">
+                <div class="vacancies-menu col-lg-10 col-12 mx-auto dmb-70 tmb-40">
                     <div class="col-6 pe-5 d-flex align-items-center ">
                         <input type="text" placeholder="Search Roles…"
                             class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4 me-2">
@@ -42,18 +42,18 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-10 mx-auto">
-                    <div class="col-12 vacancy-cards d-flex dpt-70 dpb-70 transition border-bottom border-EBEBEB">
-                        <div class="col-3">
-                            <div class="mont-medium font13 leading20 text-918E8E dmb-15">Full-time</div>
-                            <div class="bodoni font30 leading35 text-black dmb-20">Sales Manager</div>
-                            <div class="mont-medium font13 leading20 text-918E8E dmb-40">£25,000/yr</div>
+                <div class="col-lg-10 col-12 mx-auto">
+                    <div class="col-12 vacancy-cards d-flex flex-column flex-lg-row dpt-70 tpt-40 dpb-70 tpb-45 transition border-bottom border-EBEBEB">
+                        <div class="col-lg-3 col-12">
+                            <div class="mont-medium font13 leading20 text-918E8E dmb-15 tmb-10">Full-time</div>
+                            <div class="bodoni font30 res-font24 leading35 res-leading30 text-black dmb-20 tmb-10">Sales Manager</div>
+                            <div class="mont-medium font13 res-font11 leading20 text-918E8E dmb-40 tmb-20">£25,000/yr</div>
                             <a href="#enquiryModalToggle" data-bs-toggle="modal"
                                 class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
                                 ENQUIRE
                             </a>
                         </div>
-                        <div class="col-9 ps-5 pe-3 card-right-content">
+                        <div class="col-lg-9 col-12 ps-lg-5 pe-lg-3 card-right-content tmt-30">
                             <div class="mont-medium font16 leading24 text-black dmb-20">Description</div>
                             <div class="vacancies-content mont-normal font13 leading23 text-black dmb-20">
                                 <div class="dmb-20">We are based in Burntwood, Staffordshire (around a 40 minute drive
@@ -85,17 +85,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 vacancy-cards d-flex dpt-70 dpb-70 transition border-bottom border-EBEBEB">
-                        <div class="col-3">
-                            <div class="mont-medium font13 leading20 text-918E8E dmb-15">Full-time</div>
-                            <div class="bodoni font30 leading35 text-black dmb-20">Marketing Admin</div>
-                            <div class="mont-medium font13 leading20 text-918E8E dmb-40">£25,000/yr</div>
+                    <div class="col-12 vacancy-cards d-flex flex-column flex-lg-row dpt-70 tpt-40 dpb-70 tpb-45 transition border-bottom border-EBEBEB">
+                        <div class="col-lg-3 col-12">
+                            <div class="mont-medium font13 leading20 text-918E8E dmb-15 tmb-10">Full-time</div>
+                            <div class="bodoni font30 res-font24 leading35 res-leading30 text-black dmb-20 tmb-10">Marketing Admin</div>
+                            <div class="mont-medium font13 res-font11 leading20 text-918E8E dmb-40 tmb-20">£25,000/yr</div>
                             <a href="#enquiryModalToggle" data-bs-toggle="modal"
                                 class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
                                 ENQUIRE
                             </a>
                         </div>
-                        <div class="col-9 ps-5 pe-3 card-right-content">
+                        <div class="col-lg-9 col-12 ps-lg-5 pe-lg-3 card-right-content tmt-30">
                             <div class="mont-medium font16 leading24 text-black dmb-20">Description</div>
                             <div class="vacancies-content mont-normal font13 leading23 text-black dmb-20">
                                 <div class="dmb-20 ">
@@ -134,17 +134,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 vacancy-cards d-flex dpt-70 dpb-70 transition border-bottom border-EBEBEB">
-                        <div class="col-3">
-                            <div class="mont-medium font13 leading20 text-918E8E dmb-15">Full-time</div>
-                            <div class="bodoni font30 leading35 text-black dmb-20">E-Commerce Executive</div>
-                            <div class="mont-medium font13 leading20 text-918E8E dmb-40">£25,000/yr</div>
+                    <div class="col-12 vacancy-cards d-flex flex-column flex-lg-row dpt-70 tpt-40 dpb-70 tpb-45 transition border-bottom border-EBEBEB">
+                        <div class="col-lg-3 col-12">
+                            <div class="mont-medium font13 leading20 text-918E8E dmb-15 tmb-10">Full-time</div>
+                            <div class="bodoni font30 res-font24 leading35 res-leading30 text-black dmb-20 tmb-10">E-Commerce Executive</div>
+                            <div class="mont-medium font13 res-font11 leading20 text-918E8E dmb-40 tmb-20">£25,000/yr</div>
                             <a href="#enquiryModalToggle" data-bs-toggle="modal"
                                 class="text-decoration-none btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
                                 ENQUIRE
                             </a>
                         </div>
-                        <div class="col-9 ps-5 pe-3 card-right-content">
+                        <div class="col-lg-9 col-12 ps-lg-5 pe-lg-3 card-right-content tmt-30">
                             <div class="mont-medium font16 leading24 text-black dmb-20">Description</div>
                             <div class="vacancies-content mont-normal font13 leading23 text-black dmb-20">
                                 <div class="dmb-20">We are based in Burntwood, Staffordshire (around a 40 minute drive
@@ -182,13 +182,13 @@
 
     </section>
 
-    <div class="spacing dmb-115"></div>
+    <div class="spacing dmb-115 tmb-90"></div>
 
     <!-- vacancy-content -->
     <section class="vacancy-content">
         <div class="container">
-            <div class="col-10 mx-auto">
-                <div class="col-4 pe-5">
+            <div class="col-lg-10 col-12 mx-auto">
+                <div class="col-lg-4 col-12 pe-lg-5">
                     <div class="mont-medium font16 leading26 dmb-30 text-black ">We have no further positions available,
                         but would to hear from you</div>
                     <a href=""
@@ -200,7 +200,7 @@
         </div>
     </section>
 
-    <div class="spacing dmb-165"></div>
+    <div class="spacing dmb-165 tmb-70"></div>
 
 </main>
 
@@ -208,7 +208,7 @@
 <div class="modal enquiry-modal fade" data-bs-backdrop="static" id="enquiryModalToggle" aria-hidden="true"
     aria-labelledby="enquiryModalToggleLabel" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content position-relative border-0 radius5">
+        <div class="modal-content position-relative border-0 radius5 res-radius-0">
             <div class="close-div position-absolute top-0 end-0">
                 <button type="button" class="bg-transparent d-inline-flex border-0 p-0 close-round"
                     data-bs-dismiss="modal" aria-label="Close">
@@ -217,7 +217,7 @@
             </div>
             <div class="col-12 text-center">
                 <div class="mont-medium font11 leading20 text-918E8E dmb-15">Enquire for</div>
-                <div class="bodoni font40 leading48 text-black dmb-30 text-capitalize">Sales Manager</div>
+                <div class="bodoni font40 res-font30 leading48 res-leading45 text-black dmb-30 text-capitalize">Sales Manager</div>
                 <form class="enquiry-form">
                     <div class="dmb-10">
                         <input type="text"

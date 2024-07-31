@@ -9,11 +9,21 @@
         .footer-slider {
             .footer-img {
                 height: 327px;
+
+                @include media-breakpoint-down(lg) {
+                    height: 126px;
+                }
             }
         }
     }
 
     .bottom-footer {
+        @include media-breakpoint-down(lg) {
+            .top-border {
+                border-top: 1px solid $color-707070;
+            }
+        }
+
         .footer-content {
             li {
                 &:last-child {
@@ -96,10 +106,6 @@
                 .footer-icon-bg {
                     height: 42px;
                     width: 42px;
-                }
-
-                &:last-child {
-                    margin-right: 0 !important;
                 }
             }
         }

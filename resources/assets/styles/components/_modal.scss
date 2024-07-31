@@ -19,7 +19,7 @@
     .modal-dialog {
       min-width: 658px;
 
-      @include media-breakpoint-down(md) {
+      @include media-breakpoint-down(lg) {
         min-width: 100% !important;
         margin: 0px !important;
       }
@@ -28,8 +28,8 @@
         padding: 72px 113px 82px;
         height: 574px;
 
-        @include media-breakpoint-down(md) {
-          padding: 25px !important;
+        @include media-breakpoint-down(lg) {
+          padding: 120px 25px !important;
           height: 100vh;
           overflow-y: auto;
         }
@@ -54,6 +54,7 @@
         opacity: 0.29;
       }
     }
+
     .xoo-wsc-container {
       max-width: 451px !important;
       right: -451px !important;
@@ -64,13 +65,16 @@
       padding: 0px !important;
       border-bottom: 0px !important;
       position: relative !important;
+
       .xoo-wsch-top {
         justify-content: flex-start !important;
+
         .xoo-wsch-text {
           margin: 50px 0px 40px 0px !important;
           text-align: left;
           margin-left: 0px !important;
         }
+
         .xoo-wsch-close {
           right: 0px !important;
           top: 0px !important;
@@ -80,6 +84,7 @@
 
     .xoo-wsc-body {
       background-color: transparent !important;
+
       .xoo-wsc-products {
         .xoo-wsc-product {
           margin: 0px !important;
@@ -98,17 +103,21 @@
           .xoo-wsc-img-col {
             width: 82px !important;
             height: 108px !important;
+
             img {
               border-radius: $radius5 !important;
               width: 100% !important;
               height: 100% !important;
             }
           }
+
           .xoo-wsc-sum-col {
             padding-left: 25px !important;
+
             .xoo-wsc-sm-info {
               align-items: flex-start !important;
               position: relative !important;
+
               .xoo-wsc-sm-left {
                 .xoo-wsc-pname {
                   a {
@@ -119,6 +128,7 @@
                     margin-bottom: 6px !important;
                   }
                 }
+
                 .xoo-wsc-qty-price {
                   .woocommerce-Price-amount {
                     display: inline-flex !important;
@@ -129,6 +139,7 @@
                   }
                 }
               }
+
               .xoo-wsc-sm-right {
                 .xoo-wsc-smr-del {
                   &::before {
@@ -149,6 +160,7 @@
 
       .xoo-wsc-ft-totals {
         padding: 0px !important;
+
         .xoo-wsc-ft-amt {
           display: flex !important;
 
@@ -162,8 +174,10 @@
           }
         }
       }
+
       .xoo-wsc-ft-buttons-cont {
         margin-top: 25px !important;
+
         .xoo-wsc-btn {
           background-color: $color-292929 !important;
           border: 1px solid $color-292929 !important;
@@ -199,6 +213,7 @@
 .xoo-wsc-smr-del {
   width: 20px;
   height: 20px;
+
   &::before {
     content: "" !important;
     position: absolute;
