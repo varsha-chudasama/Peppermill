@@ -1,4 +1,4 @@
-<!-- <header class="header position-fixed top-0 w-100 transition">
+<header class="header position-fixed top-0 w-100 transition">
     <div class="header-section">
         <div class="bg-292929 dpt-10 dpb-10">
             <div class="container">
@@ -13,17 +13,17 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white">
+        <div class="bg-white tpt-15 tpb-15">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-2">
+                    <div class="col-lg-2 col-4">
                         <a href="" class="header-logo d-inline-block text-decoration-none">
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/logo.svg" class="w-100"
                                 alt="">
                         </a>
                     </div>
-                    <div class="col-8">
-                        <nav class="nav d-flex align-items-center justify-content-center h-100">
+                    <div class="col-lg-8 col-4">
+                        <nav class="nav d-lg-flex d-none align-items-center justify-content-center h-100">
                             <ul class="navigation d-flex align-items-center mb-0 px-0 list-none">
                                 <li class="menu-item dmt-30 dpb-30  d-flex align-items-center me-4"><a
                                         class="text-decoration-none position-relative mont-medium font13 leading16 text-191919"
@@ -446,11 +446,11 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-2">
+                    <div class="col-lg-2 col-4 d-flex justify-content-end align-items-center">
                         <ul
-                            class="d-flex align-items-center justify-content-center h-100 list-none logo-navigation mb-0 px-0">
-                            <li class="me-2 head-seach">
-                                <div href="" class="text-decoration-none d-inline-block head-seach-img">
+                            class="d-lg-flex d-none align-items-center justify-content-center h-100 list-none logo-navigation mb-0 px-0">
+                            <li class="me-2 head-search">
+                                <div href="" class="text-decoration-none d-inline-block head-search-img">
                                     <div
                                         class="bg-292929 icon-bg d-flex align-items-center justify-content-center position-relative rounded-pill">
                                         <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/search-icon.svg"
@@ -718,7 +718,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <li class="me-2">
+                            <li class="me-2 head-cart">
                                 <a href="" class="text-decoration-none d-inline-block">
                                     <div
                                         class="bg-292929 icon-bg d-flex align-items-center justify-content-center position-relative rounded-pill">
@@ -728,9 +728,10 @@
                                 </a>
                             </li>
                         </ul>
+                        <ul class="res-logo-nav mb-0 ps-0 list-none d-inline-flex align-items-center"></ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</header> -->
+</header>
