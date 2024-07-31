@@ -33,10 +33,10 @@
     <div class="spacing dmb-60"></div>
 
     <!-- center-content-section -->
-    <!-- <section class="center-content-section">
+    <section class="center-content-section">
         <div class="container">
-            <div class="col-7 px-5 mx-auto text-center">
-                <div class="content-title bodoni font40 leading48 dmb-25">The ultimate homemaker.</div>
+            <div class="col-12 col-lg-7 px-4 px-xl-5 mx-auto text-center">
+                <div class="content-title bodoni font40 leading48 res-font30 res-leading35 tmb-15 dmb-25">The ultimate homemaker.</div>
                 <div class="content-desc mont-normal font13 leading24">Over 20 years
                     in the
                     business has given us great insight into what our customers want and need. With customer
@@ -44,9 +44,9 @@
                     reducing the price for our clients.</div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <div class="spacing dmb-60"></div>
+    <div class="spacing tmb-35 dmb-60"></div>
 
     <!-- three-card-section -->
     <!-- <section class="three-card-section">
@@ -104,7 +104,7 @@
     <div class="spacing dmb-95"></div>
 
     <!-- product-section -->
-    <!-- <section class="product-section">
+    <section class="product-section">
         <div class="container">
             <div class="row align-items-center dmb-60">
                 <div class="col-3"></div>
@@ -131,8 +131,8 @@
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
                         <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg" class="w-100"
-                                alt="">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -148,8 +148,8 @@
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
                         <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg" class="w-100"
-                                alt="">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -165,8 +165,8 @@
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
                         <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg" class="w-100"
-                                alt="">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -182,8 +182,8 @@
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
                         <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg" class="w-100"
-                                alt="">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -199,8 +199,8 @@
                             class="mont-medium font13 leading20 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
                             New in</div>
                         <div class="like-img position-absolute bottom-0 end-0 me-4 mb-3 z-3">
-                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg" class="w-100"
-                                alt="">
+                            <img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/black-like-icon.svg"
+                                class="w-100" alt="">
                         </div>
                     </div>
                     <div class="product-content">
@@ -210,14 +210,30 @@
                 </a>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <div class="spacing dmb-80"></div>
 
     <!-- room-card-section -->
-    <!-- <section class="room-card-section bg-292929 dpt-80 dpb-70">
+    <section class="room-card-section bg-292929 dpt-80 dpb-70">
         <div class="container">
-            <div class="bodoni font45 leading55 text-capitalize text-white text-center dpb-50">Shop By Room</div>
+            <div class="row align-items-center  dmb-60">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <div class="bodoni font45 leading55 text-capitalize text-white text-center">Shop By Room
+                    </div>
+                </div>
+                <div class="col-3 d-inline-flex align-items-center justify-content-end">
+                    <div class="slick-arrows d-flex">
+                        <button class="prev-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-slide-arrow.svg"
+                                class="h-100" alt=""></button>
+                        <button class="next-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/right-slide-arrow.svg"
+                                class="h-100" alt=""></button>
+                    </div>
+                </div>
+            </div>
             <div class="room-card-slider">
                 <a href=""
                     class="room-cards d-inline-block text-decoration-none card-hover overflow-hidden radius10 position-relative">
@@ -269,7 +285,8 @@
                 </a>
             </div>
         </div>
-    </section> -->
+    </section>
+
 
     <!-- banner-section -->
     <!-- <section class="banner-section position-relative">
@@ -291,8 +308,8 @@
         </div>
     </section> -->
 
-      <!-- right-img-section -->
-      <!-- <section class="right-img-section left-right-292929">
+    <!-- right-img-section -->
+    <!-- <section class="right-img-section left-right-292929">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">

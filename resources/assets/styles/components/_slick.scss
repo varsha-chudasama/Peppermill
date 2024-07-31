@@ -20,34 +20,27 @@
   }
 }
 
-.room-card-section {
-  .room-card-slider {
-    .room-next-arrow,
-    .room-prev-arrow {
-      height: 10px;
-    }
-
-    .room-arrow-next-border,
-    .room-arrow-prev-border {
-      top: -19%;
-    }
-
-    .room-arrow-prev-border {
-      right: 39px;
-    }
-  }
-}
+// .room-card-section {
+//   .room-card-slider {
+//     .room-next-arrow,
+//     .room-prev-arrow {
+//       height: 10px;
+//     }
+//   }
+// }
 
 .next-arrow,
-.prev-arrow,
-.room-arrow-prev-border,
-.room-arrow-next-border {
+.prev-arrow {
   border: 1px solid $color-EFEFEF;
   height: 31px;
   width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  &.slick-disabled {
-    border: 1px solid rgba($color: $color-EFEFEF, $alpha: 0.25) !important;
+  @include media-breakpoint-down(lg) {
+    width: 24px;
+    height: 24px;
   }
 }
 
@@ -75,6 +68,15 @@
     .slick-slide {
       padding-right: 6px;
       padding-left: 6px;
+    }
+  }
+}
+
+.room-card-section {
+  .next-arrow,
+  .prev-arrow {
+    &.slick-disabled {
+      border: 1px solid rgba($color: $color-EFEFEF, $alpha: 0.25) !important;
     }
   }
 }
