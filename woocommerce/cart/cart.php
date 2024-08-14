@@ -176,10 +176,10 @@ do_action('woocommerce_before_cart'); ?>
 					<div>
 						<div colspan="6" class="actions dmb-40">
 							<div class="dpt-20 dpb-20 border-bottom border-EBEBEB dmb-40 d-flex justify-content-end">
-								<button
+								<a href="<?php echo get_home_url(); ?>/shop"
 									class="mont-semibold font11 leading20 space0_28 text-918E8E bg-transparent border-0 text-decoration-underline ms-5">
 									CONTINUE SHOPPING
-								</button>
+								</a>
 								<button type="submit"
 									class="button bg-transparent border-0 text-decoration-underline ms-5<?php echo esc_attr(wc_wp_theme_get_element_class_name('button') ? ' ' . wc_wp_theme_get_element_class_name('button') : ''); ?>"
 									name="update_cart"
@@ -207,19 +207,26 @@ do_action('woocommerce_before_cart'); ?>
 							<?php wp_nonce_field('woocommerce-cart', 'woocommerce-cart-nonce'); ?>
 						</div>
 					</div>
-
+					<?php 
+					$image = get_field('before_section'); ?>
 					<div class="cart-banner-section position-relative overflow-hidden radius10">
-						<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/home-hero.png" alt="">
+						<img src="<?php echo $image['image']['url'] ?>" alt="">
 						<div class="position-absolute bg-black w-100 h-100 top-0 opacity38"></div>
 						<div
 							class="position-absolute w-100 h-100 top-0 d-flex align-items-center justify-content-between px-5">
+							<?php if(!empty($image['heading'])): ?>
 							<div class="bodoni font35 leading45 text-white">
-								Before you go…
+							<?php echo $image['heading'] ?>
 							</div>
-							<a href=""
+							<?php endif; ?>
+							<?php if(!empty($image['button']['url'])): 
+								$target_1 = ($image['button']['target'] == '_blank') ? "_blank" : "";
+							?>
+							<a href="<?php echo $image['button']['url']; ?>" target="<?php echo $target_1; ?>"
 								class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center">
-								SHOP CLEARANCE
+								<?php echo $image['button']['title']; ?>
 							</a>
+							<?php endif; ?>
 						</div>
 					</div>
 

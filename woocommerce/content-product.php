@@ -23,45 +23,47 @@ global $product;
 if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
+$pro_id = $product->get_id();
 ?>
-<li <?php wc_product_class( '', $product ); ?>>
-	<?php
-	/**
-	 * Hook: woocommerce_before_shop_loop_item.
-	 *
-	 * @hooked woocommerce_template_loop_product_link_open - 10
-	 */
-	do_action( 'woocommerce_before_shop_loop_item' );
+<?php if (get_the_post_thumbnail_url($pro_id, 'medium_large')) {
+	$image = get_the_post_thumbnail_url($pro_id, 'medium_large');
+} else {
+	$image = '/wp-content/uploads/woocommerce-placeholder.png';
+}
+$attachment_ids = $product->get_gallery_image_ids();
+$date = get_the_date();
+$date_m = date_create($date);
+$date_value = date_format($date_m, "d.m.Y");
+$newDate = date("d.m.Y", strtotime($date_value . "+7 day"));
+$date_today = date("d.m.Y");
+$type = $product->get_type();
+$price_html = $product->get_price_html();
+$min_price = get_minimum_variation_price( $pro_id );
+?>
+<div class="product-cards d-inline-block text-decoration-none col-3">
+	<div class="product-img position-relative radius10 res-radius5 overflow-hidden card-hover dmb-25 tmb-20">
+		<a href="<?php echo get_permalink($pro_id); ?>">
+		<img src="<?php echo $image; ?>"
+			class="w-100 h-100 object-cover img" alt=""></a>
+		<?php if ($newDate >= $date_today) : ?>
+		<div
+			class="mont-medium font13 res-font11 leading20 res-leading16 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
+			New In</div>
+		<?php endif; ?>
+		<?php if (is_user_logged_in()) : ?>
+		<div class="like-img position-absolute bottom-0 end-0 me-3 mb-3 z-3">
+		<?php echo do_shortcode('[yith_wcwl_add_to_wishlist]'); ?>
+		</div>
+		<?php endif; ?>
+	</div>
+	<div class="product-content">
+	<a href="<?php echo get_permalink($pro_id); ?>" class="text-decoration-none">
+		<div class="mont-medium font16 res-font14 leading20 text-black dpb-10"><?= $product->get_name(); ?></div></a>
+		<?php if($type == 'simple'): ?>
+		<div class="mont-medium font13 res-font11 leading20 text-7D7D7D"><?php echo $price_html; ?></div>
+		<?php else: ?>
+		<div class="mont-medium font13 res-font11 leading20 text-7D7D7D">From <?php echo get_woocommerce_currency_symbol(); echo $min_price; ?></div>
+		<?php endif; ?>
+	</div>
 
-	/**
-	 * Hook: woocommerce_before_shop_loop_item_title.
-	 *
-	 * @hooked woocommerce_show_product_loop_sale_flash - 10
-	 * @hooked woocommerce_template_loop_product_thumbnail - 10
-	 */
-	do_action( 'woocommerce_before_shop_loop_item_title' );
-
-	/**
-	 * Hook: woocommerce_shop_loop_item_title.
-	 *
-	 * @hooked woocommerce_template_loop_product_title - 10
-	 */
-	do_action( 'woocommerce_shop_loop_item_title' );
-
-	/**
-	 * Hook: woocommerce_after_shop_loop_item_title.
-	 *
-	 * @hooked woocommerce_template_loop_rating - 5
-	 * @hooked woocommerce_template_loop_price - 10
-	 */
-	do_action( 'woocommerce_after_shop_loop_item_title' );
-
-	/**
-	 * Hook: woocommerce_after_shop_loop_item.
-	 *
-	 * @hooked woocommerce_template_loop_product_link_close - 5
-	 * @hooked woocommerce_template_loop_add_to_cart - 10
-	 */
-	do_action( 'woocommerce_after_shop_loop_item' );
-	?>
-</li>
+</div>

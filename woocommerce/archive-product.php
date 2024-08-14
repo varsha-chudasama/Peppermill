@@ -16,7 +16,19 @@
  */
 
 defined('ABSPATH') || exit;
+$current_cat = get_queried_object();
+$total   = 0;
+if (is_shop()) :
+    $page_id = wc_get_page_id('shop');
+    $description = get_field('description', $page_id);
+    $bottom_description = get_field('bottom_description', $page_id);
+    $middle_box = get_field('middle_box', $page_id);
 
+else :
+    $description = get_field('description', $current_cat);
+    $bottom_description = get_field('bottom_description', $current_cat);
+    $middle_box = get_field('middle_box', $current_cat);
+endif;
 // get_header('shop');
 
 /**
@@ -30,9 +42,6 @@ do_action('woocommerce_before_main_content');
 
 ?>
 <header class="woocommerce-products-header">
-	<?php if (apply_filters('woocommerce_show_page_title', true)): ?>
-		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
-	<?php endif; ?>
 
 	<?php
 	/**
@@ -48,12 +57,15 @@ do_action('woocommerce_before_main_content');
 <section class="center-title-section dpt-135 dmb-110">
 	<div class="container">
 		<div class="col-7 px-5 mx-auto text-center">
-			<div class="content-title bodoni font60 leading70 dmb-25">Dining Chairs</div>
+		<?php if (apply_filters('woocommerce_show_page_title', true)): ?>
+			<div class="content-title bodoni font60 leading70 dmb-25"><?php woocommerce_page_title(); ?></div>
+		<?php endif; ?>
+		<?php if(!empty($description)): ?>
 			<div class="content-desc mont-normal font13 leading24">
-				Crafted to the highest standards, explore a diverse collection of dining chairs from Peppermill
-				Interiors and uncover the perfect seating for your home dining room or business. 
+				<?php echo $description;?>
 			</div>
 		</div>
+		<?php endif; ?>
 	</div>
 </section>
 
@@ -61,178 +73,10 @@ do_action('woocommerce_before_main_content');
 	<div class="container">
 		<div class="row">
 			<div class="project-dropdown position-relative w-100 d-flex align-items-center justify-content-between">
-				<div class="d-flex align-items-center">
-					<div class="me-2">
-						<div class="project-toggle mont-medium font13 leading24 border border-707070 d-inline-flex align-items-center rounded-pill"
-							type="button" id="projectMenuButtonCategory" data-toggle="project" aria-haspopup="true"
-							aria-expanded="false">
-							Category
-						</div>
-						<div class="project-menu project-menus position-absolute radius10 flex-column z-3 p-3 dmt-10"
-							aria-labelledby="projectMenuButtonCategory">
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10 active"
-								data-filter="all">View All</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="kent">Kent action</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="las-vegas">Las Vegas</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="spa">Leamington spa</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="kent-1">Kent action 1</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="las-vegas-1">Las Vegas 1</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="spa-1">Leamington spa 1</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="kent-2">Kent action 2</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="las-vegas-2">Las Vegas 2</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="spa-2">Leamington spa 2</a>
-						</div>
-					</div>
-
-					<div class="me-2">
-						<div class="project-toggle mont-medium font13 leading24 border border-707070 d-inline-flex align-items-center rounded-pill"
-							type="button" id="projectMenuButtonType" data-toggle="project" aria-haspopup="true"
-							aria-expanded="false">
-							Type
-						</div>
-						<div class="project-menu project-menus position-absolute radius10 flex-column z-3 p-3 dmt-10"
-							aria-labelledby="projectMenuButtonType">
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10 active"
-								data-filter="all">View All</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="type-1">Type 1</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="type-2">Type 2</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="type-3">Type 3</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="type-4">Type 4</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="type-5">Type 5</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="type-6">Type 6</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="type-7">Type 7</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="type-8">Type 8</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="type-9">Type 9</a>
-						</div>
-					</div>
-
-					<div class="me-2">
-						<div class="project-toggle mont-medium font13 leading24 border border-707070 d-inline-flex align-items-center rounded-pill"
-							type="button" id="projectMenuButtonColour" data-toggle="project" aria-haspopup="true"
-							aria-expanded="false">
-							Colour
-						</div>
-						<div class="project-menu project-menus position-absolute radius10 flex-column z-3 p-3 dmt-10"
-							aria-labelledby="projectMenuButtonColour">
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10 active"
-								data-filter="all">All Colors</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="black">Black</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="blue">Blue</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="brown">Brown</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="cream">Cream</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="green">Green</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="grey">Grey</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="mixed">Mixed</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="natural">Natural</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="orange">Orange</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="pink">Pink</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="red">Red</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="white">white</a>
-						</div>
-					</div>
-
-					<div class="me-2">
-						<div class="project-toggle mont-medium font13 leading24 border border-707070 d-inline-flex align-items-center rounded-pill"
-							type="button" id="projectMenuButtonAvailability" data-toggle="project" aria-haspopup="true"
-							aria-expanded="false">
-							Availability
-						</div>
-						<div class="project-menu project-menus position-absolute radius10 flex-column z-3 p-3 dmt-10"
-							aria-labelledby="projectMenuButtonType">
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10 active"
-								data-filter="all">View All</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="availability-1">Availability 1</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="availability-2">Availability 2</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="availability-3">Availability 3</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="availability-4">Availability 4</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="availability-5">Availability 5</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="availability-6">Availability 6</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="availability-7">Availability 7</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="availability-8">Availability 8</a>
-							<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative dmb-10"
-								data-filter="availability-9">Availability 9</a>
-						</div>
-					</div>
-				</div>
-				<!-- <form class="woocommerce-ordering mb-0" method="get">
-					<div class="select-sort-by">
-						<select name="orderby"
-							class="form-input select-custom-dropdown h-100 orderby mont-medium font13 leading24 border border-707070 d-inline-flex align-items-center rounded-pill "
-							data-placeholder="Sort: Name" aria-label="Shop order">
-							<option value="menu_order" selected="selected"
-								class="text-decoration-none mont-medium font13 leading24 text-black position-relative text-nowrap dpt-10 dpb-10">sort by</option>
-							<option value="popularity" class="text-decoration-none mont-medium font13 leading24 text-black position-relative text-nowrap dpt-10 dpb-10">Sort by
-								popularity</option>
-							<option value="rating" class="text-decoration-none mont-medium font13 leading24 text-black position-relative text-nowrap dpt-10 dpb-10">Sort by average
-								rating</option>
-							<option value="date" class="text-decoration-none mont-medium font13 leading24 text-black position-relative text-nowrap dpt-10 dpb-10">Sort by latest
-							</option>
-							<option value="price" class="text-decoration-none mont-medium font13 leading24 text-black position-relative text-nowrap dpt-10 dpb-10">Sort by price: low
-								to high</option>
-							<option value="price-desc" class="text-decoration-none mont-medium font13 leading24 text-black position-relative text-nowrap dpt-10 dpb-10">Sort by
-								price: high to low</option>
-						</select>
-					</div>
-				</form> -->
+			<?php echo do_shortcode('[yith_wcan_filters slug="default-preset"]'); ?>
+		
 				<div class="d-flex justify-content-end position-relative">
-					<div class="project-toggle mont-medium font13 leading24 border border-707070 d-inline-flex align-items-center rounded-pill"
-						type="button" id="projectMenuButtonSort" data-toggle="project" aria-haspopup="true"
-						aria-expanded="false">
-						Sort: Name
-					</div>
-					<div class="project-menu project-menus position-absolute radius10 flex-column z-3 p-3 dmt-40"
-						aria-labelledby="projectMenuButtonSort">
-						<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative text-nowrap dmb-10 active"
-							data-filter="all">Default Sorting</a>
-						<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative text-nowrap dmb-10"
-							data-filter="popularity">Sort by popularity</a>
-						<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative text-nowrap dmb-10"
-							data-filter="rating">Sort by average rating</a>
-						<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative text-nowrap dmb-10"
-							data-filter="date">Sort by latest</a>
-						<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative text-nowrap dmb-10"
-							data-filter="price">Sort by price: low to high</a>
-						<a class="activity-button text-decoration-none mont-medium font13 leading24 text-white position-relative text-nowrap dmb-10"
-							data-filter="price-desc">Sort by price: high to low</a>
-					</div>
+			<?php echo do_shortcode('[yith_wcan_filters slug="draft-preset"]'); ?>
 				</div>
 			</div>
 		</div>
@@ -275,6 +119,10 @@ do_action('woocommerce_before_main_content');
 			<?php }
 
 			woocommerce_product_loop_end();
+			$total = wc_get_loop_prop('total_pages');
+            $current = isset($current) ? $current : wc_get_loop_prop('current_page');
+            $base = isset($base) ? $base : esc_url_raw(str_replace(999999999, '%#%', remove_query_arg('add-to-cart', get_pagenum_link(999999999, false))));
+            $format = isset($format) ? $format : '';
 
 			/**
 			 * Hook: woocommerce_after_shop_loop.
@@ -308,3 +156,25 @@ do_action('woocommerce_before_main_content');
 		?>
 	</div>
 </section>
+<?php if(!empty($bottom_description)): ?>
+<div class="spacing dmb-80"></div>
+<!-- category-content-section -->
+<section class="category-content-section">
+	<div class="container">
+		<div class="col-7 mx-auto text-center px-3">
+			<?php foreach($bottom_description as $bottom_description_custom): ?>
+			<div class="category-content dmb-80 px-1">
+				<div class="bodoni font35 leading45 text-black dmb-30"><?php echo $bottom_description_custom['heading']; ?></div>
+				<div class="mont-normal font13 leading23 space0_88 text-black">
+					<div class="dmb-40">
+					<?php echo $bottom_description_custom['content']; ?>
+					</div>
+				</div>
+			</div>
+			<?php endforeach; ?>
+		</div>
+	</div>
+</section>
+
+<div class="spacing dpb-90"></div>
+<?php endif; ?>

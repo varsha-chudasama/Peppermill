@@ -49,7 +49,7 @@ do_action('woocommerce_before_lost_password_form');
 					value="<?php esc_attr_e('RESET MY PASSWORD', 'woocommerce'); ?>"><?php esc_html_e('RESET MY PASSWORD', 'woocommerce'); ?></button>
 			</p>
 
-			<a href="" class="mont-medium font13 leading20 text-black ms-4">
+			<a href="<?php echo get_home_url(); ?>/my-account" class="mont-medium font13 leading20 text-black ms-4">
 				Back to login
 			</a>
 		</div>

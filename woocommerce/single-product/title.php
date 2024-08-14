@@ -21,7 +21,9 @@
 	}
 	the_title('<h1 class="product_title entry-title">', '</h1>');
 	?>
-	<div>
-		<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/fill-like-icon.svg" alt="">
+	<?php if (is_user_logged_in()) : ?>
+	<div class="like-img me-3 mb-3 z-3">
+	<?php echo do_shortcode('[yith_wcwl_add_to_wishlist]'); ?>
 	</div>
+	<?php endif; ?>
 </div>

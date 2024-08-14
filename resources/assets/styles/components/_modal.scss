@@ -204,8 +204,7 @@
 .xoo-wsch-basket,
 .xoo-wsc-footer-txt,
 .xoo-wsc-ft-btn-cart,
-.xoo-wsc-ft-btn-continue,
-.woocommerce-Price-amount {
+.xoo-wsc-ft-btn-continue {
   display: none !important;
 }
 
@@ -219,7 +218,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url("http://localhost/peppermill/wp-content/uploads/2024/07/close-icon.svg");
+    background-image: url("/wp-content/uploads/2024/07/close-icon.svg");
     width: 8px;
     height: 8px;
     background-size: 8px 8px;

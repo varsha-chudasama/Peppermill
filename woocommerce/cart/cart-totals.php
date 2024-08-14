@@ -111,6 +111,20 @@ defined( 'ABSPATH' ) || exit;
 	<div class="wc-proceed-to-checkout dmt-35 dmb-35">
 		<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 	</div>
+	<?php $text = get_field('text'); 
+	if(!empty($text)): 
+	?>
+	<div class=""><?php echo $text; ?></div>
+	<?php endif; ?>
+	<?php $cards = get_field('cards'); 
+	if(!empty($cards)): 
+	?>
+	<ul class="d-flex list-none footer-ul mb-0 px-0 dmt-30">
+		<?php foreach($cards as $cards_custom): ?>
+		<li class="me-lg-4 me-1"><a href="javascript:void(0)" class="d-inline-block footer-icon"><img src="<?php echo $cards_custom['image']['url'];?>" class="w-100" alt=""></a></li>
+		<?php endforeach; ?>
+	</ul>
+	<?php endif; ?>
 
 	<?php do_action( 'woocommerce_after_cart_totals' ); ?>
 

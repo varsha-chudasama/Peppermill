@@ -22,9 +22,23 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $product;
 ?>
 <div class="product_meta">
-
+<?php $text = get_field('text'); 
+	if(!empty($text)): 
+	?>
+	<div class=""><?php echo $text; ?></div>
+	<?php endif; ?>
+	<?php $cards = get_field('cards'); 
+	if(!empty($cards)): 
+	?>
+	<ul class="d-flex list-none footer-ul mb-0 px-0 dmt-30">
+		<?php foreach($cards as $cards_custom): ?>
+		<li class="me-lg-4 me-1"><a href="javascript:void(0)" class="d-inline-block footer-icon"><img src="<?php echo $cards_custom['image']['url'];?>" class="w-100" alt=""></a></li>
+		<?php endforeach; ?>
+	</ul>
+	<?php endif; ?>
+	
 	<?php do_action( 'woocommerce_product_meta_start' ); ?>
-
+	<div style="display:none;">
 	<?php if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
 
 		<span class="sku_wrapper"><?php esc_html_e( 'SKU:', 'woocommerce' ); ?> <span class="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'woocommerce' ); ?></span></span>
@@ -36,5 +50,5 @@ global $product;
 	<?php echo wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', count( $product->get_tag_ids() ), 'woocommerce' ) . ' ', '</span>' ); ?>
 
 	<?php do_action( 'woocommerce_product_meta_end' ); ?>
-
+	</div>
 </div>

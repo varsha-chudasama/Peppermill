@@ -2,6 +2,12 @@
 /*
  * Template Name: privacy
  */
+
+$items_p = get_field('items');
+$button_1 = get_field('button_1');
+$button_2 = get_field('button_2');
+$button_3 = get_field('button_3');
+if(!empty($items_p)):
 ?>
 <div class="spacing tpt-145"></div>
 <section class="privacy-section">
@@ -9,149 +15,61 @@
         <div class="row">
             <div class="col-lg-5 col-12 pe-4 privacy-left-content res-bg-EBEBEB res-radius5 tpt-35 tpb-45 ps-3">
                 <ul class="list-none ps-0 mb-0 privacy-links position-sticky p-initial" id="privacy-links">
-                    <li class="dmb-20 d-flex align-items-center transition opacity-50 active">
-                        <a href="#privacy"
+                    <?php foreach($items_p as $key => $items_custom): 
+                    $class = ($key == '0') ? "active" :"";    
+                    ?>
+                    <li class="dmb-20 d-flex align-items-center transition opacity-50 <?php echo $class; ?>">
+                        <a href="#privacy-<?php echo $key; ?>"
                             class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black text-capitalize transition">
-                            Privacy Policy
+                            <?php echo $items_custom['heading']; ?>
                         </a>
                     </li>
-                    <li class="dmb-20 d-flex align-items-center transition opacity-50">
-                        <a href="#terms"
-                            class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black text-capitalize transition">
-                            Terms & Conditions
-                        </a>
-                    </li>
-                    <li class="dmb-20 d-flex align-items-center transition opacity-50">
-                        <a href="#delivery"
-                            class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black text-capitalize transition">
-                            Delivery Information
-                        </a>
-                    </li>
-                    <li class="dmb-20 d-flex align-items-center transition opacity-50">
-                        <a href="#order"
-                            class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black text-capitalize transition">
-                            Track your order
-                        </a>
-                    </li>
-                    <li class="dmb-20 d-flex align-items-center transition opacity-50">
-                        <a href="#returns"
-                            class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black text-capitalize transition">
-                            Returns & Refunds
-                        </a>
-                    </li>
-                    <li class="dmb-20 d-flex align-items-center transition opacity-50">
-                        <a href="#warranty"
-                            class="text-decoration-none d-inline-block mont-medium font13 leading20 text-black text-capitalize transition">
-                            Warranty Information
-                        </a>
-                    </li>
+                    <?php endforeach; ?>
                 </ul>
             </div>
             <div class="col-lg-7 col-12 ps-lg-2 privacy-right-content dpb-160 tpb-75">
-                <div class="single-content" id="privacy">
+            <?php foreach($items_p as $key => $items_custom): 
+                    $class = ($key == '0') ? "active" :"";    
+                    ?>
+                <div class="single-content" id="privacy-<?php echo $key; ?>">
                     <div class="bodoni font30 res-font24 leading35 res-leading30 text-black text-capitalize dmb-30 tmb-25">
-                        Privacy Policy
+                    <?php echo $items_custom['heading']; ?>
                     </div>
                     <div class="mont-normal font13 leading24 text-black">
-                        Peppermill Interiors is a leading stockist of quality domestic, bar and restaurant furniture. As
-                        a family business, we understand the importance of service and our dedicated team will help to
-                        advise you so that you can buy the best furniture for your needs. We stock a wide range of
-                        products suitable for your home, as well as restaurants, bars, bistros and cafes, keeping large
-                        quantities of our reproduction items in stock for quick and efficient dispatch. As well as our
-                        vast collection of new furniture, we also stock a wide range of vintage, industrial and bespoke
-                        items. We are based in Burntwood, Staffordshire (around a 40 minute drive from Birmingham), and
-                        if you fancy a browse our showroom is open to the public Monday to Saturday. If you can’t make
-                        it into store, don’t worry, you can place your order online or over the phone and we ship all
-                        over the world. Over 20 years in the business has given us great insight into what our customers
-                        want and need. With customer satisfaction as our top priority, we source furniture, cutting out
-                        the middle man and therefore reducing the price for our clients. We are always looking for the
-                        latest pieces and newest trends to add to our extensive range of new, vintage and industrial
-                        furniture. Please browse the site, have a look at what we offer, and give us a call on 01543
-                        375872 or use our contact form to discuss your requirements. Our friendly staff are always happy
-                        to help, you can meet them here!
+                    <?php echo $items_custom['content']; ?>
                     </div>
                 </div>
-                <div class="single-content" id="terms">
-                    <div class="bodoni font30 res-font24 leading35 res-leading30 text-black text-capitalize dmb-30 tmb-25">
-                        T&Cs
-                    </div>
-                    <div class="mont-normal font13 leading24 text-black">
-                        Peppermill Interiors is a leading stockist of quality domestic, bar and restaurant furniture. As
-                        a family business, we understand the importance of service and our dedicated team will help to
-                        advise you so that you can buy the best furniture for your needs. We stock a wide range of
-                        products suitable for your home, as well as restaurants, bars, bistros and cafes, keeping large
-                        quantities of our reproduction items in stock for quick and efficient dispatch. As well as our
-                        vast collection of new furniture, we also stock a wide range of vintage, industrial and bespoke
-                        items. We are based in Burntwood, Staffordshire (around a 40 minute drive from Birmingham), and
-                        if you fancy a browse our showroom is open to the public Monday to Saturday. If you can’t make
-                        it into store, don’t worry, you can place your order online or over the phone and we ship all
-                        over the world. Over 20 years in the business has given us great insight into what our customers
-                        want and need. With customer satisfaction as our top priority, we source furniture, cutting out
-                        the middle man and therefore reducing the price for our clients.
-                    </div>
-                </div>
-                <div class="single-content" id="delivery">
-                    <div class="bodoni font30 res-font24 leading35 res-leading30 text-black text-capitalize dmb-30 tmb-25">
-                        Delivery Information
-                    </div>
-                    <div class="mont-normal font13 leading24 text-black">
-                        Peppermill Interiors is a leading stockist of quality domestic, bar and restaurant furniture. As
-                        a family business, we understand the importance of service and our dedicated team will help to
-                        advise you so that you can buy the best furniture for your needs. We stock a wide range of
-                        products suitable for your home, as well as restaurants, bars, bistros and cafes, keeping large
-                        quantities of our reproduction items in stock for quick and efficient dispatch. As well as our
-                        vast collection of new furniture, we also stock a wide range of vintage, industrial and bespoke
-                        items.
-                    </div>
-                </div>
-                <div class="single-content" id="order">
-                    <div class="bodoni font30 res-font24 leading35 res-leading30 text-black text-capitalize dmb-30 tmb-25">
-                        Track your order
-                    </div>
-                    <div class="mont-normal font13 leading24 text-black">
-                        Peppermill Interiors is a leading stockist of quality domestic, bar and restaurant furniture. As
-                        a family business, we understand the importance of service and our dedicated team will help to
-                        advise you so that you can buy the best furniture for your needs. We stock a wide range of
-                        products suitable for your home, as well as restaurants, bars, bistros and cafes, keeping large
-                        quantities of our reproduction items in stock for quick and efficient dispatch. As well as our
-                        vast collection of new furniture, we also stock a wide range of vintage, industrial and bespoke
-                        items.
-                    </div>
-                </div>
-                <div class="single-content" id="returns">
-                    <div class="bodoni font30 res-font24 leading35 res-leading30 text-black text-capitalize dmb-30 tmb-25">
-                        Returns & Refunds
-                    </div>
-                    <div class="mont-normal font13 leading24 text-black">
-                        Peppermill Interiors is a leading stockist of quality domestic, bar and restaurant furniture. As
-                        a family business, we understand the importance of service and our dedicated team will help to
-                        advise you so that you can buy the best furniture for your needs. We stock a wide range of
-                        products suitable for your home, as well as restaurants, bars, bistros and cafes, keeping large
-                        quantities of our reproduction items in stock for quick and efficient dispatch. As well as our
-                        vast collection of new furniture, we also stock a wide range of vintage, industrial and bespoke
-                        items. We are based in Burntwood, Staffordshire (around a 40 minute drive from Birmingham), and
-                        if you fancy a browse our showroom is open to the public Monday to Saturday. If you can’t make
-                        it into store, don’t worry, you can place your order online or over the phone and we ship all
-                        over the world. Over 20 years in the business has given us great insight into what our customers
-                        want and need. With customer satisfaction as our top priority, we source furniture, cutting out
-                        the middle man and therefore reducing the price for our clients.
-                    </div>
-                    <div class="dmt-50 d-flex flex-wrap align-items-center privacy-btn-group">
-                        <a href=""
-                            class="text-decoration-none tmb-15 btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
-                            ITEM NOT REQUIRED,
-                        </a>
-                        <a href=""
-                            class="text-decoration-none tmb-15 btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
-                            FAULTY ITEM
-                        </a>
-                        <a href=""
-                            class="text-decoration-none tmb-15 btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
-                            EXCHANGE AN ITEM
-                        </a>
-                    </div>
+                <?php endforeach; ?>
+                <div class="dmt-50 d-flex flex-wrap align-items-center privacy-btn-group">
+                    <?php if(!empty($button_1['url'])): 
+                    $target_1 = ($button_1['target'] == '_blank') ? "_blank" : "";    
+                    ?>
+                    <a href="<?php echo $button_1['url']; ?>" target="<?php echo $target_1; ?>"
+                        class="text-decoration-none tmb-15 btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
+                        <?php echo $button_1['title']; ?>
+                    </a>
+                    <?php 
+                    endif;
+                    if(!empty($button_2['url'])): 
+                    $target_2 = ($button_2['target'] == '_blank') ? "_blank" : "";    
+                    ?>
+                    <a href="<?php echo $button_2['url']; ?>" target="<?php echo $target_2; ?>"
+                        class="text-decoration-none tmb-15 btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
+                        <?php echo $button_2['title']; ?>
+                    </a>
+                    <?php 
+                    endif;
+                    if(!empty($button_3['url'])): 
+                    $target_3 = ($button_3['target'] == '_blank') ? "_blank" : "";    
+                    ?>
+                    <a href="<?php echo $button_3['url']; ?>" target="<?php echo $target_3; ?>"
+                        class="text-decoration-none tmb-15 btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">
+                        <?php echo $button_3['title']; ?>
+                    </a>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<?php endif; ?>

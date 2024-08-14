@@ -1,3 +1,12 @@
+<?php 
+$links = get_field('links','option');
+$newsletter_heading = get_field('newsletter_heading','option');
+$newsletter_description = get_field('newsletter_description','option');
+$cards = get_field('cards','option');
+$bottom_links = get_field('bottom_links','option');
+$social_media = get_field('social_media','option');
+?>
+
 <footer class="footer">
         <div class="top-footer dpt-40 tpt-55">
             <div class="container">
@@ -36,191 +45,98 @@
         </div>
     <div class="container px-p-0">
         <div class="bottom-footer dpt-80 tpt-0 dpb-45 tpb-0">
+            
             <div class="row flex-column flex-lg-row dpb-130 tpb-40">
+                <?php if(!empty($links)):
+                foreach($links as $links_custom):     
+                ?>
                 <div class="col-lg-2 col-12 top-border tpt-30 tpb-30">
+                    <?php if(!empty($links_custom['heading'])): ?>
                     <div class="dmb-30 tmb-20 font26 res-font22 leading30 text-white px-p-p">
-                        How we can help </div>
+                        <?php echo $links_custom['heading']; ?></div>
+                    <?php endif; ?>
+                    <?php if(!empty($links_custom['link'])): ?>
                     <ul class="list-none footer-content mb-0 px-0 px-p-p">
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Delivery
-                                Information</a></li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Faqs</a>
-                        </li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Cancellation &
-                                Refunds</a>
-                        </li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Trade
-                                Enquiries</a></li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Press
-                                Office
-                            </a></li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Sell
-                                To
-                                Us</a>
-                        </li>
+                        <?php 
+                        foreach($links_custom['link'] as $link): 
+                            if(!empty($link['link']['url'])):
+                                $target = ($link['link']['target'] == '_blank') ? "_blank" : "";
+                        ?>
+                        <li class="dmb-5"><a href="<?php echo $link['link']['url']; ?>" target="<?php echo $target; ?>"
+                                class="text-decoration-none mont-normal font13 leading20 text-white "><?php echo $link['link']['title']; ?></a></li>
+                        <?php 
+                        endif;
+                        endforeach; ?>
                     </ul>
+                    <?php endif; ?>
                 </div>
-                <div class="col-lg-2 col-12 top-border tpt-30 tpb-30">
-                    <div class="dmb-30 tmb-20 font26 res-font22 leading30 text-white px-p-p">
-                        About us </div>
-                    <ul class="list-none footer-content mb-0 px-0 px-p-p">
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">About
-                                Peppermill</a>
-                        </li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Our Showroom</a>
-                        </li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">CancellationOur
-                                History</a>
-                        </li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Careers</a></li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Customer Reviews
-                            </a></li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-12 top-border tpt-30 tpb-30">
-                    <div class="dmb-30 tmb-20 font26 res-font22 leading30 text-white px-p-p">
-                        Inspiration</div>
-                    <ul class="list-none footer-content mb-0 px-0 px-p-p">
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Blog</a>
-                        </li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Customer Homes</a>
-                        </li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Commercial
-                                Projects</a>
-                        </li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Care Guides</a>
-                        </li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Samples & Swatches
-                            </a></li>
-                        <li class="dmb-5"><a href=""
-                                class="text-decoration-none mont-normal font13 leading20 text-white ">Gift Vouchers</a>
-                        </li>
-                    </ul>
-                </div>
+                <?php 
+                endforeach;
+                endif; ?>
+                
                 <div class="col-lg-6 col-12 tpt-40 top-border">
                     <div class="col-lg-8 col-12 ms-lg-auto px-p-p">
-                        <div class="bodoni font26 res-font22 leading30 text-white dmb-30 tmb-25">Sign up to our newsletter</div>
-                        <div class="mont-medium font13 leading20 text-white dmb-20 tmb-35">Don’t miss out on our latest
-                            arrivals,
-                            promotions and discounts:</div>
-                        <div class="d-flex input-row dmb-15 tmb-20">
-                            <div class="pe-2 w-100">
-                                <input type="text"
-                                    class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4"
-                                    placeholder="Email address…">
-                            </div>
-                            <div class="">
-                                <a href=""
-                                    class="footer-btn text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 d-flex align-items-center justify-content-center transition">
-                                    Submit
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mont-medium font11 leading16 text-white dmb-15 tmb-30">What would you like to receive?
-                        </div>
-                        <div class="radio-btns d-flex">
-                            <div class="radio-btn">
-                                <input type="radio" id="radio-1" name="notaswitch" value="val-1" checked />
-                                <label for="radio-1"
-                                    class="mont-semibold font9 leading11 space0_23 text-uppercase  bg-transparent text-white border-0 position-relative dpt-30 me-4">
-                                    TRADE
-                                </label>
-                            </div>
-                            <div class="radio-btn">
-                                <input type="radio" id="radio-2" name="notaswitch" value="val-2" />
-                                <label for="radio-2"
-                                    class="mont-semibold font9 leading11 space0_23 text-uppercase  bg-transparent text-white border-0 position-relative dpt-30 me-4">
-                                    HOME
-                                </label>
-                            </div>
-                            <div class="radio-btn">
-                                <input type="radio" id="radio-3" name="notaswitch" value="val-3" />
-                                <label for="radio-3"
-                                    class="mont-semibold font9 leading11 space0_23 text-uppercase  bg-transparent text-white border-0 position-relative dpt-30 me-4">
-                                    BOTH
-                                </label>
-                            </div>
-                        </div>
+                        <?php if(!empty($newsletter_heading)): ?>
+                        <div class="bodoni font26 res-font22 leading30 text-white dmb-30 tmb-25"><?php echo $newsletter_heading; ?></div>
+                        <?php endif; ?>
+                        <?php if(!empty($newsletter_description)): ?>
+                        <div class="mont-medium font13 leading20 text-white dmb-20 tmb-35"><?php echo $newsletter_description; ?></div>
+                        <?php endif; ?>
+                            <?php echo do_shortcode('[contact-form-7 id="b6f617f" title="Newsletter"]'); ?>
                     </div>
                 </div>
             </div>
+           
             <div class="row flex-column flex-lg-row top-border tpt-40">
+                <?php if(!empty($cards)): ?>
                 <div class="col-lg-4 col-12 order-3 order-lg-1 tmb-50 px-p-p">
                     <ul class="d-flex list-none footer-ul mb-0 px-0">
+                        <?php foreach($cards as $cards_custom): 
+                        if(!empty($cards_custom['image'])): 
+                        ?>
                         <li class="me-lg-4 me-1"><a href="" class="d-inline-block footer-icon"><img
-                                    src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-1.png"
+                                    src="<?php echo $cards_custom['image'] ?>"
                                     class="w-100" alt=""></a></li>
-                        <li class="me-lg-4 me-1"><a href="" class="d-inline-block footer-icon"><img
-                                    src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-2.png"
-                                    class="w-100" alt=""></a></li>
-                        <li class="me-lg-4 me-1"><a href="" class="d-inline-block footer-icon"><img
-                                    src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-3.png"
-                                    class="w-100" alt=""></a></li>
-                        <li class="me-lg-4 me-1"><a href="" class="d-inline-block footer-icon"><img
-                                    src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-4.png"
-                                    class="w-100" alt=""></a></li>
-                        <li class="me-lg-4 me-1"><a href="" class="d-inline-block footer-icon"><img
-                                    src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-5.png"
-                                    class="w-100" alt=""></a></li>
-                        <li class="me-lg-4 me-1"><a href="" class="d-inline-block footer-icon"><img
-                                    src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/footer-icon-6.png"
-                                    class="w-100" alt=""></a></li>
+                        <?php 
+                        endif;
+                        endforeach; ?>
                     </ul>
                 </div>
+                <?php endif; 
+                if(!empty($bottom_links)): 
+                ?>
                 <div class="col-lg-5 col-12 order-2 tmb-50 px-p-p">
                     <ul class="list-none footer-ul mb-0 px-0 d-flex flex-wrap align-items-center h-100">
-                        <li class="col-6 col-lg-3"><a href=""
-                                class="text-decoration-none mont-semibold font9 leading11 space0_23 text-uppercase text-white">TERMS
-                                & CONDITIONS</a></li>
-                        <li class="col-6 col-lg-3"><a href=""
-                                class="text-decoration-none mont-semibold font9 leading11 space0_23 text-uppercase text-white">PRIVACY
-                                POLICY</a></li>
-                        <li class="col-6 col-lg-3"><a href=""
-                                class="text-decoration-none mont-semibold font9 leading11 space0_23 text-uppercase text-white">PAYMENT
-                                METHODS</a></li>
-                        <li class="col-6 col-lg-3"><a href=""
-                                class="text-decoration-none mont-semibold font9 leading11 space0_23 text-uppercase text-white">DESIGN
-                                BY THE CURIOUS</a></li>
+                        <?php foreach($bottom_links as $bottom_links_custom): 
+                            if(!empty($bottom_links_custom['link']['url'])):
+                                $target_1 = ($bottom_links_custom['link']['target'] == '_blank') ? "_blank" : "";
+                        ?>
+                        <li class="col-6 col-lg-3"><a href="<?php echo $bottom_links_custom['link']['url']; ?>" target="<?php echo $target_1; ?>"
+                                class="text-decoration-none mont-semibold font9 leading11 space0_23 text-uppercase text-white"><?php echo $bottom_links_custom['link']['title']; ?></a></li>
+                        <?php 
+                        endif;
+                        endforeach; ?>
                     </ul>
                 </div>
+                <?php endif; 
+                if(!empty($social_media)): 
+                ?>
                 <div class="col-lg-3 col-12 order-1 order-lg-3 tmb-50 px-p-p">
                     <ul class="d-flex footer-ul list-none mb-0 px-0 justify-content-lg-end">
+                    <?php foreach($social_media as $social_media_custom): 
+                            if(!empty($social_media_custom['link']['url'])):
+                                $target_2 = ($social_media_custom['link']['target'] == '_blank') ? "_blank" : "";
+                        ?>
                         <li class="me-3"><a
                                 class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center"
-                                href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/facebook.svg"
+                                href="<?php echo $social_media_custom['link']['url']; ?>" target="<?php echo $target_2; ?>"><img src="<?php echo $social_media_custom['icon']['url']; ?>"
                                     class="header-icon" alt=""></a></li>
-                        <li class="me-3"><a
-                                class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center"
-                                href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/instagram.svg"
-                                    class="header-icon" alt=""></a></li>
-                        <li class="me-3"><a
-                                class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center"
-                                href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/pinterest.svg"
-                                    class="header-icon" alt=""></a></li>
-                        <li class="me-3"><a
-                                class="footer-icon-bg rounded-pill bg-white d-inline-flex justify-content-center align-items-center"
-                                href=""><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/07/twitter.svg"
-                                    class="header-icon" alt=""></a></li>
+                        <?php 
+                        endif;
+                        endforeach; ?>
                     </ul>
                 </div>
+                <?php endif; ?>
             </div>
         </div>
     </div>

@@ -97,7 +97,7 @@ do_action('woocommerce_before_customer_login_form'); ?>
                 Create an account for a quicker checkout, easy order tracking and exclusive news and updates.
               </div>
               <div class="d-inline-block">
-                <a href=""
+                <a href="<?php echo get_home_url()?>/register"
                   class="text-decoration-none btnA white-border-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center me-4">CREATE
                   AN ACCOUNT</a>
               </div>
