@@ -46,6 +46,16 @@
                             <input type="text" placeholder="Address…"
                                 class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4">
                         </div>
+                        <div class="col-md-12 dmb-10">
+                            <div class="mont-semibold font13 leading16 text-black dmb-25">How would you like to be contacted? *</div>
+                            <div class="dmb-95 "></div>
+                            <div class="mont-semibold font18 leading24 text-black dmb-15">
+                                Please provide photos of the items you wish to sell. 
+                            </div>
+                            <div class="mont-semibold font18 leading24 text-black dmb-15">
+                                (Please ensure photos are taken at showing the items fairly) *
+                            </div>
+                        </div>
                     </div>
                 </form>
                 <div class="tmt-60 dmt-45 d-flex align-items-center justify-content-center">

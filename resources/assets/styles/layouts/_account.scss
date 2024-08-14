@@ -1,3 +1,47 @@
-.sign-up-section{
-    height: 100vh;
+body {
+
+    &.register,
+    &.my-account {
+        .footer {
+            display: none;
+        }
+    }
+}
+
+.account-wrapper {
+    height: 100vh !important;
+
+    @include media-breakpoint-down(lg) {
+        height: auto !important;
+    }
+}
+
+.password-input {
+    .show-password-input {
+        display: none !important;
+    }
+}
+
+.register-img{
+    @include media-breakpoint-down(lg){
+        height: 410px !important;
+    }
+}
+
+.checkbox-group {
+    .square-checkbox {
+        margin-right: 22px;
+
+        &:last-child {
+            margin-right: 0 !important;
+        }
+    }
+}
+
+.login-input-group {
+    &>* {
+        &:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
 }
