@@ -43,9 +43,9 @@ if (!$checkout->is_registration_enabled() && $checkout->is_registration_required
 				</div>
 			</div>
 
-			<!-- <div class="col-4">
+			<div class="col2-set">
 				<?php do_action('woocommerce_checkout_shipping'); ?>
-			</div> -->
+			</div> 
 		</div>
 
 		<?php do_action('woocommerce_checkout_after_customer_details'); ?>
@@ -58,7 +58,7 @@ if (!$checkout->is_registration_enabled() && $checkout->is_registration_required
 			<h3 id="order_review_heading" class="mont-medium font20 leading30 text-black">
 				<?php esc_html_e('Your order', 'woocommerce'); ?>
 			</h3>
-			<a href="" class="mont-semibold font11 leading20 space0_28 text-uppercase text-black">AMEND</a>
+			<a href="<?php echo get_home_url(); ?>/cart" class="mont-semibold font11 leading20 space0_28 text-uppercase text-black">AMEND</a>
 		</div>
 
 		<?php do_action('woocommerce_checkout_before_order_review'); ?>

@@ -18,14 +18,84 @@
 
 defined( 'ABSPATH' ) || exit;
 ?>
+<div id="ship-to-different-address" class="dpt-65 tpt-25 dmt-60">
+		<label class="woocommerce-form__label d-flex lh-1 align-items-center justify-content-between toggle-checkbox-ship woocommerce-form__label-for-checkbox checkbox">
+			<span class="lh-base text-uppercase avenir-heavy font-11px resfont-18px text-uppercase spacing-165px label"><?php esc_html_e('Is your billing address the same as the delivery', 'woocommerce'); ?></span>
+			<div class="value-yes-no d-flex align-items-center ps-4 ms-3">
+				<span class="lh-1 text-uppercase avenir-heavy font-10px text-uppercase spacing-1px">Yes</span>
+				<div class="toogle-btn-div position-relative mb-0 px-2">
+					<input id="ship-to-different-address-checkbox toggle-btn" class="woocommerce-form__input woocommerce-form__input-checkbox input-checkbox " <?php checked(apply_filters('woocommerce_ship_to_different_address_checked', 'shipping' === get_option('woocommerce_ship_to_destination') ? 1 : 0), 1); ?> type="checkbox" name="ship_to_different_address" value="1" />
+					<label for="toggle-btn" class="toogle-btn"></label>
+				</div>
+				<span class="lh-1 text-uppercase avenir-heavy font-10px text-uppercase spacing-1px">No</span>
+			</div>
+		</label>
+	</div>
+<div class="">Delivery Options</div>
+	<?php if (WC()->cart->needs_shipping() && WC()->cart->show_shipping()): ?>
+
+<?php do_action('woocommerce_review_order_before_shipping'); ?>
+
+<?php wc_cart_totals_shipping_html(); ?>
+
+<?php do_action('woocommerce_review_order_after_shipping'); ?>
+
+<?php endif; ?>
+<div class="">Please fill in the below for ease of delivery:</div>
+<div class="">Are there any parking restrictions?</div>
+<div class="">
+	<div class="radio">
+		<input type="radio" name="billing_parking" value="Yes" checked>
+		<label>Yes</label>
+	</div>
+
+	<div class="radio">
+		<input type="radio" name="billing_parking" Value="No">
+		<label>No</label>
+	</div>
+	<div class="d-flex flex-column dmb-25">
+	<input type="text" class="input-field w-100 mont-medium font12 leading16 text-918E8E radius5 px-4" name="parking_billing" placeholder="Enter here…"/>
+	</div>
+</div>
+<div class="">Are there any access restrictions?</div>
+<div class="">
+	<div class="radio">
+		<input type="radio" name="billing_access" value="Yes" checked>
+		<label>Yes</label>
+	</div>
+
+	<div class="radio">
+		<input type="radio" name="billing_access" Value="No">
+		<label>No</label>
+	</div>
+<div class="">How many flights of stairs?</div>
+	<div class="d-flex flex-column dmb-25">
+	<select name="stairs">
+		<option value="10">10</option>
+		<option value="20">20</option>
+		<option value="30">30</option>
+		<option value="40">40</option>
+		<option value="50">50</option>
+		<option value="60">60</option>
+	</select>
+	</div>
+</div>
+
+<div class="">Does your property have a lift?</div>
+<div class="">
+	<div class="radio">
+		<input type="radio" name="billing_lift" value="Yes" checked>
+		<label>Yes</label>
+	</div>
+
+	<div class="radio">
+		<input type="radio" name="billing_lift" Value="No">
+		<label>No</label>
+	</div>
+</div>
+
 <div class="woocommerce-shipping-fields">
 	<?php if ( true === WC()->cart->needs_shipping_address() ) : ?>
-
-		<h3 id="ship-to-different-address">
-			<label class="woocommerce-form__label woocommerce-form__label-for-checkbox checkbox">
-				<input id="ship-to-different-address-checkbox" class="woocommerce-form__input woocommerce-form__input-checkbox input-checkbox" <?php checked( apply_filters( 'woocommerce_ship_to_different_address_checked', 'shipping' === get_option( 'woocommerce_ship_to_destination' ) ? 1 : 0 ), 1 ); ?> type="checkbox" name="ship_to_different_address" value="1" /> <span><?php esc_html_e( 'Ship to a different address?', 'woocommerce' ); ?></span>
-			</label>
-		</h3>
 
 		<div class="shipping_address">
 

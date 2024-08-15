@@ -571,6 +571,7 @@
     <?php elseif (get_row_layout() == 'full_small_height_background_image_section'): 
 
     $full_small_height_background_image_section_background_image = get_sub_field('background_image');
+    $full_small_height_background_image_section_prefix = get_sub_field('prefix');
     $full_small_height_background_image_section_heading = get_sub_field('heading');
     $full_small_height_background_image_section_sub_content = get_sub_field('sub_content');
     $full_small_height_background_image_section_button = get_sub_field('button'); ?>
@@ -586,6 +587,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6 pe-4">
+                    <?php if(!empty($full_small_height_background_image_section_prefix)): ?>
+                    <div class="mont-semibold font11 leading20 space1_65 text-white text-uppercase tmb-15 dmb-45">
+                    <?php echo $full_small_height_background_image_section_prefix; ?></div>
+                    <?php endif; ?>
                     <?php if(!empty($full_small_height_background_image_section_heading)): ?>
                         <div class="bodoni font48 leading55 res-font40 res-leading45 res-space0 space1_2 text-white tmb-10 dmb-5">
                             <?php echo $full_small_height_background_image_section_heading; ?>
@@ -1120,6 +1125,356 @@ $middle_page_content = get_sub_field('content');
             </div>
         </div>
     </section>
+
+<?php elseif (get_row_layout() == 'main_testimonials'): ?>
+    <!-- testimonial-section -->
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="col-12 col-lg-10 col-xl-8 px-xl-1 mx-auto">
+                <div class="testimonial-card border-bottom border-EBEBEB tpt-45 tpb-45 dpt-60 dpb-50">
+                    <div class="review-stars d-flex align-items-center dmb-35">
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                    </div>
+                    <div class="bodoni font30 leading35 res-font24 res-leading30 text-black tmb-20 dmb-25">
+                        “Five star - superb customer service”
+                    </div>
+                    <div class="mont-normal font13 leading24 text-black tmb-20 dmb-30 pe-4 pe-lg-0">
+                        Five star - superb customer service, superb vintage long desk and chair, superb delivery drivers
+                        - nothing was a problem. Thank you
+                    </div>
+                    <div class="mont-medium font13 leading20 text-black">
+                        OL, Northamptonshire
+                    </div>
+                </div>
+                <div class="testimonial-card border-bottom border-EBEBEB tpt-45 tpb-45 dpt-60 dpb-50">
+                    <div class="review-stars d-flex align-items-center dmb-35">
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                    </div>
+                    <div class="bodoni font30 leading35 res-font24 res-leading30 text-black tmb-20 dmb-25">
+                        “Overwhelmed by the exemplary care of your business.”
+                    </div>
+                    <div class="mont-normal font13 leading24 text-black tmb-20 dmb-30 pe-4 pe-lg-0">
+                        I contacted Kayleigh in your Customer Services Department several weeks ago about a chair that I
+                        bought from your company. The frame had bent but it initially looked like the chair had been
+                        discontinued and a replacement wasn’t going to be possible. Over the course of several weeks
+                        Kayleigh kept me informed at every stage. She looked at having a new frame made but in the end
+                        managed to locate a replacement which arrived a couple of weeks ago.
+                    </div>
+                    <div class="mont-normal font13 leading24 text-black tmb-20 dmb-30 pe-4 pe-lg-0">
+                        I am delighted with what Kayleigh has done and so thrilled that there are still companies like
+                        yours that place such an emphasis on customer care. I may not be a local customer but I have
+                        made a point of championing your business on several occasions recently and wish you every
+                        blessing and success in building your business and employing more excellent staff like Kayleigh.
+                    </div>
+                    <div class="mont-medium font13 leading20 text-black">
+                        OL, Northamptonshire
+                    </div>
+                </div>
+                <div class="testimonial-card border-bottom border-EBEBEB tpt-45 tpb-45 dpt-60 dpb-50 pe-4 pe-lg-0">
+                    <div class="review-stars d-flex align-items-center dmb-35">
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                    </div>
+                    <div class="bodoni font30 leading35 res-font24 res-leading30 text-black tmb-20 dmb-25">
+                        “Sssshhhhh! This place needs to remain a secret.”
+                    </div>
+                    <div class="mont-normal font13 leading24 text-black tmb-20 dmb-30 pe-4 pe-lg-0">
+                        ‘Sssshhhhh! This place needs to remain a secret, I don’t want everyone knowing my secret place
+                        to shop. New showroom is amazing, staff friendly & happy to help. They will even lend a tape
+                        measure to make sure the furniture will fit. I’ve had a few pieces & can’t wait for my house
+                        renovation to be over so I can take another trip & indulge in my guilty pleasure again.’
+                    </div>
+                    <div class="mont-medium font13 leading20 text-black">
+                        OL, Northamptonshire
+                    </div>
+                </div>
+                <div class="testimonial-card border-bottom border-EBEBEB tpt-45 tpb-45 dpt-60 dpb-50 pe-4 pe-lg-0">
+                    <div class="review-stars d-flex align-items-center dmb-35">
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                        <div class="review-star me-2"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                                class="w-100"></div>
+                    </div>
+                    <div class="bodoni font30 leading35 res-font24 res-leading30 text-black tmb-20 dmb-25">
+                        “Many, many thanks for going the extra mile to help us.”
+                    </div>
+                    <div class="mont-normal font13 leading24 text-black tmb-20 dmb-30 pe-4 pe-lg-0">
+                        Many, many thanks for going the extra mile to help us.
+                    </div>
+                    <div class="mont-normal font13 leading24 text-black tmb-20 dmb-30 pe-4 pe-lg-0">
+                        You have a lovely showroom full of beautiful things and we are so happy with our new table and
+                        chairs.
+                    </div>
+                    <div class="mont-medium font13 leading20 text-black">
+                        OL, Northamptonshire
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div id="ajaxLoader"></div>
+<script id="testimonials-template" type="text/x-handlebars-template">
+<div class="col-4 cards-col dmb-115 filter-activity all filter-1">
+    <a href="{{ link }}" class="blog-cards w-100 d-inline-block text-decoration-none">
+    <div class="blog-card-img w-100 position-relative radius10 overflow-hidden card-hover dmb-25">
+        <img src="{{image}}"
+        class="w-100 h-100 object-cover img" alt="">
+    </div>
+    <div class="blog-content">
+        <div class="bodoni font24 leading30 text-black dmb-30">{{decodeHtml title}}</div>
+        <div class="mont-normal font13 leading20 text-black dmb-20 pe-4">{{decodeHtml content}}</div>
+        <div class="mont-medium font13 leading20 text-black">Read more</div>
+    </div>
+    </a>
+</div>
+
+<div class="testimonial-card border-bottom border-EBEBEB tpt-45 tpb-45 dpt-60 dpb-50">
+    <div class="review-stars d-flex align-items-center dmb-35">
+        <div class="review-star me-2"><img
+                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                class="w-100"></div>
+        <div class="review-star me-2"><img
+                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                class="w-100"></div>
+        <div class="review-star me-2"><img
+                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                class="w-100"></div>
+        <div class="review-star me-2"><img
+                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                class="w-100"></div>
+        <div class="review-star me-2"><img
+                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/star.svg" alt=""
+                class="w-100"></div>
+    </div>
+    <div class="bodoni font30 leading35 res-font24 res-leading30 text-black tmb-20 dmb-25">
+        “{{decodeHtml title}}”
+    </div>
+    <div class="mont-normal font13 leading24 text-black tmb-20 dmb-30 pe-4 pe-lg-0">
+    {{decodeHtml maincontent}}
+    </div>
+    <div class="mont-medium font13 leading20 text-black">
+    {{decodeHtml content}}
+    </div>
+</div>
+</script>
+<?php elseif (get_row_layout() == '2_side_2_collection'):
+$collection_heading = get_sub_field('heading');       
+$collection = get_sub_field('collection');       
+$collection_description = get_sub_field('description');       
+if(!empty($collection)): 
+?>
+<!-- collection-card-section -->
+<section class="collection-card-section">
+    <div class="container">
+        <div class="col-12 col-lg-7 px-2 px-md-0 mx-auto tmb-35 dmb-50">
+            <?php if(!empty($collection_heading)): ?>
+            <div class="bodoni font40 leading45 res-font30 res-leading35 text-center text-black dmb-25">
+                <?php echo $collection_heading; ?>
+            </div>
+            <?php endif; ?>
+            <?php if(!empty($collection_description)): ?>
+            <div class="mont-medium font13 leading24 text-center text-7D7D7D">
+                <?php echo $collection_description; ?>
+            </div>
+            <?php endif; ?>
+        </div>
+        <div class="row row10">
+            <?php foreach($collection as $collection_custom):
+            $thumbnail_id = get_woocommerce_term_meta($collection_custom, 'thumbnail_id', true);
+            $image = wp_get_attachment_url($thumbnail_id, 'large');       
+            ?>
+            <div class="col-12 col-lg-6 dmb-20 cards-col">
+                <a href="<?php echo get_term_link($collection_custom); ?>" class="w-100 text-decoration-none">
+                    <div class="collection-cards w-100 radius10 position-relative overflow-hidden  card-hover">
+                        <img src="<?php echo $image; ?>" alt=""
+                            class="w-100 h-100 object-cover img">
+                        <div class="position-absolute w-100 h-100 top-0 bg-black opacity-25"></div>
+                        <div
+                            class="position-absolute w-100 h-100 top-0 d-flex flex-column justify-content-end ps-3 pe-5 px-md-5 mpb-20 dpb-60">
+                            <div class="bodoni font40 leading45 res-font28 res-leading35 text-white dmb-10">
+                            <?php echo get_term($collection_custom)->name ?>
+                            </div>
+                            <div
+                                class="mont-medium font14 leading24 res-font11 res-leading16 text-white tmb-10 dmb-15 me-5 me-lg-0">
+                                <?php echo get_term($collection_custom)->description ?>
+                            </div>
+                            <div class="d-inline-flex">
+                                <div
+                                    class="mont-medium font13 leading24 res-font11 res-leading16 text-white text-capitalize border-bottom">
+                                    Shop
+                                    Collection</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
+<?php endif; ?>
+
+<?php elseif (get_row_layout() == 'center_hero_section'): 
+    $center_hero_section_background_image = get_sub_field('background_image');
+    $center_hero_section_heading = get_sub_field('heading');
+    $center_hero_section_prefix = get_sub_field('prefix');
+?>
+<!-- project-open-hero -->
+<section class="project-open-hero position-relative">
+        <img src="<?php echo wp_get_attachment_image_url( $center_hero_section_background_image, 'large' ); ?>" alt=""
+            class="w-100 h-100 object-cover">
+        <div class="position-absolute w-100 h-100 top-0 bg-black opacity38"></div>
+        <div class="tpt-150 dpt-165 position-absolute w-100 top-0 z-3">
+            <div class="container">
+                <a href="<?php echo get_home_url(); ?>/projects" class="mont-semibold font11 leading20 space0_28 text-white text-uppercase cursor-pointer">BACK TO
+                    ALL</a>
+            </div>
+        </div>
+        <div class="position-absolute top-0 w-100 h-100 z-2">
+            <div class="container h-100">
+                <div class="row h-100 d-flex align-items-center">
+                    <div class="col-8 mx-auto">
+                        <?php if(!empty($center_hero_section_heading)): ?>
+                        <div class="bodoni font70 leading85 res-font55 res-leading65 text-white text-center tmb-15 dmb-10">
+                            <?php echo $center_hero_section_heading; ?>
+                        </div>
+                        <?php endif; ?>
+                        <?php if(!empty($center_hero_section_prefix)): ?>
+                        <div class="mont-medium font16 leading20 text-white text-center">
+                            <?php echo $center_hero_section_prefix; ?>
+                        </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php elseif (get_row_layout() == 'project_content'): 
+    $project_content_heading = get_sub_field('heading');
+    $project_content_left_side = get_sub_field('left_side');
+    $project_content_right_side = get_sub_field('right_side');
+?>
+ <!-- project-open-content -->
+ <section class="project-open-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7 pe-lg-5 tmb-60 dmb-115">
+                    <?php if(!empty($project_content_heading)): ?>
+                    <div class="bodoni font34 leading45 res-font27 res-leading35 text-black">
+                        <?php echo $project_content_heading; ?>
+                    </div>
+                    <?php endif; ?>
+                </div>
+                <div class="col-12 col-lg-6 tmb-50">
+                <?php if(!empty($project_content_left_side['project_name'])): ?>
+                    <div class="tmb-20 dmb-30">
+                        <div class="mont-medium font13 leading20 text-918E8E dmb-10">Project Name</div>
+                        <a class="mont-medium font14 leading20 text-black"><?php echo $project_content_left_side['project_name'];?></a>
+                    </div>
+                <?php endif; ?>
+                <?php if(!empty($project_content_left_side['completion_date'])): ?>
+                    <div class="tmb-20 dmb-30">
+                        <div class="mont-medium font13 leading20 text-918E8E dmb-10">Completion Date</div>
+                        <a class="mont-medium font14 leading20 text-black"><?php echo $project_content_left_side['completion_date'];?></a>
+                    </div>
+                <?php endif; ?>
+                <?php if(!empty($project_content_left_side['duration'])): ?>
+                    <div class="tmb-20 dmb-30">
+                        <div class="mont-medium font13 leading20 text-918E8E dmb-10">Duration</div>
+                        <a class="mont-medium font14 leading20 text-black"><?php echo $project_content_left_side['duration'];?></a>
+                    </div>
+                <?php endif; ?>
+                </div>
+                <?php if(!empty($project_content_right_side)): ?>
+                <div class="col-12 col-lg-6 pe-4 ps-lg-3">
+                    <?php foreach($project_content_right_side as $project_content_right_side_custom):?>
+                    <div class="tmb-40 dmb-70">
+                        <div class="bodoni font22 leading30 space0_45 res-space0_55 text-black dmb-30">
+                            <?php echo $project_content_right_side_custom['heading']; ?>
+                        </div>
+                        <div class="mont-normal font13 leading24 text-black dmb-25">
+                        <?php echo $project_content_right_side_custom['content']; ?>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </section>
+    <?php elseif (get_row_layout() == 'main_project'): 
+        $main_project_heading = get_sub_field('heading');
+        $main_project_content = get_sub_field('content');
+    ?>
+        <!-- center-title-section -->
+    <section class="center-title-section">
+        <div class="container">
+            <div class="col-12 col-md-9 col-xl-7 px-lg-5 mx-auto text-center">
+                <?php if(!empty($main_project_heading)): ?>
+                <div class="content-title bodoni font60 leading70 res-font35 res-leading45 dmb-25"><?php echo $main_project_heading; ?></div>
+                <?php endif; ?>
+                <?php if(!empty($main_project_content)): ?>
+                <div class="content-desc mont-normal font13 leading24">
+                    <?php echo $main_project_content; ?>
+                </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </section>
+    <div class="spacing tmt-45 dmt-55"></div>
 <?php        
     endif;
 endwhile;
