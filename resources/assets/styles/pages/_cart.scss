@@ -1,7 +1,11 @@
 .cart-section {
   .woocommerce {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
+    .woocommerce-notices-wrapper{
+      width: 100%;
+    }
     .woocommerce-cart-form {
       .shop_table {
         border-top: 1px solid $color-EBEBEB !important;
@@ -25,42 +29,34 @@
               object-fit: cover !important;
             }
           }
-          .product-name {
-            a {
-              font-family: "Montserrat-Medium" !important;
-              font-size: $font16;
-              line-height: $leading30;
-              color: $black;
-              text-decoration: none !important;
-            }
-          }
+          // .product-name {
+          //   a {
+          //     font-family: "Montserrat-Medium" !important;
+          //     font-size: $font16;
+          //     line-height: $leading30;
+          //     color: $black;
+          //     text-decoration: none !important;
+          //   }
+          // }
           .product-quantity {
-            font-family: "Montserrat-Medium" !important;
-            font-size: $font13;
-            line-height: $leading30;
-            color: $black;
+          //   font-family: "Montserrat-Medium" !important;
+          //   font-size: $font13;
+          //   line-height: $leading30;
+          //   color: $black;
             .input-text {
               border: none !important;
             }
           }
           .product-remove {
-            width: 20px;
-            height: 20px;
-            position: relative;
-
-            &::before {
-              content: "" !important;
-              position: absolute;
-              top: 0;
-              left: 0;
-              background-image: url("http://localhost/peppermill/wp-content/uploads/2024/07/close-icon.svg");
-              width: 8px;
-              height: 8px;
-              background-size: 8px 8px;
-              margin: 6px;
-            }
+            display: flex;
             .remove {
-              display: none !important;
+              display: inline-flex;
+              font-size: 23px;
+              color: black !important;
+              height: auto;
+              width: auto;
+              line-height: normal;
+              background: transparent !important;
             }
           }
         }
@@ -121,9 +117,9 @@
     .cart-collaterals {
       border-top: 1px solid $color-EBEBEB !important;
       .cart_totals {
-        h2 {
-          display: none !important;
-        }
+        // h2 {
+        //   display: none !important;
+        // }
 
         .shop_table {
           .cart-delivery,
@@ -147,53 +143,52 @@
           }
         }
 
-        .wc-proceed-to-checkout {
-          padding: 0px !important;
-          .checkout-button {
-            background-color: $color-292929 !important;
-            border: 1px solid $color-292929 !important;
-            color: $white !important;
-            height: 47px;
-            padding: 0px 26px !important;
-            transition: all 0.3s ease-in-out;
-            border-radius: $radius5 !important;
-            font-family: "Montserrat-Semibold" !important;
-            font-size: $font11 !important;
-            line-height: $leading16 !important;
-            letter-spacing: $space0_28 !important;
-            text-transform: uppercase;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 0px !important;
+        // .wc-proceed-to-checkout {
+        //   padding: 0px !important;
+        //   .checkout-button {
+        //     background-color: $color-292929 !important;
+        //     border: 1px solid $color-292929 !important;
+        //     color: $white !important;
+        //     height: 47px;
+        //     padding: 0px 26px !important;
+        //     transition: all 0.3s ease-in-out;
+        //     border-radius: $radius5 !important;
+        //     font-family: "Montserrat-Semibold" !important;
+        //     font-size: $font11 !important;
+        //     line-height: $leading16 !important;
+        //     letter-spacing: $space0_28 !important;
+        //     text-transform: uppercase;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     margin-bottom: 0px !important;
 
-            &:hover {
-              background-color: transparent !important;
-              color: $color-292929 !important;
-            }
-          }
-        }
+        //     &:hover {
+        //       background-color: transparent !important;
+        //       color: $color-292929 !important;
+        //     }
+        //   }
+        // }
       }
     }
   }
 }
 
-.product-quantity,
-.product-price,
-.product-remove {
-  text-align: center;
-}
-.product-name,
-.product-quantity,
-.product-price,
-.product-remove {
-  font-family: "Montserrat-SemiBold";
-  font-size: $font9;
-  line-height: $leading11;
-  letter-spacing: $space0_23;
-  text-transform: uppercase;
-  color: $color-918E8E;
-}
+// .product-quantity,
+// .product-price,
+// .product-remove {
+//   text-align: center;
+// }
+// .product-name,
+// .product-quantity,
+// .product-price{
+//   font-family: "Montserrat-SemiBold";
+//   font-size: $font9;
+//   line-height: $leading11;
+//   letter-spacing: $space0_23;
+//   text-transform: uppercase;
+//   color: $color-918E8E;
+// }
 
 .woocommerce-product-gallery__image {
   display: flex;
@@ -209,4 +204,61 @@
   border: 1px solid #000;
   margin-left: 20px;
   background-repeat: no-repeat;
+}
+
+.offcanvas {
+  &.basket-offcanvas {
+    width: 451px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    @include media-breakpoint-down(lg) {
+      width: calc(100vw - 30px);
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .offcanvas-header {
+      justify-content: end !important;
+      padding: 0px !important;
+
+      .basket-close {
+        height: 9px !important;
+
+        @include media-breakpoint-down(lg) {
+          height: 18px !important;
+        }
+      }
+    }
+
+    .offcanvas-body {
+      padding: 0px !important;
+
+      .basket-product-group {
+        .basket-col {
+          border-top: 1px solid $color-EBEBEB;
+        }
+
+        .basket-image {
+          height: 70px;
+        }
+
+        .basket2-image {
+          height: 108px;
+
+          @include media-breakpoint-down(lg) {
+            height: 70px;
+          }
+        }
+
+        .basket2-product-close {
+          height: 9px;
+        }
+      }
+
+      .sticky-bottom-data {
+        top: 95%;
+      }
+    }
+  }
 }

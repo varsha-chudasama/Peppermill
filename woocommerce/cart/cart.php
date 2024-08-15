@@ -20,25 +20,25 @@ defined('ABSPATH') || exit;
 do_action('woocommerce_before_cart'); ?>
 
 <div class="col-8 pe-5">
-	<div class="pe-4">
-		<form class="woocommerce-cart-form" action="<?php echo esc_url(wc_get_cart_url()); ?>" method="post">
+	<div class="pe-3">
+		<form class="woocommerce-cart-form pe-1" action="<?php echo esc_url(wc_get_cart_url()); ?>" method="post">
 			<?php do_action('woocommerce_before_cart_table'); ?>
 
 			<div class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
 				<div>
 					<div class="d-flex align-items-center dmt-20">
 						<div class="col-7">
-							<div class="product-name"><?php esc_html_e('Product', 'woocommerce'); ?></div>
+							<div class="product-name mont-semibold font9 leading11 text-918E8E text-uppercase"><?php esc_html_e('Product', 'woocommerce'); ?></div>
 						</div>
 						<div class="col-2">
-							<div class="product-quantity"><?php esc_html_e('QTY', 'woocommerce'); ?></div>
+							<div class="product-quantity mont-semibold font9 leading11 text-918E8E text-uppercase text-center"><?php esc_html_e('QTY', 'woocommerce'); ?></div>
 						</div>
 						<div class="col-2">
-							<div class="product-price"><?php esc_html_e('Price', 'woocommerce'); ?></div>
+							<div class="product-price mont-semibold font9 leading11 text-918E8E text-uppercase text-center"><?php esc_html_e('Price', 'woocommerce'); ?></div>
 						</div>
 						<div class="col-1">
-							<div class="product-remove"><span
-									class="screen-reader-text"><?php esc_html_e('Remove', 'woocommerce'); ?></span>
+							<div class="product-remove mont-semibold font9 leading11 text-918E8E text-uppercase text-center">
+								<span class="screen-reader-text"><?php esc_html_e('Remove', 'woocommerce'); ?></span>
 							</div>
 						</div>
 					</div>
@@ -89,7 +89,7 @@ do_action('woocommerce_before_cart'); ?>
 											 *
 											 * @since 2.1.0
 											 */
-											echo wp_kses_post(apply_filters('woocommerce_cart_item_name', sprintf('<a href="%s">%s</a>', esc_url($product_permalink), $_product->get_name()), $cart_item, $cart_item_key));
+											echo wp_kses_post(apply_filters('woocommerce_cart_item_name', sprintf('<a href="%s" class="text-decoration-none mont-medium font16 leading16 text-black">%s</a>', esc_url($product_permalink), $_product->get_name()), $cart_item, $cart_item_key));
 										}
 
 										do_action('woocommerce_after_cart_item_name', $cart_item, $cart_item_key);
@@ -139,8 +139,8 @@ do_action('woocommerce_before_cart'); ?>
 									</div>
 								</div>
 
-								<div class="col-2 product-data">
-									<div class="product-price" data-title="<?php esc_attr_e('Price', 'woocommerce'); ?>">
+								<div class="col-2 product-data text-center">
+									<div class="product-price mont-medium font13 leading16 text-black" data-title="<?php esc_attr_e('Price', 'woocommerce'); ?>">
 										<?php
 										echo apply_filters('woocommerce_cart_item_price', WC()->cart->get_product_price($_product), $cart_item, $cart_item_key); // PHPCS: XSS ok.
 										?>
@@ -240,7 +240,7 @@ do_action('woocommerce_before_cart'); ?>
 
 <?php do_action('woocommerce_before_cart_collaterals'); ?>
 
-<div class="col-4 ps-3">
+<div class="col-4 ps-4">
 	<div class="cart-collaterals w-100">
 		<?php
 		/**

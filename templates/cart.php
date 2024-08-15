@@ -6,8 +6,8 @@
 
 <section class="cart-section dpt-165 dpb-105">
   <div class="container">
-    <div class="row">
-      <div class="col-11 px-5 mx-auto">
+    <div class="col-lg-11 px-lg-4 mx-auto">
+      <div class="row px-lg-3">
         <h5 class="bodoni font30 leading45 text-black dmb-40">
           Your Basket [2]
         </h5>

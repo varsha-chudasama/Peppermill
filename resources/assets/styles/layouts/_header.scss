@@ -1,5 +1,6 @@
 .header {
     z-index: 999;
+    border-bottom: 1px solid $color-EBEBEB;
     .header-section {
         .nav-header {
             @include media-breakpoint-down(xl) {

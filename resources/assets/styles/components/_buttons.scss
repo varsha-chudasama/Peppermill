@@ -1,3 +1,11 @@
+.btn-group {
+  .btnA {
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
 .btnA {
   height: 47px;
   padding: 0px 26px;
@@ -38,5 +46,17 @@
       background-color: $color-292929;
       color: $white;
     }
+  }
+}
+
+.basket-btn,
+.basket-btn2 {
+  height: 47px;
+  padding: 0px 20px;
+}
+
+.basket-btn {
+  @include media-breakpoint-down(lg) {
+    height: 40px;
   }
 }

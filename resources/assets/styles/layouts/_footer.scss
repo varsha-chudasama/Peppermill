@@ -77,20 +77,26 @@
                         font-weight: 800;
                     }
                 }
+
+                input {
+                    position: absolute;
+                    opacity: 0;
+                    z-index: 1;
+
+                    &:checked{
+                        &+label{
+                            &::before {
+                                background-color: $white;
+                                opacity: 1;
+                                padding: 4px;
+                                border-radius: 4px;
+                            }
+                        }
+                    }
+                }
             }
 
-            .radio-btn input[type="radio"] {
-                position: absolute;
-                opacity: 0;
-                z-index: 1
-            }
 
-            .radio-btn input[type="radio"]:checked+label::before {
-                background-color: $white;
-                opacity: 1;
-                padding: 4px;
-                border-radius: 4px;
-            }
         }
 
         .footer-ul {
@@ -123,4 +129,3 @@
         }
     }
 }
-

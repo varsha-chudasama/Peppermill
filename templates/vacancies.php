@@ -210,9 +210,9 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content position-relative border-0 radius5 res-radius-0">
             <div class="close-div position-absolute top-0 end-0">
-                <button type="button" class="bg-transparent d-inline-flex border-0 p-0 close-round"
+                <button type="button" class="bg-transparent d-inline-flex border-0 p-0 close-round w-100"
                     data-bs-dismiss="modal" aria-label="Close">
-                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/close-icon.svg" alt="">
+                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/close-icon.svg" alt="" class="w-100">
                 </button>
             </div>
             <div class="col-12 text-center">

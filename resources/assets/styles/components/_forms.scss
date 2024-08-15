@@ -1,14 +1,16 @@
+.input-field {
+  height: 50px;
+}
+
 .input-field,
 .input-textarea {
   background-color: $white;
   color: $black;
   border: 1px solid $color-D5D5D5;
-  height: 50px;
 
   &::placeholder {
     color: $color-918E8E;
     font-size: $font13;
-    line-height: $leading123;
   }
 }
 
@@ -17,10 +19,6 @@
     &:last-child {
       margin-bottom: 0 !important;
     }
-  }
-
-  .input-textarea {
-    height: 113px;
   }
 
   &.input-color-F5F5F5 {
@@ -251,6 +249,9 @@
       transform: rotate(45deg);
     }
   }
+  &.square-checkbox-row{
+    padding-left: 40px;
+  }
 }
 
 .main-label {
@@ -315,6 +316,82 @@
 
       &::after {
         display: block;
+      }
+    }
+  }
+}
+
+.uploadfile {
+  border: 1px dashed $color-918E8E;
+  padding: 12px;
+}
+
+.switch {
+  .slider {
+    width: 27px;
+    height: 16px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 11px;
+      height: 11px;
+      background: $white;
+      border-radius: 50%;
+      top: 50%;
+      left: 3px;
+      transform: translate(0px, -50%);
+      transition: .4s;
+    }
+  }
+
+  input {
+    &:checked {
+      &+ {
+        .slider {
+          &::before {
+            transform: translate(10px, -50%);
+          }
+        }
+      }
+
+      &~ {
+        .off {
+          color: $color-918E8E !important;
+        }
+
+        .on {
+          color: $black;
+        }
+      }
+    }
+  }
+  &.switch-large{
+    .slider{
+      width: 33px;
+      height: 16px;
+    }
+    input {
+      &:checked {
+        &+ {
+          .slider {
+            &::before {
+              transform: translate(16px, -50%);
+            }
+          }
+        }
+  
+        &~ {
+          .off {
+            color: $color-918E8E !important;
+            text-decoration: none !important;
+          }
+          
+          .on {
+            color: $black;
+            text-decoration: underline !important;
+          }
+        }
       }
     }
   }

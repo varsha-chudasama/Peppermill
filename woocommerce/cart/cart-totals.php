@@ -18,7 +18,7 @@
 defined( 'ABSPATH' ) || exit;
 
 ?>
-<div class="cart_totals w-100 <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
+<div class="cart_totals w-100<?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
 
 	<?php do_action( 'woocommerce_before_cart_totals' ); ?>
 
@@ -108,7 +108,7 @@ defined( 'ABSPATH' ) || exit;
 
 	</div>
 
-	<div class="wc-proceed-to-checkout dmt-35 dmb-35">
+	<div class="wc-proceed-to-checkout dmt-35 dmb-35 p-0">
 		<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 	</div>
 	<?php $text = get_field('text'); 

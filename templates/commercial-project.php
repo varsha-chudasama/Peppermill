@@ -118,7 +118,7 @@
                         </div>
                     </div>
                     <div class="col-12 dmb-10">
-                        <textarea name="" id="" placeholder="Anything you’d like to add…"
+                        <textarea name="" id="" rows="6" placeholder="Anything you’d like to add…"
                             class="input-textarea w-100 mont-medium font12 leading16 radius5 px-4 pt-3"></textarea>
                     </div>
                     <div class="w-100 d-flex align-items-center justify-content-center tmt-50 dmt-30">
