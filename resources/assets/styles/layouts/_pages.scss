@@ -1,12 +1,11 @@
 .bg-gradient-layer {
-  background: transparent linear-gradient(180deg, $black 0%, $black 100%) 0% 0%
-    no-repeat;
+  background: transparent linear-gradient(180deg, $black 0%, $black 100%) 0% 0% no-repeat;
 }
 
 .joinus-banner-section {
   height: 403px;
 
-  @include media-breakpoint-down(lg){
+  @include media-breakpoint-down(lg) {
     height: 340px;
   }
 }
@@ -15,13 +14,13 @@
   .pagination {
     .page-item {
       &:last-child {
-        & > .page-link {
+        &>.page-link {
           text-decoration: underline !important;
         }
       }
 
       &.active {
-        & > .page-link {
+        &>.page-link {
           background-color: $black;
           color: $white;
           width: 32px;
@@ -34,7 +33,7 @@
       }
 
       &.disabled {
-        & > .page-link {
+        &>.page-link {
           background-color: transparent !important;
           color: $color-707070 !important;
         }
@@ -48,6 +47,183 @@
           box-shadow: none !important;
           background-color: transparent !important;
         }
+      }
+    }
+  }
+}
+
+.products-section {
+  .product-image-group {
+    @include media-breakpoint-up(lg) {
+      padding-right: 30px;
+    }
+
+    .product-image {
+      height: 97px;
+
+      @include media-breakpoint-down(lg) {
+        height: 80px;
+      }
+
+      &:first-child {
+        margin-top: 0 !important;
+      }
+    }
+  }
+
+  .product-center-image {
+    @include media-breakpoint-up(lg) {
+      padding-right: 81px;
+    }
+  }
+
+  .product-img2 {
+    height: 570px;
+
+    @include media-breakpoint-down(lg) {
+      height: 412px;
+    }
+  }
+
+  .like-icon {
+    width: 18px;
+  }
+
+  .light-star {
+    .star {
+      width: 14px !important;
+
+      &:last-child {
+        opacity: 50% !important;
+      }
+    }
+  }
+
+  .light-arrow {
+    width: 9px;
+  }
+
+  .Caramel {
+    padding: 11px 19px;
+    border: 1px solid $color-D5D5D5;
+
+
+    .scan-image {
+      height: 18px;
+      border-radius: 2px;
+      width: 59px;
+      border: 1px solid $black;
+    }
+
+    @include media-breakpoint-down(lg) {
+      padding: 7px 20px;
+
+      .scan-image {
+        height: 10px;
+        width: 30px;
+      }
+    }
+  }
+
+  .logo-group {
+    .logo {
+      width: 37px;
+      &:last-child {
+        margin-right: 0 !important;
+      }
+    }
+  }
+
+  .quantity {
+    border: 1px solid $color-D5D5D5;
+    padding: 10px;
+
+    @include media-breakpoint-down(lg) {
+      padding: 7px 10px;
+
+      input,
+      button {
+        padding: 0px !important;
+      }
+    }
+  }
+
+  .light-btn {
+    opacity: 40%;
+  }
+
+  .size-radio-group {
+    .size-radio {
+      &:last-child {
+        margin-right: 0 !important;
+      }
+
+      padding: 10px;
+      position: relative;
+
+      .radio-image {
+        height: 50px;
+
+        @include media-breakpoint-down(lg) {
+          height: 41px;
+        }
+      }
+
+      input {
+        &:checked {
+          &~ {
+            label {
+              color: $color-2A2A2A;
+
+              &::after {
+                border: 1px solid $color-2A2A2A;
+              }
+            }
+          }
+        }
+
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9;
+      }
+
+      label {
+        color: $color-D5D5D5;
+
+        &::after {
+          content: '';
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 1px solid $color-D5D5D5;
+          border-radius: $radius5;
+        }
+      }
+
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .bg-292929-btn {
+      height: 40px;
+    }
+  }
+
+  .range-card {
+    border: 1px solid $color-2A2A2A;
+    padding: 10px;
+
+    .range-card-img {
+      height: 80px;
+
+      @include media-breakpoint-down(lg) {
+        height: 50px;
       }
     }
   }

@@ -19,26 +19,27 @@ defined('ABSPATH') || exit;
 
 do_action('woocommerce_before_cart'); ?>
 
-<div class="col-8 pe-5">
-	<div class="pe-3">
-		<form class="woocommerce-cart-form pe-1" action="<?php echo esc_url(wc_get_cart_url()); ?>" method="post">
+<div class="col-lg-8 col-12 pe-lg-5">
+	<div class="pe-lg-3">
+		<form class="woocommerce-cart-form pe-lg-1" action="<?php echo esc_url(wc_get_cart_url()); ?>" method="post">
 			<?php do_action('woocommerce_before_cart_table'); ?>
 
 			<div class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
-				<div>
-					<div class="d-flex align-items-center dmt-20">
-						<div class="col-7">
+				<div class="dmt-20">
+					<div class="d-flex align-items-center">
+						<div class="col-lg-7 col-8">
 							<div class="product-name mont-semibold font9 leading11 text-918E8E text-uppercase"><?php esc_html_e('Product', 'woocommerce'); ?></div>
 						</div>
 						<div class="col-2">
 							<div class="product-quantity mont-semibold font9 leading11 text-918E8E text-uppercase text-center"><?php esc_html_e('QTY', 'woocommerce'); ?></div>
 						</div>
-						<div class="col-2">
+						<div class="col-2 d-none d-lg-block">
 							<div class="product-price mont-semibold font9 leading11 text-918E8E text-uppercase text-center"><?php esc_html_e('Price', 'woocommerce'); ?></div>
 						</div>
-						<div class="col-1">
+						<div class="col-lg-1 col-2">
 							<div class="product-remove mont-semibold font9 leading11 text-918E8E text-uppercase text-center">
-								<span class="screen-reader-text"><?php esc_html_e('Remove', 'woocommerce'); ?></span>
+								<!-- <span class="screen-reader-text"><?php esc_html_e('Remove', 'woocommerce'); ?></span> -->
+								<span><?php esc_html_e('Remove', 'woocommerce'); ?></span>
 							</div>
 						</div>
 					</div>
@@ -66,7 +67,7 @@ do_action('woocommerce_before_cart'); ?>
 							<div
 								class="woocommerce-cart-form__cart-item d-flex align-items-center dpt-25 dpb-35 <?php echo esc_attr(apply_filters('woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key)); ?>">
 
-								<div class="col-7 d-flex align-items-center">
+								<div class="col-lg-7 col-8 d-flex align-items-center">
 									<div class="product-thumbnail">
 										<?php
 										$thumbnail = apply_filters('woocommerce_cart_item_thumbnail', $_product->get_image(), $cart_item, $cart_item_key);
@@ -74,12 +75,12 @@ do_action('woocommerce_before_cart'); ?>
 										if (!$product_permalink) {
 											echo $thumbnail; // PHPCS: XSS ok.
 										} else {
-											printf('<a href="%s">%s</a>', esc_url($product_permalink), $thumbnail); // PHPCS: XSS ok.
+											printf('<a href="%s" class="d-inline-block h-100 w-100">%s</a>', esc_url($product_permalink), $thumbnail); // PHPCS: XSS ok.
 										}
 										?>
 									</div>
 
-									<div class="product-name px-4" data-title="<?php esc_attr_e('Product', 'woocommerce'); ?>">
+									<div class="product-name px-lg-4 px-3" data-title="<?php esc_attr_e('Product', 'woocommerce'); ?>">
 										<?php
 										if (!$product_permalink) {
 											echo wp_kses_post($product_name . '&nbsp;');
@@ -89,7 +90,7 @@ do_action('woocommerce_before_cart'); ?>
 											 *
 											 * @since 2.1.0
 											 */
-											echo wp_kses_post(apply_filters('woocommerce_cart_item_name', sprintf('<a href="%s" class="text-decoration-none mont-medium font16 leading16 text-black">%s</a>', esc_url($product_permalink), $_product->get_name()), $cart_item, $cart_item_key));
+											echo wp_kses_post(apply_filters('woocommerce_cart_item_name', sprintf('<a href="%s" class="text-decoration-none mont-medium font16 leading16 text-black res-font14 res-leading16">%s</a>', esc_url($product_permalink), $_product->get_name()), $cart_item, $cart_item_key));
 										}
 
 										do_action('woocommerce_after_cart_item_name', $cart_item, $cart_item_key);
@@ -102,6 +103,11 @@ do_action('woocommerce_before_cart'); ?>
 											echo wp_kses_post(apply_filters('woocommerce_cart_item_backorder_notification', '<p class="backorder_notification">' . esc_html__('Available on backorder', 'woocommerce') . '</p>', $product_id));
 										}
 										?>
+										<div class="product-price mont-medium font13 leading16 text-black d-lg-none" data-title="<?php esc_attr_e('Price', 'woocommerce'); ?>">
+										<?php
+										echo apply_filters('woocommerce_cart_item_price', WC()->cart->get_product_price($_product), $cart_item, $cart_item_key); // PHPCS: XSS ok.
+										?>
+									</div>
 									</div>
 								</div>
 
@@ -139,7 +145,7 @@ do_action('woocommerce_before_cart'); ?>
 									</div>
 								</div>
 
-								<div class="col-2 product-data text-center">
+								<div class="col-2 product-data text-center d-none d-lg-block">
 									<div class="product-price mont-medium font13 leading16 text-black" data-title="<?php esc_attr_e('Price', 'woocommerce'); ?>">
 										<?php
 										echo apply_filters('woocommerce_cart_item_price', WC()->cart->get_product_price($_product), $cart_item, $cart_item_key); // PHPCS: XSS ok.
@@ -147,7 +153,7 @@ do_action('woocommerce_before_cart'); ?>
 									</div>
 								</div>
 
-								<div class="col-1 d-flex align-items-center justify-content-center">
+								<div class="col-lg-1 col-2 d-flex align-items-center justify-content-center">
 									<div class="product-remove">
 										<?php
 										echo apply_filters( // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
@@ -175,29 +181,25 @@ do_action('woocommerce_before_cart'); ?>
 
 					<div>
 						<div colspan="6" class="actions dmb-40">
-							<div class="dpt-20 dpb-20 border-bottom border-EBEBEB dmb-40 d-flex justify-content-end">
+							<div class="dpt-20 dpb-20 tpt-10 tpb-10 border-bottom border-EBEBEB dmb-40 d-flex justify-content-lg-end justify-content-between tmb-30">
 								<a href="<?php echo get_home_url(); ?>/shop"
-									class="mont-semibold font11 leading20 space0_28 text-918E8E bg-transparent border-0 text-decoration-underline ms-5">
+									class="d-inline-block mont-semibold font11 leading20 space0_28 text-918E8E bg-transparent border-0 ms-lg-5 res-font9 res-leading11">
 									CONTINUE SHOPPING
 								</a>
 								<button type="submit"
-									class="button bg-transparent border-0 text-decoration-underline ms-5<?php echo esc_attr(wc_wp_theme_get_element_class_name('button') ? ' ' . wc_wp_theme_get_element_class_name('button') : ''); ?>"
+									class="bg-transparent border-0 text-decoration-underline p-0 mont-semibold font11 leading20 space0_28 text-918E8E bg-transparent border-0 text-decoration-underline opacity-100 res-font9 res-leading11 ms-lg-5<?php echo esc_attr(wc_wp_theme_get_element_class_name('button') ? ' ' . wc_wp_theme_get_element_class_name('button') : ''); ?>"
 									name="update_cart"
 									value="<?php esc_attr_e('UPDATE BASKET', 'woocommerce'); ?>"><?php esc_html_e('UPDATE BASKET', 'woocommerce'); ?></button>
 							</div>
 
 							<?php if (wc_coupons_enabled()) { ?>
-								<div class="coupon">
-									<label for="coupon_code"
-										class="screen-reader-text"><?php esc_html_e('Coupon:', 'woocommerce'); ?></label>
-									<input type="text" name="coupon_code"
-										class="input-text input-field mont-medium font12 leading16 text-918E8E radius5 px-4 d-inline-flex"
-										id="coupon_code" value=""
-										placeholder="<?php esc_attr_e('Enter Promo Code…', 'woocommerce'); ?>" /> <button
-										type="submit"
-										class="button<?php echo esc_attr(wc_wp_theme_get_element_class_name('button') ? ' ' . wc_wp_theme_get_element_class_name('button') : ''); ?>"
-										name="apply_coupon"
-										value="<?php esc_attr_e('ADD CODE +', 'woocommerce'); ?>"><?php esc_html_e('ADD CODE +', 'woocommerce'); ?></button>
+								<div class="coupon d-flex align-items-center justify-content-lg-start justify-content-between">
+									<label for="coupon_code" class="screen-reader-text"><?php esc_html_e('Coupon:', 'woocommerce'); ?></label>
+									<input type="text" name="coupon_code" class="input-text input-field mont-medium font12 leading16 text-black radius5 px-4 d-inline-flex res-font11 res-leading16"
+										id="coupon_code" value="" placeholder="<?php esc_attr_e('Enter Promo Code…', 'woocommerce'); ?>" /> 
+									<button type="submit" class="btnA bg-292929-btn mont-semibold font11 leading20 space0_28 text-uppercase radius5 transition d-inline-flex align-items-center justify-content-center ms-2 res-font9 res-leading11 <?php echo esc_attr(wc_wp_theme_get_element_class_name('button') ? ' ' . wc_wp_theme_get_element_class_name('button') : ''); ?>" name="apply_coupon" value="<?php esc_attr_e('ADD CODE +', 'woocommerce'); ?>">
+										<?php esc_html_e('ADD CODE +', 'woocommerce'); ?>
+									</button>
 									<?php do_action('woocommerce_cart_coupon'); ?>
 								</div>
 							<?php } ?>
@@ -207,9 +209,8 @@ do_action('woocommerce_before_cart'); ?>
 							<?php wp_nonce_field('woocommerce-cart', 'woocommerce-cart-nonce'); ?>
 						</div>
 					</div>
-					<?php 
-					$image = get_field('before_section'); ?>
-					<div class="cart-banner-section position-relative overflow-hidden radius10">
+					<?php  $image = get_field('before_section'); ?>
+					<div class="cart-banner-section position-relative overflow-hidden radius10 d-none d-lg-block">
 						<img src="<?php echo $image['image']['url'] ?>" alt="">
 						<div class="position-absolute bg-black w-100 h-100 top-0 opacity38"></div>
 						<div
@@ -240,7 +241,7 @@ do_action('woocommerce_before_cart'); ?>
 
 <?php do_action('woocommerce_before_cart_collaterals'); ?>
 
-<div class="col-4 ps-4">
+<div class="col-lg-4 col-12 ps-lg-4">
 	<div class="cart-collaterals w-100">
 		<?php
 		/**

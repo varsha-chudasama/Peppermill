@@ -9,7 +9,8 @@
 
 .product-section,
 .room-card-section,
-.blog-card-section {
+.blog-card-section,
+.products-section {
 
   .product-slider,
   .room-card-slider,
@@ -24,6 +25,7 @@
   }
 
   .slider-banner-section {
+
     .next-arrow,
     .prev-arrow {
       @include media-breakpoint-down(lg) {
@@ -34,6 +36,7 @@
   }
 
   .slick-arrows {
+
     .next-arrow,
     .prev-arrow {
       background-color: $color-292929 !important;
@@ -43,12 +46,30 @@
       }
     }
   }
+
+  .product-next-arrow,
+  .product-prev-arrow {
+    background-color: $color-292929 !important;
+
+    &.slick-disabled {
+      opacity: 25%;
+    }
+  }
+
+  .product-next-arrow {
+    right: -4%;
+  }
+
+  .product-prev-arrow {
+    left: -4%;
+  }
 }
 
 .testimonial-slider-section {
   .slick-arrows {
     top: 50%;
-    @include media-breakpoint-down(lg){
+
+    @include media-breakpoint-down(lg) {
       top: auto !important;
       bottom: 0;
       height: fit-content;
@@ -66,7 +87,9 @@
 // }
 
 .next-arrow,
-.prev-arrow {
+.prev-arrow,
+.product-next-arrow,
+.product-prev-arrow {
   border: 1px solid $color-EFEFEF;
   height: 31px;
   width: 31px;
@@ -81,7 +104,9 @@
 }
 
 .next-arrow,
-.prev-arrow {
+.prev-arrow,
+.product-next-arrow,
+.product-prev-arrow {
   img {
     width: 6px;
   }
@@ -95,24 +120,52 @@
   }
 }
 
-.footer {
-  .footer-slider {
-    .slick-list {
-      margin: 0 -6px;
-    }
 
-    .slick-slide {
-      padding-right: 6px;
-      padding-left: 6px;
-    }
+.footer-slider,
+.product-image-group {
+  .slick-list {
+    margin: 0 -6px;
+  }
+
+  .slick-slide {
+    padding-right: 6px;
+    padding-left: 6px;
   }
 }
 
+
 .room-card-section {
+
   .next-arrow,
   .prev-arrow {
     &.slick-disabled {
       border: 1px solid rgba($color: $color-EFEFEF, $alpha: 0.25) !important;
+    }
+  }
+}
+
+.product-image-group {
+  .slick-list {
+    padding: 0 !important;
+  }
+}
+
+.range-slider {
+  .slick-list {
+    margin-left: -6px;
+    margin-right: -6px;
+    @include media-breakpoint-down(lg) {
+      margin-left: -5px;
+      margin-right: -5px;
+      overflow: visible;
+    }
+    .slick-slide {
+      padding-left: 6px;
+      padding-right: 6px;
+      @include media-breakpoint-down(lg) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
     }
   }
 }

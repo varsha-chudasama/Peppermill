@@ -21,13 +21,19 @@ defined('ABSPATH') || exit;
 	<div>
 		<div class="d-flex align-items-center dmb-30 dpt-20">
 			<div class="col-8">
-				<div class="product-name"><?php esc_html_e('Product', 'woocommerce'); ?></div>
+				<div class="product-name mont-semibold font9 leading11 space0_23 text-918E8E text-uppercase">
+					<?php esc_html_e('Product', 'woocommerce'); ?>
+				</div>
 			</div>
 			<div class="col-2">
-				<div class="product-quantity"><?php esc_html_e('QTY', 'woocommerce'); ?></div>
+				<div class="product-quantity mont-semibold font9 leading11 space0_23 text-918E8E text-uppercase text-center">
+					<?php esc_html_e('QTY', 'woocommerce'); ?>
+				</div>
 			</div>
 			<div class="col-2">
-				<div class="product-price"><?php esc_html_e('Price', 'woocommerce'); ?></div>
+				<div class="product-price mont-semibold font9 leading11 space0_23 text-918E8E text-uppercase text-end">
+					<?php esc_html_e('Price', 'woocommerce'); ?>
+				</div>
 			</div>
 			<!-- <div class="product-total"><?php esc_html_e('Subtotal', 'woocommerce'); ?></div> -->
 		</div>
@@ -55,8 +61,8 @@ defined('ABSPATH') || exit;
 							}
 							?>
 						</div>
-						<div class="px-4">
-							<div class="product-name ">
+						<div class="px-lg-4 px-3">
+							<div class="product-name mont-medium font13 leading16 text-black dmb-5">
 								<?php echo wp_kses_post(apply_filters('woocommerce_cart_item_name', $_product->get_name(), $cart_item, $cart_item_key)) . '&nbsp;'; ?>
 								<?php echo wc_get_formatted_cart_item_data($cart_item); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 							</div>
@@ -66,10 +72,10 @@ defined('ABSPATH') || exit;
 						</div>
 					</div>
 					<div class="col-2">
-						<?php echo apply_filters('woocommerce_checkout_cart_item_quantity', ' <div class="product-quantity">' . sprintf('&nbsp;%s', $cart_item['quantity']) . '</div>', $cart_item, $cart_item_key); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+						<?php echo apply_filters('woocommerce_checkout_cart_item_quantity', ' <div class="product-quantity mont-medium font13 leading20 text-918E8E">' . sprintf('&nbsp;%s', $cart_item['quantity']) . '</div>', $cart_item, $cart_item_key); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 					</div>
 					<div class="col-2">
-						<div class="product-price">
+						<div class="product-price mont-medium font13 leading20 text-918E8E">
 							<?php echo apply_filters('woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal($_product, $cart_item['quantity']), $cart_item, $cart_item_key); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 						</div>
 					</div>

@@ -3,9 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    .woocommerce-notices-wrapper{
+
+    .woocommerce-notices-wrapper {
       width: 100%;
     }
+
     .woocommerce-cart-form {
       .shop_table {
         border-top: 1px solid $color-EBEBEB !important;
@@ -16,19 +18,30 @@
             position: relative !important;
           }
         }
+
         .woocommerce-cart-form__cart-item {
           border-bottom: 1px solid $color-EBEBEB !important;
+
           .product-thumbnail {
-            width: 82px !important;
-            height: 108px !important;
+            min-width: 20%;
+            height: 108px;
+            width: 20%;
+            border-radius: 5px !important;
+            overflow: hidden;
+
+            @include media-breakpoint-down(lg) {
+              min-width: 35%;
+              height: 70px;
+              width: 35%;
+            }
 
             img {
-              border-radius: $radius5 !important;
               width: 100% !important;
               height: 100% !important;
               object-fit: cover !important;
             }
           }
+
           // .product-name {
           //   a {
           //     font-family: "Montserrat-Medium" !important;
@@ -39,16 +52,19 @@
           //   }
           // }
           .product-quantity {
-          //   font-family: "Montserrat-Medium" !important;
-          //   font-size: $font13;
-          //   line-height: $leading30;
-          //   color: $black;
+
+            //   font-family: "Montserrat-Medium" !important;
+            //   font-size: $font13;
+            //   line-height: $leading30;
+            //   color: $black;
             .input-text {
               border: none !important;
             }
           }
+
           .product-remove {
             display: flex;
+
             .remove {
               display: inline-flex;
               font-size: 23px;
@@ -60,48 +76,62 @@
             }
           }
         }
+
         .actions {
           .coupon {
             .input-field {
-              min-width: 329px !important;
-              color: $color-918E8E !important;
-
+              min-width: 47% !important;
+              height: 47px;
+              @include media-breakpoint-down(lg) {
+                height: 40px;
+              }
               &::placeholder {
                 color: $color-918E8E !important;
+                font-size: $font12;
+                
+                @include media-breakpoint-down(lg) {
+                  font-size: $font11;
+                }
               }
             }
-            .button {
-              background-color: $color-292929 !important;
-              border: 1px solid $color-292929 !important;
-              color: $white !important;
-              height: 47px;
-              padding: 0px 26px !important;
-              transition: all 0.3s ease-in-out;
-              border-radius: $radius5 !important;
-              font-family: "Montserrat-Semibold" !important;
-              font-size: $font11 !important;
-              line-height: $leading16 !important;
-              text-transform: uppercase;
-
-              &:hover {
-                background-color: transparent !important;
-                color: $color-292929 !important;
+            
+            button {
+              //   background-color: $color-292929 !important;
+              //   border: 1px solid $color-292929 !important;
+              //   color: $white !important;
+              padding: 0px 20px !important;
+              min-width: auto;
+              //   transition: all 0.3s ease-in-out;
+              //   border-radius: $radius5 !important;
+              //   font-family: "Montserrat-Semibold" !important;
+              //   font-size: $font11 !important;
+              //   line-height: $leading16 !important;
+              //   text-transform: uppercase;
+              
+              //   &:hover {
+              //     background-color: transparent !important;
+              //     color: $color-292929 !important;
+              //   }
+              @include media-breakpoint-down(lg) {
+                height: 40px;
+                padding: 0px 16px !important;
               }
             }
           }
 
-          button {
-            &.button {
-              font-family: "Montserrat-Semibold" !important;
-              font-size: $font11 !important;
-              line-height: $leading20 !important;
-              letter-spacing: $space0_28 !important;
-              opacity: 1 !important;
-              padding: 0px !important;
-              color: $color-918E8E !important;
-            }
-          }
+          // button {
+          //   &.button {
+          //     font-family: "Montserrat-Semibold" !important;
+          //     font-size: $font11 !important;
+          //     line-height: $leading20 !important;
+          //     letter-spacing: $space0_28 !important;
+          //     opacity: 1 !important;
+          //     padding: 0px !important;
+          //     color: $color-918E8E !important;
+          //   }
+          // }
         }
+
         .cart-banner-section {
           height: 106px;
 
@@ -116,60 +146,65 @@
 
     .cart-collaterals {
       border-top: 1px solid $color-EBEBEB !important;
-      .cart_totals {
-        // h2 {
-        //   display: none !important;
-        // }
-
-        .shop_table {
-          .cart-delivery,
-          .cart-subtotal {
-            font-family: "Montserrat-Medium" !important;
-            font-size: $font13 !important;
-            line-height: $leading20 !important;
-            color: $color-918E8E !important;
-            .woocommerce-Price-amount {
-              display: block !important;
-            }
-          }
-          .order-total {
-            font-family: "Montserrat-Medium" !important;
-            font-size: $font18 !important;
-            line-height: $leading30 !important;
-            color: $black !important;
-            .woocommerce-Price-amount {
-              display: block !important;
-            }
-          }
+      .checkout-button{
+        @include media-breakpoint-down(lg){
+          height: 40px;
         }
-
-        // .wc-proceed-to-checkout {
-        //   padding: 0px !important;
-        //   .checkout-button {
-        //     background-color: $color-292929 !important;
-        //     border: 1px solid $color-292929 !important;
-        //     color: $white !important;
-        //     height: 47px;
-        //     padding: 0px 26px !important;
-        //     transition: all 0.3s ease-in-out;
-        //     border-radius: $radius5 !important;
-        //     font-family: "Montserrat-Semibold" !important;
-        //     font-size: $font11 !important;
-        //     line-height: $leading16 !important;
-        //     letter-spacing: $space0_28 !important;
-        //     text-transform: uppercase;
-        //     display: flex;
-        //     align-items: center;
-        //     justify-content: center;
-        //     margin-bottom: 0px !important;
-
-        //     &:hover {
-        //       background-color: transparent !important;
-        //       color: $color-292929 !important;
-        //     }
-        //   }
-        // }
       }
+      // .cart_totals {
+      //   // h2 {
+      //   //   display: none !important;
+      //   // }
+
+      //   // .shop_table {
+      //   //   .cart-delivery,
+      //   //   .cart-subtotal {
+      //   //     font-family: "Montserrat-Medium" !important;
+      //   //     font-size: $font13 !important;
+      //   //     line-height: $leading20 !important;
+      //   //     color: $color-918E8E !important;
+      //   //     .woocommerce-Price-amount {
+      //   //       display: block !important;
+      //   //     }
+      //   //   }
+      //   //   .order-total {
+      //   //     font-family: "Montserrat-Medium" !important;
+      //   //     font-size: $font18 !important;
+      //   //     line-height: $leading30 !important;
+      //   //     color: $black !important;
+      //   //     .woocommerce-Price-amount {
+      //   //       display: block !important;
+      //   //     }
+      //   //   }
+      //   // }
+
+      //   // .wc-proceed-to-checkout {
+      //   //   padding: 0px !important;
+      //   //   .checkout-button {
+      //   //     background-color: $color-292929 !important;
+      //   //     border: 1px solid $color-292929 !important;
+      //   //     color: $white !important;
+      //   //     height: 47px;
+      //   //     padding: 0px 26px !important;
+      //   //     transition: all 0.3s ease-in-out;
+      //   //     border-radius: $radius5 !important;
+      //   //     font-family: "Montserrat-Semibold" !important;
+      //   //     font-size: $font11 !important;
+      //   //     line-height: $leading16 !important;
+      //   //     letter-spacing: $space0_28 !important;
+      //   //     text-transform: uppercase;
+      //   //     display: flex;
+      //   //     align-items: center;
+      //   //     justify-content: center;
+      //   //     margin-bottom: 0px !important;
+
+      //   //     &:hover {
+      //   //       background-color: transparent !important;
+      //   //       color: $color-292929 !important;
+      //   //     }
+      //   //   }
+      //   // }
+      // }
     }
   }
 }
@@ -260,5 +295,16 @@
         top: 95%;
       }
     }
+  }
+}
+
+.cart-pay-method {
+  width: 48px;
+  @include media-breakpoint-down(lg){
+    width: 37px;
+  }
+
+  &:last-child {
+    margin-right: 0 !important;
   }
 }

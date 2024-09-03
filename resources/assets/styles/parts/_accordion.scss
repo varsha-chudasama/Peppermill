@@ -1,27 +1,55 @@
 .closet-accordion {
-  .closet-cards {
+
+  .closet-cards,
+  .product-cards {
     border-bottom: 1px solid $color-EBEBEB;
-    padding: 27px 0px !important;
-    @include media-breakpoint-down(md){
-      padding: 30px 0px !important;
+    padding: 27px 0px;
+
+    @include media-breakpoint-down(md) {
+      padding: 30px 0px;
     }
-  
+
     .closet-closebtn {
       width: 8px;
       transform: rotate(45deg);
     }
 
-    .closet-content{
+    .closet-content {
       display: none;
     }
 
     .closet-title {
       &.active {
         padding-bottom: 0px !important;
+
         .closet-closebtn {
           transform: rotate(0deg);
         }
       }
     }
   }
+}
+
+.single-product-cards {
+  &:first-child {
+    border-top: 1px solid $color-EBEBEB;
+  }
+
+  padding: 17px 0px !important;
+
+  .accordion-image {
+    height: 304px;
+
+    @include media-breakpoint-down(lg) {
+      height: 220px;
+    }
+  }
+
+  .product-content-text {
+    &:last-child {
+      margin-bottom: 0 !important;
+      cursor: pointer;
+    }
+  }
+
 }

@@ -1,16 +1,35 @@
-.input-field {
+.input-field,
+.input-text {
   height: 50px;
 }
 
 .input-field,
+.input-text,
 .input-textarea {
   background-color: $white;
   color: $black;
   border: 1px solid $color-D5D5D5;
+  border-radius: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: "Montserrat-Medium";
+  font-size: $font12;
+  line-height: $leading16;
+  color: $black;
+  border-radius: $radius5;
 
   &::placeholder {
     color: $color-918E8E;
     font-size: $font13;
+  }
+}
+
+.product-quantity{
+  .input-text{
+    padding: 0 !important;
+    @include media-breakpoint-down(lg){
+      width: 25px !important;
+    }
   }
 }
 
@@ -37,6 +56,85 @@
   .upload-cv {
     border: 1px dashed $color-918E8E;
     height: 46px;
+  }
+}
+
+.woocommerce-checkout {
+  .woocommerce-billing-fields__field-wrapper {
+    margin-left: -4px;
+    margin-right: -4px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .form-row {
+      padding: 0 4px;
+      width: 100%;
+      float: none;
+      margin-bottom: 12px;
+
+      label {
+        display: none !important;
+      }
+
+      &:first-child {
+        margin-bottom: 30px;
+
+        .woocommerce-input-wrapper {
+          padding-bottom: 30px;
+          border-bottom: 1px solid $color-EBEBEB;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 45px !important;
+
+        @include media-breakpoint-down(lg) {
+          margin-bottom: 35px !important;
+        }
+
+        .woocommerce-input-wrapper {
+          padding-bottom: 30px;
+          border-bottom: 1px solid $color-EBEBEB;
+        }
+      }
+
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(7),
+      &:nth-child(8) {
+        width: 50%;
+
+        @include media-breakpoint-down(lg) {
+          width: 100%;
+        }
+      }
+
+      .woocommerce-input-wrapper {
+        display: inline-block;
+        width: 100%;
+
+        .select2-container {
+          .select2-selection--single {
+            height: 100%;
+            border: 1px solid $color-D5D5D5;
+
+            .select2-selection__rendered {
+              line-height: 50px;
+              padding: 0 24px;
+              font-family: "Montserrat-Medium";
+              font-size: $font12;
+              color: $black;
+            }
+
+            .select2-selection__arrow {
+              right: 16px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -109,9 +207,9 @@
         top: 0;
         bottom: 0;
         margin: auto;
-        background-image: url(http://localhost/peppermill/wp-content/uploads/2024/07/down-arrow.svg);
+        background-image: url('/wp-content/uploads/2024/07/down-arrow.svg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100%;
         height: 8px;
         width: 10px;
         transform: rotate(0deg) !important;
@@ -138,7 +236,8 @@
   padding: 0;
 }
 
-.categories-select {
+.categories-select,
+.checkout-select {
   .select2-container {
     .select2-selection--single {
       background-color: $white;
@@ -178,6 +277,14 @@
   }
 }
 
+.checkout-select {
+  .select2-container {
+    .select2-selection--single {
+      border: 1px solid $color-D5D5D5 !important;
+    }
+  }
+}
+
 .categories-select2 {
   border-top: 0 !important;
   display: inline-block;
@@ -204,6 +311,23 @@
       &:hover {
         background-color: $color-DFE0DB;
         color: $black;
+      }
+    }
+  }
+}
+
+.select2-dropdown {
+  border: 1px solid $color-D5D5D5;
+
+  .select2-results__options {
+    .select2-results__option {
+      font-family: "Montserrat-Medium";
+      padding: 10px 24px;
+      font-size: $font12;
+      color: $black;
+
+      &.select2-results__option--highlighted {
+        color: $white;
       }
     }
   }
@@ -249,8 +373,116 @@
       transform: rotate(45deg);
     }
   }
-  &.square-checkbox-row{
+
+  &.square-checkbox-row {
     padding-left: 40px;
+  }
+}
+
+.shipping-checkbox-group .woocommerce-shipping-methods li {
+  @include media-breakpoint-down(lg) {
+    margin: 0 0 10px !important;
+    margin-right: 0 !important;
+    width: 100%;
+
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+.shipping-checkbox-group .woocommerce-shipping-methods li,
+div.radio {
+  margin-right: 15px;
+  position: relative;
+
+  &:last-child {
+    margin-right: 0 !important;
+  }
+
+  input {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    &:checked~label:after {
+      display: block;
+    }
+  }
+
+  label {
+    padding-left: 32px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    font-family: "Montserrat-Medium";
+    font-size: $font11;
+    line-height: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+      left: 0;
+      background-color: transparent;
+      border: 1px solid $color-D5D5D5;
+      border-radius: 4px !important;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: none;
+      left: 8px;
+      top: 4px;
+      width: 5px;
+      height: 9px;
+      border: solid $black;
+      border-width: 0 1px 1px 0;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+div.radio {
+  &:last-child {
+    margin-right: 0 !important;
+  }
+
+  input {
+    &:checked~label::before {
+      border-color: $color-292929;
+      background-color: $color-292929;
+    }
+
+    &:checked~label::after {
+      display: block;
+    }
+  }
+
+  label {
+    font-size: $font12;
+
+    @include media-breakpoint-down(lg) {
+      padding-left: 28px;
+    }
+
+    &::before {
+      border-color: $color-BCBCBC;
+      background-color: $white;
+    }
+
+    &::after {
+      border-color: $white;
+    }
   }
 }
 
@@ -366,11 +598,13 @@
       }
     }
   }
-  &.switch-large{
-    .slider{
+
+  &.switch-large {
+    .slider {
       width: 33px;
       height: 16px;
     }
+
     input {
       &:checked {
         &+ {
@@ -380,13 +614,13 @@
             }
           }
         }
-  
+
         &~ {
           .off {
             color: $color-918E8E !important;
             text-decoration: none !important;
           }
-          
+
           .on {
             color: $black;
             text-decoration: underline !important;

@@ -46,6 +46,60 @@
     <div class="spacing tmb-20"></div>
 
     <!-- slider-banner-section -->
+    <section class="slider-banner-section position-relative">
+        <div class="position-absolute w-100 bottom-0 z-3 dpb-45">
+            <div class="container">
+                <div class="col-2 ms-auto d-flex align-items-center justify-content-end">
+                    <div class="slider__counter mont-semibold font14 leading20 space0_45 text-white">
+                        1/0</div>
+                    <div class="slick-arrows ms-4 d-flex align-items-center">
+                        <button class="prev-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/left-slide-arrow.svg"
+                                class="h-100" alt=""></button>
+                        <button class="next-arrow ms-1 bg-transparent z-3 transition rounded-pill"><img
+                                src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/right-slide-arrow.svg"
+                                class="h-100" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-banner position-relative">
+            <div class="slider-img position-relative">
+                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/story-hero.png" alt=""
+                    class="w-100 h-100 object-cover">
+                <div class="bg-gradient-layer position-absolute w-100 h-100 top-0 opacity29"></div>
+                <div class="position-absolute w-100 bottom-0 z-3 dpb-45 h-auto">
+                    <div class="container h-auto">
+                        <div class="row h-auto">
+                            <div class="mont-medium font16 leading24 text-white dmb-10 h-auto">
+                                Denver Velvet Sofa
+                            </div>
+                            <a href="" class="mont-medium font13 leading24 text-white">
+                                View Item
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-img position-relative">
+                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/story-hero.png" alt=""
+                    class="w-100 h-100 object-cover">
+                <div class="bg-gradient-layer position-absolute w-100 h-100 top-0 opacity29"></div>
+                <div class="position-absolute w-100 bottom-0 z-3 dpb-45 h-auto">
+                    <div class="container h-auto">
+                        <div class="row h-auto">
+                            <div class="mont-medium font16 leading24 text-white dmb-10 h-auto">
+                                Denver Velvet Sofa
+                            </div>
+                            <a href="" class="mont-medium font13 leading24 text-white">
+                                View Item
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
    
 
     <div class="spacing tmb-75 dmb-140"></div>

@@ -56,9 +56,9 @@ do_action('woocommerce_before_main_content');
 
 <section class="center-title-section dpt-135 dmb-110">
 	<div class="container">
-		<div class="col-7 px-5 mx-auto text-center">
+		<div class="col-12 col-md-9 col-xl-7 px-lg-5 mx-auto text-center">
 		<?php if (apply_filters('woocommerce_show_page_title', true)): ?>
-			<div class="content-title bodoni font60 leading70 dmb-25"><?php woocommerce_page_title(); ?></div>
+			<div class="content-title bodoni font60 leading70 res-font35 res-leading45 dmb-25"><?php woocommerce_page_title(); ?></div>
 		<?php endif; ?>
 		<?php if(!empty($description)): ?>
 			<div class="content-desc mont-normal font13 leading24">
@@ -103,6 +103,18 @@ do_action('woocommerce_before_main_content');
 			if (wc_get_loop_prop('total')) {
 				?>
 				<div class="row row10">
+					<div class="col-xl-6 col-md-8 col-12">
+						<div class="product-cards product-banner-card">
+							<div class="product-img position-relative radius10 res-radius5 overflow-hidden card-hover dmb-25 tmb-20">
+								<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/07/home-hero.png" alt="" class="h-100 w-100 object-cover">
+							</div>
+							<div class="product-content">
+								<div class="mont-medium font16 res-font14 leading20 text-black dpb-10 res-font15">Need help deciding?</div>
+								<div class="mont-medium font13 leading20 text-7D7D7D">Explore our buying guide to find the right design and style for furnishing your home.</div>
+								<a href="" class="mont-medium font13 leading20 text-black">Learn more</a>
+							</div>
+						</div>
+					</div>
 					<?php
 					while (have_posts()) {
 						the_post();
@@ -161,7 +173,7 @@ do_action('woocommerce_before_main_content');
 <!-- category-content-section -->
 <section class="category-content-section">
 	<div class="container">
-		<div class="col-7 mx-auto text-center px-3">
+		<div class="col-lg-7 col-12 mx-auto text-center px-lg-3">
 			<?php foreach($bottom_description as $bottom_description_custom): ?>
 			<div class="category-content dmb-80 px-1">
 				<div class="bodoni font35 leading45 text-black dmb-30"><?php echo $bottom_description_custom['heading']; ?></div>

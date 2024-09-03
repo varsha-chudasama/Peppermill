@@ -58,7 +58,7 @@ defined('ABSPATH') || exit;
 
 	<?php else: ?>
 
-		<h3 class="mont-medium font20 leading30 dmb-20"><?php esc_html_e('Delivery Details', 'woocommerce'); ?></h3>
+		<h3 class="mont-medium font20 leading30 text-black dmb-20"><?php esc_html_e('Delivery Details', 'woocommerce'); ?></h3>
 
 	<?php endif; ?>
 

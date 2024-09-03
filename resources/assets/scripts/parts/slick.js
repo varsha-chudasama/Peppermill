@@ -6,6 +6,8 @@ export class Slick {
         this.BannerSlider();
         this.TestimonialSlider();
         this.BlogCardSlider();
+        this.ProductSlider2();
+        this.RangeSlider();
     }
 
     ProductSlider() {
@@ -74,6 +76,7 @@ export class Slick {
             ]
         });
     }
+
     BlogCardSlider() {
         $('.blog-card-slider').slick({
             dots: false,
@@ -192,5 +195,57 @@ export class Slick {
             prevArrow: '.testimonial-slider-section .prev-arrow',
             nextArrow: '.testimonial-slider-section .next-arrow',
         })
+    }
+
+    ProductSlider2() {
+        $('.product-center-image').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.product-image-group'
+        });
+        $('.product-image-group').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            speed: 300,
+            asNavFor: '.product-center-image',
+            dots: false,
+            vertical: true,
+            arrows: false,
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: true,
+                        prevArrow: '<button class="product-prev-arrow ms-1 position-absolute top-center border-0 bg-transparent z-3 transition rounded-pill"><img src="/wp-content/uploads/2024/07/left-slide-arrow.svg" class="h-100" alt=""></button>',
+                        nextArrow: ' <button class="product-next-arrow ms-1 position-absolute top-center border-0 bg-transparent z-3 transition rounded-pill"><img src="/wp-content/uploads/2024/07/right-slide-arrow.svg" class="h-100" alt=""></button>',
+                        vertical: false,
+                    }
+                }
+            ]
+        });
+    }
+
+    RangeSlider() {
+        $('.range-slider').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            prevArrow: '.product-section .prev-arrow',
+            nextArrow: '.product-section .next-arrow',
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
     }
 }  

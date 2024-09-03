@@ -4,6 +4,7 @@ export class Plugins {
   init() {
     this.ReadMoreAndLess();
     this.SingleProduct();
+    this.Quantity();
   }
 
   ReadMoreAndLess() {
@@ -60,6 +61,23 @@ export class Plugins {
       focusOnSelect: true
     });
 
+  }
+
+  Quantity() {
+    $('.add').click(function () {
+      var input = $(this).prev();
+      var value = parseInt(input.val());
+      if (value < 10) {
+        input.val((value + 1).toString().padStart(2, '0'));
+      }
+    });
+    $('.sub').click(function () {
+      var input = $(this).next();
+      var value = parseInt(input.val());
+      if (value > 1) {
+        input.val((value - 1).toString().padStart(2, '0'));
+      }
+    });
   }
 
 }

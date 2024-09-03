@@ -40,15 +40,13 @@ $type = $product->get_type();
 $price_html = $product->get_price_html();
 $min_price = get_minimum_variation_price( $pro_id );
 ?>
-<div class="product-cards d-inline-block text-decoration-none col-3">
+<div class="product-cards d-inline-block text-decoration-none col-xl-3 col-md-4 col-6">
 	<div class="product-img position-relative radius10 res-radius5 overflow-hidden card-hover dmb-25 tmb-20">
 		<a href="<?php echo get_permalink($pro_id); ?>">
-		<img src="<?php echo $image; ?>"
-			class="w-100 h-100 object-cover img" alt=""></a>
+			<img src="<?php echo $image; ?>" class="w-100 h-100 object-cover img" alt="">
+		</a>
 		<?php if ($newDate >= $date_today) : ?>
-		<div
-			class="mont-medium font13 res-font11 leading20 res-leading16 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4">
-			New In</div>
+			<div class="mont-medium font13 res-font11 leading20 res-leading16 text-292929 bg-white radius5 position-absolute top-0 start-0 py-1 px-2 mt-3 ms-4"> New In</div>
 		<?php endif; ?>
 		<?php if (is_user_logged_in()) : ?>
 		<div class="like-img position-absolute bottom-0 end-0 me-3 mb-3 z-3">

@@ -29,30 +29,27 @@ if (!$checkout->is_registration_enabled() && $checkout->is_registration_required
 
 ?>
 
-<form name="checkout" method="post" class="checkout woocommerce-checkout d-flex align-items-start"
+<form name="checkout" method="post" class="checkout woocommerce-checkout d-flex flex-wrap align-items-start"
 	action="<?php echo esc_url(wc_get_checkout_url()); ?>" enctype="multipart/form-data">
 
 	<?php if ($checkout->get_checkout_fields()): ?>
 
 		<?php do_action('woocommerce_checkout_before_customer_details'); ?>
 
-		<div class="col-7 px-5">
+		<div class="col-lg-7 col-12 px-lg-5 px-p-p tmb-50">
 			<div class="col2-set" id="customer_details">
-				<div class="pe-4 me-3">
+				<div class="pe-lg-4 me-lg-3">
 					<?php do_action('woocommerce_checkout_billing'); ?>
+					<?php do_action('woocommerce_checkout_shipping'); ?>
 				</div>
 			</div>
-
-			<div class="col2-set">
-				<?php do_action('woocommerce_checkout_shipping'); ?>
-			</div> 
 		</div>
 
 		<?php do_action('woocommerce_checkout_after_customer_details'); ?>
 
 	<?php endif; ?>
 
-	<div class="col-5 bg-white radius10 order-review-section">
+	<div class="col-lg-5 col-12 bg-white radius10 order-review-section position-sticky p-initial">
 		<?php do_action('woocommerce_checkout_before_order_review_heading'); ?>
 		<div class="d-flex align-items-center justify-content-between dmb-25">
 			<h3 id="order_review_heading" class="mont-medium font20 leading30 text-black">

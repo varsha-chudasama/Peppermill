@@ -1,4 +1,42 @@
+.shipping-checkbox-group {
+  font-size: 0;
+
+  .woocommerce-shipping-methods {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    li {
+      display: flex;
+      align-items: center;
+      padding: 12px 27px;
+      border-radius: 5px;
+      background-color: $white;
+      border: 1px solid $color-D5D5D5;
+
+      input {
+        margin-top: 0 !important;
+      }
+
+      &:first-child {
+        background-color: $color-292929;
+        border: 1px solid $color-292929;
+
+        label {
+          color: $white;
+
+          &::before,
+          &::after {
+            border-color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
 .checkout-section {
+
   .woocommerce-form-coupon-toggle,
   .checkout_coupon {
     .woocommerce-info {
@@ -21,15 +59,16 @@
         height: 0px;
         width: 0px;
 
-        &:checked ~ .checkmark {
+        &:checked~.checkmark {
           background-color: $black !important;
           border: 1px solid $black !important;
+
           &::after {
             display: block !important;
           }
         }
 
-        &:checked ~ label {
+        &:checked~label {
           color: $black !important;
         }
       }
@@ -56,20 +95,37 @@
     }
 
     .order-review-section {
-      padding: 45px 45px 54px 45px !important;
+      padding: 45px 45px 54px 45px;
+      top: 195px;
+      box-shadow: 0px 0px 30px #0000000A;
+
+      @include media-breakpoint-down(lg) {
+        border-radius: 0;
+        padding: 35px 30px 35px;
+      }
 
       .cart_item {
         .product-detail {
           .product-thumbnail {
-            min-width: 82px;
+            min-width: 29%;
             height: 108px;
+            width: 29%;
+            border-radius: $radius5 !important;
+            overflow: hidden;
+
+            @include media-breakpoint-down(lg) {
+              min-width: 30%;
+              height: 70px;
+              width: 30%;
+            }
+
             img {
               width: 100% !important;
               height: 100% !important;
               object-fit: cover !important;
-              border-radius: $radius5 !important;
             }
           }
+
           .woocommerce-Price-amount {
             display: inline-flex !important;
             font-family: "Montserrat-Medium", sans-serif;
@@ -93,6 +149,7 @@
 
         .product-price {
           text-align: end !important;
+
           .woocommerce-Price-amount {
             display: block !important;
           }
@@ -111,11 +168,13 @@
         display: block !important;
       }
     }
+
     .order-total {
       font-family: "Montserrat-Medium" !important;
       font-size: $font18 !important;
       line-height: $leading30 !important;
       color: $black !important;
+
       .woocommerce-Price-amount {
         display: block !important;
       }
@@ -126,6 +185,24 @@
     }
   }
 }
+
+.woocommerce-additional-fields {
+  .woocommerce-additional-fields__field-wrapper {
+    label {
+      font-family: "Montserrat-Medium";
+      font-size: $font11;
+      line-height: $leading11;
+      letter-spacing: $space0_28;
+      margin-bottom: 15px;
+    }
+
+    .woocommerce-input-wrapper .input-text {
+      height: auto;
+      padding: 16px 24px;
+    }
+  }
+}
+
 .product-data {
   .product-price {
     .woocommerce-Price-amount {

@@ -118,3 +118,11 @@
     width: 14px;
   }
 }
+
+.product-banner-card{
+  .product-img{
+    @include media-breakpoint-down(md){
+      height: 200px;
+    }
+  }
+}

@@ -9,5 +9,11 @@ export class Select {
             allowClear: false,
             dropdownCssClass: "categories-select2"
         });
+        $(".js-select3").select2({
+            closeOnSelect: true,
+            minimumResultsForSearch: Infinity,
+            allowClear: false,
+            dropdownCssClass: "checkout-select2"
+        });
     }
 }

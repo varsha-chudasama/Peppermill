@@ -9,7 +9,7 @@
     <!-- category-content-section -->
     <section class="category-content-section">
         <div class="container">
-            <div class="col-7 mx-auto text-center px-3">
+            <div class="col-lg-7 col-12 mx-auto text-center px-lg-3">
                 <div class="category-content dmb-80 px-1">
                     <div class="bodoni font35 leading45 text-black dmb-30">Commercial Dining Chairs</div>
                     <div class="mont-normal font13 leading23 space0_88 text-black">

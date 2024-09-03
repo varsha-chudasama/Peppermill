@@ -18,22 +18,22 @@
 defined( 'ABSPATH' ) || exit;
 
 ?>
-<div class="cart_totals w-100<?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
+<div class="cart_totals w-100 <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
 
 	<?php do_action( 'woocommerce_before_cart_totals' ); ?>
 
-	<h2><?php esc_html_e( 'Cart totals', 'woocommerce' ); ?></h2>
+	<h2 class="d-none"><?php esc_html_e( 'Cart totals', 'woocommerce' ); ?></h2>
 
 	<div cellspacing="0" class="shop_table shop_table_responsive">
 
-		<div class="cart-delivery dmb-25 d-flex align-items-center justify-content-between dpt-20">
-			<div><?php esc_html_e( 'Delivery', 'woocommerce' ); ?></div>
-			<div data-title="<?php esc_attr_e( 'Delivery', 'woocommerce' ); ?>"><?php wc_cart_totals_subtotal_html(); ?></div>
+		<div class="cart-delivery dmb-25 d-flex align-items-center justify-content-between dpt-20 tmb-15">
+			<div class="mont-medium font13 leading16 text-918E8E res-font11 "><?php esc_html_e( 'Delivery', 'woocommerce' ); ?></div>
+			<div data-title="<?php esc_attr_e( 'Delivery', 'woocommerce' ); ?>" class="mont-medium font13 leading16 text-918E8E res-font11 "><?php wc_cart_totals_subtotal_html(); ?></div>
 		</div>
 
 		<div class="cart-subtotal dmb-25 d-flex align-items-center justify-content-between">
-			<div><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></div>
-			<div data-title="<?php esc_attr_e( 'Subtotal', 'woocommerce' ); ?>"><?php wc_cart_totals_subtotal_html(); ?></div>
+			<div class="mont-medium font13 leading16 text-918E8E res-font11 "><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></div>
+			<div data-title="<?php esc_attr_e( 'Subtotal', 'woocommerce' ); ?>" class="mont-medium font13 leading16 text-918E8E res-font11 "><?php wc_cart_totals_subtotal_html(); ?></div>
 		</div>
 
 		<?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
@@ -43,22 +43,25 @@ defined( 'ABSPATH' ) || exit;
 			</div>
 		<?php endforeach; ?>
 
-		<?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
+		<div class="d-none">
+			<?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
+	
+				<?php do_action( 'woocommerce_cart_totals_before_shipping' ); ?>
+	
+				<?php wc_cart_totals_shipping_html(); ?>
+	
+				<?php do_action( 'woocommerce_cart_totals_after_shipping' ); ?>
+	
+			<?php elseif ( WC()->cart->needs_shipping() && 'yes' === get_option( 'woocommerce_enable_shipping_calc' ) ) : ?>
+	
+				<div class="shipping">
+					<div><?php esc_html_e( 'Shipping', 'woocommerce' ); ?></div>
+					<div data-title="<?php esc_attr_e( 'Shipping', 'woocommerce' ); ?>"><?php woocommerce_shipping_calculator(); ?></div>
+				</div>
+	
+			<?php endif; ?>
+		</div>
 
-			<?php do_action( 'woocommerce_cart_totals_before_shipping' ); ?>
-
-			<?php wc_cart_totals_shipping_html(); ?>
-
-			<?php do_action( 'woocommerce_cart_totals_after_shipping' ); ?>
-
-		<?php elseif ( WC()->cart->needs_shipping() && 'yes' === get_option( 'woocommerce_enable_shipping_calc' ) ) : ?>
-
-			<div class="shipping">
-				<div><?php esc_html_e( 'Shipping', 'woocommerce' ); ?></div>
-				<div data-title="<?php esc_attr_e( 'Shipping', 'woocommerce' ); ?>"><?php woocommerce_shipping_calculator(); ?></div>
-			</div>
-
-		<?php endif; ?>
 
 		<?php foreach ( WC()->cart->get_fees() as $fee ) : ?>
 			<div class="fee">
@@ -100,28 +103,30 @@ defined( 'ABSPATH' ) || exit;
 		<?php do_action( 'woocommerce_cart_totals_before_order_total' ); ?>
 
 		<div class="order-total dmb-25 d-flex align-items-center justify-content-between">
-			<div><?php esc_html_e( 'Total', 'woocommerce' ); ?></div>
-			<div data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>"><?php wc_cart_totals_order_total_html(); ?></div>
+			<div class="mont-medium font18 leading24 text-black"><?php esc_html_e( 'Total', 'woocommerce' ); ?></div>
+			<div data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>" class="mont-medium font18 leading24 text-black"><?php wc_cart_totals_order_total_html(); ?></div>
 		</div>
 
 		<?php do_action( 'woocommerce_cart_totals_after_order_total' ); ?>
 
 	</div>
 
-	<div class="wc-proceed-to-checkout dmt-35 dmb-35 p-0">
+	<div class="wc-proceed-to-checkout dmt-35 dmb-35 p-0 tmt-30 tmb-40">
 		<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 	</div>
 	<?php $text = get_field('text'); 
 	if(!empty($text)): 
 	?>
-	<div class=""><?php echo $text; ?></div>
+	<div class="mont-medium font13 leading16 text-black res-font11"><?php echo $text; ?></div>
 	<?php endif; ?>
 	<?php $cards = get_field('cards'); 
 	if(!empty($cards)): 
 	?>
-	<ul class="d-flex list-none footer-ul mb-0 px-0 dmt-30">
+	<ul class="d-flex flex-wrap list-none footer-ul mb-0 px-0 dmt-30">
 		<?php foreach($cards as $cards_custom): ?>
-		<li class="me-lg-4 me-1"><a href="javascript:void(0)" class="d-inline-block footer-icon"><img src="<?php echo $cards_custom['image']['url'];?>" class="w-100" alt=""></a></li>
+		<li class="me-lg-4 me-3 cart-pay-method mb-lg-2">
+			<a href="javascript:void(0)" class="d-inline-block footer-icon w-100"><img src="<?php echo $cards_custom['image']['url'];?>" class="w-100" alt=""></a>
+		</li>
 		<?php endforeach; ?>
 	</ul>
 	<?php endif; ?>

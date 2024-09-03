@@ -76,7 +76,7 @@ $date_value = date_format($date_m, "d/m/Y");
                                 }
                         ?>
                         <a href="<?php echo get_permalink($product_value->ID); ?>"
-                            class="product-cards w-100 d-inline-block text-decoration-none tpb-55 dpb-50 tmb-55 dmb-40 border-bottom border-EBEBEB">
+                            class="single-product-cards w-100 d-inline-block text-decoration-none tpb-55 dpb-50 tmb-55 dmb-40 border-bottom border-EBEBEB">
                             <div class="product-img position-relative radius10 overflow-hidden card-hover tmb-15 dmb-25">
                                 <img src="<?php echo get_the_post_thumbnail_url($product_value->ID); ?>"
                                     class="w-100 h-100 object-cover img" alt="">
